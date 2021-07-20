@@ -1,0 +1,12 @@
+AwesomeGame.rgssad
+AwesomeGame.rvproj2
+rpg_rt.exe
+Sub/Folder/AwesomeGame.rgssad
+Sub/Folder/AwesomeGame.rvproj2
+Sub/Folder/rpg_rt.exe
+RGSS104E.dll
+rgss102j.dll
+rgss102e.dll
+Sub/Folder/RGSS104E.dll
+Sub/Folder/rgss102j.dll
+Sub/Folder/rgss102e.dll

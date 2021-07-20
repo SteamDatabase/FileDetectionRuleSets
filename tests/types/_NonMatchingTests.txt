@@ -15,3 +15,17 @@ ChEasyAntiCheat/
 EasyAntiCheat.whatever
 SomeEngine/Binaries/ThirdParty
 Engine/Binaries/ThirdPartySomething
+blahrpg_rt.exe
+sub/blahrpg_rt.exe
+rgssad
+rvproj2
+AwesomeGame.argssad
+AwesomeGame.arvproj2
+AwesomeGame.rgssadf
+AwesomeGame.rvproj2f
+ARGSS104E.dll
+argss102j.dll
+argss102e.dll
+Sub/Folder/ARGSS104E.dll
+Sub/Folder/argss102j.dll
+Sub/Folder/argss102e.dll
