@@ -7,3 +7,10 @@ $
 unityplayer.dll
 UnityPlayer.dlll
 UUnityPlayer.dll
+notactuallylime.dll
+notaactuallylime.hdll
+notactuallyfna.dll
+ChEasyAntiCheat/
+EasyAntiCheat.whatever
+SomeEngine/Binaries/ThirdParty
+Engine/Binaries/ThirdPartySomething

@@ -1,0 +1,9 @@
+Engine/Binaries/ThirdParty
+Engine/Binaries/ThirdParty/AMD
+Engine/Binaries/ThirdParty/GameWorks
+Engine/Binaries/ThirdParty/Ogg
+Engine/Binaries/ThirdParty/Ogg/Win64
+Engine/Binaries/ThirdParty/PhysX
+Engine/Binaries/ThirdParty/PhysX/APEX-1.3/Win64/VS2015
+Engine/Binaries/ThirdParty/Steamworks
+Engine/Binaries/ThirdParty/Steamworks/Steamv137/Win64/steam_api64.dll
