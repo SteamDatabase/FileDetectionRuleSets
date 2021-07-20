@@ -1,6 +1,10 @@
+Assembly-CSharp.dll
 UnityPlayer.dll
-UnityPlayer.so
 UnityPlayer.dylib
+UnityEngine.dll
+UnityEngine.dylib
 Sub/Folder/UnityPlayer.dll
-Sub/Folder/UnityPlayer.so
 Sub/Folder/UnityPlayer.dylib
+Sub/Folder/UnityEngine.dll
+Sub/Folder/UnityEngine.dylib
+Sub/Folder/Assembly-CSharp.dll

@@ -1,3 +1,5 @@
 EasyAntiCheat/Certificates
 EasyAntiCheat/EasyAntiCheat_x64.dll
 EasyAntiCheat/EasyAntiCheat_x86.dll
+Sub/Folder/EasyAntiCheat/EasyAntiCheat_x64.dll
+Sub/Folder/EasyAntiCheat/EasyAntiCheat_x86.dll
