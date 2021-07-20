@@ -4,6 +4,8 @@ declare(strict_types=1);
 class FileDetector
 {
 	private array $Rulesets;
+	private array $Map = [];
+	private string $Regex;
 
 	public function __construct( $Path )
 	{
@@ -14,6 +16,9 @@ class FileDetector
 			throw new \RuntimeException( 'rules.ini failed to parse' );
 		}
 
+		$Regexes = [];
+		$MarkIndex = 0;
+
 		foreach( $Rulesets as $Type => $Rules )
 		{
 			foreach( $Rules as $Name => $Regex )
@@ -22,23 +27,23 @@ class FileDetector
 				{
 					throw new \Exception( "$Type.$Name: Regex \"$Regex\" contains a capturing group" );
 				}
+
+				$Regexes[] = $Regex . '(*MARK:' . $MarkIndex . ')';
+				$this->Map[ $MarkIndex ] = "$Type.$Name";
+
+				$MarkIndex++;
 			}
 		}
 
 		$this->Rulesets = $Rulesets;
+        $this->Regex = '~(' . implode( '|', $Regexes ) . ')~';
 	}
 
 	public function GetMatchingRuleForFilePath( string $Path ) : ?string
 	{
-		foreach( $this->Rulesets as $Type => $Rules )
+		if( preg_match( $this->Regex, $Path, $Matches ) )
 		{
-			foreach( $Rules as $Name => $Regex )
-			{
-				if( preg_match( $Regex, $Path ) )
-				{
-					return "$Type.$Name";
-				}
-			}
+			return $this->Map[ $Matches[ 'MARK' ] ];
 		}
 
 		return null;
