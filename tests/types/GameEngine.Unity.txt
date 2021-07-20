@@ -1,0 +1,6 @@
+UnityPlayer.dll
+UnityPlayer.so
+UnityPlayer.dylib
+Sub/Folder/UnityPlayer.dll
+Sub/Folder/UnityPlayer.so
+Sub/Folder/UnityPlayer.dylib
