@@ -30,3 +30,9 @@ Sub/Folder/ARGSS104E.dll
 Sub/Folder/argss102j.dll
 Sub/Folder/argss102e.dll
 Binaries/Win64Whatever
+fui.hdll
+fuv.hdll
+Sub/fui.hdll
+Sub/fuv.hdll
+ui.hdllollipop
+uv.hdllollipop
