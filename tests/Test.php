@@ -7,6 +7,7 @@ $Detector = new FileDetector( __DIR__ . '/../rules.ini' );
 
 $TestsIterator = new DirectoryIterator( __DIR__ . '/types' );
 
+$SeenTestTypes = [];
 $FailingTests = [];
 $PassedTests = 0;
 $TotalTestsRun = 0;
@@ -54,6 +55,19 @@ foreach( $TestsIterator as $File )
 		{
 			$PassedTests++;
 		}
+	}
+
+	if( !empty( $TestFilePaths ) )
+	{
+		$SeenTestTypes[ $ExpectedType ] = true;
+	}
+}
+
+foreach( $Detector->Map as $TestType )
+{
+	if( !isset( $SeenTestTypes[ $TestType ] ) )
+	{
+		$FailingTests[] = "\"$TestType\" does not have any tests";
 	}
 }
 

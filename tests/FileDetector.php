@@ -3,8 +3,7 @@ declare(strict_types=1);
 
 class FileDetector
 {
-	private array $Rulesets;
-	private array $Map = [];
+	public array $Map = [];
 	private string $Regex;
 
 	public function __construct( $Path )
@@ -35,8 +34,7 @@ class FileDetector
 			}
 		}
 
-		$this->Rulesets = $Rulesets;
-        $this->Regex = '~(' . implode( '|', $Regexes ) . ')~';
+		$this->Regex = '~(' . implode( '|', $Regexes ) . ')~';
 	}
 
 	public function GetMatchingRuleForFilePath( string $Path ) : ?string
