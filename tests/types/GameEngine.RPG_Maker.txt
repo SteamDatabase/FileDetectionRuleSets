@@ -10,3 +10,11 @@ rgss102e.dll
 Sub/Folder/RGSS104E.dll
 Sub/Folder/rgss102j.dll
 Sub/Folder/rgss102e.dll
+RPT_RT.exe
+js/rpg_core.js
+www/js/rpg_core.js
+js/rmmz_core.js
+Sub/Folder/RPT_RT.exe
+Sub/Folder/js/rpg_core.js
+Sub/Folder/www/js/rpg_core.js
+Sub/Folder/js/rmmz_core.js

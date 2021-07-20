@@ -36,3 +36,13 @@ Sub/fui.hdll
 Sub/fuv.hdll
 ui.hdllollipop
 uv.hdllollipop
+APRT_RT.exe
+RPT_RT.exeeee
+ajs/rpg_core.js
+js/rpg_core.jssss
+js/rmmz_core.jssss
+ajs/rmmz_core.js
+Sub/Folder/RPT_RT.exeeee
+Sub/Folder/js/rpg_core.jssss
+Sub/Folder/www/js/rpg_core.jsss
+Sub/Folder/js/rmmz_core.jsss
