@@ -62,3 +62,12 @@ Sub/Folder/natives_blob.bink
 Bin32/CryD3DCompilerStub.dllk
 CryD3DCompilerStub.dllk
 SCryD3DCompilerStub.dll
+Adobe AIRCRAFT
+Adobe AIRCRAFT/Versions
+Adobe AIRCRAFT/Versions/1.0
+Adobe AIRCRAFT/Versions/1.0/Adobe AIR.dll
+Adobe AIRCRAFT/Versions/1.0/Adobe AIR.dllppff
+FAdobe AIR
+FAdobe AIR/Versions
+FAdobe AIR/Versions/1.0
+FAdobe AIR/Versions/1.0/Adobe AIR.dll

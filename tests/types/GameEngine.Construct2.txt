@@ -1,2 +1,0 @@
-natives_blob.bin
-Sub/Folder/natives_blob.bin
