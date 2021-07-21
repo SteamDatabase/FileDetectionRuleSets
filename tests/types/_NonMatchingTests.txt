@@ -55,3 +55,6 @@ Sub/Folder/bytecode.rpybeer
 acsetup.cfgoof
 Sub/Folder/acsetup.cfgoof
 pacsetup.cfg
+Bin32/CryD3DCompilerStub.dllk
+CryD3DCompilerStub.dllk
+SCryD3DCompilerStub.dll
