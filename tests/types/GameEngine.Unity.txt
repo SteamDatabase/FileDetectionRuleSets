@@ -8,6 +8,5 @@ Sub/Folder/UnityPlayer.dylib
 Sub/Folder/UnityEngine.dll
 Sub/Folder/UnityEngine.dylib
 Sub/Folder/Assembly-CSharp.dll
-Assembly-CSharp.dll
 UnityEngine.CoreModule.dll
 Sub/Folder/UnityEngine.CoreModule.dll

@@ -24,36 +24,36 @@ foreach( $TestsIterator as $File )
 
 	if( $ExpectedType === '_NonMatchingTests' )
 	{
-		foreach( $TestFilePaths as $Path )
-		{
-			$TotalTestsRun++;
-			$Actual = $Detector->GetMatchingRuleForFilePath( $Path );
-
-			if( $Actual !== null )
-			{
-				$FailingTests[] = "Path \"$Path\" returned \"$Actual\" but it should not have matched anything";
-			}
-			else
-			{
-				$PassedTests++;
-			}
-		}
-
-		continue;
+		$ExpectedType = null;
 	}
+
+	$AlreadySeenStrings = [];
 
 	foreach( $TestFilePaths as $Path )
 	{
+		if( isset( $AlreadySeenStrings[ $Path ] ) )
+		{
+			$FailingTests[] = "Path \"$Path\" in \"$File\" is defined more than once";
+		}
+
+		$AlreadySeenStrings[ $Path ] = true;
+
 		$TotalTestsRun++;
 		$Actual = $Detector->GetMatchingRuleForFilePath( $Path );
 
-		if( $Actual !== $ExpectedType )
+		if( $Actual === $ExpectedType )
 		{
-			$FailingTests[] = "Path \"$Path\" does not match for \"$ExpectedType\"";
+			$PassedTests++;
+			continue;
+		}
+
+		if( $ExpectedType === null )
+		{
+			$FailingTests[] = "Path \"$Path\" returned \"$Actual\" but it should not have matched anything";
 		}
 		else
 		{
-			$PassedTests++;
+			$FailingTests[] = "Path \"$Path\" does not match for \"$ExpectedType\"";
 		}
 	}
 
@@ -75,11 +75,11 @@ echo "{$PassedTests} tests out of {$TotalTestsRun} tests passed.\n";
 
 if( !empty( $FailingTests ) )
 {
-	echo "\n" . count( $FailingTests ) . " tests failed:\n";
+	fwrite( STDERR, "\n" . count( $FailingTests ) . " tests failed:\n" );
 
 	foreach( $FailingTests as $Test )
 	{
-		echo $Test . "\n";
+		fwrite( STDERR, $Test . "\n" );
 	}
 
 	exit( 1 );
