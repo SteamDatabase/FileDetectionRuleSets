@@ -52,3 +52,6 @@ data.dcpcp
 fdata.dcp
 bytecode.rpybeer
 Sub/Folder/bytecode.rpybeer
+acsetup.cfgoof
+Sub/Folder/acsetup.cfgoof
+pacsetup.cfg
