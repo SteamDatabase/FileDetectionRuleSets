@@ -1,0 +1,14 @@
+name: Daily update
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Test
+      run: php8.0 tests/Test.php

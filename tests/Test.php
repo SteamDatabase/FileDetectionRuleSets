@@ -80,12 +80,24 @@ echo "{$PassedTests} tests out of {$TotalTestsRun} tests passed.\n";
 
 if( !empty( $FailingTests ) )
 {
-	fwrite( STDERR, "\n" . count( $FailingTests ) . " tests failed:\n" );
+	err( count( $FailingTests ) . " tests failed:" );
 
 	foreach( $FailingTests as $Test )
 	{
-		fwrite( STDERR, $Test . "\n" );
+		err( $Test );
 	}
 
 	exit( 1 );
+}
+
+function err( string $Message ) : void
+{
+	if( getenv( 'CI' ) !== false )
+	{
+		echo "::error::" . $Message . PHP_EOL;
+	}
+	else
+	{
+		fwrite( STDERR, $Message . PHP_EOL );
+	}
 }
