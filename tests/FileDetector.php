@@ -22,6 +22,11 @@ class FileDetector
 		{
 			foreach( $Rules as $Name => $Regex )
 			{
+				if( is_array( $Regex ) )
+				{
+					$Regex = '(?:' . implode( '|', $Regex ) . ')';
+				}
+
 				if( self::RegexHasCapturingGroups( $Regex ) )
 				{
 					throw new \Exception( "$Type.$Name: Regex \"$Regex\" contains a capturing group" );
