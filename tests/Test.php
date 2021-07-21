@@ -41,6 +41,11 @@ foreach( $TestsIterator as $File )
 		$TotalTestsRun++;
 		$Actual = $Detector->GetMatchingRuleForFilePath( $Path );
 
+		if( preg_last_error() !== PREG_NO_ERROR )
+		{
+			throw new RuntimeException( 'PCRE returned an error: ' . preg_last_error() . ' - ' . preg_last_error_msg() );
+		}
+
 		if( $Actual === $ExpectedType )
 		{
 			$PassedTests++;
