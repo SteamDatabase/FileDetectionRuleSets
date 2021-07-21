@@ -4,3 +4,5 @@ Lib/renpy/gl/gl.pyd
 Lib/renpy/style.pyd
 renpy
 renpy/stuff
+game/cache/bytecode.rpyb
+bytecode.rpyb
