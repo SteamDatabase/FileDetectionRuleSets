@@ -55,6 +55,10 @@ Sub/Folder/bytecode.rpybeer
 acsetup.cfgoof
 Sub/Folder/acsetup.cfgoof
 pacsetup.cfg
+natives_blob.bink
+Sub/Folder/natives_blob.bink
+fnatives_blob.bin
+Sub/Folder/natives_blob.bink
 Bin32/CryD3DCompilerStub.dllk
 CryD3DCompilerStub.dllk
 SCryD3DCompilerStub.dll
