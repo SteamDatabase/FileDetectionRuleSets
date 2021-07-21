@@ -48,5 +48,7 @@ Sub/Folder/www/js/rpg_core.jsss
 Sub/Folder/js/rmmz_core.jsss
 Lib/renpy.stuff
 renpy.stuff
+data.dcpcp
+fdata.dcp
 bytecode.rpybeer
 Sub/Folder/bytecode.rpybeer
