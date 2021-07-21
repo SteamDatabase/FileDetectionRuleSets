@@ -5,7 +5,8 @@ on:
   push:
 
 jobs:
-  scheduled:
+  test:
+    name: Test
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
