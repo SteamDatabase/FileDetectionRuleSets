@@ -1,0 +1,12 @@
+Bin64_Profile/EOSSDK-Shipping.dll
+Bin64_Profile/EOSSDK.dll
+Binaries/Win32/EOSSDK-Win32-Shipping.dll
+Binaries/Win64/lib64/libEOSSDK-Linux-Shipping.so
+data/epic_online_service/eossdk-win64-shipping.dll
+Engine/Binaries/ThirdParty/EosSDK/EOS-SDK-14547226-1.9
+EOSSDK-Win32-Shipping.dll
+EOSSDK-Win64-Shipping.dll
+EosSdk.dll
+Indiana/Plugins/OEIEpicOnlineServices/Source/ThirdParty/EOSSDK/Bin
+libEOSSDK-Linux-Shipping.so
+tld.app/Contents/Plugins/libEOSSDK-Mac-Shipping.dylib
