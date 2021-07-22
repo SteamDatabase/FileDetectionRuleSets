@@ -39,6 +39,8 @@ foreach( $TestsIterator as $File )
 		{
 			$FailingTests[] = "Path \"$Path\" in \"$File\" is defined more than once";
 		}
+		
+		$NumFiles += 1;
 
 		$AlreadySeenStrings[ $Path ] = true;
 
@@ -65,11 +67,10 @@ foreach( $TestsIterator as $File )
 				if( $Actual === $ExpectedType )
 				{
 					$Passed = true;
+					break;
 				}
 			}
 		}
-		
-		$NumFiles += 1;
 	}
 	$TotalTestsRun++;
 	
