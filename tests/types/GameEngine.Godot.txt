@@ -1,0 +1,2 @@
+GODOT_LICENSE.txt
+libqodot.dll

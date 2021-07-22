@@ -5,7 +5,7 @@ require __DIR__ . '/FileDetector.php';
 
 $Detector = new FileDetector( __DIR__ . '/../rules.ini' );
 
-$TestsIterator = new DirectoryIterator( __DIR__ . '/types' );
+$TestsIterator = new DirectoryIterator( __DIR__ . '/twopass' );
 
 $SeenTestTypes = [];
 $FailingTests = [];
@@ -19,16 +19,20 @@ foreach( $TestsIterator as $File )
 		continue;
 	}
 
+	echo($File."\n");
+	
 	$TestFilePaths = file( $File->getPathname(), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
-	$ExpectedType = $File->getBasename( '.txt' );
-
-	if( $ExpectedType === '_NonMatchingTests' )
-	{
-		$ExpectedType = null;
-	}
+	$BaseName = $File->getBasename( '.txt' );
+	$Bits = explode(".",$BaseName);
+	$Title = $Bits[2];
+	$ExpectedType = $Bits[0].".".$Bits[1];
 
 	$AlreadySeenStrings = [];
 
+	$Evidence = [];
+	$NumFiles = 0;
+	$Passed = false;
+	
 	foreach( $TestFilePaths as $Path )
 	{
 		if( isset( $AlreadySeenStrings[ $Path ] ) )
@@ -38,7 +42,6 @@ foreach( $TestsIterator as $File )
 
 		$AlreadySeenStrings[ $Path ] = true;
 
-		$TotalTestsRun++;
 		$Actual = $Detector->GetMatchingRuleForFilePath( $Path );
 
 		if( preg_last_error() !== PREG_NO_ERROR )
@@ -46,42 +49,52 @@ foreach( $TestsIterator as $File )
 			throw new RuntimeException( 'PCRE returned an error: ' . preg_last_error() . ' - ' . preg_last_error_msg() );
 		}
 
-		if( $Actual === $ExpectedType )
+		if( $Actual !== null )
 		{
-			$PassedTests++;
-			continue;
-		}
-
-		if( $ExpectedType === null )
-		{
-			if( strstr($Actual, "Evidence.") !== false )
+			if( strstr($Actual, "Evidence.") !== false)
 			{
-				//Evidence tests get ignored when matching non-matching tests
-				$PassedTests++;
-				continue;
+				//Log this evidence
+				if(!isset($Evidence[$Actual])){
+					$Evidence[$Actual] = 0;
+				}
+				$Evidence[$Actual] += 1;
 			}
 			else
 			{
-				$FailingTests[] = "Path \"$Path\" returned \"$Actual\" but it should not have matched anything";
+				//We got a direct match to a one-shot test, stop now
+				if( $Actual === $ExpectedType )
+				{
+					$Passed = true;
+				}
 			}
 		}
-		else
+		
+		$NumFiles += 1;
+	}
+	$TotalTestsRun++;
+	
+	//No match yet, but we have some evidence
+	if(!$Passed && !empty($Evidence))
+	{
+		$Actual = $Detector->DetermineMatchFromEvidence($NumFiles, $Evidence);
+		if( $Actual === $ExpectedType )
 		{
-			$FailingTests[] = "Path \"$Path\" does not match for \"$ExpectedType\"";
+			$Passed = true;
 		}
+	}
+	
+	if($Passed)
+	{
+		$PassedTests++;
+	}
+	else
+	{
+		$FailingTests[] = "File \"$File\" returned \"$Actual\" but it should have matched $ExpectedType";
 	}
 
 	if( !empty( $TestFilePaths ) )
 	{
 		$SeenTestTypes[ $ExpectedType ] = true;
-	}
-}
-
-foreach( $Detector->Map as $TestType )
-{
-	if( !isset( $SeenTestTypes[ $TestType ] ) )
-	{
-		$FailingTests[] = "\"$TestType\" does not have any tests";
 	}
 }
 

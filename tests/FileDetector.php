@@ -42,6 +42,32 @@ class FileDetector
 		$this->Regex = '~(' . implode( '|', $Regexes ) . ')~';
 	}
 
+	public function DetermineMatchFromEvidence( int $NumFiles, array $Matches ) : ?string
+	{
+		/*
+		This function is ONLY run if a one-shot regex test fails to conclusively match the depot
+		It will try to guess what the file is based on "Evidence.*" patterns and the number of files 
+		in the depot. It's not perfect but will give us more power than one-shot matches alone.
+		*/
+		
+		//Rather than cramming this logic in data with some ad-hoc format it seems more maintainable to express these checks directly as code:
+		
+		//GODOT:
+		//The typical signature for a Godot-engine game is "low file count, does not match any other engine
+		//yet, and has a single .exe file as well as a single .pck file." If the developer splits these files
+		//across depots the test will fail, so maybe we should just check for low file count + 1 pck file
+		if($NumFiles < 10 && $Matches["Evidence.HasEXE"] == 1 && $Matches["Evidence.HasPCK"] == 1){
+			return "GameEngine.Godot";
+		}
+		
+		//SOME OTHER ENGINE:
+		if(false){
+			return "GameEngine.Whatever";
+		}
+		
+		return null;
+	}
+	
 	public function GetMatchingRuleForFilePath( string $Path ) : ?string
 	{
 		if( preg_match( $this->Regex, $Path, $Matches ) )

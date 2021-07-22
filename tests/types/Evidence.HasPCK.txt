@@ -1,0 +1,10 @@
+something.pck
+Sub/Folder/something.pck
+blah.pck
+sub/blah.pck
+SOMETHING.PCK
+BLAH.PCK
+SUB/BLAH.pck
+sub/blah.PCK
+sub/Blah.pck
+bLAH.PcK

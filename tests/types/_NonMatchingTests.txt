@@ -73,3 +73,5 @@ FAdobe AIR/Versions/1.0/Adobe AIR.dll
 love.dllfdfd
 pfdfdflove.dll
 Sub/Folder/love.dllfdfdfdf
+SGODOT_LICENSE.txt
+libqodot.dllfdfdf
