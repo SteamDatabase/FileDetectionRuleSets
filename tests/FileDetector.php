@@ -6,7 +6,7 @@ class FileDetector
 	public array $Map = [];
 	private string $Regex;
 
-	public function __construct( $Path )
+	public function __construct( string $Path )
 	{
 		$Rulesets = parse_ini_file( $Path, true, INI_SCANNER_RAW );
 
