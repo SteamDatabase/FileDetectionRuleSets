@@ -1,0 +1,3 @@
+game/core/gameinfo.gi
+core/gameinfo.gi
+RobotRepair/core/gameinfo.gi

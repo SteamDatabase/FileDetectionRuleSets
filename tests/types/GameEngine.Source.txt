@@ -1,0 +1,6 @@
+bsppack.dll
+server/bin/bsppack.dll
+bin/x64_retail/bsppack.dll
+The Burton Equation/bin/bsppack.dll
+bin/bsppack.so
+bin/bsppack.dylib

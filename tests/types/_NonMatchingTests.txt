@@ -75,3 +75,12 @@ pfdfdflove.dll
 Sub/Folder/love.dllfdfdfdf
 SGODOT_LICENSE.txt
 libqodot.dllfdfdf
+core/gameinfo.gii
+gamecore/gameinfo.gi
+core/gameinfoogi
+bsppack.dlll
+bsppack-dll
+binbsppack.dll
+hltviexe
+hltv.exee
+bin/hltv.exe
