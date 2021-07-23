@@ -1,2 +1,3 @@
 fna.dll
+FNA.dll
 Sub/Folder/fna.dll
