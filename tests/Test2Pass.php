@@ -20,26 +20,29 @@ foreach( $TestsIterator as $File )
 	}
 
 	echo($File."\n");
-	
+
 	$TestFilePaths = file( $File->getPathname(), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
 	$BaseName = $File->getBasename( '.txt' );
 	$Bits = explode(".",$BaseName);
 	$Title = $Bits[2];
 	$ExpectedType = $Bits[0].".".$Bits[1];
 
-	$AlreadySeenStrings = [];
+	$Matches = $Detector->GetMatchesForFileList( $TestFilePaths );
 
+	print_r( $Matches );
+
+	$AlreadySeenStrings = [];
 	$Evidence = [];
 	$NumFiles = 0;
 	$Passed = false;
-	
+
 	foreach( $TestFilePaths as $Path )
 	{
 		if( isset( $AlreadySeenStrings[ $Path ] ) )
 		{
 			$FailingTests[] = "Path \"$Path\" in \"$File\" is defined more than once";
 		}
-		
+
 		$NumFiles += 1;
 
 		$AlreadySeenStrings[ $Path ] = true;
@@ -73,7 +76,7 @@ foreach( $TestsIterator as $File )
 		}
 	}
 	$TotalTestsRun++;
-	
+
 	//No match yet, but we have some evidence
 	if(!$Passed && !empty($Evidence))
 	{
@@ -83,7 +86,7 @@ foreach( $TestsIterator as $File )
 			$Passed = true;
 		}
 	}
-	
+
 	if($Passed)
 	{
 		$PassedTests++;
