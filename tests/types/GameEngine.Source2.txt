@@ -1,3 +1,4 @@
 game/core/gameinfo.gi
 core/gameinfo.gi
+gameinfo.gi
 RobotRepair/core/gameinfo.gi

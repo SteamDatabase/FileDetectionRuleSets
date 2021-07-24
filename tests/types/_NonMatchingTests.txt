@@ -76,8 +76,8 @@ Sub/Folder/love.dllfdfdfdf
 SGODOT_LICENSE.txt
 libqodot.dllfdfdf
 core/gameinfo.gii
-gamecore/gameinfo.gi
 core/gameinfoogi
+ggameinfoogi
 bsppack.dlll
 bsppack-dll
 binbsppack.dll
