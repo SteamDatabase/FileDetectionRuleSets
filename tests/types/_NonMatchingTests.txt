@@ -84,3 +84,6 @@ binbsppack.dll
 hltviexe
 hltv.exee
 bin/hltv.exe
+nvngx_dlssddll
+nvngx_dlss.dlli
+envngx_dlss.dll
