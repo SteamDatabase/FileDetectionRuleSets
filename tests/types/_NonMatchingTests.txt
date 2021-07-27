@@ -113,6 +113,8 @@ LICENSE.electron.txtf
 fLICENSE.electron.txt
 node.dllk
 fnode.dll
+FVisionaireConfigurationTool.exe
+VisionaireConfigurationTool.exef
 FChromeEngine2.dll
 FChromeEngine3.dll
 FChromEd.exe
