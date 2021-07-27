@@ -88,5 +88,7 @@ nvngx_dlssddll
 nvngx_dlss.dlli
 envngx_dlss.dll
 
+XSDL.dll
+xsdl.dll
 SDL.dllk
 sdl.dllk
