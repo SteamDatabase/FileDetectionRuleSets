@@ -107,6 +107,8 @@ fDosbox
 fdosbox.exe
 FDOSBOX.exe
 dosbox.exef
+scummvm.exef
+fscummvm.exe
 fcry3dengine.dll
 fCry3DEngine.dll
 fCryRenderD3D11.dll
