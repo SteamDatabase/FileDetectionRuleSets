@@ -1,0 +1,6 @@
+ChromeEngine2.dll
+ChromeEngine3.dll
+ChromEd.exe
+sub/dir/ChromeEngine2.dll
+sub/dir/ChromeEngine3.dll
+sub/dir/ChromEd.exe
