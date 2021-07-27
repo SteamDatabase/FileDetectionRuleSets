@@ -115,6 +115,8 @@ node.dllk
 fnode.dll
 FVisionaireConfigurationTool.exe
 VisionaireConfigurationTool.exef
+AGIDATA.OVLTINE
+DFDFAGIDATA.OVL
 FChromeEngine2.dll
 FChromeEngine3.dll
 FChromEd.exe
