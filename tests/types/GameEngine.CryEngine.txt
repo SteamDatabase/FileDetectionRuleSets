@@ -1,2 +1,16 @@
-Bin32/CryD3DCompilerStub.dll
+something.cry
+cry3dengine.dll
+Cry3DEngine.dll
+CryRenderD3D11.dll
+CryRenderD3D12.dll
+CryRenderVulkan.dll
 CryD3DCompilerStub.dll
+engine.pak
+sub/dir/something.cry
+sub/dir/cry3dengine.dll
+sub/dir/Cry3DEngine.dll
+sub/dir/CryRenderD3D11.dll
+sub/dir/CryRenderD3D12.dll
+sub/dir/CryRenderVulkan.dll
+sub/dir/CryD3DCompilerStub.dll
+sub/dir/engine.pak
