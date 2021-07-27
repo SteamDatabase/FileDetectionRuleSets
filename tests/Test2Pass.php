@@ -28,6 +28,7 @@ foreach( $TestsIterator as $File )
 	$FileMatch = "";
 
 	$Matches = $Detector->GetMatchesForFileList( $TestFilePaths );
+
 	if(count($Matches) > 0){
 		$bits = "";
 		foreach($Matches as $key=>$count){
@@ -38,82 +39,16 @@ foreach( $TestsIterator as $File )
 		}
 		$FileMatch .= " --> " . $bits;
 	}
-	
-	// print_r( $Matches );
 
-	$AlreadySeenStrings = [];
-	$Evidence = [];
-	$NumFiles = 0;
-	$Passed = false;
-
-	foreach( $TestFilePaths as $Path )
-	{
-		if( isset( $AlreadySeenStrings[ $Path ] ) )
-		{
-			// $FailingTests[] = "Path \"$Path\" in \"$File\" is defined more than once";
-		}
-
-		$NumFiles += 1;
-
-		$AlreadySeenStrings[ $Path ] = true;
-
-		$Actual = $Detector->GetMatchingRuleForFilePath( $Path );
-
-		if( preg_last_error() !== PREG_NO_ERROR )
-		{
-			throw new RuntimeException( 'PCRE returned an error: ' . preg_last_error() . ' - ' . preg_last_error_msg() );
-		}
-
-		if( $Actual !== null )
-		{
-			if( strstr($Actual, "Evidence.") !== false)
-			{
-				//Log this evidence
-				if(!isset($Evidence[$Actual])){
-					$Evidence[$Actual] = 0;
-				}
-				$Evidence[$Actual] += 1;
-			}
-			else
-			{
-				//We got a direct match to a one-shot test, stop now
-				if( $Actual === $ExpectedType )
-				{
-					$Passed = true;
-					break;
-				}
-			}
-		}
-	}
 	$TotalTestsRun++;
 
-	//No match yet, but we have some evidence
-	if(!$Passed && !empty($Evidence))
-	{
-		$Actual = $Detector->DetermineMatchFromEvidence($NumFiles, $Evidence);
-		if( $Actual === $ExpectedType )
-		{
-			$Passed = true;
-		}
-	}
-	
-	$FileMatch = $File . " ==> " . $Actual . $FileMatch;
-	
-	echo($FileMatch."\n");
-	
-	
-	if($Passed)
+	if( isset( $Matches[ $ExpectedType ] ) )
 	{
 		$PassedTests++;
 	}
 	else
 	{
-		//$FailingTests[] = "File \"$File\" returned \"$Actual\" but it should have matched $ExpectedType";
-	}
-
-	if( !empty( $TestFilePaths ) )
-	{
-		$SeenTestTypes[ $ExpectedType ] = true;
+		$FailingTests[] = "Failed to match $ExpectedType";
 	}
 }
 
