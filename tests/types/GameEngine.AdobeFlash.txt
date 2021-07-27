@@ -1,0 +1,3 @@
+gateway.app/Contents/MacOS/Flash Player
+gateway.app/Contents/Resources/Flash Player.rsrc
+gateway.app/Contents/Resources/FlashPlayer.icns
