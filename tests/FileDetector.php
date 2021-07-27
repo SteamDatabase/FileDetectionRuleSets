@@ -106,7 +106,10 @@ class FileDetector
 			return "GameEngine.Frostbite";
 		}
 
-		//If I have matched nothing else and I notice it has lowercase pck files, it's a pretty good guess that it is Godot
+		//option.ini + data.win is a good sign of a GameMaker Game
+		if(!empty($Matches["Evidence.OPTIONS_INI"]) && !empty($Matches["Evidence.DATA_WIN"])){
+			return "GameEngine.GameMaker";
+		}
 		if(!empty($Matches["Evidence.PCK"]))
 		{
 			$Executables = [];
