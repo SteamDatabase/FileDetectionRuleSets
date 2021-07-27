@@ -1,0 +1,4 @@
+SDL.dll
+sdl.dll
+Some/Dir/SDL.dll
+some/dir/sdl.dll

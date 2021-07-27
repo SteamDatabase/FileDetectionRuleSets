@@ -87,3 +87,6 @@ bin/hltv.exe
 nvngx_dlssddll
 nvngx_dlss.dlli
 envngx_dlss.dll
+
+SDL.dllk
+sdl.dllk
