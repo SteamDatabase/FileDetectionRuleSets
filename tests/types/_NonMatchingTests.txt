@@ -8,7 +8,6 @@ UnityPlayer.dlll
 UUnityPlayer.dll
 SuperUnityEngine.dll
 notactuallylime.dll
-notaactuallylime.hdll
 notactuallyfna.dll
 ChEasyAntiCheat/
 EasyAntiCheat.whatever
@@ -29,10 +28,10 @@ Sub/Folder/ARGSS104E.dll
 Sub/Folder/argss102j.dll
 Sub/Folder/argss102e.dll
 Binaries/Win64Whatever
-fui.hdll
-fuv.hdll
-Sub/fui.hdll
-Sub/fuv.hdll
+ui.hdllf
+uv.hdllf
+Sub/ui.hdllf
+Sub/uv.hdllf
 ui.hdllollipop
 uv.hdllollipop
 APRT_RT.exe
