@@ -1,0 +1,11 @@
+DOSBOX/whatever
+whatever/DOSBOX
+something/DOSBOX/whatever
+Dosbox/whatever
+whatever/Dosbox
+something/Dosbox/whatever
+dosbox.exe
+something/dosbox.exe
+dosbox/whatever
+whatever/dosbox
+something/dosbox/whatever
