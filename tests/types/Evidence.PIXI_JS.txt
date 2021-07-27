@@ -1,0 +1,2 @@
+pixi.js
+sub/dir/pixi.js

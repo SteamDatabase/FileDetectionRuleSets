@@ -185,6 +185,11 @@ something.swfk
 some/dir/something.swfk
 something.jsk
 some/dir/something.jsk
+pixi.jsk
+sub/dir/pixi.jsk
+package.nwk
+sub/dir/package.nwk
+spackage.nw
 SIERRA.EXEF
 sub/dir/SIERRA.EXEF
 FSIERRA.EXE
