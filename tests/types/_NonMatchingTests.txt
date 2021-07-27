@@ -109,6 +109,8 @@ FDOSBOX.exe
 dosbox.exef
 scummvm.exef
 fscummvm.exe
+LICENSE.electron.txtf
+fLICENSE.electron.txt
 node.dllk
 fnode.dll
 fcry3dengine.dll
