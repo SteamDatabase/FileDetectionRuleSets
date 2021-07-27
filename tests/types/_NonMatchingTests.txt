@@ -87,7 +87,11 @@ bin/hltv.exe
 nvngx_dlssddll
 nvngx_dlss.dlli
 envngx_dlss.dll
-
+_CommonRedist/FXNA/4.0/installscript.vdf
+_CommonRedist/FXNA/4.0/xnafx40_redist.msi
+FXNA/4.0/installscript.vdf
+FXNA/4.0/xnafx40_redist.msi
+_CommonRedist/FXNA
 XSDL.dll
 xsdl.dll
 SDL.dllk

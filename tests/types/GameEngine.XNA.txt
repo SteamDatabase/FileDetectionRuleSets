@@ -1,0 +1,2 @@
+_CommonRedist/XNA/4.0/installscript.vdf
+_CommonRedist/XNA/4.0/xnafx40_redist.msi
