@@ -1,0 +1,10 @@
+transition/plugins/updater/libmonogame_ui.so
+transition/plugins/updater/monogame_ui.dll
+MonoGame.Build.Tasks.dll
+MonoGame.Build.Tasks.xml
+MonoGame.Framework.Content.Pipeline.dll
+MonoGame.Framework.Content.Pipeline.xml
+MonoGame.Framework.Net.dll
+MonoGame.Framework.Net.xml
+MonoGame.Framework.dll
+MonoGame.Framework.xml

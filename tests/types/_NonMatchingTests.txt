@@ -4,7 +4,6 @@
 $
 ^
 .UnityPlayer.dll
-unityplayer.dll
 UnityPlayer.dlll
 UUnityPlayer.dll
 SuperUnityEngine.dll
