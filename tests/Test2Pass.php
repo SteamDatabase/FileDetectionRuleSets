@@ -19,17 +19,27 @@ foreach( $TestsIterator as $File )
 		continue;
 	}
 
-	echo($File."\n");
-
 	$TestFilePaths = file( $File->getPathname(), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
 	$BaseName = $File->getBasename( '.txt' );
 	$Bits = explode(".",$BaseName);
 	$Title = $Bits[2];
 	$ExpectedType = $Bits[0].".".$Bits[1];
 
-	$Matches = $Detector->GetMatchesForFileList( $TestFilePaths );
+	$FileMatch = "";
 
-	print_r( $Matches );
+	$Matches = $Detector->GetMatchesForFileList( $TestFilePaths );
+	if(count($Matches) > 0){
+		$bits = "";
+		foreach($Matches as $key=>$count){
+			if($bits != ""){
+				$bits .= ", ";
+			}
+			$bits .= $key.":".$count;
+		}
+		$FileMatch .= " --> " . $bits;
+	}
+	
+	// print_r( $Matches );
 
 	$AlreadySeenStrings = [];
 	$Evidence = [];
@@ -40,7 +50,7 @@ foreach( $TestsIterator as $File )
 	{
 		if( isset( $AlreadySeenStrings[ $Path ] ) )
 		{
-			$FailingTests[] = "Path \"$Path\" in \"$File\" is defined more than once";
+			// $FailingTests[] = "Path \"$Path\" in \"$File\" is defined more than once";
 		}
 
 		$NumFiles += 1;
@@ -86,14 +96,19 @@ foreach( $TestsIterator as $File )
 			$Passed = true;
 		}
 	}
-
+	
+	$FileMatch = $File . " ==> " . $Actual . $FileMatch;
+	
+	echo($FileMatch."\n");
+	
+	
 	if($Passed)
 	{
 		$PassedTests++;
 	}
 	else
 	{
-		$FailingTests[] = "File \"$File\" returned \"$Actual\" but it should have matched $ExpectedType";
+		//$FailingTests[] = "File \"$File\" returned \"$Actual\" but it should have matched $ExpectedType";
 	}
 
 	if( !empty( $TestFilePaths ) )

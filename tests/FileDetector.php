@@ -80,11 +80,27 @@ class FileDetector
 		//The typical signature for a Godot-engine game is "low file count, does not match any other engine
 		//yet, and has a single .exe file as well as a single .pck file." If the developer splits these files
 		//across depots the test will fail, so maybe we should just check for low file count + 1 pck file
-		if( $NumFiles < 10 && $Matches["Evidence.HasEXE"] === 1 && $Matches["Evidence.HasPCK"] === 1 )
-		{
+		// if( $NumFiles < 10 && $Matches["Evidence.HasEXE"] === 1 && $Matches["Evidence.HasPCK"] === 1 )
+		// {
+			// return "GameEngine.Godot";
+		// }
+		
+		
+		//.u files only turn up in idTech0 and UnrealEngine games -- if we haven't positively ID'd idTech0 so far, it's Unreal
+		if(!empty($Matches["Evidence.U"]) && empty($Matches["Emulator.DOSBOX"])){
+			return "GameEngine.Unreal";
+		}
+		
+		//toc files only show up in FrostBite and UnrealEngine games -- if we haven't positively ID'd Unreal so far, it's FrostBite
+		if(!empty($Matches["Evidence.TOC"])){
+			return "GameEngine.FrostBite";
+		}
+		
+		//If I have matched nothing else and I notice it has lowercase pck files, it's a pretty good guess that it is Godot
+		if(!empty($Matches["Evidence.PCK_LOWER"])){
 			return "GameEngine.Godot";
 		}
-
+		
 		//SOME OTHER ENGINE:
 		if(false){
 			return "GameEngine.Whatever";
@@ -92,7 +108,7 @@ class FileDetector
 
 		return null;
 	}
-
+	
 	public function GetMatchingRuleForFilePath( string $Path ) : ?string
 	{
 		if( preg_match( $this->Regex, $Path, $Matches ) )
