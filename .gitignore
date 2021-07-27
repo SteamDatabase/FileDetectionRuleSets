@@ -1,0 +1,10 @@
+
+ground_truth/apps/
+
+ground_truth/dump.json
+
+ground_truth/mappings.json
+
+ground_truth/rulings.json
+
+ground_truth/unpack.php
