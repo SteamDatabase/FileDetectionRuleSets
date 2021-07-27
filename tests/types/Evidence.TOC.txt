@@ -1,0 +1,4 @@
+something.toc
+Sub/Folder/something.toc
+blah.toc
+sub/blah.toc

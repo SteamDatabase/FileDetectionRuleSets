@@ -96,3 +96,8 @@ XSDL.dll
 xsdl.dll
 SDL.dllk
 sdl.dllk
+something.pckf
+something.luaf
+something.tocf
+something.scrf
+something.uf

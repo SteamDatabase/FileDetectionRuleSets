@@ -1,0 +1,4 @@
+something.scr
+Sub/Folder/something.scr
+blah.scr
+sub/blah.scr
