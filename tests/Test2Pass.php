@@ -48,7 +48,14 @@ foreach( $TestsIterator as $File )
 	}
 	else
 	{
-		$FailingTests[] = "Failed to match $ExpectedType";
+		$MatchStr = "";
+		foreach($Matches as $Key=>$Count){
+			if($MatchStr != ""){
+				$MatchStr .= ", ";
+			}
+			$MatchStr .= $Key;
+		}
+		$FailingTests[] = "Failed to match $ExpectedType for $Title --> " . $MatchStr;
 	}
 }
 

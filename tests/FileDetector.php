@@ -39,7 +39,7 @@ class FileDetector
 			}
 		}
 
-		$this->Regex = '~(' . implode( '|', $Regexes ) . ')~';
+		$this->Regex = '~(' . implode( '|', $Regexes ) . ')~i';
 	}
 
 	public function GetMatchesForFileList( array $Files ) : array
@@ -101,13 +101,13 @@ class FileDetector
 			return "GameEngine.Unreal";
 		}
 
-		//toc files only show up in FrostBite and UnrealEngine games -- if we haven't positively ID'd Unreal so far, it's FrostBite
+		//toc files only show up in Frostbite and UnrealEngine games -- if we haven't positively ID'd Unreal so far, it's Frostbite
 		if(!empty($Matches["Evidence.TOC"])){
-			return "GameEngine.FrostBite";
+			return "GameEngine.Frostbite";
 		}
 
 		//If I have matched nothing else and I notice it has lowercase pck files, it's a pretty good guess that it is Godot
-		if(!empty($Matches["Evidence.PCK_LOWER"]))
+		if(!empty($Matches["Evidence.PCK"]))
 		{
 			$Executables = [];
 			$LastFoundPck = null;
