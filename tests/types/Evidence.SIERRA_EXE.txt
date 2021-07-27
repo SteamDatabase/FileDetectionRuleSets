@@ -1,0 +1,2 @@
+SIERRA.EXE
+sub/dir/SIERRA.EXE

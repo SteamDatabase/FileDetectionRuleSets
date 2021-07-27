@@ -185,3 +185,6 @@ something.swfk
 some/dir/something.swfk
 something.jsk
 some/dir/something.jsk
+SIERRA.EXEF
+sub/dir/SIERRA.EXEF
+FSIERRA.EXE
