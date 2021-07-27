@@ -1,0 +1,2 @@
+something.swf
+some/dir/something.swf

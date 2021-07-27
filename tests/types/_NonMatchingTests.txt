@@ -172,3 +172,9 @@ sub/dir/CryD3DCompilerStub.dllf
 sub/dir/engine.pakf
 Data/MapData.wolff
 Data/BasicData.wolff
+Data.wolff
+MapData.wolff
+something.swfk
+some/dir/something.swfk
+something.jsk
+some/dir/something.jsk
