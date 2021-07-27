@@ -84,39 +84,35 @@ class FileDetector
 		in the depot. It's not perfect but will give us more power than one-shot matches alone.
 		*/
 
-		//Rather than cramming this logic in data with some ad-hoc format it seems more maintainable to express these checks directly as code:
-
-		//GODOT:
-		//The typical signature for a Godot-engine game is "low file count, does not match any other engine
-		//yet, and has a single .exe file as well as a single .pck file." If the developer splits these files
-		//across depots the test will fail, so maybe we should just check for low file count + 1 pck file
-		// if( $NumFiles < 10 && $Matches["Evidence.HasEXE"] === 1 && $Matches["Evidence.HasPCK"] === 1 )
-		// {
-			// return "GameEngine.Godot";
-		// }
-
-
 		//.u files only turn up in idTech0 and UnrealEngine games -- if we haven't positively ID'd idTech0 so far, it's Unreal
 		if(!empty($Matches["Evidence.U"]) && empty($Matches["Emulator.DOSBOX"])){
 			return "GameEngine.Unreal";
 		}
 
-		//toc files only show up in Frostbite and UnrealEngine games -- if we haven't positively ID'd Unreal so far, it's Frostbite
+		//.toc files only show up in Frostbite and UnrealEngine games -- if we haven't positively ID'd Unreal so far, it's Frostbite
 		if(!empty($Matches["Evidence.TOC"])){
 			return "GameEngine.Frostbite";
 		}
-
-		//option.ini + data.win is a good sign of a GameMaker Game
+		
+		//options.ini + data.win is a good sign of a GameMaker Game
 		if(!empty($Matches["Evidence.OPTIONS_INI"]) && !empty($Matches["Evidence.DATA_WIN"])){
 			return "GameEngine.GameMaker";
 		}
+		
+		//If it's got the Sierra interpreter and also .SCR files
+		if (!empty($Matches["Evidence.SIERRA_EXE"]) && !empty($Matches["Evidence.SCR"])){
+			return "GameEngine.SCI";
+		}
+		
+		//If I have PCK files it might be Godot
 		if(!empty($Matches["Evidence.PCK"]))
 		{
-			$Executables = [];
-			$LastFoundPck = null;
+			$Pcks = [];
+			$LastFoundExe = "";
 
 			foreach( $Files as $File )
 			{
+				//a data.pck file is usually a dead giveaway of Godot
 				if( basename( $File ) === 'data.pck' )
 				{
 					return "GameEngine.Godot";
@@ -124,30 +120,31 @@ class FileDetector
 
 				$Extension = pathinfo( $File, PATHINFO_EXTENSION );
 
-				if( $Extension === 'pck' )
+				if( $Extension === 'exe' )
 				{
-					$LastFoundPck = $File;
+					$LastFoundExe = $File;
 				}
-				else if( $Extension === 'exe' )
+				else if( $Extension === 'pck' )
 				{
-					$Executables[ $File ] = true;
+					$Pcks[ $File ] = true;
 				}
 			}
-
-			if( $LastFoundPck !== null )
+			
+			//If I have a matching EXE and PCK pair it's almost certainly GODOT
+			if( $LastFoundExe !== "" )
 			{
-				$ExeName = substr( $LastFoundPck, 0, -3 ) . 'exe';
-
-				if( isset( $Executables[ $ExeName ] ) )
+				$PckName = substr( $LastFoundExe, 0, -3 ) . 'pck';
+				
+				if( isset( $Pcks[ $PckName ] ) )
 				{
 					return "GameEngine.Godot";
 				}
 			}
 		}
-
-		//SOME OTHER ENGINE:
-		if(false){
-			return "GameEngine.Whatever";
+		
+		//If I have a package.nw file and it matches nodeJS, it's probably Construct
+		if(!empty($Matches["Evidence.PACKAGE_NW"]) && !empty($Matches["SDK.NodeJS"])){
+			return "GameEngine.Construct";
 		}
 
 		return null;
