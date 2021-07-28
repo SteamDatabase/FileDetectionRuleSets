@@ -111,9 +111,9 @@ class FileDetector
 		if(!empty($Matches["Evidence.TOC"])){
 			return "GameEngine.Frostbite";
 		}
-
-		//options.ini + data.win is a good sign of a GameMaker Game
-		if(!empty($Matches["Evidence.OPTIONS_INI"]) && !empty($Matches["Evidence.DATA_WIN"])){
+		
+		//Any 2 of options.ini + data.win + snd_<whatever>.ogg is a good sign of a GameMaker Game
+		if( !empty($Matches["Evidence.OPTIONS_INI"]) + !empty($Matches["Evidence.DATA_WIN"]) + !empty($Matches["Evidence.SND_OGG"]) >= 2){
 			return "GameEngine.GameMaker";
 		}
 
