@@ -63,7 +63,7 @@ class FileDetector
 			}
 		}
 
-		if( !empty( $Matches ) )
+		if( !empty( $Matches ) || count($Matches) > 0)
 		{
 			$EducatedGuess = $this->TryDeduceEngine( $Files, $Matches );
 

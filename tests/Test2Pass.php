@@ -9,8 +9,19 @@ $TestsIterator = new DirectoryIterator( __DIR__ . '/twopass' );
 
 $SeenTestTypes = [];
 $FailingTests = [];
+$FalsePositives = [];
 $PassedTests = 0;
 $TotalTestsRun = 0;
+
+$AllowedFalsePositives = [
+	"GameEngine.AdobeAIR"=>["GameEngine.AdobeFlash"],
+	"GameEngine.FNA"=>["GameEngine.XNA","GameEngine.MonoGame"],
+	"GameEngine.XNA"=>["GameEngine.FNA","GameEngine.MonoGame"],
+	"GameEngine.HEAPS"=>["GameEngine.AdobeAIR","GameEngine.AdobeFlash"],
+	"GameEngine.LIME_OR_OPENFL"=>["GameEngine.AdobeAIR","GameEngine.AdobeFlash"],
+	"GameEngine.PyGame"=>["GameEngine.RenPy"],
+	"GameEngine.MonoGame"=>["GameEngine.XNA"]
+];
 
 foreach( $TestsIterator as $File )
 {
@@ -42,32 +53,58 @@ foreach( $TestsIterator as $File )
 
 	$TotalTestsRun++;
 
+	$MatchStr = "";
+	foreach($Matches as $Key=>$Count){
+		if($MatchStr != ""){
+			$MatchStr .= ", ";
+		}
+		$MatchStr .= $Key;
+	}
+
 	if( isset( $Matches[ $ExpectedType ] ) )
 	{
 		$PassedTests++;
 	}
 	else
 	{
-		$MatchStr = "";
-		foreach($Matches as $Key=>$Count){
-			if($MatchStr != ""){
-				$MatchStr .= ", ";
-			}
-			$MatchStr .= $Key;
-		}
 		$FailingTests[] = "Failed to match $ExpectedType for $Title --> " . $MatchStr;
+	}
+	
+	foreach($Matches as $Key=>$Count){
+		if($Key != $ExpectedType && str_contains($Key,"GameEngine."))
+		{
+			$pass = false;
+			if(isset($AllowedFalsePositives[$ExpectedType]))
+			{
+				if(in_array($Key, $AllowedFalsePositives[$ExpectedType])){
+					$pass = true;
+				}
+			}
+			if(!$pass){
+				$FalsePositives[] = "FALSE Positive? $ExpectedType for $Title --> " . $MatchStr;
+			}
+		}
 	}
 }
 
 echo "{$PassedTests} tests out of {$TotalTestsRun} tests passed.\n";
 
-if( !empty( $FailingTests ) )
+if( !empty( $FailingTests ) || !empty ($FalsePositives) )
 {
-	err( count( $FailingTests ) . " tests failed:" );
-
-	foreach( $FailingTests as $Test )
-	{
-		err( $Test );
+	if(!empty( $FailingTests)){
+		err( count( $FailingTests ) . " tests failed:" );
+	
+		foreach( $FailingTests as $Test )
+		{
+			err( $Test );
+		}
+	}
+	if(!empty($FalsePositives)){
+		err( count( $FalsePositives) . " potential false positives:" );
+		foreach( $FalsePositives as $FalsePos)
+		{
+			err( $FalsePos);
+		}
 	}
 
 	exit( 1 );
