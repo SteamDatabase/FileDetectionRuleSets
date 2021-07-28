@@ -1,0 +1,4 @@
+something.wad
+Sub/Folder/something.wad
+blah.wad
+sub/blah.wad

@@ -1,0 +1,4 @@
+bspsomething.iqm
+Sub/Folder/something.iqm
+blah.iqm
+sub/blah.iqm

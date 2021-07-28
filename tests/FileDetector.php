@@ -89,7 +89,19 @@ class FileDetector
 		It will try to guess what the file is based on "Evidence.*" patterns and the number of files
 		in the depot. It's not perfect but will give us more power than one-shot matches alone.
 		*/
-
+		
+		if (!empty($Matches["Emulator.DOSBOX"])){
+			//If it's a DOS game...
+			
+			if(!empty($Matches["Evidence.VSWAP"])){
+				//If it's got VSWAP files it's probably idTech0 (Wolf3D engine)
+				return "GameEngine.idTech0";
+			}else if(!empty($Matches["Evidence.CFG"]) && !empty($Matches["Evidence.WAD"])){
+				//If it's got CFG and WAD files it's probably idTech1 (DOOM engine)
+				return "GameEngine.idTech1";
+			}
+		}
+		
 		//.u files only turn up in idTech0 and UnrealEngine games -- if we haven't positively ID'd idTech0 so far, it's Unreal
 		if(!empty($Matches["Evidence.U"]) && empty($Matches["Emulator.DOSBOX"])){
 			return "GameEngine.Unreal";
@@ -152,6 +164,13 @@ class FileDetector
 		if(!empty($Matches["Evidence.PACKAGE_NW"]) && !empty($Matches["SDK.NodeJS"])){
 			return "GameEngine.Construct";
 		}
+
+		//If I have matched nothing so far and I have a PK3 file, it's likely idTech3 (Quake3 engine)
+		if(!empty($Matches["Evidence.PK3"])){
+			return "GameEngine.idTech3";
+		}
+
+		
 
 		return null;
 	}

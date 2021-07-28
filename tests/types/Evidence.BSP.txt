@@ -1,0 +1,4 @@
+something.bsp
+Sub/Folder/something.bsp
+blah.bsp
+sub/blah.bsp

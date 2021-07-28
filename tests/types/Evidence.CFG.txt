@@ -1,0 +1,4 @@
+bspsomething.cfg
+Sub/Folder/something.cfg
+blah.cfg
+sub/blah.cfg
