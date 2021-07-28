@@ -71,6 +71,12 @@ class FileDetector
 			{
 				$Matches[ $EducatedGuess ] = 1;
 			}
+
+			$Matches = array_filter(
+				$Matches,
+				fn( string $Match ) : bool => !str_starts_with( $Match, 'Evidence.' ),
+				ARRAY_FILTER_USE_KEY
+			);
 		}
 
 		return $Matches;
@@ -93,17 +99,17 @@ class FileDetector
 		if(!empty($Matches["Evidence.TOC"])){
 			return "GameEngine.Frostbite";
 		}
-		
+
 		//options.ini + data.win is a good sign of a GameMaker Game
 		if(!empty($Matches["Evidence.OPTIONS_INI"]) && !empty($Matches["Evidence.DATA_WIN"])){
 			return "GameEngine.GameMaker";
 		}
-		
+
 		//If it's got the Sierra interpreter and also .SCR files
 		if (!empty($Matches["Evidence.SIERRA_EXE"]) && !empty($Matches["Evidence.SCR"])){
 			return "GameEngine.SCI";
 		}
-		
+
 		//If I have PCK files it might be Godot
 		if(!empty($Matches["Evidence.PCK"]))
 		{
@@ -129,19 +135,19 @@ class FileDetector
 					$Pcks[ $File ] = true;
 				}
 			}
-			
+
 			//If I have a matching EXE and PCK pair it's almost certainly GODOT
 			if( $LastFoundExe !== "" )
 			{
 				$PckName = substr( $LastFoundExe, 0, -3 ) . 'pck';
-				
+
 				if( isset( $Pcks[ $PckName ] ) )
 				{
 					return "GameEngine.Godot";
 				}
 			}
 		}
-		
+
 		//If I have a package.nw file and it matches nodeJS, it's probably Construct
 		if(!empty($Matches["Evidence.PACKAGE_NW"]) && !empty($Matches["SDK.NodeJS"])){
 			return "GameEngine.Construct";
