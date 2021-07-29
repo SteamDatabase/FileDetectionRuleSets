@@ -1,0 +1,2 @@
+buildlic.txt
+sub/dir/buildlic.txt

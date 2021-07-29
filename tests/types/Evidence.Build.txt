@@ -1,6 +1,6 @@
 HMIDET.386
 BUILD.EXE
-buildlic.txt
+GAME.CON
 sub/dir/HMIDET.386
 sub/dir/BUILD.EXE
-sub/dir/buildlic.txt
+sub/dir/GAME.CON
