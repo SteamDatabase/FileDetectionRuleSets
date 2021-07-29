@@ -282,6 +282,8 @@ mega2
 something.pk4f
 something.fpk4
 pk4
+Data/Wads/Additive0_39764.Phyref.D3D11x64.gz
+Data/Wads/Additive0_39764.FPhyre.D3D11x64.gz
 plugin/KAGParserExf.dll
 plugin/KAGParserEx.dllf
 plugin/FKAGParserEx.dll
