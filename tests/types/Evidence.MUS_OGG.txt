@@ -1,0 +1,8 @@
+mus_brubus.ogg
+mus_bsid_fanfare.ogg
+mus_buildmode.ogg
+mus_creature_evolve.ogg
+mus_cutscene_final_theme1.ogg
+mus_cutscene_final_theme2.ogg
+mus_death.ogg
+mus_firstcrash.ogg

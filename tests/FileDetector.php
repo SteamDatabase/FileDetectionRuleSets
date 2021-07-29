@@ -209,6 +209,11 @@ class FileDetector
 		if(!empty($Matches["Evidence.PK3"])){
 			return "GameEngine.idTech3";
 		}
+		
+		if (!empty($Matches["Evidence.MUS_OGG"])){
+			//If we haven't matched anything yet and we have a file like mus_something.ogg, that's probably GameMaker
+			return "GameEngine.GameMaker";
+		}
 
 		return null;
 	}
