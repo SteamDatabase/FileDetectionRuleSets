@@ -206,14 +206,12 @@ some/dir/something.cfgf
 something.pk34
 some/dir/something.pk34
 baseq2f
-baseq2f/pak0.pk3
-baseq2f/pak1.pk3
 baseq2f/models
 baseq2f/pics
 baseq2f/st
 fbaseq2
-fbaseq2/pak0.pk3
-fbaseq2/pak1.pk3
+fbaseq2/pak0.pk2
+fbaseq2/pak1.pk1
 fbaseq2/models
 fbaseq2/pics
 fbaseq2/st
