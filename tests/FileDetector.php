@@ -90,6 +90,11 @@ class FileDetector
 		in the depot. It's not perfect but will give us more power than one-shot matches alone.
 		*/
 		
+		if (!empty($Matches["Evidence.HDLL"])){
+			//If we match an HDLL and we're here, that means we've already ruled out LIME/OPENFL, so it's probably HEAPS
+			return "GameEngine.HEAPS";
+		}
+		
 		if (!empty($Matches["Emulator.DOSBOX"])){
 			//If it's a DOS game...
 			
