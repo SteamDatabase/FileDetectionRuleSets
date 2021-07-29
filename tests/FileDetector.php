@@ -93,7 +93,10 @@ class FileDetector
 		if (!empty($Matches["Emulator.DOSBOX"])){
 			//If it's a DOS game...
 			
-			if(!empty($Matches["Evidence.VSWAP"])){
+			if(!empty($Matches["Evidence.Build"])){
+				//If it matches the pattern of a Build engine game (Duke Nukem 3D engine)
+				return "GameEngine.Build";
+			}else if(!empty($Matches["Evidence.VSWAP"])){
 				//If it's got VSWAP files it's probably idTech0 (Wolf3D engine)
 				return "GameEngine.idTech0";
 			}else if(!empty($Matches["Evidence.CFG"]) && !empty($Matches["Evidence.WAD"])){
