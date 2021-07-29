@@ -253,6 +253,10 @@ data.podf
 sub/dir/data.podf
 fdata.pod
 sub/dir/fdata.pod
+something.fpfp
+sub/dir/something.fpfp
+something.pfpf
+sub/dir/something.pfpf
 something.hdllf
 sub/dir/something.hdllf
 something.fhdll
