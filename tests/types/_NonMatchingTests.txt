@@ -282,3 +282,6 @@ mega2
 something.pk4f
 something.fpk4
 pk4
+plugin/KAGParserExf.dll
+plugin/KAGParserEx.dllf
+plugin/FKAGParserEx.dll
