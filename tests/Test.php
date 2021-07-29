@@ -4,6 +4,7 @@ declare(strict_types=1);
 require __DIR__ . '/FileDetector.php';
 
 $Detector = new FileDetector( __DIR__ . '/../rules.ini' );
+$Detector->FilterEvidenceMatches = false;
 
 $TestsIterator = new DirectoryIterator( __DIR__ . '/types' );
 
@@ -39,34 +40,32 @@ foreach( $TestsIterator as $File )
 		$AlreadySeenStrings[ $Path ] = true;
 
 		$TotalTestsRun++;
-		$Actual = $Detector->GetMatchingRuleForFilePath( $Path );
-
-		if( preg_last_error() !== PREG_NO_ERROR )
-		{
-			throw new RuntimeException( 'PCRE returned an error: ' . preg_last_error() . ' - ' . preg_last_error_msg() );
-		}
-
-		if( $Actual === $ExpectedType )
-		{
-			$PassedTests++;
-			continue;
-		}
+		$Actual = $Detector->GetMatchesForFileList( [ $Path ] );
 
 		if( $ExpectedType === null )
 		{
-			if( strstr($Actual, "Evidence.") !== false )
+			foreach( $Actual as $Match => $Count )
 			{
-				//Evidence tests get ignored when matching non-matching tests
-				$PassedTests++;
-				continue;
-			}
-			else
-			{
-				$FailingTests[] = "Path \"$Path\" returned \"$Actual\" but it should not have matched anything";
+				if( str_starts_with( $Match, 'Evidence.' ) )
+				{
+					// Evidence tests get ignored when matching non-matching tests
+					$PassedTests++;
+					continue;
+				}
+				else
+				{
+					$FailingTests[] = "Path \"$Path\" returned \"$Match\" but it should not have matched anything";
+				}
 			}
 		}
 		else
 		{
+			if( isset( $Actual[ $ExpectedType ] ) )
+			{
+				$PassedTests++;
+				continue;
+			}
+
 			$FailingTests[] = "Path \"$Path\" does not match for \"$ExpectedType\"";
 		}
 	}

@@ -3,8 +3,9 @@ declare(strict_types=1);
 
 class FileDetector
 {
+	public bool $FilterEvidenceMatches = true;
 	public array $Map = [];
-	private string $Regex;
+	private array $Regexes = [];
 
 	public function __construct( string $Path )
 	{
@@ -15,11 +16,12 @@ class FileDetector
 			throw new \RuntimeException( 'rules.ini failed to parse' );
 		}
 
-		$Regexes = [];
 		$MarkIndex = 0;
 
 		foreach( $Rulesets as $Type => $Rules )
 		{
+			$Regexes = [];
+
 			foreach( $Rules as $Name => $Regex )
 			{
 				if( is_array( $Regex ) )
@@ -37,9 +39,9 @@ class FileDetector
 
 				$MarkIndex++;
 			}
-		}
 
-		$this->Regex = '~(' . implode( '|', $Regexes ) . ')~i';
+			$this->Regexes[] = '~(' . implode( '|', $Regexes ) . ')~i';
+		}
 	}
 
 	public function GetMatchesForFileList( array $Files ) : array
@@ -48,17 +50,20 @@ class FileDetector
 
 		foreach( $Files as $Path )
 		{
-			$Actual = $this->GetMatchingRuleForFilePath( $Path );
-
-			if( $Actual !== null )
+			foreach( $this->Regexes as $Regex )
 			{
-				if( isset( $Matches[ $Actual ] ) )
+				if( preg_match( $Regex, $Path, $RegexMatches ) )
 				{
-					$Matches[ $Actual ]++;
-				}
-				else
-				{
-					$Matches[ $Actual ] = 1;
+					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
+
+					if( isset( $Matches[ $Match ] ) )
+					{
+						$Matches[ $Match ]++;
+					}
+					else
+					{
+						$Matches[ $Match ] = 1;
+					}
 				}
 			}
 		}
@@ -72,11 +77,14 @@ class FileDetector
 				$Matches[ $EducatedGuess ] = 1;
 			}
 
-			$Matches = array_filter(
-				$Matches,
-				fn( string $Match ) : bool => !str_starts_with( $Match, 'Evidence.' ),
-				ARRAY_FILTER_USE_KEY
-			);
+			if( $this->FilterEvidenceMatches )
+			{
+				$Matches = array_filter(
+					$Matches,
+					fn( string $Match ) : bool => !str_starts_with( $Match, 'Evidence.' ),
+					ARRAY_FILTER_USE_KEY
+				);
+			}
 		}
 
 		return $Matches;
@@ -171,16 +179,6 @@ class FileDetector
 		}
 
 
-
-		return null;
-	}
-
-	public function GetMatchingRuleForFilePath( string $Path ) : ?string
-	{
-		if( preg_match( $this->Regex, $Path, $Matches ) )
-		{
-			return $this->Map[ $Matches[ 'MARK' ] ];
-		}
 
 		return null;
 	}
