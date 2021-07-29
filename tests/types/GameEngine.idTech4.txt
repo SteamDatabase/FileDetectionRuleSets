@@ -1,0 +1,2 @@
+something.pk4
+sub/dir/something.pk4

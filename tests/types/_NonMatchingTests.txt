@@ -276,3 +276,9 @@ sub/dir/xnaffx31_redist.msi
 something.streamedf
 something.fstreamed
 streamed
+something.mega2f
+something.fmega2f
+mega2
+something.pk4f
+something.fpk4
+pk4
