@@ -261,3 +261,11 @@ something.hdllf
 sub/dir/something.hdllf
 something.fhdll
 sub/dir/something.fhdll
+Microsoft.FXna.Framework.XmlSerializers.dll
+sub/dir/Microsoft.FXna.Framework.XmlSerializers.dll
+fxnafx31_redist.msi
+sub/dir/fxnafx31_redist.msi
+Microsoft.Xnaf.Framework.XmlSerializers.dll
+sub/dir/Microsoft.Xnaf.Framework.XmlSerializers.dll
+xnaffx31_redist.msi
+sub/dir/xnaffx31_redist.msi

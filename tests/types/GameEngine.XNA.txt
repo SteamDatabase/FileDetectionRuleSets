@@ -1,2 +1,6 @@
 _CommonRedist/XNA/4.0/installscript.vdf
 _CommonRedist/XNA/4.0/xnafx40_redist.msi
+Microsoft.Xna.Framework.XmlSerializers.dll
+sub/dir/Microsoft.Xna.Framework.XmlSerializers.dll
+xnafx31_redist.msi
+sub/dir/xnafx31_redist.msi
