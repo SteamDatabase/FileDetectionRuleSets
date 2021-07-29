@@ -16,11 +16,11 @@ $TotalTestsRun = 0;
 $AllowedFalsePositives = [
 	"GameEngine.AdobeAIR"=>["GameEngine.AdobeFlash"],
 	"GameEngine.FNA"=>["GameEngine.XNA","GameEngine.MonoGame"],
+	"GameEngine.MonoGame"=>["GameEngine.XNA"],
 	"GameEngine.HEAPS"=>["GameEngine.AdobeAIR","GameEngine.AdobeFlash"],
-	// "GameEngine.XNA"=>["GameEngine.FNA","GameEngine.MonoGame"],
+	"GameEngine.XNA"=>["GameEngine.FNA","GameEngine.MonoGame"]
 	// "GameEngine.LIME_OR_OPENFL"=>["GameEngine.AdobeAIR","GameEngine.AdobeFlash"],
 	// "GameEngine.PyGame"=>["GameEngine.RenPy"],
-	// "GameEngine.MonoGame"=>["GameEngine.XNA"]
 ];
 
 foreach( $TestsIterator as $File )
