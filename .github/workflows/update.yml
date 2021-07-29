@@ -1,4 +1,4 @@
-name: Daily update
+name: Test rules
 
 on:
   workflow_dispatch:

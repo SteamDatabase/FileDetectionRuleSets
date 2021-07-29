@@ -3,8 +3,9 @@ declare(strict_types=1);
 
 class FileDetector
 {
+	public bool $FilterEvidenceMatches = true;
 	public array $Map = [];
-	private string $Regex;
+	private array $Regexes = [];
 
 	public function __construct( string $Path )
 	{
@@ -15,11 +16,12 @@ class FileDetector
 			throw new \RuntimeException( 'rules.ini failed to parse' );
 		}
 
-		$Regexes = [];
 		$MarkIndex = 0;
 
 		foreach( $Rulesets as $Type => $Rules )
 		{
+			$Regexes = [];
+
 			foreach( $Rules as $Name => $Regex )
 			{
 				if( is_array( $Regex ) )
@@ -37,9 +39,33 @@ class FileDetector
 
 				$MarkIndex++;
 			}
+
+			$this->Regexes[] = '~(' . implode( '|', $Regexes ) . ')~i';
+		}
+	}
+
+	public function GetMachedFiles( array $Files ) : array
+	{
+		$Matches = [];
+
+		foreach( $Files as $Path )
+		{
+			foreach( $this->Regexes as $Regex )
+			{
+				if( preg_match( $Regex, $Path, $RegexMatches ) )
+				{
+					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
+
+					$Matches[] =
+					[
+						'File' => $Path,
+						'Match' => $Match,
+					];
+				}
+			}
 		}
 
-		$this->Regex = '~(' . implode( '|', $Regexes ) . ')~i';
+		return $Matches;
 	}
 
 	public function GetMatchesForFileList( array $Files ) : array
@@ -48,22 +74,25 @@ class FileDetector
 
 		foreach( $Files as $Path )
 		{
-			$Actual = $this->GetMatchingRuleForFilePath( $Path );
-
-			if( $Actual !== null )
+			foreach( $this->Regexes as $Regex )
 			{
-				if( isset( $Matches[ $Actual ] ) )
+				if( preg_match( $Regex, $Path, $RegexMatches ) )
 				{
-					$Matches[ $Actual ]++;
-				}
-				else
-				{
-					$Matches[ $Actual ] = 1;
+					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
+
+					if( isset( $Matches[ $Match ] ) )
+					{
+						$Matches[ $Match ]++;
+					}
+					else
+					{
+						$Matches[ $Match ] = 1;
+					}
 				}
 			}
 		}
 
-		if( !empty( $Matches ) || count($Matches) > 0)
+		if( !empty( $Matches ) )
 		{
 			$EducatedGuess = $this->TryDeduceEngine( $Files, $Matches );
 
@@ -72,11 +101,14 @@ class FileDetector
 				$Matches[ $EducatedGuess ] = 1;
 			}
 
-			$Matches = array_filter(
-				$Matches,
-				fn( string $Match ) : bool => !str_starts_with( $Match, 'Evidence.' ),
-				ARRAY_FILTER_USE_KEY
-			);
+			if( $this->FilterEvidenceMatches )
+			{
+				$Matches = array_filter(
+					$Matches,
+					fn( string $Match ) : bool => !str_starts_with( $Match, 'Evidence.' ),
+					ARRAY_FILTER_USE_KEY
+				);
+			}
 		}
 
 		return $Matches;
@@ -109,7 +141,7 @@ class FileDetector
 				return "GameEngine.idTech1";
 			}
 		}
-		
+
 		//.u files only turn up in idTech0 and UnrealEngine games -- if we haven't positively ID'd idTech0 so far, it's Unreal
 		if(!empty($Matches["Evidence.U"]) && empty($Matches["Emulator.DOSBOX"])){
 			return "GameEngine.Unreal";
@@ -119,7 +151,7 @@ class FileDetector
 		if(!empty($Matches["Evidence.TOC"])){
 			return "GameEngine.Frostbite";
 		}
-		
+
 		//Any 2 of options.ini + data.win + snd_<whatever>.ogg is a good sign of a GameMaker Game
 		if( !empty($Matches["Evidence.OPTIONS_INI"]) + !empty($Matches["Evidence.DATA_WIN"]) + !empty($Matches["Evidence.SND_OGG"]) >= 2){
 			return "GameEngine.GameMaker";
@@ -176,18 +208,6 @@ class FileDetector
 		//If I have matched nothing so far and I have a PK3 file, it's likely idTech3 (Quake3 engine)
 		if(!empty($Matches["Evidence.PK3"])){
 			return "GameEngine.idTech3";
-		}
-
-		
-
-		return null;
-	}
-
-	public function GetMatchingRuleForFilePath( string $Path ) : ?string
-	{
-		if( preg_match( $this->Regex, $Path, $Matches ) )
-		{
-			return $this->Map[ $Matches[ 'MARK' ] ];
 		}
 
 		return null;
