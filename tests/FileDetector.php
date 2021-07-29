@@ -44,6 +44,30 @@ class FileDetector
 		}
 	}
 
+	public function GetMachedFiles( array $Files ) : array
+	{
+		$Matches = [];
+
+		foreach( $Files as $Path )
+		{
+			foreach( $this->Regexes as $Regex )
+			{
+				if( preg_match( $Regex, $Path, $RegexMatches ) )
+				{
+					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
+
+					$Matches[] =
+					[
+						'File' => $Path,
+						'Match' => $Match,
+					];
+				}
+			}
+		}
+
+		return $Matches;
+	}
+
 	public function GetMatchesForFileList( array $Files ) : array
 	{
 		$Matches = [];
@@ -177,8 +201,6 @@ class FileDetector
 		if(!empty($Matches["Evidence.PK3"])){
 			return "GameEngine.idTech3";
 		}
-
-
 
 		return null;
 	}
