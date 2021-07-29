@@ -269,3 +269,6 @@ Microsoft.Xnaf.Framework.XmlSerializers.dll
 sub/dir/Microsoft.Xnaf.Framework.XmlSerializers.dll
 xnaffx31_redist.msi
 sub/dir/xnaffx31_redist.msi
+something.streamedf
+something.fstreamed
+streamed
