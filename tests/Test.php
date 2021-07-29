@@ -35,6 +35,7 @@ foreach( $TestsIterator as $File )
 		if( isset( $AlreadySeenStrings[ $Path ] ) )
 		{
 			$FailingTests[] = "Path \"$Path\" in \"$File\" is defined more than once";
+			continue;
 		}
 
 		$AlreadySeenStrings[ $Path ] = true;
@@ -44,6 +45,12 @@ foreach( $TestsIterator as $File )
 
 		if( $ExpectedType === null )
 		{
+			if( empty( $Actual ) )
+			{
+				$PassedTests++;
+				continue;
+			}
+
 			foreach( $Actual as $Match => $Count )
 			{
 				if( str_starts_with( $Match, 'Evidence.' ) )
