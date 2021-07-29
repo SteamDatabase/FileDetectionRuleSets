@@ -285,3 +285,5 @@ pk4
 plugin/KAGParserExf.dll
 plugin/KAGParserEx.dllf
 plugin/FKAGParserEx.dll
+something.pyf
+sub/dir/something.pyf
