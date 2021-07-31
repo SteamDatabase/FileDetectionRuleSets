@@ -73,7 +73,7 @@ class FileDetector
 		}
 	}
 
-	public function GetMachedFiles( array $Files ) : array
+	public function GetMatchedFiles( array $Files ) : array
 	{
 		$Matches = [];
 
