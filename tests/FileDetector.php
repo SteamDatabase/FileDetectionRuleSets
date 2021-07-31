@@ -16,31 +16,60 @@ class FileDetector
 			throw new \RuntimeException( 'rules.ini failed to parse' );
 		}
 
+		// This is a common regex to detect folders (or files in root folder),
+		// as there are enough of these rules, we combine these into a subregex
+		$CommonFolderPrefix = '(?:^|/)';
 		$MarkIndex = 0;
 
 		foreach( $Rulesets as $Type => $Rules )
 		{
-			$Regexes = [];
+			$Regexes =
+			[
+				0 => [],
+				1 => [],
+			];
 
-			foreach( $Rules as $Name => $Regex )
+			foreach( $Rules as $Name => $RuleRegexes )
 			{
-				if( is_array( $Regex ) )
+				if( !is_array( $RuleRegexes ) )
 				{
-					$Regex = '(?:' . implode( '|', $Regex ) . ')';
+					$RuleRegexes = [ $RuleRegexes ];
 				}
 
-				if( self::RegexHasCapturingGroups( $Regex ) )
+				foreach( $RuleRegexes as $Regex )
 				{
-					throw new \Exception( "$Type.$Name: Regex \"$Regex\" contains a capturing group" );
+					if( self::RegexHasCapturingGroups( $Regex ) )
+					{
+						throw new \Exception( "$Type.$Name: Regex \"$Regex\" contains a capturing group" );
+					}
+
+					$this->Map[ $MarkIndex ] = "$Type.$Name";
+
+					if( str_starts_with( $Regex, $CommonFolderPrefix ) )
+					{
+						$Regexes[ 0 ][] = substr( $Regex, strlen( $CommonFolderPrefix ) ) . '(*:' . $MarkIndex . ')';
+					}
+					else
+					{
+						$Regexes[ 1 ][] = $Regex . '(*:' . $MarkIndex . ')';
+					}
+
+					$MarkIndex++;
 				}
-
-				$Regexes[] = $Regex . '(*MARK:' . $MarkIndex . ')';
-				$this->Map[ $MarkIndex ] = "$Type.$Name";
-
-				$MarkIndex++;
 			}
 
-			$this->Regexes[] = '~(' . implode( '|', $Regexes ) . ')~i';
+			if( !empty( $Regexes[ 0 ] ) )
+			{
+				sort( $Regexes[ 0 ] );
+				$this->Regexes[] = '~' . $CommonFolderPrefix . '(?:' . implode( '|', $Regexes[ 0 ] ) . ')~i';
+			}
+
+			if( !empty( $Regexes[ 1 ] ) )
+			{
+				sort( $Regexes[ 1 ] );
+
+				$this->Regexes[] = '~' . implode( '|', $Regexes[ 1 ] ) . '~i';
+			}
 		}
 	}
 
@@ -121,15 +150,15 @@ class FileDetector
 		It will try to guess what the file is based on "Evidence.*" patterns and the number of files
 		in the depot. It's not perfect but will give us more power than one-shot matches alone.
 		*/
-		
+
 		if (!empty($Matches["Evidence.HDLL"])){
 			//If we match an HDLL and we're here, that means we've already ruled out LIME/OPENFL, so it's probably HEAPS
 			return "GameEngine.HEAPS";
 		}
-		
+
 		if (!empty($Matches["Emulator.DOSBOX"])){
 			//If it's a DOS game...
-			
+
 			if(!empty($Matches["Evidence.Build"])){
 				//If it matches the pattern of a Build engine game (Duke Nukem 3D engine)
 				return "GameEngine.Build";
@@ -209,7 +238,7 @@ class FileDetector
 		if(!empty($Matches["Evidence.PK3"])){
 			return "GameEngine.idTech3";
 		}
-		
+
 		if (!empty($Matches["Evidence.MUS_OGG"])){
 			//If we haven't matched anything yet and we have a file like mus_something.ogg, that's probably GameMaker
 			return "GameEngine.GameMaker";
