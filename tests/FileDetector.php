@@ -153,7 +153,7 @@ class FileDetector
 
 		if (!empty($Matches["Evidence.HDLL"])){
 			//If we match an HDLL and we're here, that means we've already ruled out LIME/OPENFL, so it's probably HEAPS
-			return "GameEngine.HEAPS";
+			return "Engine.HEAPS";
 		}
 
 		if (!empty($Matches["Emulator.DOSBOX"])){
@@ -161,34 +161,34 @@ class FileDetector
 
 			if(!empty($Matches["Evidence.Build"])){
 				//If it matches the pattern of a Build engine game (Duke Nukem 3D engine)
-				return "GameEngine.Build";
+				return "Engine.Build";
 			}else if(!empty($Matches["Evidence.VSWAP"])){
 				//If it's got VSWAP files it's probably idTech0 (Wolf3D engine)
-				return "GameEngine.idTech0";
+				return "Engine.idTech0";
 			}else if(!empty($Matches["Evidence.CFG"]) && !empty($Matches["Evidence.WAD"])){
 				//If it's got CFG and WAD files it's probably idTech1 (DOOM engine)
-				return "GameEngine.idTech1";
+				return "Engine.idTech1";
 			}
 		}
 
 		//.u files only turn up in idTech0 and UnrealEngine games -- if we haven't positively ID'd idTech0 so far, it's Unreal
 		if(!empty($Matches["Evidence.U"]) && empty($Matches["Emulator.DOSBOX"])){
-			return "GameEngine.Unreal";
+			return "Engine.Unreal";
 		}
 
 		//.toc files only show up in Frostbite and UnrealEngine games -- if we haven't positively ID'd Unreal so far, it's Frostbite
 		if(!empty($Matches["Evidence.TOC"])){
-			return "GameEngine.Frostbite";
+			return "Engine.Frostbite";
 		}
 
 		//Any 2 of options.ini + data.win + snd_<whatever>.ogg is a good sign of a GameMaker Game
 		if( !empty($Matches["Evidence.OPTIONS_INI"]) + !empty($Matches["Evidence.DATA_WIN"]) + !empty($Matches["Evidence.SND_OGG"]) >= 2){
-			return "GameEngine.GameMaker";
+			return "Engine.GameMaker";
 		}
 
 		//If it's got the Sierra interpreter and also .SCR files
 		if (!empty($Matches["Evidence.SIERRA_EXE"]) && !empty($Matches["Evidence.SCR"])){
-			return "GameEngine.SCI";
+			return "Engine.SCI";
 		}
 
 		//If I have PCK files it might be Godot
@@ -202,7 +202,7 @@ class FileDetector
 				//a data.pck file is usually a dead giveaway of Godot
 				if( basename( $File ) === 'data.pck' )
 				{
-					return "GameEngine.Godot";
+					return "Engine.Godot";
 				}
 
 				$Extension = pathinfo( $File, PATHINFO_EXTENSION );
@@ -224,24 +224,24 @@ class FileDetector
 
 				if( isset( $Pcks[ $PckName ] ) )
 				{
-					return "GameEngine.Godot";
+					return "Engine.Godot";
 				}
 			}
 		}
 
 		//If I have a package.nw file and it matches nodeJS, it's probably Construct
 		if(!empty($Matches["Evidence.PACKAGE_NW"]) && !empty($Matches["SDK.NodeJS"])){
-			return "GameEngine.Construct";
+			return "Engine.Construct";
 		}
 
 		//If I have matched nothing so far and I have a PK3 file, it's likely idTech3 (Quake3 engine)
 		if(!empty($Matches["Evidence.PK3"])){
-			return "GameEngine.idTech3";
+			return "Engine.idTech3";
 		}
 
 		if (!empty($Matches["Evidence.MUS_OGG"])){
 			//If we haven't matched anything yet and we have a file like mus_something.ogg, that's probably GameMaker
-			return "GameEngine.GameMaker";
+			return "Engine.GameMaker";
 		}
 
 		return null;

@@ -14,13 +14,13 @@ $PassedTests = 0;
 $TotalTestsRun = 0;
 
 $AllowedFalsePositives = [
-	"GameEngine.AdobeAIR"=>["GameEngine.AdobeFlash"],
-	"GameEngine.FNA"=>["GameEngine.XNA","GameEngine.MonoGame"],
-	"GameEngine.MonoGame"=>["GameEngine.XNA"],
-	"GameEngine.HEAPS"=>["GameEngine.AdobeAIR","GameEngine.AdobeFlash"],
-	"GameEngine.XNA"=>["GameEngine.FNA","GameEngine.MonoGame"]
-	// "GameEngine.LIME_OR_OPENFL"=>["GameEngine.AdobeAIR","GameEngine.AdobeFlash"],
-	// "GameEngine.PyGame"=>["GameEngine.RenPy"],
+	"Engine.AdobeAIR"=>["Engine.AdobeFlash"],
+	"Engine.FNA"=>["Engine.XNA","Engine.MonoGame"],
+	"Engine.MonoGame"=>["Engine.XNA"],
+	"Engine.HEAPS"=>["Engine.AdobeAIR","Engine.AdobeFlash"],
+	"Engine.XNA"=>["Engine.FNA","Engine.MonoGame"]
+	// "Engine.LIME_OR_OPENFL"=>["Engine.AdobeAIR","Engine.AdobeFlash"],
+	// "Engine.PyGame"=>["Engine.RenPy"],
 ];
 
 foreach( $TestsIterator as $File )
@@ -69,9 +69,9 @@ foreach( $TestsIterator as $File )
 	{
 		$FailingTests[] = "Failed to match $ExpectedType for $Title --> " . $MatchStr;
 	}
-	
+
 	foreach($Matches as $Key=>$Count){
-		if($Key != $ExpectedType && str_contains($Key,"GameEngine."))
+		if($Key != $ExpectedType && str_contains($Key,"Engine."))
 		{
 			$pass = false;
 			if(isset($AllowedFalsePositives[$ExpectedType]))
@@ -93,7 +93,7 @@ if( !empty( $FailingTests ) || !empty ($FalsePositives) )
 {
 	if(!empty( $FailingTests)){
 		err( count( $FailingTests ) . " tests failed:" );
-	
+
 		foreach( $FailingTests as $Test )
 		{
 			err( $Test );
