@@ -309,3 +309,6 @@ pbsvcpexe
 pbsvc.exee
 BEService_x64eexe
 BEService_x64.exee
+something.scs
+who/who.scs
+test.scss
