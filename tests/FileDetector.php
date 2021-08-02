@@ -5,7 +5,7 @@ class FileDetector
 {
 	public bool $FilterEvidenceMatches = true;
 	public array $Map = [];
-	private array $Regexes = [];
+	public array $Regexes = [];
 
 	public function __construct( string $Path )
 	{
