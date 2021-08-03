@@ -1,0 +1,21 @@
+name: Suggest an engine detection
+description: Suggest an engine that is not being detected.
+labels: ["Type: Engine"]
+body:
+- type: textarea
+  attributes:
+    label: Some reference to the engine, such as the developer site or a wikipedia article.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: SteamDB links
+    description: Link a few app pages that use this engine.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Possible way to detect it
+    description: As we use regex rules to detect engines, list your possible suggestions which files can be matched on.

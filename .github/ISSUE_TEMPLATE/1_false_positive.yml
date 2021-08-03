@@ -1,0 +1,10 @@
+name: Report a false positive
+description: Report a game that is being detected as something it is not.
+labels: ["False positive"]
+body:
+- type: textarea
+  attributes:
+    label: SteamDB link to the game
+    description: The info tab on app page has a "Detected Technologies" where it says which tech a game has matched.
+  validations:
+    required: true

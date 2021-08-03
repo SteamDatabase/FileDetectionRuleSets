@@ -1,0 +1,10 @@
+name: Report a false negative
+description: Report a game that is not being detected even though we have rules for it.
+labels: ["False negative"]
+body:
+- type: textarea
+  attributes:
+    label: SteamDB link to the game
+    description: The info tab on app page has a "Detected Technologies" where it says which tech a game has matched.
+  validations:
+    required: true
