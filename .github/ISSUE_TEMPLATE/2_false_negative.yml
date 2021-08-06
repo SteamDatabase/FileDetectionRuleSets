@@ -8,3 +8,8 @@ body:
     description: The info tab on app page has a "Detected Technologies" where it says which tech a game has matched.
   validations:
     required: true
+- type: input
+  attributes:
+    label: What should it be detected as?
+  validations:
+    required: true
