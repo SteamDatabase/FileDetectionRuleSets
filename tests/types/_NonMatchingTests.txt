@@ -9,6 +9,7 @@ UUnityPlayer.dll
 SuperUnityEngine.dll
 notactuallylime.dll
 notactuallyfna.dll
+fna.dllwhoops
 ChEasyAntiCheat/
 EasyAntiCheat.whatever
 SomeEngine/Binaries/ThirdParty
