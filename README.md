@@ -49,7 +49,7 @@ Some things to note:
 - File paths will always use / (forward slash) as the path separator
 - The regex generator uses ~ as the boundary, so there is no need to escape /
 
-**Engine** means game/software engines. The definition for this is pretty fuzzy and invites endless debate but basically if its a big library or toolkit multiple people use to make games and software we call that an engine.
+**Engine** means game/software engines. The definition for this is pretty fuzzy and invites endless debate but basically if it is a big library or toolkit that many  people use to make games and software we call that an engine.
 
 **Evidence** are patterns that get fed to the script on a second pass to help identify things that weren't identified on the first pass.
 
@@ -104,6 +104,10 @@ sub/dir/fna.dllwhoops
 ```
 
 If my rule is written correctly, it should NOT match any of these filenames.
+
+New contributions should make sure they also provide tests and have run those tests themselves, and should be careful about introducing lots of false positives or negatives. Ideally, you want to look for the most unique looking file that is common to most or all games of a particular engine/technology, that is very unlikely to occur for other apps.
+	
+Also note that we are not particularly interested in maintaining rules for engines that only like 3 people have ever used.	
 	
 # How SteamDB uses this information
 	
