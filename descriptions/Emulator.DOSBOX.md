@@ -1,0 +1,1 @@
+[**DOSBox**](https://www.dosbox.com/) is an open-source, cross-platform DOS emulator. It's able to emulate various sound cards (SoundBlaster 16, Gravis UltraSound, ...), video cards (Hercules, CGA, VGA, ...) and much more.
