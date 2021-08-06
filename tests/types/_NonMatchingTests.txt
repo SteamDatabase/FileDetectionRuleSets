@@ -10,6 +10,8 @@ SuperUnityEngine.dll
 notactuallylime.dll
 notactuallyfna.dll
 fna.dllwhoops
+sub/dir/notactuallyfna.dll
+sub/dir/fna.dllwhoops
 ChEasyAntiCheat/
 EasyAntiCheat.whatever
 SomeEngine/Binaries/ThirdParty
