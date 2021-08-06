@@ -10,8 +10,6 @@ $TestsIterator = new DirectoryIterator( __DIR__ . '/types' );
 
 $SeenTestTypes = [];
 $FailingTests = [];
-$PassedTests = 0;
-$TotalTestsRun = 0;
 
 foreach( $TestsIterator as $File )
 {
@@ -40,14 +38,12 @@ foreach( $TestsIterator as $File )
 
 		$AlreadySeenStrings[ $Path ] = true;
 
-		$TotalTestsRun++;
 		$Actual = $Detector->GetMatchesForFileList( [ $Path ] );
 
 		if( $ExpectedType === null )
 		{
 			if( empty( $Actual ) )
 			{
-				$PassedTests++;
 				continue;
 			}
 
@@ -56,7 +52,6 @@ foreach( $TestsIterator as $File )
 				if( str_starts_with( $Match, 'Evidence.' ) )
 				{
 					// Evidence tests get ignored when matching non-matching tests
-					$PassedTests++;
 					continue;
 				}
 				else
@@ -69,7 +64,6 @@ foreach( $TestsIterator as $File )
 		{
 			if( isset( $Actual[ $ExpectedType ] ) )
 			{
-				$PassedTests++;
 				continue;
 			}
 
@@ -89,9 +83,14 @@ foreach( $Detector->Map as $TestType )
 	{
 		$FailingTests[] = "\"$TestType\" does not have any tests";
 	}
-}
 
-echo "{$PassedTests} tests out of {$TotalTestsRun} tests passed.\n";
+	$File = __DIR__ . '/../descriptions/' . $TestType . '.md';
+
+	if( !file_exists( $File ) )
+	{
+		$FailingTests[] = "\"descriptions/{$TestType}.md\" does not exist";
+	}
+}
 
 if( !empty( $FailingTests ) )
 {
@@ -103,6 +102,10 @@ if( !empty( $FailingTests ) )
 	}
 
 	exit( 1 );
+}
+else
+{
+	echo "All tests have passed.\n";
 }
 
 function err( string $Message ) : void
