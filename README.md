@@ -79,7 +79,7 @@ Here's what to do whenever adding new rules:
 2. Add a corresponding test to `tests\types\` with a matching name
 3. Add corresponding lines to `tests\types\_NonMatchingTests.txt` that your test should NOT pick up on
 	
-Example:
+**Example:**  
 Let's say we want to add a rule to detect the FNA game engine. This one is very convenient because it can be matched by simply finding a file named `fna.dll`. However, we also want to be sure to match `some/directory/fna.dll`, but we *don't* want to return a match if we find `some_file_that_just_ends_with_fna.dll` or `fna.dllsomethingelse`.
 
 The regex we want to add is this:
