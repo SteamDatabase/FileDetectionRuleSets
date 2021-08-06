@@ -14,3 +14,5 @@ jobs:
       uses: actions/checkout@v2
     - name: Test
       run: php8.0 tests/Test.php
+    - name: Test (two pass)
+      run: php8.0 tests/Test2Pass.php
