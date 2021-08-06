@@ -1,0 +1,1 @@
+[**Ansel**](https://www.nvidia.com/en-us/geforce/geforce-experience/ansel/) is a photo mode for supported games developed by NVIDIA, allowing the use of a free camera to take photos of a game. The mode is also able to increase the graphical fidelity of a game so players do not have to change settings manually as they engage or disengage the photo mode.
