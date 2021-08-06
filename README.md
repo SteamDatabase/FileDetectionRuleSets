@@ -2,11 +2,11 @@
 
 This is a set of scripts that are used by [SteamDB](https://www.steamdb.info) to make educated guesses about the engine(s) & technology used to build various games.
 
-It makes educated guesses, but they are just that, guesses.
-It is not perfect. 
-It will never be perfect.
-Do not expect it to be perfect.
-
+It makes educated guesses, but they are just that, guesses. 
+It is not perfect.  
+It will never be perfect. 
+Do not expect it to be perfect. 
+ 
 # How It Works
 
 Every app on Steam is associated with a number of file depots. For each app on Steam, SteamDB will run these scripts over all of the filenames in all of its depots.
