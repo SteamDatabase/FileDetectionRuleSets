@@ -1,4 +1,4 @@
-## What this is
+## SteamDB File Detection Rule Sets
 
 This is a set of scripts that are used by [SteamDB](https://steamdb.info) to make educated guesses about the engine(s) & technology used to build various games.
 
@@ -9,12 +9,12 @@ Do not expect it to be perfect.
 
 You can browse the result of this here: https://steamdb.info/tech/
 
-## How it works
+## Overview
 
 Every app on Steam is associated with a number of file depots. For each app on Steam, SteamDB will run these scripts over all the filenames in all of its depots.
 Note that it is file**names**, not files. These scripts only scan the names of the files, not the data they contain. Note that there are over 100 million files on SteamDB, so scanning filenames alone is already a pretty big task.
 
-## The rules
+## Pattern-matching rules
 
 [`rules.ini`](rules.ini) defines a set of regular expressions which are run against every filename in the Steam Database. A PHP script uses the resulting matches to make educated guesses about what the most likely technology could be.
 
