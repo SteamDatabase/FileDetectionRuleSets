@@ -56,7 +56,7 @@ Some things to note:
 
 **Evidence** are patterns that get fed to the script on a second pass to help identify things that weren't identified on the first pass.
 
-**Container** is a category to refer to things like Electron, a common wrapper for HTML5 games. This is because games that use Electron often have some other technology they're using that they would consider their actual engine, such as PixiJS, Phaser, OpenFL, HEAPS, etc.
+**Container** is a category to refer to things like Electron, a common wrapper for HTML5 games. This is because games that use Electron often have some other technology they're using that they would consider their actual engine, such as PixiJS, Phaser, OpenFL, Heaps, etc.
 
 **Emulator** is for identifying packed-in emulation technology. For instance, many DOS games come packaged with DOSBOX, and so we note those files with `Emulator.DOSBOX`.
 

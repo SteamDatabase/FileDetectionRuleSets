@@ -165,7 +165,7 @@ class FileDetector
 
 		if( $has( 'Evidence.HDLL' ) && $not( 'Engine.Lime_OR_OpenFL' ) )
 		{
-			return 'Engine.HEAPS';
+			return 'Engine.Heaps';
 		}
 
 		if( $has( 'Emulator.DOSBOX' ) )
