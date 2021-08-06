@@ -286,6 +286,9 @@ something.fstreamed
 streamed
 something.mega2f
 something.fmega2f
+something.texdbff
+something_texdb
+textdb
 mega2
 something.pk4f
 something.fpk4

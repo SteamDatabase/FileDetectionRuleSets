@@ -1,2 +1,6 @@
 something.mega2
 sub/dir/something.mega2
+base/chunk_2.texdb
+base/gameresources.texdb
+chunk_2.texdb
+gameresources.texdb
