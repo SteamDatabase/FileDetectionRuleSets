@@ -119,7 +119,7 @@ It is even possible for an app to have multiple game engines -- this happens whe
 	
 It is inevitable when working at this scale that we will have both false negatives and false positives.
 	
-False negatives are when a game is made with a certain technology and we fail to identify it as such. For many engines, there is nothing we can do about this because there simply isn't enough information left by the filenames alone to reliably detect them. Some engines leave no reliable trace of their identity whatsoever, others like GameMaker and Godot leave subtle patterns that allow us to make educated guesses, and others are super obvious.
+False negatives are when a game is made with a certain technology and we fail to identify it as such. For many engines, there is nothing we can do about this because there simply isn't enough information left by the filenames alone to reliably detect them. Some engines leave no reliable trace of their identity whatsoever (particularly HTML5 game engines), others like GameMaker and Godot leave subtle patterns that allow us to make educated guesses, and others are super obvious.
 	
 We try to err on the side of avoiding false positives, even if that causes us to have more false negatives.
 	
