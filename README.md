@@ -16,7 +16,7 @@ Note that it is file**names**, not files. These scripts only scan the names of t
 
 ## The rules
 
-`rules.ini` defines a set of regular expressions which are run against every filename in the Steam Database. A PHP script uses the resulting matches to make educated guesses about what the most likely technology could be.
+[`rules.ini`](rules.ini) defines a set of regular expressions which are run against every filename in the Steam Database. A PHP script uses the resulting matches to make educated guesses about what the most likely technology could be.
 
 The ini file defines multiple sections, each with its own sub-patterns:
 
@@ -47,10 +47,10 @@ Some things to note:
 
 - All rules are case INsensitive
 - You can assign multiple rules to a single definition, and any of them will cause a match. Just use the `[]` after the pattern name as shown in the above example for XNA.
-- The regex pattern runs on the full file path as it appears in the depot, e.g. "game/bin/win64/dota2.exe", not just "dota2.exe"
-- File paths will always use / (forward slash) as the path separator
-- The regex generator uses ~ as the boundary, so there is no need to escape /
-- Detections that work only for a single game are generally unwated
+- The regex pattern runs on the full file path as it appears in the depot, e.g. `game/bin/win64/dota2.exe`, not just `dota2.exe`
+- File paths will always use `/` (forward slash) as the path separator
+- The regex generator uses `~` as the boundary, so there is no need to escape `/`
+- Detections that work only for a single game are generally unwanted
 
 **Engine** means game/software engines. The definition for this is pretty fuzzy and invites endless debate but basically if it is a big library or toolkit that many people use to make games and software we call that an engine.
 
@@ -64,11 +64,11 @@ Some things to note:
 
 **SDK** are all other libraries and software development kits that an app might be using.
 
-## How It Works
+## How it works
 
 A two-pass script runs over every file. On the first pass it tries to make a "slam dunk" identification based on a strong signal from any file. **Engine** patterns are primarily used here, looking for obvious things like Unity, Unreal, MonoGame, RPGMaker, XNA/FNA, AdobeAIR, etc. These game engines often have very clear signatures — ie "UnityEngine.dll". An "Engine" pattern should be strong enough to confidently match against a particular engine based on _one_ single positive match against any file in the depot.
 
-**Evidence** patterns are meant for building up "hints" about what kind of engine or technology might be in use when a slam-dunk identification is not possible from a single pattern match. Once all the obvious tests have been made, if a particular app has no clear identification it will do a second pass in `FileDetector.php` by calling the `TryDeduceEngine()` function. For instance, GameMaker games are hard to identify based on any single file, but they have a common pattern: an "options.ini" file, a "data.win" file, and an audio file matching the pattern `snd_<something>.ogg`. The problem is that these are pretty generic filenames that often occur outside of GameMaker games. However, once we have already ruled out most of the other engines from our first logic pass if we find two or more of these three file patterns chances are very good we're looking at a GameMaker game.
+**Evidence** patterns are meant for building up "hints" about what kind of engine or technology might be in use when a slam-dunk identification is not possible from a single pattern match. Once all the obvious tests have been made, if a particular app has no clear identification it will do a second pass in [`FileDetector.php`](tests/FileDetector.php) by calling the `TryDeduceEngine()` function. For instance, GameMaker games are hard to identify based on any single file, but they have a common pattern: an "options.ini" file, a "data.win" file, and an audio file matching the pattern `snd_<something>.ogg`. The problem is that these are pretty generic filenames that often occur outside of GameMaker games. However, once we have already ruled out most of the other engines from our first logic pass if we find two or more of these three file patterns chances are very good we're looking at a GameMaker game.
 
 ## Tests
 
