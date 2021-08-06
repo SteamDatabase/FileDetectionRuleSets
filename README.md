@@ -104,6 +104,12 @@ sub/dir/fna.dllwhoops
 ```
 
 If my rule is written correctly, it should NOT match any of these filenames.
+	
+# How SteamDB uses this information
+	
+SteamDB makes two sets of identifications -- the technology the *file* likely represents, and the technology the *app* makes use of. Each file will match against at most one rule (and therefore the order of the rules and the two-pass tests matters), but an app can have multiple rulings applied to it.
+	
+It is even possible for an app to have multiple game engines -- this happens when an app represents a multi-game compilation, or uses one technology for its launcher app and one for the game itself, or whatever.
 
 # False Negatives and Positives
 	
