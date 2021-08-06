@@ -100,6 +100,11 @@ sdl.dllk
 something.pckf
 something.luaf
 something.tocf
+something.casf
+something.sbffdfdf
+something_cas
+something_toc
+something_sbf
 something.scrf
 something.uf
 something.wadf

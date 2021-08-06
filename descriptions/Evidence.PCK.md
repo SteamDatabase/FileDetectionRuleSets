@@ -1,0 +1,1 @@
+**PCK file** any file with the .pck extension. This is a common extension for data package/archive files, and is generic enough that it could represent a variety of formats and appear in many different engines. Pck files are particularly associated with Godot engine games, particularly if the .pck file has the exact same name as the executable.

@@ -1,0 +1,1 @@
+**OGG File with "mus_" prefix** any file with the .ogg extension and the prefix "mus_", typically indicating a music file. This is a naming convention commonly associated with GameMaker games, but it can show up in other engines.

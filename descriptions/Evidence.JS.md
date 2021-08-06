@@ -1,0 +1,1 @@
+[**JavaScript source file**](https://en.wikipedia.org/wiki/JavaScript) any file with the .js extension. This is typically a JavaScript source file, most commonly associated with HTML5 games, but could also be used as a script file consumed by engines built with other programming languages.

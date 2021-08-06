@@ -176,8 +176,8 @@ class FileDetector
 			return "Engine.Unreal";
 		}
 
-		//.toc files only show up in Frostbite and UnrealEngine games -- if we haven't positively ID'd Unreal so far, it's Frostbite
-		if(!empty($Matches["Evidence.TOC"])){
+		//.toc, .sb, and .cas files are associated with Frostbite  -- if we haven't positively ID'd anything else so far, and we have 2 of these we guess Frostbite
+		if(!empty($Matches["Evidence.TOC"]) + !empty($Matches["Evidence.SB"]) + !empty($Matches["Evidence.CAS"])){
 			return "Engine.Frostbite";
 		}
 
