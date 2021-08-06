@@ -2,9 +2,9 @@
 
 This is a set of scripts that are used by [SteamDB](https://steamdb.info) to make educated guesses about the engine(s) & technology used to build various games.
 
-It makes educated guesses, but they are just that, guesses.
-It is not perfect.
-It will never be perfect.
+It makes educated guesses, but they are just that, guesses.  
+It is not perfect.  
+It will never be perfect.  
 Do not expect it to be perfect.
 
 You can browse the result of this here: https://steamdb.info/tech/
