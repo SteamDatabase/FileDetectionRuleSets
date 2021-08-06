@@ -25,7 +25,7 @@ The ini file defines multiple sections, each with its own sub-patterns:
 - AntiCheat
 - SDK
 
-Here's an example of some rules:
+Here's an example of some rule patterns:
 
 ```
 [Engine]
