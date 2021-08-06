@@ -76,7 +76,7 @@ If you have PHP installed locally, you can run the tests from the root directory
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md]) file.
+See [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## How SteamDB uses this information
 
