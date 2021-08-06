@@ -101,8 +101,8 @@ That said, this is all fuzzy at best and all we can do is try to select for the 
 Something to emphasize is we are certainly undercounting engines/technology in three main ways:
 
 1. We can't detect things we don't yet have rules for
-2. False negatives will keep us from detecting everything
-3. Some engines are fundamentally undetectable or very difficult to detect
+2. False negatives will keep us from detecting every instance of a particular technology, even if we have rules for it
+3. Some engines are fundamentally undetectable or extremely difficult to identify
 
 For instance, the [HaxeFlixel](haxeflixel.com/) game engine likely represents a large percentage of Lime/OpenFL games on Steam. However, HaxeFlixel does not leave a particular signature that easily distinguishes games made with it from conventional Lime/OpenFL games. We can't even distinguish between games made in Lime (a low level framework) and games made OpenFL (a high level framework based on Lime). This pattern likely repeats with many other game engines and technologies.
 
