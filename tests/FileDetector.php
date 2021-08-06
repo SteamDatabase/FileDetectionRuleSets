@@ -145,64 +145,86 @@ class FileDetector
 
 	public function TryDeduceEngine( array $Files, array $Matches ) : ?string
 	{
-		/*
-		This function is ONLY run if a one-shot regex test fails to conclusively match the depot
-		It will try to guess what the file is based on "Evidence.*" patterns and the number of files
-		in the depot. It's not perfect but will give us more power than one-shot matches alone.
-		*/
+		// helper functions
+		$has = fn( string $Match ) : bool => isset( $Matches[ $Match ] );
+		$not = fn( string $Match ) : bool => !isset( $Matches[ $Match ] );
+		$count = function( array $Search ) use ( $Matches ) : int
+		{
+			$Count = 0;
 
-		if (!empty($Matches["Evidence.HDLL"])){
-			//If we match an HDLL and we're here, that means we've already ruled out LIME/OPENFL, so it's probably HEAPS
-			return "Engine.HEAPS";
+			foreach( $Search as $Match )
+			{
+				if( isset( $Matches[ $Match ] ) )
+				{
+					$Count++;
+				}
+			}
+
+			return $Count;
+		};
+
+		if( $has( 'Evidence.HDLL' ) && $not( 'Engine.Lime_OR_OpenFL' ) )
+		{
+			return 'Engine.HEAPS';
 		}
 
-		if (!empty($Matches["Emulator.DOSBOX"])){
+		if( $has( 'Emulator.DOSBOX' ) )
+		{
 			//If it's a DOS game...
 
-			if(!empty($Matches["Evidence.Build"])){
+			if( $has( 'Evidence.Build' ) )
+			{
 				//If it matches the pattern of a Build engine game (Duke Nukem 3D engine)
-				return "Engine.Build";
-			}else if(!empty($Matches["Evidence.VSWAP"])){
+				return 'Engine.Build';
+			}
+			else if( $has( 'Evidence.VSWAP' ) )
+			{
 				//If it's got VSWAP files it's probably idTech0 (Wolf3D engine)
-				return "Engine.idTech0";
-			}else if(!empty($Matches["Evidence.CFG"]) && !empty($Matches["Evidence.WAD"])){
+				return 'Engine.idTech0';
+			}
+			else if( $has( 'Evidence.CFG' ) && $has( 'Evidence.WAD' ) )
+			{
 				//If it's got CFG and WAD files it's probably idTech1 (DOOM engine)
-				return "Engine.idTech1";
+				return 'Engine.idTech1';
 			}
 		}
 
 		//.u files only turn up in idTech0 and UnrealEngine games -- if we haven't positively ID'd idTech0 so far, it's Unreal
-		if(!empty($Matches["Evidence.U"]) && empty($Matches["Emulator.DOSBOX"])){
-			return "Engine.Unreal";
+		if( $has( 'Evidence.U' ) && $not( 'Emulator.DOSBOX' ) )
+		{
+			return 'Engine.Unreal';
 		}
 
 		//.toc, .sb, and .cas files are associated with Frostbite  -- if we haven't positively ID'd anything else so far, and we have 2 of these we guess Frostbite
-		if(!empty($Matches["Evidence.TOC"]) + !empty($Matches["Evidence.SB"]) + !empty($Matches["Evidence.CAS"])){
-			return "Engine.Frostbite";
+		if( $count( [ 'Evidence.TOC', 'Evidence.SB', 'Evidence.CAS' ] ) > 1 )
+		{
+			return 'Engine.Frostbite';
 		}
 
 		//Any 2 of options.ini + data.win + snd_<whatever>.ogg is a good sign of a GameMaker Game
-		if( !empty($Matches["Evidence.OPTIONS_INI"]) + !empty($Matches["Evidence.DATA_WIN"]) + !empty($Matches["Evidence.SND_OGG"]) >= 2){
-			return "Engine.GameMaker";
+		if( $count( [ 'Evidence.OPTIONS_INI', 'Evidence.DATA_WIN', 'Evidence.SND_OGG' ] ) > 1)
+		{
+			return 'Engine.GameMaker';
 		}
 
 		//If it's got the Sierra interpreter and also .SCR files
-		if (!empty($Matches["Evidence.SIERRA_EXE"]) && !empty($Matches["Evidence.SCR"])){
-			return "Engine.SCI";
+		if( $has( 'Evidence.SIERRA_EXE' ) && $has( 'Evidence.SCR' ) )
+		{
+			return 'Engine.SCI';
 		}
 
 		//If I have PCK files it might be Godot
-		if(!empty($Matches["Evidence.PCK"]))
+		if( $has( 'Evidence.PCK' ) )
 		{
 			$Pcks = [];
-			$LastFoundExe = "";
+			$LastFoundExe = '';
 
 			foreach( $Files as $File )
 			{
 				//a data.pck file is usually a dead giveaway of Godot
 				if( basename( $File ) === 'data.pck' )
 				{
-					return "Engine.Godot";
+					return 'Engine.Godot';
 				}
 
 				$Extension = pathinfo( $File, PATHINFO_EXTENSION );
@@ -218,30 +240,33 @@ class FileDetector
 			}
 
 			//If I have a matching EXE and PCK pair it's almost certainly GODOT
-			if( $LastFoundExe !== "" )
+			if( $LastFoundExe !== '' )
 			{
 				$PckName = substr( $LastFoundExe, 0, -3 ) . 'pck';
 
 				if( isset( $Pcks[ $PckName ] ) )
 				{
-					return "Engine.Godot";
+					return 'Engine.Godot';
 				}
 			}
 		}
 
 		//If I have a package.nw file and it matches nodeJS, it's probably Construct
-		if(!empty($Matches["Evidence.PACKAGE_NW"]) && !empty($Matches["SDK.NodeJS"])){
-			return "Engine.Construct";
+		if( $has( 'Evidence.PACKAGE_NW' ) && $has( 'SDK.NodeJS' ) )
+		{
+			return 'Engine.Construct';
 		}
 
 		//If I have matched nothing so far and I have a PK3 file, it's likely idTech3 (Quake3 engine)
-		if(!empty($Matches["Evidence.PK3"])){
-			return "Engine.idTech3";
+		if( $has( 'Evidence.PK3' ) )
+		{
+			return 'Engine.idTech3';
 		}
 
-		if (!empty($Matches["Evidence.MUS_OGG"])){
+		if( $has( 'Evidence.MUS_OGG' ) )
+		{
 			//If we haven't matched anything yet and we have a file like mus_something.ogg, that's probably GameMaker
-			return "Engine.GameMaker";
+			return 'Engine.GameMaker';
 		}
 
 		return null;
