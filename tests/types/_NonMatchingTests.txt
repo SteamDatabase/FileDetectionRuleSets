@@ -315,6 +315,7 @@ BEService_x64.exee
 something.scs
 who/who.scs
 test.scss
+AnselSDK.dll
 dx12Retail/AAnselSDK32.dll
 AnselSDK34.dlll
 dx12Retail/AnselSDK44.dll
