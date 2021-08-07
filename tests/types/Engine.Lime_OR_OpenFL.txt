@@ -2,3 +2,7 @@ lime.ndll
 lime.hdll
 Sub/Folder/lime.ndll
 Sub/Folder/lime.hdll
+lime-legacy.ndll
+lime-legacy.hdll
+Sub/Folder/lime-legacy.ndll
+Sub/Folder/lime-legacy.hdll
