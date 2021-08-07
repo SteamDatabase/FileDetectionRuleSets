@@ -355,3 +355,7 @@ StandalonePlayerLocalizablexstrings
 VisionaireConfigurationToolxexe
 lovexdll
 AGIDATAxOVL
+Plugins\discordzz-rpc.dll
+discord-rpc.dlll
+Plugins\discord_gamezzz_sdk.dll
+discord_game_sdk.dllthatgame

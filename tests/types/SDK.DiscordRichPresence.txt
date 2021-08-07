@@ -1,0 +1,4 @@
+Plugins\discord-rpc.dll
+discord-rpc.dll
+Plugins\discord_game_sdk.dll
+discord_game_sdk.dll
