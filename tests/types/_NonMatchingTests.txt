@@ -359,3 +359,6 @@ game/bin/linuxsteamrt64/libsteamaudio.soooooo
 SteamAudiooooo.dll
 steamnet.dll
 bin/x64/steamnetworkingsockets.sooooo
+game.dmanifestfdfd
+pfdfdfgame.gmanifest
+Sub/Folder/game.dmanifestfdfdfdf
