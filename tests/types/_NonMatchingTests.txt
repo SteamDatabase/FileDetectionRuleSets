@@ -6,6 +6,11 @@ $
 .UnityPlayer.dll
 UnityPlayer.dlll
 UUnityPlayer.dll
+FlexEngine.dll
+FlaxEngiine.dll
+SuperFlaxEngine.dll
+GameBuild.json
+Game.Build.txt
 SuperUnityEngine.dll
 notactuallylime.ndll
 notactuallylime-legacy.dll
