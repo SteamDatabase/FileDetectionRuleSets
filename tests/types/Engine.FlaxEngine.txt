@@ -1,4 +1,6 @@
-\FlaxEngine.CSharp.dll
+/FlaxEngine.CSharp.dll
 FlaxEngine.CSharp.dll
-\Game.Build.json
+/Game.Build.json
 Game.Build.json
+Sub/Folder/FlaxEngine.CSharp.dll
+Sub/Folder/Game.Build.json
