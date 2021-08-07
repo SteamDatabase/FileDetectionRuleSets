@@ -269,12 +269,6 @@ class FileDetector
 			return 'Engine.idTech3';
 		}
 
-		if( $has( 'Evidence.MUS_OGG' ) )
-		{
-			//If we haven't matched anything yet and we have a file like mus_something.ogg, that's probably GameMaker
-			return 'Engine.GameMaker';
-		}
-
 		return null;
 	}
 
