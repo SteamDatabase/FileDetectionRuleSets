@@ -2,3 +2,9 @@ Plugins/discord-rpc.dll
 discord-rpc.dll
 Plugins/discord_game_sdk.dll
 discord_game_sdk.dll
+libdiscord-rpc.so
+libdiscord-rpc.dylib
+discord.dll
+discord_game_sdk.dll
+discord_game_sdk.dylib
+discord_game_sdk.so
