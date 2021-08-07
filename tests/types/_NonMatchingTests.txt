@@ -361,3 +361,6 @@ steamnet.dll
 bin/x64/steamnetworkingsockets.sooooo
 amd_ags_x42.dll
 Binaries/amd_ags_x64.dlll
+Tobii.EyeX.Client.dlll
+tobii_gameintegration_x42.dll
+Plugins/TobiiEyetracking/ThirdParty/GameIntegration/lib/Win64/Tobii.GameIntegratioon.dll
