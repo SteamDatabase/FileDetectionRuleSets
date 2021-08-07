@@ -355,3 +355,5 @@ StandalonePlayerLocalizablexstrings
 VisionaireConfigurationToolxexe
 lovexdll
 AGIDATAxOVL
+game/bin/linuxsteamrt64/libsteamaudio.soooooo
+SteamAudiooooo.dll
