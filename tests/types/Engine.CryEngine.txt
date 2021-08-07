@@ -1,5 +1,7 @@
 .cry
 /CryD3DCompilerStub.dll
+/CryRenderD3D11.dll
+/CryRenderD3D12.dll
 /CryRenderVulkan.dll
 /cry3dengine.dll
 /engine.pak

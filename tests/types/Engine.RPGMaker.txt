@@ -11,6 +11,8 @@
 /rgss104e.dll
 /rgss202e.dll
 /rgss301.dll
+/rpg_rt.exe
+/rpt_rt.exe
 AwesomeGame.rgssad
 AwesomeGame.rvproj2
 RGSS104E.dll
@@ -35,4 +37,5 @@ rgss104e.dll
 rgss202e.dll
 rgss301.dll
 rpg_rt.exe
+rpt_rt.exe
 www/js/rpg_core.js

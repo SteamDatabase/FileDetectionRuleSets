@@ -9,6 +9,12 @@ foreach( $Rulesets as $Type => $Rules )
 {
 	foreach( $Rules as $Name => $RuleRegexes )
 	{
+		if( $Name === 'MUS_OGG' )
+		{
+			// Skip this test as it uses .+ which generates random data
+			continue;
+		}
+
 		if( !is_array( $RuleRegexes ) )
 		{
 			$RuleRegexes = [ $RuleRegexes ];

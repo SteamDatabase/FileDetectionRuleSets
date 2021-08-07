@@ -1,3 +1,7 @@
+/lime-legacy.hdll
+/lime-legacy.ndll
+/lime.hdll
+/lime.ndll
 Sub/Folder/lime-legacy.hdll
 Sub/Folder/lime-legacy.ndll
 Sub/Folder/lime.hdll
