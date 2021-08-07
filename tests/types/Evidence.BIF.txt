@@ -1,0 +1,4 @@
+something.bif
+Sub/Folder/something.bif
+blah.bif
+sub/blah.bif

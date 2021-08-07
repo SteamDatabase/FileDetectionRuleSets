@@ -200,6 +200,12 @@ class FileDetector
 		{
 			return 'Engine.Frostbite';
 		}
+		
+		//If we have both BIF and TLK files it's probably Aurora Engine
+		if( $count( ['Evidence.BIF', 'Evidence.TLK']) > 1)
+		{
+			return 'Engine.Aurora';
+		}
 
 		//Any 2 of options.ini + data.win + snd_<whatever>.ogg is a good sign of a GameMaker Game
 		if( $count( [ 'Evidence.OPTIONS_INI', 'Evidence.DATA_WIN', 'Evidence.SND_OGG' ] ) > 1)
