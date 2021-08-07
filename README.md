@@ -107,3 +107,9 @@ Something to emphasize is we are certainly undercounting engines/technology in t
 For instance, the [HaxeFlixel](haxeflixel.com/) game engine likely represents a large percentage of Lime/OpenFL games on Steam. However, HaxeFlixel does not leave a particular signature that easily distinguishes games made with it from conventional Lime/OpenFL games. We can't even distinguish between games made in Lime (a low level framework) and games made in OpenFL (a high level framework based on Lime). This pattern likely repeats with many other game engines and technologies.
 
 So please note these limitations any time you use this data for anything important.
+
+## One game can match multiple engines
+
+Sometimes games will include extra software like a level editor, a launcher, or configuration tool and that will be written in an engine other than what was used to build the game itself. Therefore it is not uncommon to find games that match multiple engines. The script is not able to disentangle this information, so an appid matching for multiple engines is simply saying that it found files matching the signatures of all of those engines within the depots associated with that appid. Nothing more, nothing less.
+
+For a practical example: *The Witcher: Enhanced Edition* contains a digital comic book that is displayed in a standalone app created with the Unity Engine. The game itself was written in the Aurora engine.
