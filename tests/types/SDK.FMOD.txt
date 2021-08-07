@@ -1,0 +1,17 @@
+Contents/Frameworks/libfmod.dylib
+Contents/Frameworks/libfmodstudio.dylib
+Plugins/fmodstudio.dll
+fmodstudio.dll
+Plugins/FMODStudio/Binaries/Win64/fmodstudio64.dll
+Plugins/fmodstudiol.dll
+libfmod.dll
+Plugins/fmodl.dll
+fmodexL.dll
+fmodex64.dll
+fmodex.dll
+win64/fmod64.dll
+bin/fmod.dll
+fmod.dll
+Binaries/Win64/fmod64.dll
+lib/libfmod.so.12
+lib/libfmodstudio.so.12
