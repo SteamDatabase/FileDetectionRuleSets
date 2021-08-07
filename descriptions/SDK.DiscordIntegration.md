@@ -1,1 +1,0 @@
-[**Discord Integration**](https://discord.com/rich-presence) is an integration to interact with the chat program Discord, features range from Rich Presence to a Lobby System.
