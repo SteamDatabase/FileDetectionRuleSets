@@ -1,6 +1,7 @@
-something.pck
+.pck
+SUB/BLAH.pck
 Sub/Folder/something.pck
 blah.pck
-sub/blah.pck
-SUB/BLAH.pck
+something.pck
 sub/Blah.pck
+sub/blah.pck

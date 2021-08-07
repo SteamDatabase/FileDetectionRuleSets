@@ -1,17 +1,12 @@
 <?php
 declare(strict_types=1);
 
-echo "This script is not perfect, it may generate regexes that aren't actually working.";
+echo "This script is not perfect, it may generate regexes that aren't actually working.\n";
 
 $Rulesets = parse_ini_file( __DIR__ . '/../rules.ini', true, INI_SCANNER_RAW );
 
 foreach( $Rulesets as $Type => $Rules )
 {
-	if( $Type === 'Evidence' )
-	{
-		continue;
-	}
-
 	foreach( $Rules as $Name => $RuleRegexes )
 	{
 		if( !is_array( $RuleRegexes ) )

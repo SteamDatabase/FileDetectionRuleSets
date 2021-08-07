@@ -1,2 +1,3 @@
+/package.nw
 package.nw
 sub/dir/package.nw

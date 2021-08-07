@@ -1,4 +1,5 @@
-something.lua
+.lua
 Sub/Folder/something.lua
 blah.lua
+something.lua
 sub/blah.lua

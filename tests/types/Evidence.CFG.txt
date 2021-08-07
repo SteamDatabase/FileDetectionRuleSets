@@ -1,4 +1,5 @@
-bspsomething.cfg
+.cfg
 Sub/Folder/something.cfg
 blah.cfg
+bspsomething.cfg
 sub/blah.cfg

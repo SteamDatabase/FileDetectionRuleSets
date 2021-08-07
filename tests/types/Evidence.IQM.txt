@@ -1,4 +1,5 @@
-bspsomething.iqm
+.iqm
 Sub/Folder/something.iqm
 blah.iqm
+bspsomething.iqm
 sub/blah.iqm
