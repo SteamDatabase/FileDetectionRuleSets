@@ -43,3 +43,7 @@ Also note that we are not particularly interested in maintaining rules for engin
 ## Tests
 
 If you have PHP installed locally, you can run the tests from the root directory by typing `php tests/Test.php` and `php tests/Test2Pass.php`
+
+If you also have NodeJS installed locally, you can run `php tests/GenerateTestStrings.php`, and it will
+try to generate test strings that match would match your regex. If you do, make sure to review the test file,
+as for things like `.+` it may generate a lot of fluff.
