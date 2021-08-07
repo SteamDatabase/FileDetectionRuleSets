@@ -13,6 +13,8 @@ Let's say we want to add a rule to detect the FNA game engine. This one is very 
 The regex we want to add is this:
 `FNA = (?:^|/)fna\.dll$`
 
+If the regex contains a dot, make sure to escape it, for example `fna.dll` would be `fna\.dll`.
+
 That makes sure to match the file by itself or in any set of subdirectories, and only with the exact extension `.dll` and no more characters after that. To test this, we add the file `Engine.FNA.txt` to `tests/types/` and it has this content:
 
 ```
