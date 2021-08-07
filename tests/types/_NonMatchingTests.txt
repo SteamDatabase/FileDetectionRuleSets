@@ -355,3 +355,5 @@ StandalonePlayerLocalizablexstrings
 VisionaireConfigurationToolxexe
 lovexdll
 AGIDATAxOVL
+steamnet.dll
+bin/x64/steamnetworkingsockets.sooooo
