@@ -1,3 +1,7 @@
+/EasyAntiCheat/
+/EasyAntiCheat/@
+EasyAntiCheat/
+EasyAntiCheat/@
 EasyAntiCheat/Certificates
 EasyAntiCheat/EasyAntiCheat_x64.dll
 EasyAntiCheat/EasyAntiCheat_x86.dll

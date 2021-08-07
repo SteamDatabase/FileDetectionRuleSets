@@ -1,4 +1,6 @@
-pbsvc.exe
+/PnkBstrA.exe
+/pbsvc.exe
 Binaries/pbsvc.exe
 PnkBstrA.exe
 pb/PnkBstrA.exe
+pbsvc.exe

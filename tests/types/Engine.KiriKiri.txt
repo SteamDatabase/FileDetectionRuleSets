@@ -1,1 +1,3 @@
+/KAGParserEx.dll
+KAGParserEx.dll
 plugin/KAGParserEx.dll

@@ -1,6 +1,8 @@
-BEService_x64.exe
+/BEService.exe
+/BEService_x64.exe
 BEService.exe
-BattlEye/BEService_x64.exe
+BEService_x64.exe
 BattlEye/BEService.exe
-Sub/BattlEye/BEService_x64.exe
+BattlEye/BEService_x64.exe
 Sub/BattlEye/BEService.exe
+Sub/BattlEye/BEService_x64.exe
