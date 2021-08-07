@@ -359,3 +359,7 @@ Plugins\discordzz-rpc.dll
 discord-rpc.dlll
 Plugins\discord_gamezzz_sdk.dll
 discord_game_sdk.dllthatgame
+game/bin/linuxsteamrt64/libsteamaudio.soooooo
+SteamAudiooooo.dll
+steamnet.dll
+bin/x64/steamnetworkingsockets.sooooo
