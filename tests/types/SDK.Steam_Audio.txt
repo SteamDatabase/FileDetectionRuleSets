@@ -1,3 +1,15 @@
-game/bin/win64/steamaudio.dll
-game/bin/linuxsteamrt64/libsteamaudio.so
+/libsteamaudio.dll
+/libsteamaudio.dylib
+/libsteamaudio.so
+/steamaudio.dll
+/steamaudio.dylib
+/steamaudio.so
 SteamAudio.dll
+game/bin/linuxsteamrt64/libsteamaudio.so
+game/bin/win64/steamaudio.dll
+libsteamaudio.dll
+libsteamaudio.dylib
+libsteamaudio.so
+steamaudio.dll
+steamaudio.dylib
+steamaudio.so
