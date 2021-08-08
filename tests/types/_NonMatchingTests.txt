@@ -374,5 +374,9 @@ pso2_bin/GameGuarded.des
 Toobbii.EyeX.Client.dlll
 tobbii_gameintegration_x64.dll
 Plugins/ToobiiEyetracking/ThirdParty/GameIntegration/lib/Win64/Toobii.GameIntegration.dll
+fmodxdll
+fmoooooooood.dll
+win64/fmod64.dlll
+fmodstudiodll
 game/bin/win64/qt_plugins/sqldrivers/qsqlited4.dll
 game/bin/win64/qt_plugins/qmltooling/qmldbg_tcpd4.dll
