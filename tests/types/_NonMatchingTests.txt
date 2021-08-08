@@ -363,3 +363,5 @@ game/bin/linuxsteamrt64/libsteamaudio.soooooo
 SteamAudiooooo.dll
 steamnet.dll
 bin/x64/steamnetworkingsockets.sooooo
+amd_ags_x42.dll
+Binaries/amd_ags_x64.dlll
