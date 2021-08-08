@@ -364,3 +364,4 @@ Binaries/amd_ags_x64.dlll
 PhysX_32.dlll
 Dll/x64/PhisX_64.dll
 PysXCore.dll
+PhysXLoder.dll

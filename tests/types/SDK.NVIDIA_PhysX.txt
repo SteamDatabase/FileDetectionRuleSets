@@ -8,3 +8,5 @@ binaries/x86/PhysX3_x86.dll
 PhysX3_x86.dll
 Binaries/Win32/PhysXCore.dll
 PhysXCore.dll
+Binaries/Win32/PhysXLoader.dll
+PhysXLoader.dll
