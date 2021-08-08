@@ -1,0 +1,3 @@
+/GameGuard.des
+GameGuard.des
+pso2_bin/GameGuard.des
