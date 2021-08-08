@@ -1,0 +1,15 @@
+name: I added an SDK detection
+labels: ["Type: Engine"]
+body:
+- type: textarea
+  attributes:
+    label: SteamDB links
+    description: Link a few app pages that use this SDK.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Some reference to the SDK, such as the developer site or a wikipedia article.
+  validations:
+    required: true
