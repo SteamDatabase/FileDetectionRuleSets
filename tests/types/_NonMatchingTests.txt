@@ -359,6 +359,10 @@ game/bin/linuxsteamrt64/libsteamaudio.soooooo
 SteamAudiooooo.dll
 steamnet.dll
 bin/x64/steamnetworkingsockets.sooooo
+gamexdmanifest
+game.dmanifestfdfd
+pfdfdfgame.gmanifest
+Sub/Folder/game.dmanifestfdfdfdf
 amd_ags_x42.dll
 Binaries/amd_ags_x64.dlll
 PhysX_32.dlll
@@ -370,6 +374,9 @@ pso2_bin/GameGuarded.des
 Toobbii.EyeX.Client.dlll
 tobbii_gameintegration_x64.dll
 Plugins/ToobiiEyetracking/ThirdParty/GameIntegration/lib/Win64/Toobii.GameIntegration.dll
+fmodxdll
 fmoooooooood.dll
 win64/fmod64.dlll
 fmodstudiodll
+game/bin/win64/qt_plugins/sqldrivers/qsqlited4.dll
+game/bin/win64/qt_plugins/qmltooling/qmldbg_tcpd4.dll

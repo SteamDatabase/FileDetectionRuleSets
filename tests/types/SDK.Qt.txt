@@ -1,0 +1,4 @@
+Engine/Binaries/ThirdParty/Simul/Win64/Qt5Core.dll
+Qt5Core.dll
+game/bin/win64/Qt5Core.dll
+game/bin/win64/QtCore4.dll
