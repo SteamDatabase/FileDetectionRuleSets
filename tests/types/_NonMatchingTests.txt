@@ -365,3 +365,8 @@ PhysX_32.dlll
 Dll/x64/PhisX_64.dll
 PysXCore.dll
 PhysXLoder.dll
+GameGuard.desu
+pso2_bin/GameGuarded.des
+Toobbii.EyeX.Client.dlll
+tobbii_gameintegration_x64.dll
+Plugins/ToobiiEyetracking/ThirdParty/GameIntegration/lib/Win64/Toobii.GameIntegration.dll
