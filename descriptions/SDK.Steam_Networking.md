@@ -1,1 +1,1 @@
-[SteamNetworkingSockets](https://partner.steamgames.com/doc/api/ISteamNetworkingSockets) is a basic transport layer for games which can use of Steam features like the Steam network and the Steam Datagram Relay.
+[**SteamNetworkingSockets**](https://partner.steamgames.com/doc/api/ISteamNetworkingSockets) is a basic transport layer for games which can use of Steam features like the Steam network and the Steam Datagram Relay.

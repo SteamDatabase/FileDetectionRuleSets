@@ -1,1 +1,1 @@
-[Steam Audio](https://valvesoftware.github.io/steam-audio/downloads.html) is a cross-platform software toolkit for spatial audio. It can be used to add rich, immersive positional and environmental audio effects to games and VR/AR apps.
+[**Steam Audio**](https://valvesoftware.github.io/steam-audio/downloads.html) is a cross-platform software toolkit for spatial audio. It can be used to add rich, immersive positional and environmental audio effects to games and VR/AR apps.
