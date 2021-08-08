@@ -368,4 +368,3 @@ tobbii_gameintegration_x64.dll
 Plugins/ToobiiEyetracking/ThirdParty/GameIntegration/lib/Win64/Toobii.GameIntegration.dll
 game/bin/win64/qt_plugins/sqldrivers/qsqlited4.dll
 game/bin/win64/qt_plugins/qmltooling/qmldbg_tcpd4.dll
-Engine/Binaries/ThirdParty/Simul/Win64/SequencerQtWidgets_MD.dll
