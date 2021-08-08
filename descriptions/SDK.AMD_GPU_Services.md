@@ -1,0 +1,1 @@
+[AMD GPU Services (AGS)](https://gpuopen.com/amd-gpu-services-ags-library/) is a helper library designed to provide a much clearer view of the GPUs in the system and the displays attached to them.

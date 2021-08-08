@@ -1,0 +1,12 @@
+Dll/x86/PhysX_32.dll
+PhysX_32.dll
+Dll/x64/PhysX_64.dll
+PhysX_64.dll
+binaries/x64/PhysX3_x64.dll
+PhysX3_x64.dll
+binaries/x86/PhysX3_x86.dll
+PhysX3_x86.dll
+Binaries/Win32/PhysXCore.dll
+PhysXCore.dll
+Binaries/Win32/PhysXLoader.dll
+PhysXLoader.dll

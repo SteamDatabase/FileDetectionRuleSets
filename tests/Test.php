@@ -77,7 +77,7 @@ foreach( $TestsIterator as $File )
 	}
 }
 
-foreach( $Detector->Map as $TestType )
+foreach( array_unique( $Detector->Map ) as $TestType )
 {
 	if( !isset( $SeenTestTypes[ $TestType ] ) )
 	{
