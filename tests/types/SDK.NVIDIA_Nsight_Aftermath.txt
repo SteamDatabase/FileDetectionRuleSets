@@ -1,14 +1,7 @@
 Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll
 /gfsdk_aftermath_lib.x64.dll
 gfsdk_aftermath_lib.x64.dll
-libGFSDK_Aftermath_Lib.x86.so
-/libGFSDK_Aftermath_Lib.x64.so
-libGFSDK_Aftermath_Lib.x64.so
-GFSDK_Aftermath_Lib.x64.dll
-GFSDK_Aftermath_Lib.x64.lib
-GFSDK_Aftermath_Lib_UWP.x64.dll
-GFSDK_Aftermath_Lib_UWP.x64.lib
+/gfsdk_aftermath_lib.dll
+gfsdk_aftermath_lib.dll
+/GFSDK_Aftermath_Lib.x86.dll
 GFSDK_Aftermath_Lib.x86.dll
-GFSDK_Aftermath_Lib.x86.lib
-GFSDK_Aftermath_Lib_UWP.x86.dll
-GFSDK_Aftermath_Lib_UWP.x86.lib
