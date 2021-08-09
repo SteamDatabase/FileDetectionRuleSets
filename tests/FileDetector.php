@@ -227,11 +227,6 @@ class FileDetector
 			$FoundX86 = false;
 			$FoundX64 = false;
 			
-			$ExeMatches = false;
-			$AppMatches = false;
-			$X86Matches = false;
-			$X64Matches = false;
-			
 			//There's also the case where a linux executable has no extension but I am not bothering to mess with that
 			
 			$ExePckPairs = 0;
@@ -239,31 +234,32 @@ class FileDetector
 			foreach( $Files as $File )
 			{
 				$Extension = pathinfo( $File, PATHINFO_EXTENSION );
+				$BaseFile = basename($File);
 				
 				if( $Extension === 'exe' )
 				{
 					$FoundExe = true;
-					$Exes[ basename($File) ] = basename($File);
+					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".exe", ".pck");
 				}
 				else if( $Extension === 'app' )
 				{
 					$FoundApp = true;
-					$Exes[ basename($File) ] = basename($File);
+					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".app", ".pck");
 				}
 				else if( $Extension === 'x86' )
 				{
 					$FoundX86 = true;
-					$Exes[ basename($File) ] = basename($File);
+					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".x86", ".pck");
 				}
 				else if( $Extension === 'x86_64' )
 				{
 					$FoundX64 = true;
-					$Exes[ basename($File) ] = basename($File);
+					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".x86_64",".pck");
 				}
 				else if( $Extension === 'pck' )
 				{
-					$Pcks[ basename($File) ] = basename($File);
-					if(strtolower(basename($File)) === "data.pck") $HasDataPck = true;
+					$Pcks[ $BaseFile ] = $BaseFile;
+					if($BaseFile === "data.pck") $HasDataPck = true;
 				}
 			}
 			
@@ -279,10 +275,10 @@ class FileDetector
 			foreach($Exes as $exe) {
 				
 				//If we have found a particular exe format, check if there is a correspondingly named PCK file.
-				if ($FoundExe && isset($Pcks[ $swapExtension( $exe,    ".exe", ".pck") ] ) ) { $ExeMatches = true; $ExePckPairs++; }
-				if ($FoundApp && isset($Pcks[ $swapExtension( $exe,    ".app", ".pck") ] ) ) { $AppMatches = true; $ExePckPairs++; }
-				if ($FoundX86 && isset($Pcks[ $swapExtension( $exe,    ".x86", ".pck") ] ) ) { $X86Matches = true; $ExePckPairs++; }
-				if ($FoundX64 && isset($Pcks[ $swapExtension( $exe, ".x86_64", ".pck") ] ) ) { $X64Matches = true; $ExePckPairs++; }
+				if ($FoundExe && isset($Pcks[ $exe ] ) ) { $ExePckPairs++; }
+				if ($FoundApp && isset($Pcks[ $exe ] ) ) { $ExePckPairs++; }
+				if ($FoundX86 && isset($Pcks[ $exe ] ) ) { $ExePckPairs++; }
+				if ($FoundX64 && isset($Pcks[ $exe ] ) ) { $ExePckPairs++; }
 				
 			}
 			
@@ -290,10 +286,7 @@ class FileDetector
 			//There are some Godot games like that, but it's not worth the false positives
 			if($ExePckPairs >= count($Pcks))
 			{
-				if($ExeMatches > 0 || $AppMatches > 0 || $X86Matches > 0 || $X64Matches > 0)
-				{
-					return 'Engine.Godot';
-				}
+				return 'Engine.Godot';
 			}
 		}
 
