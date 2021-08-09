@@ -13,11 +13,22 @@ if( empty( $Rulesets ) )
 
 foreach( $Rulesets as $Type => $Rules )
 {
+	$SortTest = TestSorting( $Rules );
+
+	if( $SortTest !== null )
+	{
+		$FailingTests[] = "{$Type}: Rules should be sorted in case insensitive natural order, {$SortTest}";
+	}
+
 	foreach( $Rules as $Name => $RuleRegexes )
 	{
 		if( !is_array( $RuleRegexes ) )
 		{
 			$RuleRegexes = [ $RuleRegexes ];
+		}
+		else if( count( $RuleRegexes ) === 1 )
+		{
+			$FailingTests[] = "$Type.$Name is an array for no reason, remove []";
 		}
 
 		foreach( $RuleRegexes as $Regex )
@@ -158,6 +169,35 @@ function RegexHasCapturingGroups( string $regex ) : bool
 		~x',
 		$regex
 	);
+}
+
+function TestSorting( array $Rulesets ) : ?string
+{
+	$Sorted = $Rulesets;
+
+	uksort( $Sorted, fn( string $a, string $b ) : int => strnatcasecmp( $a, $b ) );
+
+	if( $Rulesets !== $Sorted )
+	{
+		$gamesKeys = array_keys( $Rulesets );
+		$gamesSortedKeys = array_keys( $Sorted );
+		$cachedCount = count( $gamesKeys );
+
+		for( $i = 0; $i < $cachedCount; ++$i )
+		{
+			if( $gamesKeys[ $i ] === $gamesSortedKeys[ $i ] )
+			{
+				continue;
+			}
+
+			$where = array_search( $gamesKeys[ $i ], $gamesSortedKeys ) - array_search( $gamesSortedKeys[ $i ], $gamesKeys );
+			$message = $where > 0 ? ( $gamesKeys[ $i ] . '" is far too early' ) : ( $where === 0 ? $gamesKeys[ $i ] . '" is on an adjacent line' : $gamesSortedKeys[ $i ] . '" is far too late' );
+
+			return $message;
+		}
+	}
+
+	return null;
 }
 
 function err( string $Message ) : void
