@@ -148,6 +148,7 @@ class FileDetector
 		// helper functions
 		$has = fn( string $Match ) : bool => isset( $Matches[ $Match ] );
 		$not = fn( string $Match ) : bool => !isset( $Matches[ $Match ] );
+		$swapExtension = fn( string $FileName, string $OldExtension, string $NewExtension ) : string => basename($FileName, $OldExtension) . $NewExtension;
 		$count = function( array $Search ) use ( $Matches ) : int
 		{
 			$Count = 0;
@@ -162,7 +163,7 @@ class FileDetector
 
 			return $Count;
 		};
-
+		
 		if( $has( 'Evidence.HDLL' ) && $not( 'Engine.Lime_OR_OpenFL' ) )
 		{
 			return 'Engine.Heaps';
@@ -219,38 +220,87 @@ class FileDetector
 			return 'Engine.SCI';
 		}
 
-		//If I have PCK files it might be Godot
+		//If I have a PCK file it might be Godot
 		if( $has( 'Evidence.PCK' ) )
 		{
+			//This is a really long and annoying check. Basically we have two things to look for:
+			//1. A single .pck file named exactly "data.pck", and NO other pck files
+			//2. For every executable, a correspondingly named pck file, and no other pck files
+			
+			$HasDataPck = false;
+			
 			$Pcks = [];
-			$LastFoundExe = '';
-
+			$Exes = [];
+			
+			$FoundExe = false;
+			$FoundApp = false;
+			$FoundX86 = false;
+			$FoundX64 = false;
+			
+			$ExeMatches = false;
+			$AppMatches = false;
+			$X86Matches = false;
+			$X64Matches = false;
+			
+			//There's also the case where a linux executable has no extension but I am not bothering to mess with that
+			
+			$ExePckPairs = 0;
+			
 			foreach( $Files as $File )
 			{
-				//a data.pck file is usually a dead giveaway of Godot
-				if( basename( $File ) === 'data.pck' )
-				{
-					return 'Engine.Godot';
-				}
-
 				$Extension = pathinfo( $File, PATHINFO_EXTENSION );
-
+				
 				if( $Extension === 'exe' )
 				{
-					$LastFoundExe = $File;
+					$FoundExe = true;
+					$Exes[ basename($File) ] = basename($File);
+				}
+				else if( $Extension === 'app' )
+				{
+					$FoundApp = true;
+					$Exes[ basename($File) ] = basename($File);
+				}
+				else if( $Extension === 'x86' )
+				{
+					$FoundX86 = true;
+					$Exes[ basename($File) ] = basename($File);
+				}
+				else if( $Extension === 'x86_64' )
+				{
+					$FoundX64 = true;
+					$Exes[ basename($File) ] = basename($File);
 				}
 				else if( $Extension === 'pck' )
 				{
-					$Pcks[ $File ] = true;
+					$Pcks[ basename($File) ] = basename($File);
+					if(strtolower(basename($File)) === "data.pck") $HasDataPck = true;
 				}
 			}
-
-			//If I have a matching EXE and PCK pair it's almost certainly GODOT
-			if( $LastFoundExe !== '' )
+			
+			//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
+			if(count($Pcks) === 1 && $HasDataPck)
 			{
-				$PckName = substr( $LastFoundExe, 0, -3 ) . 'pck';
-
-				if( isset( $Pcks[ $PckName ] ) )
+				return 'Engine.Godot';
+			}
+			
+			//Otherwise we have to match up exe & pck pairs
+			$Pairs = [];
+			
+			foreach($Exes as $exe) {
+				
+				//If we have found a particular exe format, check if there is a correspondingly named PCK file.
+				if ($FoundExe && isset($Pcks[ $swapExtension( $exe,    ".exe", ".pck") ] ) ) { $ExeMatches = true; $ExePckPairs++; }
+				if ($FoundApp && isset($Pcks[ $swapExtension( $exe,    ".app", ".pck") ] ) ) { $AppMatches = true; $ExePckPairs++; }
+				if ($FoundX86 && isset($Pcks[ $swapExtension( $exe,    ".x86", ".pck") ] ) ) { $X86Matches = true; $ExePckPairs++; }
+				if ($FoundX64 && isset($Pcks[ $swapExtension( $exe, ".x86_64", ".pck") ] ) ) { $X64Matches = true; $ExePckPairs++; }
+				
+			}
+			
+			//Make sure we do not have any "orphan" pck files that aren't paired with an executable
+			//There are some Godot games like that, but it's not worth the false positives
+			if($ExePckPairs >= count($Pcks))
+			{
+				if($ExeMatches > 0 || $AppMatches > 0 || $X86Matches > 0 || $X64Matches > 0)
 				{
 					return 'Engine.Godot';
 				}
