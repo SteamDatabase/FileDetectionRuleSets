@@ -370,6 +370,9 @@ discord_game_sdk.dllthatgame
 discord-rpcxdll
 discordxdll
 discord_game_sdkxdll
+/Local/English.hpk
+Local/Englishxhpk
+Local/English.hpkk
 amd_ags_x42.dll
 Binaries/amd_ags_x64.dlll
 PhysX_32.dlll
