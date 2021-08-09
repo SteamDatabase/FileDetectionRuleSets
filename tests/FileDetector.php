@@ -217,20 +217,16 @@ class FileDetector
 			//1. A single .pck file named exactly "data.pck", and NO other pck files
 			//2. For every executable, a correspondingly named pck file, and no other pck files
 			
-			$HasDataPck = false;
+			//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
+			if( count( $Pcks ) === 1 && $Pcks[ 0 ] === 'data.pck' )
+			{
+				return 'Engine.Godot';
+			}
 			
 			$Pcks = [];
 			$Exes = [];
 			
-			$FoundExe = false;
-			$FoundApp = false;
-			$FoundX86 = false;
-			$FoundX64 = false;
-			
-			//There's also the case where a linux executable has no extension but I am not bothering to mess with that
-			
-			$ExePckPairs = 0;
-			
+			//Otherwise we have to match up exe & pck pairs
 			foreach( $Files as $File )
 			{
 				$Extension = pathinfo( $File, PATHINFO_EXTENSION );
@@ -238,39 +234,27 @@ class FileDetector
 				
 				if( $Extension === 'exe' )
 				{
-					$FoundExe = true;
 					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".exe", ".pck");
 				}
 				else if( $Extension === 'app' )
 				{
-					$FoundApp = true;
 					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".app", ".pck");
 				}
 				else if( $Extension === 'x86' )
 				{
-					$FoundX86 = true;
 					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".x86", ".pck");
 				}
 				else if( $Extension === 'x86_64' )
 				{
-					$FoundX64 = true;
 					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".x86_64",".pck");
 				}
 				else if( $Extension === 'pck' )
 				{
 					$Pcks[ $BaseFile ] = $BaseFile;
-					if($BaseFile === "data.pck") $HasDataPck = true;
 				}
+				
+				//There's also the case where a linux executable has no extension but I am not bothering to mess with that
 			}
-			
-			//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
-			if(count($Pcks) === 1 && $HasDataPck)
-			{
-				return 'Engine.Godot';
-			}
-			
-			//Otherwise we have to match up exe & pck pairs
-			$Pairs = [];
 			
 			foreach($Exes as $exe) {
 				
