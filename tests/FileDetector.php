@@ -71,7 +71,7 @@ class FileDetector
 		{
 			foreach( $this->Regexes as $Regex )
 			{
-				if( preg_match( $Regex, $Path, $RegexMatches ) )
+				if( preg_match( $Regex, $Path, $RegexMatches ) === 1 )
 				{
 					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
 
@@ -95,7 +95,7 @@ class FileDetector
 		{
 			foreach( $this->Regexes as $Regex )
 			{
-				if( preg_match( $Regex, $Path, $RegexMatches ) )
+				if( preg_match( $Regex, $Path, $RegexMatches ) === 1 )
 				{
 					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
 

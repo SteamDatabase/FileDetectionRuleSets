@@ -76,6 +76,12 @@ foreach( $TestsIterator as $File )
 
 		$Actual = $Detector->GetMatchesForFileList( [ $Path ] );
 
+		if( preg_last_error() !== PREG_NO_ERROR )
+		{
+			err( 'Regex is failing: ' . preg_last_error_msg() );
+			exit( 2 );
+		}
+
 		if( $ExpectedType === null )
 		{
 			if( empty( $Actual ) )
@@ -130,7 +136,7 @@ foreach( array_unique( $Detector->Map ) as $TestType )
 
 if( !empty( $FailingTests ) )
 {
-	err( count( $FailingTests ) . " tests failed:" );
+	echo count( $FailingTests ) . " tests failed.\n";
 
 	foreach( $FailingTests as $Test )
 	{
