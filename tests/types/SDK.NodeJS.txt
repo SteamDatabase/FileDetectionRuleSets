@@ -1,2 +1,3 @@
+/node.dll
 node.dll
 sub/dir/node.dll

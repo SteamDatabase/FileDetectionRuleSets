@@ -1,0 +1,1 @@
+[**FMOD**](https://www.fmod.com/) is a proprietary sound effects engine and authoring tool for video games and applications developed by Firelight Technologies, that play and mix sounds of diverse formats on many operating systems.

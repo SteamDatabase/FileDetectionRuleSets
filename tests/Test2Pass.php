@@ -1,9 +1,11 @@
 <?php
 declare(strict_types=1);
 
-require __DIR__ . '/FileDetector.php';
-
-$Detector = new FileDetector( __DIR__ . '/../rules.ini' );
+if( empty( $Detector ) )
+{
+	echo 'Run "Test.php"';
+	exit( 1 );
+}
 
 $TestsIterator = new DirectoryIterator( __DIR__ . '/twopass' );
 
@@ -87,12 +89,10 @@ foreach( $TestsIterator as $File )
 	}
 }
 
-echo "{$PassedTests} tests out of {$TotalTestsRun} tests passed.\n";
-
 if( !empty( $FailingTests ) || !empty ($FalsePositives) )
 {
 	if(!empty( $FailingTests)){
-		err( count( $FailingTests ) . " tests failed:" );
+		echo count( $FailingTests ) . " two-pass tests failed.\n";
 
 		foreach( $FailingTests as $Test )
 		{
@@ -100,7 +100,7 @@ if( !empty( $FailingTests ) || !empty ($FalsePositives) )
 		}
 	}
 	if(!empty($FalsePositives)){
-		err( count( $FalsePositives) . " potential false positives:" );
+		echo count( $FalsePositives) . " potential false positives.\n";
 		foreach( $FalsePositives as $FalsePos)
 		{
 			err( $FalsePos);
@@ -108,16 +108,4 @@ if( !empty( $FailingTests ) || !empty ($FalsePositives) )
 	}
 
 	exit( 1 );
-}
-
-function err( string $Message ) : void
-{
-	if( getenv( 'CI' ) !== false )
-	{
-		echo "::error::" . $Message . PHP_EOL;
-	}
-	else
-	{
-		fwrite( STDERR, $Message . PHP_EOL );
-	}
 }

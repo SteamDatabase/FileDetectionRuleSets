@@ -1,4 +1,8 @@
-snd_whatever.ogg
+/snd_@.ogg
+/snd_@@.ogg
+snd_@.ogg
+snd_@@.ogg
 snd_a.ogg
-sub/folder/snd_whatever.ogg
+snd_whatever.ogg
 sub/folder/snd_a.ogg
+sub/folder/snd_whatever.ogg

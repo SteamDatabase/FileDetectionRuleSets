@@ -1,0 +1,1 @@
+[**Epic Online Services**](https://dev.epicgames.com/en-US/services) is an open and modular set of online services for game development. Continuously evolving to serve all games and their players, today it gives creators freedom to distribute their games across all platforms, and their players access to all friends.

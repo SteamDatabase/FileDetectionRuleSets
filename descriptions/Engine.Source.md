@@ -1,0 +1,1 @@
+[**Source**](https://developer.valvesoftware.com/wiki/Source) is a game engine developed by Valve. It debuted as the successor to GoldSrc. Source does not have a concise version numbering scheme; instead, it is designed in constant incremental updates. The engine began to be phased out by the late 2010s, with Source 2 succeeding it.

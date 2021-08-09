@@ -1,9 +1,11 @@
+/sdl.dll
+/sdl2.dll
 SDL.dll
-sdl.dll
-sdl2.dll
 SDL2.dll
 Sdl2.dll
 Some/Dir/SDL.dll
-some/dir/sdl.dll
 Some/Dir/SDL2.dll
+sdl.dll
+sdl2.dll
+some/dir/sdl.dll
 some/dir/sdl2.dll

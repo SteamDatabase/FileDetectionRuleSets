@@ -1,2 +1,3 @@
-love.dll
+/love.dll
 Sub/Folder/love.dll
+love.dll

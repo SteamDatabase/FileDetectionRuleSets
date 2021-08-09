@@ -1,0 +1,1 @@
+[**Source 2**](https://developer.valvesoftware.com/wiki/Source_2) is a game engine developed by Valve as the successor to the original Source engine. The engine was announced in 2015, with the first game to use it, Dota 2, being ported from the original engine that same year.

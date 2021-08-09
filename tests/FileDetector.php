@@ -7,14 +7,9 @@ class FileDetector
 	public array $Map = [];
 	public array $Regexes = [];
 
-	public function __construct( string $Path )
+	public function __construct( ?array $Rulesets, ?string $Path )
 	{
-		$Rulesets = parse_ini_file( $Path, true, INI_SCANNER_RAW );
-
-		if( empty( $Rulesets ) )
-		{
-			throw new \RuntimeException( 'rules.ini failed to parse' );
-		}
+		$Rulesets ??= parse_ini_file( $Path, true, INI_SCANNER_RAW );
 
 		// This is a common regex to detect folders (or files in root folder),
 		// as there are enough of these rules, we combine these into a subregex
@@ -38,11 +33,6 @@ class FileDetector
 
 				foreach( $RuleRegexes as $Regex )
 				{
-					if( self::RegexHasCapturingGroups( $Regex ) )
-					{
-						throw new \Exception( "$Type.$Name: Regex \"$Regex\" contains a capturing group" );
-					}
-
 					$this->Map[ $MarkIndex ] = "$Type.$Name";
 
 					if( str_starts_with( $Regex, $CommonFolderPrefix ) )
@@ -81,7 +71,7 @@ class FileDetector
 		{
 			foreach( $this->Regexes as $Regex )
 			{
-				if( preg_match( $Regex, $Path, $RegexMatches ) )
+				if( preg_match( $Regex, $Path, $RegexMatches ) === 1 )
 				{
 					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
 
@@ -105,7 +95,7 @@ class FileDetector
 		{
 			foreach( $this->Regexes as $Regex )
 			{
-				if( preg_match( $Regex, $Path, $RegexMatches ) )
+				if( preg_match( $Regex, $Path, $RegexMatches ) === 1 )
 				{
 					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
 
@@ -201,7 +191,7 @@ class FileDetector
 		{
 			return 'Engine.Frostbite';
 		}
-		
+
 		//If we have both BIF and TLK files it's probably Aurora Engine
 		if( $count( ['Evidence.BIF', 'Evidence.TLK']) > 1)
 		{
@@ -320,32 +310,5 @@ class FileDetector
 		}
 
 		return null;
-	}
-
-	private static function RegexHasCapturingGroups( string $regex ) : bool
-	{
-		// From https://github.com/nikic/FastRoute/blob/dafa1911fd7c1560c64d19556cbd4c599fed15ea/src/DataGenerator/RegexBasedAbstract.php#L181
-		if( strpos( $regex, '(' ) === false )
-		{
-			// Needs to have at least a ( to contain a capturing group
-			return false;
-		}
-
-		// Semi-accurate detection for capturing groups
-		return (bool)preg_match(
-			'~
-				(?:
-					\(\?\(
-				  | \[ [^\]\\\\]* (?: \\\\ . [^\]\\\\]* )* \]
-				  | \\\\ .
-				) (*SKIP)(*FAIL) |
-				\(
-				(?!
-					\? (?! <(?![!=]) | P< | \' )
-				  | \*
-				)
-			~x',
-			$regex
-		);
 	}
 }
