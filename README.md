@@ -14,6 +14,8 @@ You can browse the result of this here: https://steamdb.info/tech/
 Every app on Steam is associated with a number of file depots. For each app on Steam, SteamDB will run these scripts over all the filenames in all of its depots.
 Note that it is file**names**, not files. These scripts only scan the names of the files, not the data they contain. Note that there are over 100 million files on SteamDB, so scanning filenames alone is already a pretty big task.
 
+These detections rely on SteamDB being able to access the file lists. [Use SteamDB's token dumper program if you can to improve the coverage!](https://steamdb.info/tokendumper/)
+
 ## Pattern-matching rules
 
 [`rules.ini`](rules.ini) defines a set of regular expressions which are run against every filename in the Steam Database. A PHP script uses the resulting matches to make educated guesses about what the most likely technology could be.
