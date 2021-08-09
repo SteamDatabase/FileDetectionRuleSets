@@ -144,6 +144,8 @@ else
 	echo "All tests have passed.\n";
 }
 
+RunTwoPassTest( $Detector );
+
 function RegexHasCapturingGroups( string $regex ) : bool
 {
 	// From https://github.com/nikic/FastRoute/blob/dafa1911fd7c1560c64d19556cbd4c599fed15ea/src/DataGenerator/RegexBasedAbstract.php#L181
@@ -198,6 +200,11 @@ function TestSorting( array $Rulesets ) : ?string
 	}
 
 	return null;
+}
+
+function RunTwoPassTest( FileDetector $Detector )
+{
+	require __DIR__ . '/Test2Pass.php';
 }
 
 function err( string $Message ) : void

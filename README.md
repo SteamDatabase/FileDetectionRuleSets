@@ -72,7 +72,7 @@ A two-pass script runs over every file. On the first pass it tries to make a "sl
 
 ## Tests
 
-If you have PHP installed locally, you can run the tests from the root directory by typing `php tests/Test.php` and `php tests/Test2Pass.php`
+If you have PHP installed locally, you can run the tests from the root directory by typing `php tests/Test.php`.
 
 ## Contributing
 
