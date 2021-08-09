@@ -153,7 +153,7 @@ class FileDetector
 
 			return $Count;
 		};
-		
+
 		if( $has( 'Evidence.HDLL' ) && $not( 'Engine.Lime_OR_OpenFL' ) )
 		{
 			return 'Engine.Heaps';
@@ -216,22 +216,15 @@ class FileDetector
 			//This is a really long and annoying check. Basically we have two things to look for:
 			//1. A single .pck file named exactly "data.pck", and NO other pck files
 			//2. For every executable, a correspondingly named pck file, and no other pck files
-			
-			//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
-			if( count( $Pcks ) === 1 && $Pcks[ 0 ] === 'data.pck' )
-			{
-				return 'Engine.Godot';
-			}
-			
+
 			$Pcks = [];
 			$Exes = [];
-			
-			//Otherwise we have to match up exe & pck pairs
+
 			foreach( $Files as $File )
 			{
 				$Extension = pathinfo( $File, PATHINFO_EXTENSION );
 				$BaseFile = basename($File);
-				
+
 				if( $Extension === 'exe' )
 				{
 					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".exe", ".pck");
@@ -252,17 +245,24 @@ class FileDetector
 				{
 					$Pcks[ $BaseFile ] = $BaseFile;
 				}
-				
+
 				//There's also the case where a linux executable has no extension but I am not bothering to mess with that
 			}
-			
+
+			//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
+			if( count( $Pcks ) === 1 && array_key_first($Pcks) === 'data.pck' )
+			{
+				return 'Engine.Godot';
+			}
+
+			//Otherwise we have to match up exe & pck pairs
 			foreach($Exes as $exe) {
-				
+
 				//If we have found a particular exe format, ensure there is a correspondingly named PCK file.
 				unset( $Pcks[ $exe ] );
-				
+
 			}
-			
+
 			//Make sure we do not have any "orphan" pck files that aren't paired with an executable
 			//There are some Godot games like that, but it's not worth the false positives
 			if( empty($Pcks) )
