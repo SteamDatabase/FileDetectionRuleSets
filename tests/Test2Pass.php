@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 require __DIR__ . '/FileDetector.php';
 
-$Detector = new FileDetector( __DIR__ . '/../rules.ini' );
+$Detector = new FileDetector( null, __DIR__ . '/../rules.ini' );
 
 $TestsIterator = new DirectoryIterator( __DIR__ . '/twopass' );
 

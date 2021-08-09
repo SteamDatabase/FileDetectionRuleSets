@@ -3,13 +3,38 @@ declare(strict_types=1);
 
 require __DIR__ . '/FileDetector.php';
 
-$Detector = new FileDetector( __DIR__ . '/../rules.ini' );
+$FailingTests = [];
+$Rulesets = parse_ini_file( __DIR__ . '/../rules.ini', true, INI_SCANNER_RAW );
+
+if( empty( $Rulesets ) )
+{
+	throw new \RuntimeException( 'rules.ini failed to parse' );
+}
+
+foreach( $Rulesets as $Type => $Rules )
+{
+	foreach( $Rules as $Name => $RuleRegexes )
+	{
+		if( !is_array( $RuleRegexes ) )
+		{
+			$RuleRegexes = [ $RuleRegexes ];
+		}
+
+		foreach( $RuleRegexes as $Regex )
+		{
+			if( RegexHasCapturingGroups( $Regex ) )
+			{
+				$FailingTests[] = "$Type.$Name: Regex \"$Regex\" contains a capturing group";
+			}
+		}
+	}
+}
+
+$Detector = new FileDetector( $Rulesets, null );
 $Detector->FilterEvidenceMatches = false;
 
 $TestsIterator = new DirectoryIterator( __DIR__ . '/types' );
-
 $SeenTestTypes = [];
-$FailingTests = [];
 
 foreach( $TestsIterator as $File )
 {
@@ -106,6 +131,33 @@ if( !empty( $FailingTests ) )
 else
 {
 	echo "All tests have passed.\n";
+}
+
+function RegexHasCapturingGroups( string $regex ) : bool
+{
+	// From https://github.com/nikic/FastRoute/blob/dafa1911fd7c1560c64d19556cbd4c599fed15ea/src/DataGenerator/RegexBasedAbstract.php#L181
+	if( strpos( $regex, '(' ) === false )
+	{
+		// Needs to have at least a ( to contain a capturing group
+		return false;
+	}
+
+	// Semi-accurate detection for capturing groups
+	return (bool)preg_match(
+		'~
+			(?:
+				\(\?\(
+				| \[ [^\]\\\\]* (?: \\\\ . [^\]\\\\]* )* \]
+				| \\\\ .
+			) (*SKIP)(*FAIL) |
+			\(
+			(?!
+				\? (?! <(?![!=]) | P< | \' )
+				| \*
+			)
+		~x',
+		$regex
+	);
 }
 
 function err( string $Message ) : void
