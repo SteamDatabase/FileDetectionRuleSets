@@ -1,1 +1,1 @@
-[**CAS File**] any file with the .cas extension
+**CAS File** any file with the .cas extension

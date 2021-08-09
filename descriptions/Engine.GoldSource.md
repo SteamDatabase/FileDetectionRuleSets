@@ -1,1 +1,1 @@
-**GoldSrc** (sometimes also refered as **Gold Source**) is a modified version of Quake engine used in Valve games up until 2004 with the release of [Half-Life 2](https://steamdb.info/app/220/), powered by Source engine.
+[**GoldSource**](https://developer.valvesoftware.com/wiki/Goldsource) (also known as **GoldSrc**) is a modified version of Quake engine used in Valve games up until 2004 with the release of [Half-Life 2](https://steamdb.info/app/220/), powered by Source engine.
