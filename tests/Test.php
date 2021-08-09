@@ -192,10 +192,16 @@ function TestSorting( array $Rulesets ) : ?string
 				continue;
 			}
 
-			$where = array_search( $gamesKeys[ $i ], $gamesSortedKeys ) - array_search( $gamesSortedKeys[ $i ], $gamesKeys );
-			$message = $where > 0 ? ( $gamesKeys[ $i ] . '" is far too early' ) : ( $where === 0 ? $gamesKeys[ $i ] . '" is on an adjacent line' : $gamesSortedKeys[ $i ] . '" is far too late' );
+			$sortedPosition = array_search( $gamesKeys[ $i ], $gamesSortedKeys );
+			$actualPosition = array_search( $gamesSortedKeys[ $i ], $gamesKeys );
+			$shouldBe = $gamesSortedKeys[ $sortedPosition - 1 ];
 
-			return $message;
+			if( $actualPosition > $sortedPosition )
+			{
+				return "\"{$shouldBe}\" should be before \"{$gamesKeys[ $i ]}\"";
+			}
+
+			return "\"{$gamesKeys[ $i ]}\" should be after \"{$shouldBe}\"";
 		}
 	}
 
