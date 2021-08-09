@@ -21,7 +21,13 @@ foreach( $Rulesets as $Type => $Rules )
 		}
 
 		$File = __DIR__ . '/types/' . $Type . '.' . $Name . '.txt';
-		$Tests = file( $File, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
+		$Tests = [];
+
+		if( file_exists( $File ) )
+		{
+			$Tests = file( $File, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
+		}
+
 		$Output = [];
 		$Added = false;
 
