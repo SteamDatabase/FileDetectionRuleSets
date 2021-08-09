@@ -1,0 +1,1 @@
+[**NVIDIA® Nsight™ Aftermath**](https://developer.nvidia.com/nsight-aftermath) is a library for DirectX 12 or Vulkan game crash reporters that generates GPU "mini-dumps" when a Time-Out Detection and Recovery or exception occurs.

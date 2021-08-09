@@ -387,3 +387,6 @@ win64/fmod64.dlll
 fmodstudiodll
 game/bin/win64/qt_plugins/sqldrivers/qsqlited4.dll
 game/bin/win64/qt_plugins/qmltooling/qmldbg_tcpd4.dll
+GFSDK_Aftermath_Lib_UWP.x86
+gfsdk_aftermath_lib.dll
+libGFSDK_Aftermath_Lib.so
