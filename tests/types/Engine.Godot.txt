@@ -1,5 +1,1 @@
-/GODOT
-/libqodot.dll
-GODOT
 GODOT_LICENSE.txt
-libqodot.dll
