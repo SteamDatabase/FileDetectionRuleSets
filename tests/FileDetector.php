@@ -274,17 +274,14 @@ class FileDetector
 			
 			foreach($Exes as $exe) {
 				
-				//If we have found a particular exe format, check if there is a correspondingly named PCK file.
-				if ($FoundExe && isset($Pcks[ $exe ] ) ) { $ExePckPairs++; }
-				if ($FoundApp && isset($Pcks[ $exe ] ) ) { $ExePckPairs++; }
-				if ($FoundX86 && isset($Pcks[ $exe ] ) ) { $ExePckPairs++; }
-				if ($FoundX64 && isset($Pcks[ $exe ] ) ) { $ExePckPairs++; }
+				//If we have found a particular exe format, ensure there is a correspondingly named PCK file.
+				unset( $Pcks[ $exe ] );
 				
 			}
 			
 			//Make sure we do not have any "orphan" pck files that aren't paired with an executable
 			//There are some Godot games like that, but it's not worth the false positives
-			if($ExePckPairs >= count($Pcks))
+			if( empty($Pcks) )
 			{
 				return 'Engine.Godot';
 			}
