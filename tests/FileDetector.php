@@ -222,7 +222,7 @@ class FileDetector
 
 			foreach( $Files as $File )
 			{
-				$Extension = pathinfo( $File, PATHINFO_EXTENSION );
+				$Extension = strtolower( pathinfo( $File, PATHINFO_EXTENSION ) );
 				$BaseFile = basename($File);
 
 				if( $Extension === 'exe' )
@@ -249,25 +249,28 @@ class FileDetector
 				//There's also the case where a linux executable has no extension but I am not bothering to mess with that
 			}
 
-			//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
-			if( count( $Pcks ) === 1 && array_key_first($Pcks) === 'data.pck' )
+			// This can happen if Evidence.PCK finds "BASE.PCK", but the $Pcks will be empty due to case sensitivity
+			if( !empty( $Pcks ) )
 			{
-				return 'Engine.Godot';
-			}
+				//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
+				if( count( $Pcks ) === 1 && array_key_first( $Pcks ) === 'data.pck' )
+				{
+					return 'Engine.Godot';
+				}
 
-			//Otherwise we have to match up exe & pck pairs
-			foreach($Exes as $exe) {
+				//Otherwise we have to match up exe & pck pairs
+				foreach( $Exes as $exe )
+				{
+					//If we have found a particular exe format, ensure there is a correspondingly named PCK file.
+					unset( $Pcks[ $exe ] );
+				}
 
-				//If we have found a particular exe format, ensure there is a correspondingly named PCK file.
-				unset( $Pcks[ $exe ] );
-
-			}
-
-			//Make sure we do not have any "orphan" pck files that aren't paired with an executable
-			//There are some Godot games like that, but it's not worth the false positives
-			if( empty($Pcks) )
-			{
-				return 'Engine.Godot';
+				//Make sure we do not have any "orphan" pck files that aren't paired with an executable
+				//There are some Godot games like that, but it's not worth the false positives
+				if( empty( $Pcks ) )
+				{
+					return 'Engine.Godot';
+				}
 			}
 		}
 
