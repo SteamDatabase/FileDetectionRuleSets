@@ -229,10 +229,6 @@ class FileDetector
 				{
 					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".exe", ".pck");
 				}
-				else if( $Extension === 'app' )
-				{
-					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".app", ".pck");
-				}
 				else if( $Extension === 'x86' )
 				{
 					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".x86", ".pck");
@@ -241,12 +237,14 @@ class FileDetector
 				{
 					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".x86_64",".pck");
 				}
+				else if( $Extension === '' )
+				{
+					$Exes[ $BaseFile ] = $BaseFile.".pck";
+				}
 				else if( $Extension === 'pck' )
 				{
 					$Pcks[ $BaseFile ] = $BaseFile;
 				}
-
-				//There's also the case where a linux executable has no extension but I am not bothering to mess with that
 			}
 
 			// This can happen if Evidence.PCK finds "BASE.PCK", but the $Pcks will be empty due to case sensitivity
