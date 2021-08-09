@@ -213,21 +213,23 @@ class FileDetector
 		if( $has( 'Evidence.PCK' ) )
 		{
 			$Pcks = [];
-			$LastFoundExe = '';
+			$Exes = [];
 
 			foreach( $Files as $File )
 			{
+				$File = basename( $File );
+
 				//a data.pck file is usually a dead giveaway of Godot
-				if( basename( $File ) === 'data.pck' )
+				if( $File === 'data.pck' )
 				{
 					return 'Engine.Godot';
 				}
 
 				$Extension = pathinfo( $File, PATHINFO_EXTENSION );
 
-				if( $Extension === 'exe' )
+				if( $Extension === 'exe' || $Extension === 'app' )
 				{
-					$LastFoundExe = $File;
+					$Exes[ $File ] = true;
 				}
 				else if( $Extension === 'pck' )
 				{
@@ -235,10 +237,10 @@ class FileDetector
 				}
 			}
 
-			//If I have a matching EXE and PCK pair it's almost certainly GODOT
-			if( $LastFoundExe !== '' )
+			//If I have a matching EXE (or APP on mac) and PCK pair it's almost certainly GODOT
+			foreach( $Exes as $ExeName => $_ )
 			{
-				$PckName = substr( $LastFoundExe, 0, -3 ) . 'pck';
+				$PckName = substr( $ExeName, 0, -3 ) . 'pck';
 
 				if( isset( $Pcks[ $PckName ] ) )
 				{
