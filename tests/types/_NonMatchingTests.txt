@@ -393,3 +393,4 @@ game/bin/win64/qt_plugins/qmltooling/qmldbg_tcpd4.dll
 GFSDK_Aftermath_Lib_UWP.x86
 GFSDK_Aftermath_Lib_UWP.x64
 gfsdk_aftermath_lib
+sdfdata
