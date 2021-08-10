@@ -380,6 +380,12 @@ PhysX_32.dlll
 Dll/x64/PhisX_64.dll
 PysXCore.dll
 PhysXLoder.dll
+c2runtimexjs
+c3runtimexjs
+ac2runtime.js
+ac3runtime.js
+c2runtime.jss
+c3runtime.jss
 GameGuard.desu
 pso2_bin/GameGuarded.des
 Toobbii.EyeX.Client.dlll

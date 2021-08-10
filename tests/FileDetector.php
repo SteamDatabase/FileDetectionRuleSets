@@ -272,12 +272,6 @@ class FileDetector
 			}
 		}
 
-		//If I have a package.nw file and it matches nodeJS, it's probably Construct
-		if( $has( 'Evidence.PACKAGE_NW' ) && $has( 'SDK.NodeJS' ) )
-		{
-			return 'Engine.Construct';
-		}
-
 		//If I have matched nothing so far and I have a PK3 file, it's likely idTech3 (Quake3 engine)
 		if( $has( 'Evidence.PK3' ) )
 		{
