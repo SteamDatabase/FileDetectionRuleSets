@@ -371,6 +371,10 @@ discord_game_sdk.dllthatgame
 discord-rpcxdll
 discordxdll
 discord_game_sdkxdll
+/amd_ags_x64@dll
+/amd_ags_x86@dll
+amd_ags_x64@dll
+amd_ags_x86@dll
 /Local/English.hpk
 Local/Englishxhpk
 Local/English.hpkk
