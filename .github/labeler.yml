@@ -1,0 +1,5 @@
+"Type: Engine":
+  - **/Engine.*
+
+"Type: SDK":
+  - **/SDK.*
