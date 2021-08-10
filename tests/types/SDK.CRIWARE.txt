@@ -1,0 +1,6 @@
+/data/movie/ev0010.usm
+/data/data000.cpk
+/TekkenGame/Content/Movies/Gallery/sp/gmv_sp_000.usm
+/data/launch/data1.cpk
+/data/launch/adx2.cpk
+/AT/Content/DLC/05/Sound/Demo/C05_010_S010_gdm.awb

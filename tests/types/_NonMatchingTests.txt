@@ -395,3 +395,6 @@ GFSDK_Aftermath_Lib_UWP.x86
 GFSDK_Aftermath_Lib_UWP.x64
 gfsdk_aftermath_lib
 sdfdata
+gmv_sp_000.usn
+/data/launch/data1.xcpk
+C05_010_S010_gdm.awboops
