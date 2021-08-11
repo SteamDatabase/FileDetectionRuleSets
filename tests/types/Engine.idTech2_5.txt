@@ -1,0 +1,9 @@
+/baseq2
+/baseq2/
+baseq2
+baseq2/
+baseq2/models
+baseq2/pak0.pk3
+baseq2/pak1.pk3
+baseq2/pics
+baseq2/st
