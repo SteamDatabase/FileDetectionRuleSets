@@ -1,1 +1,0 @@
-**OPTIONS.INI file** any file with the exact name options.ini. This is a common name for a generic settings file and can be associated with any engine, but it is very common to find in GameMaker games in particular.
