@@ -1,0 +1,16 @@
+/AkSoundEngine.bundle
+/AkSoundEngine.dll
+/AkSoundEngine.so
+/libAkSoundEngine.bundle
+/libAkSoundEngine.dll
+/libAkSoundEngine.so
+AkSoundEngine.bundle
+AkSoundEngine.dll
+AkSoundEngine.so
+EtG_Data/Plugins/AkSoundEngine.dll
+Firewatch.app/Contents/Plugins/AkSoundEngine.bundle
+YookaLaylee_Data/Plugins/x86/libAkSoundEngine.so
+YookaLaylee64_Data/Plugins/AkSoundEngine.dll
+libAkSoundEngine.bundle
+libAkSoundEngine.dll
+libAkSoundEngine.so
