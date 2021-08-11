@@ -1,0 +1,1 @@
+[**Script Creation Utility for Maniac Mansion Virtual Machine (ScummVM)**](https://www.scummvm.org/) is a set of game engine recreations. Originally designed to play LucasArts adventure games that use the SCUMM system, it also supports a variety of non-SCUMM games by companies like Revolution Software and Adventure Soft.
