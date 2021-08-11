@@ -1,1 +1,0 @@
-[**Quake engine**](https://github.com/id-Software/Quake) is the game engine developed by id Software to power their 1996 video game Quake. It featured true 3D real-time rendering and is now licensed under the terms of GNU General Public License v2.0 or later. 
