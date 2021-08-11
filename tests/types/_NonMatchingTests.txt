@@ -409,3 +409,5 @@ Unigine_x64.pak
 UnigineEngine.dll
 Unigine_x86_dll
 libUnigine.so
+thisaintproject.godot
+project.godotfork
