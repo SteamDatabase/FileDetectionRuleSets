@@ -7,7 +7,6 @@
 /game.ios
 /game.unx
 /gm7zip.dll
-/joydll.dll
 /libYoYoGamepad.dylib
 /rousrDissonance.dll
 /something.gmbck
@@ -22,7 +21,6 @@ display_mouse_lock.dll
 game.ios
 game.unx
 gm7zip.dll
-joydll.dll
 libYoYoGamepad.dylib
 rousrDissonance.dll
 something.gmbck
@@ -34,7 +32,6 @@ sub/dir/audiogroup1.dat
 sub/dir/display_mouse_lock.dll
 sub/dir/game.ios
 sub/dir/game.unx
-sub/dir/joydll.dll
 sub/dir/libYoYoGamepad.dylib
 sub/dir/rousrDissonance.dll
 sub/dir/window_set_cursor.dll
