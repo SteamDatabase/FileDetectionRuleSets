@@ -1,1 +1,1 @@
-[**RPG Maker**](https://www.rpgmakerweb.com/) is a series of programs for the development of role-playing video games (RPGs) with story-driven elements, created by the Japanese group ASCII, succeeded by Enterbrain.
+[**RPG Maker**](https://www.rpgmakerweb.com/) is a series of development tools for the creation of role-playing video games (RPGs) with story-driven elements, created by the Japanese group ASCII, succeeded by Enterbrain.

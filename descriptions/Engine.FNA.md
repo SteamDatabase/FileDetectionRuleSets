@@ -1,1 +1,1 @@
-[**FNA**](https://fna-xna.github.io/) is is an open-source multi-platform reimplementation of the Microsoft XNA 4.0 libraries.
+[**FNA**](https://fna-xna.github.io/) is an open-source multi-platform reimplementation of the Microsoft XNA 4.0 libraries.
