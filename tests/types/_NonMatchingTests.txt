@@ -426,8 +426,6 @@ frousrDissonance.dll
 fCleanMem.dll
 fwindow_set_cursor.dll
 fjoydll.dll
-fsomething.gmbck
-fsomething.gmspr
 fGMXInput.dll
 fgm7zip.dll
 sub/dir/fgame.unx
@@ -441,8 +439,6 @@ sub/dir/frousrDissonance.dll
 sub/dir/fCleanMem.dll
 sub/dir/fwindow_set_cursor.dll
 sub/dir/fjoydll.dll
-sub/dir/fsomething.gmbck
-sub/dir/fsomething.gmspr
 sub/dir/fGMXInput.dll
 sub/dir/fgm7zip.dll
 game.unxf
