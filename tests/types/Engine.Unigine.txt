@@ -1,0 +1,9 @@
+bin/Unigine_x64.dll
+bin/Unigine_x86.dll
+bin/libUnigine_x64.so
+Unigine_x64.dll
+Unigine_x86.dll
+libUnigine_x64.so
+/Unigine_x64.dll
+/Unigine_x86.dll
+/libUnigine_x64.so
