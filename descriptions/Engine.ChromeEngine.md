@@ -1,1 +1,1 @@
-[**Chrome Engine**](https://web.archive.org/web/20170506215137/https://technology.techland.pl/) is a proprietary 3D game engine developed by Techland.
+[**Chrome Engine**](https://en.wikipedia.org/wiki/Chrome_Engine) is a proprietary 3D game engine developed by Techland.
