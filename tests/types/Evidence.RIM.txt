@@ -1,0 +1,5 @@
+.rim
+Sub/Folder/something.rim
+blah.rim
+something.rim
+sub/blah.rim

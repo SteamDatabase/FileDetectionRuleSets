@@ -1,0 +1,1 @@
+[**Infinity Engine**](https://en.wikipedia.org/wiki/BioWare#Technology) is developed by BioWare and was used to produce the Baldur's Gate, Neverwinter Nights, and Planescape: Torment games. An updated version was used to put out the "enhanced edition" of those same games.

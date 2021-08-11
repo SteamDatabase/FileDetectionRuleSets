@@ -1,0 +1,1 @@
+[**Adventure Game Interpreter (AGI)**](https://en.wikipedia.org/wiki/Adventure_Game_Interpreter) is a game engine developed by Sierra On-Line, first used in the game King's Quest released in 1984.

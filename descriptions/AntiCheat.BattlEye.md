@@ -1,0 +1,1 @@
+[**BattlEye**](https://www.battleye.com/) is an anti-cheat system which protects games and their players from hacking, cheating and other forms of attacks. 

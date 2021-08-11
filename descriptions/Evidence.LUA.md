@@ -1,1 +1,0 @@
-[**LUA File**](https://www.lua.org) any file with the .lua extension. This is typically a LUA source file, which is a very popular scripting language used across a variety of game engines.

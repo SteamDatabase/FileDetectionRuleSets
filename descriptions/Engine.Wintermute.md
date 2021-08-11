@@ -1,0 +1,1 @@
+[**Wintermute Engine**](http://dead-code.org/home/index.php) is a set of tools for creating and running graphical “point&click” adventure games, both traditional 2D ones and modern 2.5D games (3D characters on 2D backgrounds). 

@@ -1,0 +1,1 @@
+[**Adobe AIR (also known as Adobe Integrated Runtime)**](https://airsdk.harman.com/) is a cross-platform runtime system for building desktop applications and mobile applications. It's primary way people ship flash games on desktop.  It was originally released by Adobe in 2008 and is currently actively developed and maintained by Harman International. 
