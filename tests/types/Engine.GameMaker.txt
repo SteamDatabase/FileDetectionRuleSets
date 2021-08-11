@@ -13,7 +13,6 @@ CleanMem.dll
 Steamworks.gmk.dll
 Steamworks.gml.dll
 audiogroup1.dat
-audiogroup1@dat
 display_mouse_lock.dll
 game.ios
 game.unx
