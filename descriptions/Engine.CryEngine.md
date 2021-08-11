@@ -1,0 +1,1 @@
+[**CryEngine**](https://www.cryengine.com/) is a game engine developped by Crytek. It was first used in the game [Far Cry](https://steamdb.info/app/13520/). Crytek has since then kept updating it.
