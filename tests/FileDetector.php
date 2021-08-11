@@ -220,10 +220,15 @@ class FileDetector
 			return 'Engine.Frostbite';
 		}
 
-		//If we have both BIF and TLK files it's probably Aurora Engine
+		//If we have both BIF and TLK files it's probably a BioWare Engine
 		if( $count( [ 'Evidence.BIF', 'Evidence.TLK' ] ) > 1 )
 		{
-			return 'Engine.Aurora';
+			if( $count( [ 'Evidence.RIM', 'Evidence.TGA' ] ) > 1)
+			{
+				//RIM and TGA are found in Aurora but not in Infinity
+				return 'Engine.Aurora';
+			}
+			return 'Engine.Infinity';
 		}
 
 		//Any 2 of options.ini + data.win + snd_<whatever>.ogg is a good sign of a GameMaker Game
@@ -286,6 +291,11 @@ class FileDetector
 			else if( $Extension === 'x86_64' )
 			{
 				$Exes[ $swapExtension( $BaseFile, ".x86_64", ".pck" ) ] = true;
+			}
+			else
+			{
+				//Mac and Linux can have extensionless executables, make sure we don't have folders in the mix, just filenames though
+				$Exes[ $BaseFile . ".pck" ] = true;
 			}
 		}
 
