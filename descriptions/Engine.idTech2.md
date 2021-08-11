@@ -1,0 +1,1 @@
+**id Tech 2** is a proprietary game engine developed by id Software. It has 2 variants, the Quake engine and the Quake II engine respectively used in [Quake](https://steamdb.info/app/2310/) and in [Quake II](https://steamdb.info/app/2320/)
