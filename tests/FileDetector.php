@@ -166,6 +166,7 @@ class FileDetector
 		// helper functions
 		$has = fn( string $Match ) : bool => isset( $Matches[ $Match ] );
 		$not = fn( string $Match ) : bool => !isset( $Matches[ $Match ] );
+
 		$count = function( array $Search ) use ( $Matches ) : int
 		{
 			$Count = 0;
@@ -238,7 +239,7 @@ class FileDetector
 		}
 
 		//If I have a PCK file it might be Godot
-		if( $has( 'Evidence.PCK' ) && self::IsEngineGodot( $Files ) )
+		if( $has( 'Evidence.PCK' ) && $count(['Engine.Unreal','Engine.idTech5','Engine.idTech6','Engine.idTech7','Emulator.DOSBOX']) == 0 && self::IsEngineGodot( $Files ) )
 		{
 			return 'Engine.Godot';
 		}
@@ -276,20 +277,15 @@ class FileDetector
 			}
 			if( $Extension === 'exe' )
 			{
-				$Exes[] = $swapExtension( $BaseFile, ".exe", ".pck" );
+				$Exes[ $swapExtension( $BaseFile, ".exe", ".pck" ) ] = true;
 			}
 			else if( $Extension === 'x86' )
 			{
-				$Exes[] = $swapExtension( $BaseFile, ".x86", ".pck" );
+				$Exes[ $swapExtension( $BaseFile, ".x86", ".pck" ) ] = true;
 			}
 			else if( $Extension === 'x86_64' )
 			{
-				$Exes[] = $swapExtension( $BaseFile, ".x86_64", ".pck" );
-			}
-			else
-			{
-				// Extensionless executables (on macos) can contain dots, so test all files as-is
-				$Exes[] = $BaseFile . '.pck';
+				$Exes[ $swapExtension( $BaseFile, ".x86_64", ".pck" ) ] = true;
 			}
 		}
 
@@ -303,17 +299,13 @@ class FileDetector
 			}
 
 			//Otherwise we have to match up exe & pck pairs
-			foreach( $Exes as $exe )
+			foreach ( array_keys($Pcks) as $pck )
 			{
-				//If we have found a particular exe format, ensure there is a correspondingly named PCK file.
-				unset( $Pcks[ $exe ] );
-			}
-
-			//Make sure we do not have any "orphan" pck files that aren't paired with an executable
-			//There are some Godot games like that, but it's not worth the false positives
-			if( empty( $Pcks ) )
-			{
-				return true;
+				//If we match an exe and a pck file pair, we're good
+				if( isset ( $Exes [ $pck ] ) )
+				{
+					return true;
+				}
 			}
 		}
 
