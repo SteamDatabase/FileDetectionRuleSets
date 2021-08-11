@@ -1,0 +1,1 @@
+[**Adobe AIR (also known as Adobe Integrated Runtime)**](https://airsdk.harman.com/) is a cross-platform runtime system currently developed by Harman International for building desktop applications and mobile applications. It was originally released in 2008. 
