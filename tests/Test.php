@@ -119,7 +119,13 @@ foreach( $TestsIterator as $File )
 	}
 }
 
-foreach( array_unique( $Detector->Map ) as $TestType )
+// Really basic code to find extra detections that aren't specified in rules.ini
+$Code = file_get_contents( __DIR__ . '/FileDetector.php' );
+preg_match_all( '/[\'"](?<string>(?:' . implode( '|', array_keys( $Rulesets ) ) . ')\.\w+)[\'"]/', $Code, $Matches );
+
+$AllFoundTestTypes = array_unique( array_merge( $Detector->Map, $Matches[ 'string' ] ) );
+
+foreach( $AllFoundTestTypes as $TestType )
 {
 	if( !isset( $SeenTestTypes[ $TestType ] ) )
 	{
@@ -214,7 +220,7 @@ function TestSorting( array $Rulesets ) : ?string
 	return null;
 }
 
-function RunTwoPassTest( FileDetector $Detector )
+function RunTwoPassTest( FileDetector $Detector ) : void
 {
 	require __DIR__ . '/Test2Pass.php';
 }
