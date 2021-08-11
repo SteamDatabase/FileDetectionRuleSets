@@ -405,3 +405,5 @@ GFSDK_Aftermath_Lib_UWP.x86
 GFSDK_Aftermath_Lib_UWP.x64
 gfsdk_aftermath_lib
 sdfdata
+thisaintproject.godot
+project.godotfork

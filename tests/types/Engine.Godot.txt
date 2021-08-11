@@ -1,0 +1,3 @@
+/project.godot
+Sub/Folder/project.godot
+project.godot
