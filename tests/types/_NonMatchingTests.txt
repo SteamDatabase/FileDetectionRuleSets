@@ -405,3 +405,15 @@ GFSDK_Aftermath_Lib_UWP.x86
 GFSDK_Aftermath_Lib_UWP.x64
 gfsdk_aftermath_lib
 sdfdata
+agd.js
+gd.jss
+gd_js
+gdd.js
+AGDCpp.dll
+GDCpp.dlll
+GDCpp_dll
+GDCppp.dll
+libAGDCpp.so
+libGDCpp.soo
+libGDCpp_so
+libGDCppp.so

@@ -1,0 +1,8 @@
+/gd.js
+/GDCpp.dll
+/libGDCpp.so
+/libGDCpp.dylib
+gd.js
+GDCpp.dll
+libGDCpp.so
+libGDCpp.dylib
