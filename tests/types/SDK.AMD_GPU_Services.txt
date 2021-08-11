@@ -1,3 +1,5 @@
+/amd_ags_x64.dll
+/amd_ags_x86.dll
 Binaries/amd_ags_x64.dll
 amd_ags_x64.dll
 amd_ags_x86.dll
