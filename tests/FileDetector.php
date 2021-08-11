@@ -223,7 +223,7 @@ class FileDetector
 		//If we have both BIF and TLK files it's probably a BioWare Engine
 		if( $count( [ 'Evidence.BIF', 'Evidence.TLK' ] ) > 1 )
 		{
-			if( $count( [ 'Evidence.RIM', 'Evidence.TGA' ] ) > 0)
+			if( $has('Evidence.RIM') || $has('Evidence.TGA') )
 			{
 				//RIM and TGA are found in Aurora but not in Infinity
 				return 'Engine.Aurora';
