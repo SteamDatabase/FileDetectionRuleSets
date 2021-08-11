@@ -1,0 +1,19 @@
+# Known un-detected or chronically under-counted engines
+
+The following engines are known to be underreported by our heuristics
+
+## HaxeFlixel
+
+HaxeFlixel is one of the most popular engines built on Lime/OpenFL but gives off no particular signal of its own. The best we can do is detect Lime/OpenFL.
+
+## Construct
+
+We detect Construct games based on the presence of a particular JS file. However, it is possible to package all the content in a package.nw file, which hides this information from us and makes it indistinguishable from a generic Node.JS game. The best we can do for these missing cases is detect NodeJS.
+
+## GameMaker
+
+It is possible to package a GameMaker game as a standalone executable with no supporting files, or only very generic ones.
+
+## Godot
+
+Godot games can also be packaged as standalone executables with no external asset files.
