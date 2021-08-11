@@ -471,3 +471,7 @@ sub/dir/something.gmbckf
 sub/dir/something.gmsprf
 sub/dir/GMXInput.dllf
 sub/dir/gm7zip.dllf
+
+chroome_elf.dll
+chrome_elf
+libbcef.so
