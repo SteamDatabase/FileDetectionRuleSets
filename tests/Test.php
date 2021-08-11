@@ -44,80 +44,10 @@ foreach( $Rulesets as $Type => $Rules )
 $Detector = new FileDetector( $Rulesets, null );
 $Detector->FilterEvidenceMatches = false;
 
-$TestsIterator = new DirectoryIterator( __DIR__ . '/types' );
 $SeenTestTypes = [];
 
-foreach( $TestsIterator as $File )
-{
-	if( $File->getExtension() !== 'txt' )
-	{
-		continue;
-	}
-
-	$TestFilePaths = file( $File->getPathname(), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
-	$ExpectedType = $File->getBasename( '.txt' );
-
-	if( $ExpectedType === '_NonMatchingTests' )
-	{
-		$ExpectedType = null;
-	}
-
-	$AlreadySeenStrings = [];
-
-	foreach( $TestFilePaths as $Path )
-	{
-		if( isset( $AlreadySeenStrings[ $Path ] ) )
-		{
-			$FailingTests[] = "Path \"$Path\" in \"$File\" is defined more than once";
-			continue;
-		}
-
-		$AlreadySeenStrings[ $Path ] = true;
-
-		$Actual = $Detector->GetMatchesForFileList( [ $Path ] );
-
-		if( preg_last_error() !== PREG_NO_ERROR )
-		{
-			err( 'Regex is failing: ' . preg_last_error_msg() );
-			exit( 2 );
-		}
-
-		if( $ExpectedType === null )
-		{
-			if( empty( $Actual ) )
-			{
-				continue;
-			}
-
-			foreach( $Actual as $Match => $Count )
-			{
-				if( str_starts_with( $Match, 'Evidence.' ) )
-				{
-					// Evidence tests get ignored when matching non-matching tests
-					continue;
-				}
-				else
-				{
-					$FailingTests[] = "Path \"$Path\" returned \"$Match\" but it should not have matched anything";
-				}
-			}
-		}
-		else
-		{
-			if( isset( $Actual[ $ExpectedType ] ) )
-			{
-				continue;
-			}
-
-			$FailingTests[] = "Path \"$Path\" does not match for \"$ExpectedType\"";
-		}
-	}
-
-	if( !empty( $TestFilePaths ) )
-	{
-		$SeenTestTypes[ $ExpectedType ] = true;
-	}
-}
+TestBasicRules( $Detector, $SeenTestTypes, $FailingTests );
+TestFilelists( $Detector, $SeenTestTypes, $FailingTests );
 
 // Really basic code to find extra detections that aren't specified in rules.ini
 $Code = file_get_contents( __DIR__ . '/FileDetector.php' );
@@ -155,8 +85,6 @@ else
 {
 	echo "All tests have passed.\n";
 }
-
-RunTwoPassTest( $Detector );
 
 function RegexHasCapturingGroups( string $regex ) : bool
 {
@@ -220,9 +148,122 @@ function TestSorting( array $Rulesets ) : ?string
 	return null;
 }
 
-function RunTwoPassTest( FileDetector $Detector ) : void
+
+function TestBasicRules( FileDetector $Detector, array &$SeenTestTypes, array &$FailingTests ) : void
 {
-	require __DIR__ . '/Test2Pass.php';
+	$TestsIterator = new DirectoryIterator( __DIR__ . '/types' );
+
+	foreach( $TestsIterator as $File )
+	{
+		if( $File->getExtension() !== 'txt' )
+		{
+			continue;
+		}
+
+		$TestFilePaths = file( $File->getPathname(), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
+		$ExpectedType = $File->getBasename( '.txt' );
+
+		if( $ExpectedType === '_NonMatchingTests' )
+		{
+			$ExpectedType = null;
+		}
+
+		$AlreadySeenStrings = [];
+
+		foreach( $TestFilePaths as $Path )
+		{
+			if( isset( $AlreadySeenStrings[ $Path ] ) )
+			{
+				$FailingTests[] = "Path \"$Path\" in \"$File\" is defined more than once";
+				continue;
+			}
+
+			$AlreadySeenStrings[ $Path ] = true;
+
+			$Actual = $Detector->GetMatchesForFileList( [ $Path ] );
+
+			if( preg_last_error() !== PREG_NO_ERROR )
+			{
+				err( 'Regex is failing: ' . preg_last_error_msg() );
+				exit( 2 );
+			}
+
+			if( $ExpectedType === null )
+			{
+				if( empty( $Actual ) )
+				{
+					continue;
+				}
+
+				foreach( $Actual as $Match => $Count )
+				{
+					if( str_starts_with( $Match, 'Evidence.' ) )
+					{
+						// Evidence tests get ignored when matching non-matching tests
+						continue;
+					}
+					else
+					{
+						$FailingTests[] = "Path \"$Path\" returned \"$Match\" but it should not have matched anything";
+					}
+				}
+			}
+			else
+			{
+				if( isset( $Actual[ $ExpectedType ] ) )
+				{
+					continue;
+				}
+
+				$FailingTests[] = "Path \"$Path\" does not match for \"$ExpectedType\"";
+			}
+		}
+
+		if( !empty( $TestFilePaths ) )
+		{
+			$SeenTestTypes[ $ExpectedType ] = true;
+		}
+	}
+}
+
+function TestFilelists( FileDetector $Detector, array &$SeenTestTypes, array &$FailingTests ) : void
+{
+	$TestsIterator = new DirectoryIterator( __DIR__ . '/filelists' );
+
+	foreach( $TestsIterator as $File )
+	{
+		if( $File->getExtension() !== 'txt' )
+		{
+			continue;
+		}
+
+		$TestFilePaths = file( $File->getPathname(), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
+		$BaseName = $File->getBasename( '.txt' );
+		$Bits = explode( '.', $BaseName, 3 );
+		$Title = $Bits[ 2 ] ?? '';
+		$ExpectedType = $Bits[ 0 ] . '.' . $Bits[ 1 ];
+
+		if( !empty( $TestFilePaths ) )
+		{
+			$SeenTestTypes[ $ExpectedType ] = true;
+		}
+
+		$Matches = $Detector->GetMatchesForFileList( $TestFilePaths );
+
+		if( !isset( $Matches[ $ExpectedType ] ) )
+		{
+			$FailingTests[] = "Failed to match $ExpectedType for filelists/$BaseName (matched as " . implode( ', ', array_keys( $Matches ) ) . ")";
+		}
+
+		foreach( $Matches as $Key => $Count )
+		{
+			if( $Key !== $ExpectedType && str_starts_with( $Key, 'Engine.' ) )
+			{
+				$FailingTests[] = "FALSE Positive? $ExpectedType for filelists/$BaseName (matched as " . implode( ', ', array_keys( $Matches ) ) . ")";
+				break;
+			}
+		}
+	}
 }
 
 function err( string $Message ) : void
