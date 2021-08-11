@@ -1,1 +1,0 @@
-**CFG File** any file with the .cfg extension

@@ -134,7 +134,7 @@ foreach( $AllFoundTestTypes as $TestType )
 
 	$File = __DIR__ . '/../descriptions/' . $TestType . '.md';
 
-	if( !file_exists( $File ) )
+	if( !str_starts_with( $TestType, 'Evidence.' ) && !file_exists( $File ) )
 	{
 		$FailingTests[] = "\"descriptions/{$TestType}.md\" does not exist";
 	}
