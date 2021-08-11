@@ -405,6 +405,12 @@ GFSDK_Aftermath_Lib_UWP.x86
 GFSDK_Aftermath_Lib_UWP.x64
 gfsdk_aftermath_lib
 sdfdata
+Unigine_x64.pak
+UnigineEngine.dll
+Unigine_x86_dll
+libUnigine.so
+thisaintproject.godot
+project.godotfork
 agd.js
 gd.jss
 gd_js

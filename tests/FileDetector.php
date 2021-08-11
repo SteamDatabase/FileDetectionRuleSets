@@ -4,12 +4,28 @@ declare(strict_types=1);
 class FileDetector
 {
 	public bool $FilterEvidenceMatches = true;
+
+	/** @var string[] */
 	public array $Map = [];
+
+	/** @var string[] */
 	public array $Regexes = [];
 
+	/**
+	 * @param ?array<string, array<string, string|string[]>> $Rulesets
+	 */
 	public function __construct( ?array $Rulesets, ?string $Path )
 	{
-		$Rulesets ??= parse_ini_file( $Path, true, INI_SCANNER_RAW );
+		if( $Rulesets === null )
+		{
+			if( $Path === null )
+			{
+				throw new RuntimeException( 'Pass in rulesets or path.' );
+			}
+
+			/** @var array<string, array<string, string|string[]>> $Rulesets */
+			$Rulesets = parse_ini_file( $Path, true, INI_SCANNER_RAW );
+		}
 
 		// This is a common regex to detect folders (or files in root folder),
 		// as there are enough of these rules, we combine these into a subregex
@@ -63,6 +79,10 @@ class FileDetector
 		}
 	}
 
+	/**
+	 * @param string[] $Files
+	 * @return array<array{File: string, Match: string}>
+	 */
 	public function GetMatchedFiles( array $Files ) : array
 	{
 		$Matches = [];
@@ -87,6 +107,10 @@ class FileDetector
 		return $Matches;
 	}
 
+	/**
+	 * @param string[] $Files
+	 * @return array<string, int>
+	 */
 	public function GetMatchesForFileList( array $Files ) : array
 	{
 		$Matches = [];
@@ -113,7 +137,7 @@ class FileDetector
 
 		if( !empty( $Matches ) )
 		{
-			$EducatedGuess = $this->TryDeduceEngine( $Files, $Matches );
+			$EducatedGuess = self::TryDeduceEngine( $Files, $Matches );
 
 			if( $EducatedGuess !== null )
 			{
@@ -133,12 +157,15 @@ class FileDetector
 		return $Matches;
 	}
 
-	public function TryDeduceEngine( array $Files, array $Matches ) : ?string
+	/**
+	 * @param string[] $Files
+	 * @param array<string, int> $Matches
+	 */
+	private static function TryDeduceEngine( array $Files, array $Matches ) : ?string
 	{
 		// helper functions
 		$has = fn( string $Match ) : bool => isset( $Matches[ $Match ] );
 		$not = fn( string $Match ) : bool => !isset( $Matches[ $Match ] );
-		$swapExtension = fn( string $FileName, string $OldExtension, string $NewExtension ) : string => basename($FileName, $OldExtension) . $NewExtension;
 		$count = function( array $Search ) use ( $Matches ) : int
 		{
 			$Count = 0;
@@ -193,7 +220,7 @@ class FileDetector
 		}
 
 		//If we have both BIF and TLK files it's probably Aurora Engine
-		if( $count( ['Evidence.BIF', 'Evidence.TLK']) > 1)
+		if( $count( [ 'Evidence.BIF', 'Evidence.TLK' ] ) > 1 )
 		{
 			return 'Engine.Aurora';
 		}
@@ -211,65 +238,9 @@ class FileDetector
 		}
 
 		//If I have a PCK file it might be Godot
-		if( $has( 'Evidence.PCK' ) )
+		if( $has( 'Evidence.PCK' ) && self::IsEngineGodot( $Files ) )
 		{
-			//This is a really long and annoying check. Basically we have two things to look for:
-			//1. A single .pck file named exactly "data.pck", and NO other pck files
-			//2. For every executable, a correspondingly named pck file, and no other pck files
-
-			$Pcks = [];
-			$Exes = [];
-
-			foreach( $Files as $File )
-			{
-				$Extension = strtolower( pathinfo( $File, PATHINFO_EXTENSION ) );
-				$BaseFile = basename($File);
-
-				if( $Extension === 'exe' )
-				{
-					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".exe", ".pck");
-				}
-				else if( $Extension === 'x86' )
-				{
-					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".x86", ".pck");
-				}
-				else if( $Extension === 'x86_64' )
-				{
-					$Exes[ $BaseFile ] = $swapExtension($BaseFile, ".x86_64",".pck");
-				}
-				else if( $Extension === '' )
-				{
-					$Exes[ $BaseFile ] = $BaseFile.".pck";
-				}
-				else if( $Extension === 'pck' )
-				{
-					$Pcks[ $BaseFile ] = $BaseFile;
-				}
-			}
-
-			// This can happen if Evidence.PCK finds "BASE.PCK", but the $Pcks will be empty due to case sensitivity
-			if( !empty( $Pcks ) )
-			{
-				//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
-				if( count( $Pcks ) === 1 && array_key_first( $Pcks ) === 'data.pck' )
-				{
-					return 'Engine.Godot';
-				}
-
-				//Otherwise we have to match up exe & pck pairs
-				foreach( $Exes as $exe )
-				{
-					//If we have found a particular exe format, ensure there is a correspondingly named PCK file.
-					unset( $Pcks[ $exe ] );
-				}
-
-				//Make sure we do not have any "orphan" pck files that aren't paired with an executable
-				//There are some Godot games like that, but it's not worth the false positives
-				if( empty( $Pcks ) )
-				{
-					return 'Engine.Godot';
-				}
-			}
+			return 'Engine.Godot';
 		}
 
 		//If I have matched nothing so far and I have a PK3 file, it's likely idTech3 (Quake3 engine)
@@ -279,5 +250,73 @@ class FileDetector
 		}
 
 		return null;
+	}
+
+	/**
+	 * @param string[] $Files
+	 */
+	private static function IsEngineGodot( array $Files ) : bool
+	{
+		//This is a really long and annoying check. Basically we have two things to look for:
+		//1. A single .pck file named exactly "data.pck", and NO other pck files
+		//2. For every executable, a correspondingly named pck file, and no other pck files
+
+		$swapExtension = fn( string $FileName, string $OldExtension, string $NewExtension ) : string => basename( $FileName, $OldExtension ) . $NewExtension;
+		$Pcks = [];
+		$Exes = [];
+
+		foreach( $Files as $File )
+		{
+			$Extension = strtolower( pathinfo( $File, PATHINFO_EXTENSION ) );
+			$BaseFile = basename( $File );
+
+			if( $Extension === 'pck' )
+			{
+				$Pcks[ $BaseFile ] = true;
+			}
+			if( $Extension === 'exe' )
+			{
+				$Exes[] = $swapExtension( $BaseFile, ".exe", ".pck" );
+			}
+			else if( $Extension === 'x86' )
+			{
+				$Exes[] = $swapExtension( $BaseFile, ".x86", ".pck" );
+			}
+			else if( $Extension === 'x86_64' )
+			{
+				$Exes[] = $swapExtension( $BaseFile, ".x86_64", ".pck" );
+			}
+			else
+			{
+				// Extensionless executables (on macos) can contain dots, so test all files as-is
+				$Exes[] = $BaseFile . '.pck';
+			}
+		}
+
+		// This can happen if Evidence.PCK finds "BASE.PCK", but the $Pcks will be empty due to case sensitivity
+		if( !empty( $Pcks ) )
+		{
+			//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
+			if( count( $Pcks ) === 1 && array_key_first( $Pcks ) === 'data.pck' )
+			{
+				return true;
+			}
+
+			//Otherwise we have to match up exe & pck pairs
+			foreach( $Exes as $exe )
+			{
+				//If we have found a particular exe format, ensure there is a correspondingly named PCK file.
+				unset( $Pcks[ $exe ] );
+			}
+
+			//Make sure we do not have any "orphan" pck files that aren't paired with an executable
+			//There are some Godot games like that, but it's not worth the false positives
+			if( empty( $Pcks ) )
+			{
+				return true;
+			}
+		}
+
+		return false;
 	}
 }
