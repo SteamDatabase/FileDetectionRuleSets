@@ -426,6 +426,10 @@ frousrDissonance.dll
 fCleanMem.dll
 fwindow_set_cursor.dll
 fjoydll.dll
+fsomething.gmbck
+fsomething.gmspr
+fGMXInput.dll
+fgm7zip.dll
 sub/dir/fgame.unx
 sub/dir/fgame.ios
 sub/dir/flibYoYoGamepad.dylib
@@ -437,6 +441,10 @@ sub/dir/frousrDissonance.dll
 sub/dir/fCleanMem.dll
 sub/dir/fwindow_set_cursor.dll
 sub/dir/fjoydll.dll
+sub/dir/fsomething.gmbck
+sub/dir/fsomething.gmspr
+sub/dir/fGMXInput.dll
+sub/dir/fgm7zip.dll
 game.unxf
 game.iosf
 libYoYoGamepad.dylibf
@@ -448,6 +456,10 @@ rousrDissonance.dllf
 CleanMem.dllf
 window_set_cursor.dllf
 joydll.dllf
+something.gmbckf
+something.gmsprf
+GMXInput.dllf
+gm7zip.dllf
 sub/dir/game.unxf
 sub/dir/game.iosf
 sub/dir/libYoYoGamepad.dylibf
@@ -459,3 +471,7 @@ sub/dir/rousrDissonance.dllf
 sub/dir/CleanMem.dllf
 sub/dir/window_set_cursor.dllf
 sub/dir/joydll.dllf
+sub/dir/something.gmbckf
+sub/dir/something.gmsprf
+sub/dir/GMXInput.dllf
+sub/dir/gm7zip.dllf
