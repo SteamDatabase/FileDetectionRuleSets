@@ -1,0 +1,3 @@
+ng32/steam.hdll
+steam.hdll
+sdl.hdll
