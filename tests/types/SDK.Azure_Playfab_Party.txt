@@ -1,0 +1,10 @@
+/PartyWin.dll
+/PartyWin32.dll
+/PartyWin7.dll
+/PartyXboxLive.dll
+/PartyXboxLiveWin32.dll
+PartyWin.dll
+PartyWin32.dll
+PartyWin7.dll
+PartyXboxLive.dll
+PartyXboxLiveWin32.dll
