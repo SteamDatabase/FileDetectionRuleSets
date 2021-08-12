@@ -483,3 +483,4 @@ gmv_sp_000.usn
 C05_010_S010_gdm.awboops
 common.rpof
 update/update.rpff
+metadata.data
