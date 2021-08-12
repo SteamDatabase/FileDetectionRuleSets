@@ -1,3 +1,5 @@
+.gmbck
+.gmspr
 /CleanMem.dll
 /GMXInput.dll
 /Steamworks.gmk.dll
