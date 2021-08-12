@@ -4,6 +4,9 @@
 /FlashPlayer
 /FlashPlayer.
 /FlashPlayer/
+/Flash_Player
+/Flash_Player.
+/Flash_Player/
 /StandalonePlayerLocalizable.strings
 /StandalonePlayerLocalizable.strings/
 Flash Player
@@ -12,6 +15,9 @@ Flash Player/
 FlashPlayer
 FlashPlayer.
 FlashPlayer/
+Flash_Player
+Flash_Player.
+Flash_Player/
 StandalonePlayerLocalizable.strings
 StandalonePlayerLocalizable.strings/
 flash_player
