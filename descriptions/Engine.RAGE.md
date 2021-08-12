@@ -1,1 +1,2 @@
 [**RAGE (Rockstar Advanced Game Engine)**] is a proprietary game engine developed by RAGE Technology Group, a division of Rockstar Games. It was first used in the game Rockstar Games Presents Table Tennis released in 2006. Since then, Rockstar has kept developing it.
+It should not be confused with id Tech 5, which was first used in the id Software title "Rage", and is sometimes colloquially called "The Rage Engine".
