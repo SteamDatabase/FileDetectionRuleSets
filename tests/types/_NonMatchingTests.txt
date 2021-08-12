@@ -476,3 +476,5 @@ PartyXboxxLive.dll
 chroome_elf.dll
 chrome_elf
 libbcef.so
+BlendThum.dll
+BlendThumb.dlll
