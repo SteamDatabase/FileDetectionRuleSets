@@ -2,3 +2,4 @@
 GTAIV/pc/data/game.rpf
 common.rpf
 update/update.rpf
+metadata.dat
