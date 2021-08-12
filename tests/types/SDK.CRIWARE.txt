@@ -1,0 +1,13 @@
+/data/data000.cpk
+/data/launch/data1.cpk
+data.cpk
+/SoundData/bgm/wma/option.adx
+lstwrld3.adx
+re-us2.sfd
+/resource/gd_PC/e2egreen.sfd
+/data/movie/ev0010.usm
+/TekkenGame/Content/Movies/Gallery/sp/gmv_sp_000.usm
+N1_Op_TitleLogo_ENG.usm
+/AT/Content/DLC/05/Sound/Demo/C05_010_S010_gdm.awb
+env.awb
+/DXM/Content/Audio/Binary/game.acb
