@@ -18,4 +18,4 @@ body:
 - type: textarea
   attributes:
     label: Possible way to detect it
-    description: As we use regex rules to detect, list your possible suggestions which files can be matched on.
+    description: As we use regex rules to detect, list your possible suggestions which files can be matched on. Keep in mind we can only operatore on filenames, we can't look in file contents or inside archives.
