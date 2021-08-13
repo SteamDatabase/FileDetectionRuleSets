@@ -491,3 +491,7 @@ angle/libEGLMarmalade_dll
 angle/libGLESv2Marmalade_dll
 angle/libEGL_Marmalade.dll
 angle/libGLESv2_Marmalade.dll
+libopenvr_api
+openvr_api
+libopenvr_api_so
+openvr_api_dll

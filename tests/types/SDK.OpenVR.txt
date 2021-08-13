@@ -1,0 +1,4 @@
+/openvr_api.dll
+/libopenvr_api.so
+libopenvr_api.so
+openvr_api.dll
