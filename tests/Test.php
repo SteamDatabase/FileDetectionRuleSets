@@ -48,6 +48,7 @@ $SeenTestTypes = [];
 
 TestBasicRules( $Detector, $SeenTestTypes, $FailingTests );
 TestFilelists( $Detector, $SeenTestTypes, $FailingTests );
+TestDescriptions( $SeenTestTypes, $FailingTests );
 
 // Really basic code to find extra detections that aren't specified in rules.ini
 $Code = file_get_contents( __DIR__ . '/FileDetector.php' );
@@ -148,6 +149,29 @@ function TestSorting( array $Rulesets ) : ?string
 	return null;
 }
 
+function TestDescriptions( array $SeenTestTypes, array &$FailingTests ) : void
+{
+	$TestsIterator = new DirectoryIterator( __DIR__ . '/../descriptions' );
+
+	foreach( $TestsIterator as $File )
+	{
+		if( $File->isDot() )
+		{
+			continue;
+		}
+
+		if( $File->getExtension() !== 'md' )
+		{
+			$FailingTests[] = "There is an unexpected file: descriptions/{$File->getFilename()}";
+			continue;
+		}
+
+		if( !isset( $SeenTestTypes[ $File->getBasename( '.md' ) ] ) )
+		{
+			$FailingTests[] = "There is a description for something we have no tests for: types/{$File->getFilename()}";
+		}
+	}
+}
 
 function TestBasicRules( FileDetector $Detector, array &$SeenTestTypes, array &$FailingTests ) : void
 {
@@ -155,13 +179,29 @@ function TestBasicRules( FileDetector $Detector, array &$SeenTestTypes, array &$
 
 	foreach( $TestsIterator as $File )
 	{
+		if( $File->isDot() )
+		{
+			continue;
+		}
+
 		if( $File->getExtension() !== 'txt' )
 		{
+			$FailingTests[] = "There is an unexpected file: types/{$File->getFilename()}";
 			continue;
 		}
 
 		$TestFilePaths = file( $File->getPathname(), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
 		$ExpectedType = $File->getBasename( '.txt' );
+
+		if( empty( $TestFilePaths ) )
+		{
+			$FailingTests[] = "File is empty: types/{$File->getFilename()}";
+			continue;
+		}
+		else
+		{
+			$SeenTestTypes[ $ExpectedType ] = true;
+		}
 
 		if( $ExpectedType === '_NonMatchingTests' )
 		{
@@ -218,11 +258,6 @@ function TestBasicRules( FileDetector $Detector, array &$SeenTestTypes, array &$
 				$FailingTests[] = "Path \"$Path\" does not match for \"$ExpectedType\"";
 			}
 		}
-
-		if( !empty( $TestFilePaths ) )
-		{
-			$SeenTestTypes[ $ExpectedType ] = true;
-		}
 	}
 }
 
@@ -232,18 +267,28 @@ function TestFilelists( FileDetector $Detector, array &$SeenTestTypes, array &$F
 
 	foreach( $TestsIterator as $File )
 	{
+		if( $File->isDot() )
+		{
+			continue;
+		}
+
 		if( $File->getExtension() !== 'txt' )
 		{
+			$FailingTests[] = "There is an unexpected file: filelists/{$File->getFilename()}";
 			continue;
 		}
 
 		$TestFilePaths = file( $File->getPathname(), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
 		$BaseName = $File->getBasename( '.txt' );
 		$Bits = explode( '.', $BaseName, 3 );
-		$Title = $Bits[ 2 ] ?? '';
 		$ExpectedType = $Bits[ 0 ] . '.' . $Bits[ 1 ];
 
-		if( !empty( $TestFilePaths ) )
+		if( empty( $TestFilePaths ) )
+		{
+			$FailingTests[] = "File is empty: filelists/{$File->getFilename()}";
+			continue;
+		}
+		else
 		{
 			$SeenTestTypes[ $ExpectedType ] = true;
 		}
