@@ -1,5 +1,0 @@
-.sb
-Sub/Folder/something.sb
-blah.sb
-something.sb
-sub/blah.sb

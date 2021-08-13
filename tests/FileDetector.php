@@ -219,12 +219,6 @@ class FileDetector
 			return 'Engine.Unreal';
 		}
 
-		//.toc, .sb, and .cas files are associated with Frostbite  -- if we haven't positively ID'd anything else so far, and we have 2 of these we guess Frostbite
-		if( $count( [ 'Evidence.TOC', 'Evidence.SB', 'Evidence.CAS' ] ) > 1 )
-		{
-			return 'Engine.Frostbite';
-		}
-
 		//If we have both BIF and TLK files it's probably a BioWare Engine
 		if( $count( [ 'Evidence.BIF', 'Evidence.TLK' ] ) > 1 )
 		{
