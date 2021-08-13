@@ -1,0 +1,1 @@
+[**Raycasting Game Maker**](https://www.moddb.com/engines/raycasting-game-maker), also referred to as **RGM**, is a free 3D game creation tool created by Peter Gammenthaler. It allows developers to create simple Wolfenstein3D-styled games without having to write any code. It has gained a following within Russian game development groups.
