@@ -1,0 +1,2 @@
+Engine.BuildInfo.dll
+GFSDK_Aftermath_Lib.x64.dll

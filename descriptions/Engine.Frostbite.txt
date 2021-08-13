@@ -1,0 +1,1 @@
+[**Frostbite**](https://en.wikipedia.org/wiki/Frostbite_(game_engine)) is a game engine developed by DICE, designed for cross-platform use on Microsoft Windows, seventh generation game consoles PlayStation 3 and Xbox 360, eighth generation game consoles PlayStation 4, Xbox One and Nintendo Switch and ninth generation game consoles PlayStation 5 and Xbox Series X/S.
