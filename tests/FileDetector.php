@@ -182,6 +182,11 @@ class FileDetector
 			return $Count;
 		};
 
+		if( $has( 'Evidence.RPF' ) && $has( 'Evidence.METADATA_DAT' ) )
+		{
+			return 'Engine.RAGE';
+		}
+
 		if( $has( 'Evidence.HDLL' ) && $not( 'Engine.Lime_OR_OpenFL' ) )
 		{
 			return 'Engine.Heaps';
