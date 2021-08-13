@@ -1,0 +1,1 @@
+[**Marmalade**](https://en.wikipedia.org/wiki/Marmalade_(software)) was a cross-platform software development kit and game engine from Marmalade Technologies Limited (previously known as Ideaworks3D Limited) that contains library files, samples, documentation and tools required to develop, test and deploy applications for mobile devices.
