@@ -481,6 +481,13 @@ BlendThumb.dlll
 gmv_sp_000.usn
 /data/launch/data1.xcpk
 C05_010_S010_gdm.awboops
-common.rpof
+common_rpf
 update/update.rpff
 metadata.data
+metadata_dat
+angle_libEGLMarmalade.dll
+angle_libGLESv2Marmalade.dll
+angle/libEGLMarmalade_dll
+angle/libGLESv2Marmalade_dll
+angle/libEGL_Marmalade.dll
+angle/libGLESv2_Marmalade.dll
