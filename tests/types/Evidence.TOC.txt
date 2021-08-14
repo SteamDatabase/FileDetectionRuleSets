@@ -1,5 +1,0 @@
-.toc
-Sub/Folder/something.toc
-blah.toc
-something.toc
-sub/blah.toc

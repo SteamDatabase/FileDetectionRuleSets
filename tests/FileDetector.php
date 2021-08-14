@@ -182,6 +182,11 @@ class FileDetector
 			return $Count;
 		};
 
+		if( $has( 'Evidence.RPF' ) && $has( 'Evidence.METADATA_DAT' ) )
+		{
+			return 'Engine.RAGE';
+		}
+
 		if( $has( 'Evidence.HDLL' ) && $not( 'Engine.Lime_OR_OpenFL' ) )
 		{
 			return 'Engine.Heaps';
@@ -212,12 +217,6 @@ class FileDetector
 		if( $has( 'Evidence.U' ) && $not( 'Emulator.DOSBOX' ) )
 		{
 			return 'Engine.Unreal';
-		}
-
-		//.toc, .sb, and .cas files are associated with Frostbite  -- if we haven't positively ID'd anything else so far, and we have 2 of these we guess Frostbite
-		if( $count( [ 'Evidence.TOC', 'Evidence.SB', 'Evidence.CAS' ] ) > 1 )
-		{
-			return 'Engine.Frostbite';
 		}
 
 		//If we have both BIF and TLK files it's probably a BioWare Engine

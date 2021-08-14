@@ -1,5 +1,0 @@
-.cas
-Sub/Folder/something.cas
-blah.cas
-something.cas
-sub/blah.cas
