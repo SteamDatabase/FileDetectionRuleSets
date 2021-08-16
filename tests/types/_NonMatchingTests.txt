@@ -521,3 +521,10 @@ OgreMain_dll
 OgreMain_x64_dll
 OgreMain_dlll
 VOgreMain.dll
+/Win64/ovldata/Main.ovl
+/Win64/ovldata/Main.ovll
+/Win64/dvldata/Content0/Main.ovl
+/win64/ovldata/Content1/Data.ovl
+/win64/ovldata/Content2/Main.ovld
+/Win64/Main/ovl
+/Win64/ovldata/Content2/ovldata/Content2/Main.ovl
