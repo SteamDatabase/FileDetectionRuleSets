@@ -1,0 +1,4 @@
+cs.pak
+game.pak
+game7.pak
+game12.pak

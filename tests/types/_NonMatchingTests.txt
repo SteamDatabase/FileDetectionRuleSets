@@ -516,3 +516,15 @@ openvr_api
 libopenvr_api_so
 openvr_api_dll
 openvr_api_bundle
+sub/dir/cs.pak
+sub/dir/game.pak
+game_pak
+locales/cs.pak
+wingame.pak
+recs.pak
+game.pak2
+game0.pak
+game1.pak
+game21.pak
+game.pak.win
+cs5.pak
