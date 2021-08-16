@@ -1,3 +1,0 @@
-.js
-some/dir/something.js
-something.js

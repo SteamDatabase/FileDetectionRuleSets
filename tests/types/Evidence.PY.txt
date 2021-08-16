@@ -1,3 +1,0 @@
-.py
-something.py
-sub/dir/something.py
