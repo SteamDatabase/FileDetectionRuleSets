@@ -1,0 +1,5 @@
+/_Win32/Main.ovl
+/Win64/ovldata/Content0/Main.ovl
+/win64/ovldata/Content1/Main.ovl
+/Win64/ovldata/data/Main.ovl
+/Win64/Main.ovx
