@@ -1,1 +1,1 @@
-Flexi Engine is a game engine developed by [**Snail Games**](https://store.steampowered.com/publisher/SnailGamesUSA/) with strong MMO ability. It was used in [Wushu Chronicles](https://store.steampowered.com/app/921390/Wushu_Chronicles/) and [Wushu Chronicles 2](https://store.steampowered.com/app/1465890/2_Wushu_Chronicles_2/).
+Flexi Engine is a game engine developed by [**Snail Games**](https://store.steampowered.com/publisher/SnailGamesUSA/) with strong MMO ability.
