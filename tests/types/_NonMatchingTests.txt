@@ -39,6 +39,10 @@ dEngine.BuildInfo_Win32_retail.dll
 dEngine.BuildInfo_Win32_retail_dll.dll
 dEngine.BuildInfo_Win64_retail.dll
 dEngine.BuildInfo_Win64_retail_dll.dll
+libhl.dlll
+libhl.soo
+libhl_so
+libhl_dll
 Engine.BuildInfo.dlld
 Engine.BuildInfo_Win32_retail.dlld
 Engine.BuildInfo_Win32_retail_dll.dlld

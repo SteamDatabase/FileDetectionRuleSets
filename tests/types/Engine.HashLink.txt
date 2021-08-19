@@ -1,0 +1,6 @@
+/libhl.dll
+Sub/Folder/libhl.dll
+libhl.dll
+/libhl.so
+Sub/Folder/libhl.so
+libhl.so
