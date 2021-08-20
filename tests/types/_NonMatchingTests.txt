@@ -513,6 +513,9 @@ angle/libEGLMarmalade_dll
 angle/libGLESv2Marmalade_dll
 angle/libEGL_Marmalade.dll
 angle/libGLESv2_Marmalade.dll
+CKDX6Rasterizer.dll
+CKDX10Rasterizer.dll
+CKDX7Rasterizer_dll
 libopenvr_api
 openvr_api
 libopenvr_api_so
