@@ -497,6 +497,8 @@ sub/dir/something.gmbckf
 sub/dir/something.gmsprf
 sub/dir/GMXInput.dllf
 sub/dir/gm7zip.dllf
+libcocos2d_dll
+sub/dir/libcocos2d.dllf
 PartyyWin7.dll
 PartyXboxxLive.dll
 chroome_elf.dll
