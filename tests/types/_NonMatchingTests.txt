@@ -519,6 +519,8 @@ angle/libEGLMarmalade_dll
 angle/libGLESv2Marmalade_dll
 angle/libEGL_Marmalade.dll
 angle/libGLESv2_Marmalade.dll
+ttarch
+somefile.ttarches
 CKDX6Rasterizer.dll
 CKDX10Rasterizer.dll
 CKDX7Rasterizer_dll
