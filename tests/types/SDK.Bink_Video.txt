@@ -1,0 +1,12 @@
+/binkw32.dll
+/binkw64.dll
+/bink2w64.dll
+/bink2w32.dll
+bin/binkw32.dll
+bin/binkw64.dll
+bin/bink2w64.dll
+bin/bink2w32.dll
+binkw32.dll
+binkw64.dll
+bink2w64.dll
+bink2w32.dll
