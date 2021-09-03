@@ -1,1 +1,1 @@
-Photon is an SDK used in multiplayer games. It provides a matchmaking and a communication solution.
+Photon is a networking SDK used in multiplayer games. It provides a matchmaking and a communication solution.
