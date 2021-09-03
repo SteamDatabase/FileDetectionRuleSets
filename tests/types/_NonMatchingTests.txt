@@ -561,3 +561,5 @@ jre/java.json
 random/jre/stuff.exe
 OpenAL42.dll
 /OpenAL.dll
+Photon3Unity3D.dlll
+PhotonDotNet.dll
