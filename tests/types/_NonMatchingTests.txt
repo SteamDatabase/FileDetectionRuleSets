@@ -538,3 +538,6 @@ bink2w64.ddl
 notabink.dll
 binkw23.dll
 binkw64.exe
+SoundEngine.bundle
+/AkEngine.dll
+AkSoundEnginedlll.dll
