@@ -541,3 +541,4 @@ binkw64.exe
 SoundEngine.bundle
 /AkEngine.dll
 /AkSoundEngine.soo
+AkSoundEnginedlll.dll
