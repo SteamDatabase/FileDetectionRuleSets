@@ -541,3 +541,5 @@ binkw64.exe
 SoundEngine.bundle
 /AkEngine.dll
 AkSoundEnginedlll.dll
+OpenAL42.dll
+/OpenAL.dll
