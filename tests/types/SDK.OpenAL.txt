@@ -1,0 +1,7 @@
+/OpenAL32.dll
+/OpenAL64.dll
+Love/win/OpenAL32.dll
+OpenAL32.dll
+OpenAL64.dll
+StarMade/native/windows/OpenAL32.dll
+StarMade/native/windows/OpenAL64.dll
