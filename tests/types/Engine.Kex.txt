@@ -1,0 +1,5 @@
+rerelease/QuakeEX.kpf
+BloodEX.kpf
+sshock.kpf
+Doom64.kpf
+sub/dir/game.kpf
