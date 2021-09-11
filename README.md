@@ -18,7 +18,7 @@ These detections rely on SteamDB being able to access the file lists. [Use Steam
 
 ## Pattern-matching rules
 
-[`rules.ini`](rules.ini) defines a set of regular expressions which are run against every filename in the Steam Database. A PHP script uses the resulting matches to make educated guesses about what the most likely technology could be.
+[`rules.ini`](rules.ini) defines a set of regular expressions which are run against every filename stored on SteamDB. A PHP script uses the resulting matches to make educated guesses about what the most likely technology could be.
 
 The ini file defines multiple sections, each with its own sub-patterns:
 
