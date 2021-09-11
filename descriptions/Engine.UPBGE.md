@@ -1,1 +1,0 @@
-[**UPBGE (Uchronia Project Blender Game Engine)**](https://upbge.org/) is an open-source, 3D game engine forked from the old Blender Game Engine and deployed with Blender itself.
