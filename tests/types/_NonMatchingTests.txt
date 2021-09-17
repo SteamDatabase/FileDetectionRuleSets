@@ -541,6 +541,10 @@ bink2w64.ddl
 notabink.dll
 binkw23.dll
 binkw64.exe
+common/main.cs
+common/main.cs.dsof
+common/main.ts.dso
+common/main_cs.dso
 SoundEngine.bundle
 /AkEngine.dll
 AkSoundEnginedlll.dll
