@@ -1,1 +1,1 @@
-[**URP**](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@11.0/manual/index.html) URP is a customizable cross-platform Scriptable Render Pipeline built by Unity to target all modern platforms.
+[**URP**](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@11.0/manual/index.html) is a customizable cross-platform Scriptable Render Pipeline built by Unity to target all modern platforms.
