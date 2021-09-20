@@ -1,0 +1,9 @@
+/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+/Unity.RenderPipelines.Universal.Runtime.dll
+/Unity.RenderPipelines.Universal.Shaders.dll
+/Aragami2_Data/il2cpp_data/etc/mono
+
+Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Unity.RenderPipelines.Universal.Runtime.dll
+Unity.RenderPipelines.Universal.Shaders.dll
+Aragami2_Data/il2cpp_data/etc/mono
