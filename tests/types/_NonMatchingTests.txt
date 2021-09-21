@@ -537,6 +537,7 @@ VOgreMain.dll
 somefile.kpfwhoops
 somefilekpf
 somefile_kpf
+data/ark2d/config.kpf
 bink2w64.ddl
 notabink.dll
 binkw23.dll
