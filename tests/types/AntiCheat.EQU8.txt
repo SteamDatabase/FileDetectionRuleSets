@@ -1,0 +1,3 @@
+equ8_conf.json
+Sub/Plugins/equ8.db
+Sub/Plugins/EQU8/ThirdParty/equ8_client/equ8.db
