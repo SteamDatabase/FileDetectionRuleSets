@@ -1,0 +1,1 @@
+[**EQU8**](https://www.equ8.com/) is a lightweight client-side anti-cheat solution created by Int3 Software. It is designed to protect games from hackers and cheaters as well as analyzing statistics for developers.
