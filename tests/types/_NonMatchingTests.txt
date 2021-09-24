@@ -415,7 +415,7 @@ PysXCore.dll
 PhysXLoder.dll
 equ8_db
 totallynotequ8_conf.json
-sub/dir/equ8.dblol
+sub/dir/equ8.jsondblol
 c2runtimexjs
 c3runtimexjs
 ac2runtime.js
