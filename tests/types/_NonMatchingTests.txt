@@ -77,6 +77,8 @@ Sub/Folder/js/rmmz_core.jsss
 Lib/renpy.stuff
 renpy.stuff
 data.dcpcp
+testxem
+.xemtest
 fdata.dcp
 bytecode.rpybeer
 Sub/Folder/bytecode.rpybeer
