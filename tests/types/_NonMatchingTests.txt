@@ -556,5 +556,8 @@ defines.txt
 00_defines.txt
 /AkEngine.dll
 AkSoundEnginedlll.dll
+/coffee/java.png
+jre/java.json
+random/jre/stuff.exe
 OpenAL42.dll
 /OpenAL.dll
