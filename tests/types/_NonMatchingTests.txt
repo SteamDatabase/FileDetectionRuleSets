@@ -551,6 +551,9 @@ common/main.cs.dsof
 common/main.ts.dso
 common/main_cs.dso
 SoundEngine.bundle
+common/defines.xml
+defines.txt
+00_defines.txt
 /AkEngine.dll
 AkSoundEnginedlll.dll
 OpenAL42.dll

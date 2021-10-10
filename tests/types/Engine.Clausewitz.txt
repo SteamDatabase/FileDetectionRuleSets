@@ -1,0 +1,6 @@
+game/common/defines/00_defines.txt
+common/defines/00_defines.txt
+common/defines.lua
+common/defines.txt
+mod/Dies_irae_Gotterdammerung/common/defines.lua
+tfh/common/defines.lua
