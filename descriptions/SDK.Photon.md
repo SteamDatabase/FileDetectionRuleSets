@@ -1,0 +1,1 @@
+[**Photon**](https://www.photonengine.com/en-US/Photon) is a networking SDK used in multiplayer games. It provides a matchmaking and a communication solution.

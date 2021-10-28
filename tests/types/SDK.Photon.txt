@@ -1,0 +1,6 @@
+/Photon3DotNet.dll
+/Photon3Unity3D.dll
+Humankind_Data/Managed/Photon3DotNet.dll
+Photon3DotNet.dll
+Photon3Unity3D.dll
+TotallyAccurateBattleSimulator_Data/Managed/Photon3Unity3D.dll
