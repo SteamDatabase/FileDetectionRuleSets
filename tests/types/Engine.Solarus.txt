@@ -1,0 +1,4 @@
+.solarus
+data.solarus
+Sub/Folder/0_9.solarus
+test-1.2.3d.solarus

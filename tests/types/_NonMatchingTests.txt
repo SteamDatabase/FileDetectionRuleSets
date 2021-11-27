@@ -418,6 +418,9 @@ PhysXLoder.dll
 equ8_db
 totallynotequ8_conf.json
 sub/dir/equ8.jsondblol
+name_solarus
+thing.solarus.txt
+data.solaruss
 c2runtimexjs
 c3runtimexjs
 ac2runtime.js
