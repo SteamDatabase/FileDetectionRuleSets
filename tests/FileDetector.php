@@ -81,6 +81,7 @@ class FileDetector
 
 	/**
 	 * @param string[] $Files
+	 *
 	 * @return array<array{File: string, Match: string}>
 	 */
 	public function GetMatchedFiles( array $Files ) : array
@@ -109,6 +110,7 @@ class FileDetector
 
 	/**
 	 * @param string[] $Files
+	 *
 	 * @return array<string, int>
 	 */
 	public function GetMatchesForFileList( array $Files ) : array
@@ -243,7 +245,7 @@ class FileDetector
 		}
 
 		//If I have a PCK file it might be Godot
-		if( $has( 'Evidence.PCK' ) && $count(['Engine.Unreal','Engine.idTech5','Engine.idTech6','Engine.idTech7','Emulator.DOSBOX']) == 0 && self::IsEngineGodot( $Files ) )
+		if( $has( 'Evidence.PCK' ) && $count(['Engine.Unreal', 'Engine.idTech5', 'Engine.idTech6', 'Engine.idTech7', 'Emulator.DOSBOX']) == 0 && self::IsEngineGodot( $Files ) )
 		{
 			return 'Engine.Godot';
 		}
@@ -311,7 +313,7 @@ class FileDetector
 			foreach ( array_keys($Pcks) as $pck )
 			{
 				//If we match an exe and a pck file pair, we're good
-				if( isset ( $Exes [ $pck ] ) )
+				if( isset( $Exes[ $pck ] ) )
 				{
 					return true;
 				}
