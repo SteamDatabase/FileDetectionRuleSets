@@ -568,3 +568,6 @@ OpenAL42.dll
 /OpenAL.dll
 Photon3Unity3D.dlll
 PhotonDotNet.dll
+abcth_dnh.def
+th_dnh_def
+th_dnh.definitive
