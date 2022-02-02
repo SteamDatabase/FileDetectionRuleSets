@@ -1,0 +1,4 @@
+EasyAntiCheat/easyanticheat_x64.so
+EasyAntiCheat/easyanticheat_x86.so
+Sub/Folder/EasyAntiCheat/easyanticheat_x64.so
+Sub/Folder/EasyAntiCheat/easyanticheat_x86.so

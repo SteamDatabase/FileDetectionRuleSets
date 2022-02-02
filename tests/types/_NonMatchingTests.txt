@@ -19,6 +19,9 @@ ChEasyAntiCheat/
 EasyAntiCheat.whatever
 SomeEngine/Binaries/ThirdParty
 Engine/Binaries/ThirdPartySomething
+Someeasyanticheat_x64.so
+easyanticheat_x64.soextra
+easyanticheat_x64.nso
 blahrpg_rt.exe
 sub/blahrpg_rt.exe
 rgssad
