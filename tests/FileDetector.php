@@ -289,6 +289,10 @@ class FileDetector
 			{
 				$Exes[ $swapExtension( $BaseFile, ".x86", ".pck" ) ] = true;
 			}
+			else if( $Extension === 'x86_32' )
+			{
+				$Exes[ $swapExtension( $BaseFile, ".x86_32", ".pck" ) ] = true;
+			}
 			else if( $Extension === 'x86_64' )
 			{
 				$Exes[ $swapExtension( $BaseFile, ".x86_64", ".pck" ) ] = true;
