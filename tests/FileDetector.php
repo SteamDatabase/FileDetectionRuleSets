@@ -285,11 +285,15 @@ class FileDetector
 			{
 				$Exes[ $swapExtension( $BaseFile, ".exe", ".pck" ) ] = true;
 			}
-			else if( $Extension === 'x86' )
+			else if( $Extension === 'x86' ) // 32-bit Linux in Godot 2.x/3.x
 			{
 				$Exes[ $swapExtension( $BaseFile, ".x86", ".pck" ) ] = true;
 			}
-			else if( $Extension === 'x86_64' )
+			else if( $Extension === 'x86_32' ) // 32-bit Linux in Godot 4.x
+			{
+				$Exes[ $swapExtension( $BaseFile, ".x86_32", ".pck" ) ] = true;
+			}
+			else if( $Extension === 'x86_64' ) // 64-bit Linux in all versions
 			{
 				$Exes[ $swapExtension( $BaseFile, ".x86_64", ".pck" ) ] = true;
 			}
