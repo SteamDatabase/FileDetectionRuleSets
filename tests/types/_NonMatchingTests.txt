@@ -571,3 +571,9 @@ PhotonDotNet.dll
 abcth_dnh.def
 th_dnh_def
 th_dnh.definitive
+game0_arc
+game0.arcc
+archives_win64/game0.aarc
+game0_tab
+game0.tabbb
+Archives/pc.ttab

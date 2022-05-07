@@ -184,6 +184,11 @@ class FileDetector
 			return $Count;
 		};
 
+		if ( $has('Evidence.ARC') && $has('Evidence.TAB'))
+		{
+			return 'Engine.ApexEngine';
+		}
+
 		if( $has( 'Evidence.RPF' ) && $has( 'Evidence.METADATA_DAT' ) )
 		{
 			return 'Engine.RAGE';
