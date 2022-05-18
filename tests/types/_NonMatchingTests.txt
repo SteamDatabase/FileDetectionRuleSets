@@ -529,6 +529,10 @@ angle/libEGLMarmalade_dll
 angle/libGLESv2Marmalade_dll
 angle/libEGL_Marmalade.dll
 angle/libGLESv2_Marmalade.dll
+particle_ring_wave_curl.vtf
+particle_ring_wave_curl
+corl.dll
+curl_dll
 ttarch
 somefile.ttarches
 CKDX6Rasterizer.dll
