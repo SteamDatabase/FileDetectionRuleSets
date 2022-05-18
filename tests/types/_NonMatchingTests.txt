@@ -577,3 +577,5 @@ archives_win64/game0.aarc
 game0_tab
 game0.tabbb
 Archives/pc.ttab
+Addons/3den.pbo.a3.bissign
+rocks.pbo.bi_bisign

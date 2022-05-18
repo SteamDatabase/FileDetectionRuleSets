@@ -1,0 +1,1 @@
+[**Real Virtuality**](https://community.bistudio.com/wiki/Real_Virtuality) is a game engine developed by Bohemia Interactive and first used in the game Operation Flashpoint: Cold War Crisis released in 2001.
