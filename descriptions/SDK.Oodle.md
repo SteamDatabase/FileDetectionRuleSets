@@ -1,0 +1,1 @@
+[**Oodle**](http://www.radgametools.com/oodle.htm), also known as Oodle Compression, is a family of data compression solutions created by RAD Game Tools.
