@@ -1,0 +1,9 @@
+Binaries/vivoxsdk.dll
+Binary/vivoxoal.dll
+Binary/vivoxplatform.dll
+Engine/Binaries/ThirdParty/Vivox/Win64/vivoxsdk_x64.dll
+vivox
+vivoxsdk.dll
+vivoxoal.dll
+vivoxplatform.dll
+vivoxsdk_x64.dll
