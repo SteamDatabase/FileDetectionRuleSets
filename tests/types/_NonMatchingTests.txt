@@ -435,6 +435,8 @@ fmodxdll
 fmoooooooood.dll
 win64/fmod64.dlll
 fmodstudiodll
+vurbis
+orbis
 game/bin/win64/qt_plugins/sqldrivers/qsqlited4.dll
 game/bin/win64/qt_plugins/qmltooling/qmldbg_tcpd4.dll
 GFSDK_Aftermath_Lib_UWP.x86
@@ -531,6 +533,10 @@ angle/libEGLMarmalade_dll
 angle/libGLESv2Marmalade_dll
 angle/libEGL_Marmalade.dll
 angle/libGLESv2_Marmalade.dll
+particle_ring_wave_curl.vtf
+particle_ring_wave_curl
+corl.dll
+curl_dll
 ttarch
 somefile.ttarches
 CKDX6Rasterizer.dll
