@@ -547,6 +547,10 @@ openvr_api
 libopenvr_api_so
 openvr_api_dll
 openvr_api_bundle
+libopenxr_loader
+openxr_loader
+libopenxr_loader_so
+openxr_loader_dll
 OgreMainx64.dll
 OgreMain_dll
 OgreMain_x64_dll
