@@ -1,0 +1,1 @@
+[**OpenXR**](https://www.khronos.org/openxr/) is an open, royalty-free standard for access to virtual reality and augmented reality platforms and devices.
