@@ -364,6 +364,8 @@ dx12Retail/AAnselSDK32.dll
 AnselSDK34.dlll
 dx12Retail/AnselSDK44.dll
 AnselDK64.dlloopsidroppedthefile
+apexbutnotreallyapex
+apex.notwhatyourelookingfor
 RPG_RTxini
 configxrpgsave
 dataxdcp

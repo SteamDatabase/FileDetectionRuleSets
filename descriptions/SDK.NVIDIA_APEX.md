@@ -1,0 +1,1 @@
+[**NVIDIA APEX**](https://gameworksdocs.nvidia.com/APEX/1.4/docs/index.html) is a, now deprecated, framework developed by NVIDIA that provides both tools for content creation and run-time libraries that allow artists and developers to create complex physical simulations more easily.
