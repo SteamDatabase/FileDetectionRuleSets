@@ -425,6 +425,10 @@ ac3runtime.js
 c2runtime.jss
 c3runtime.jss
 GameGuard.desu
+GameData/bundle_PCC.ipk
+bootresourcemap_pc64.ipk
+bundle_PC_ipk
+test.ipk
 pso2_bin/GameGuarded.des
 Toobbii.EyeX.Client.dlll
 tobbii_gameintegration_x64.dll

@@ -1,0 +1,6 @@
+GameData/bundle_PC.ipk
+bootresourcemap_pc32.ipk
+bundle_0_pc.ipk
+bundle_PC.ipk
+pc.ipk
+pc32.ipk
