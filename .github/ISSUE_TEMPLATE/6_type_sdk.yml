@@ -1,6 +1,6 @@
 name: Suggest an SDK detection
 description: Suggest an SDK (software development kit) that is not being currently detected.
-labels: ["Type: Engine"]
+labels: ["Type: SDK"]
 body:
 - type: textarea
   attributes:
