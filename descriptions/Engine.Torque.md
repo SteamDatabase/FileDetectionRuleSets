@@ -1,1 +1,1 @@
-[**Torque Game Engine**](http://www.garagegames.com/products/torque-3d) is an open-source cross-platform 3D game engine, developed by GarageGames and actively maintained under the current versions Torque 3D as well as Torque 2D.
+[**Torque Game Engine**](https://torque3d.org/torque3d/) is an open-source cross-platform 3D game engine, originally developed by GarageGames and actively maintained under the current versions Torque 3D as well as Torque 2D.
