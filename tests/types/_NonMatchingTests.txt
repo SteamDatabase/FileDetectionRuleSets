@@ -562,6 +562,11 @@ OgreMain_dll
 OgreMain_x64_dll
 OgreMain_dlll
 VOgreMain.dll
+com.rlabrecque.steamworks.net_dll
+notactuallycom.rlabrecque.steamworks.net.dll
+com.rlabrecque.steamworks.net.dllwhoops
+sub/dir/notactuallycom.rlabrecque.steamworks.net.dll
+sub/dir/com.rlabrecque.steamworks.net.dllwhoops
 somefile.kpfwhoops
 somefilekpf
 somefile_kpf
