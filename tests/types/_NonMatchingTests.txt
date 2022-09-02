@@ -58,6 +58,17 @@ Engine.BuildInfo_Win32_retailxdll
 Engine.BuildInfo_Win32_retail_dllxdll
 Engine.BuildInfo_Win64_retailxdll
 Engine.BuildInfo_Win64_retail_dllxdll
+Unity.Entities.dlll
+SuperUnity.Entities.dll
+Unity.Entitie.dll
+Unity_Entities_dll
+StreamingAssets/Scenes/
+StreamingSets/SubScenes/
+Unity.Rendering.Hybrid.dlll
+SuperUnity.Rendering.Hybrid.dll
+Unity.Rendering.Hybrids.dll
+Unity.Render.Hybrids.dll
+Unity_Rendering_Hybrid.dll
 ui.hdllf
 uv.hdllf
 Sub/ui.hdllf
