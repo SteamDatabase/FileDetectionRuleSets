@@ -43,6 +43,10 @@ libhl.dlll
 libhl.soo
 libhl_so
 libhl_dll
+lib_burst_generated_dll
+lib_burst_generatedd.dll
+lib_burst_generated.dlll
+llib_burst_generated.dlll
 Engine.BuildInfo.dlld
 Engine.BuildInfo_Win32_retail.dlld
 Engine.BuildInfo_Win32_retail_dll.dlld
