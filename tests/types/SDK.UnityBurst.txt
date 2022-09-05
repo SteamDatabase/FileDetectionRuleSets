@@ -1,1 +1,3 @@
 lib_burst_generated.dll
+lib_burst_generated.so
+lib_burst_generated.bundle

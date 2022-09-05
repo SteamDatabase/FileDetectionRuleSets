@@ -44,6 +44,9 @@ libhl.soo
 libhl_so
 libhl_dll
 lib_burst_generated_dll
+lib_burst_generated.png
+lib_burst_generated_so
+lib_burst_generated.soo
 lib_burst_generatedd.dll
 lib_burst_generated.dlll
 llib_burst_generated.dlll
