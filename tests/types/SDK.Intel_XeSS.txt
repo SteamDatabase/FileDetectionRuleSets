@@ -1,3 +1,5 @@
+/igxess.dll
+/libxess.dll
 Dysterra/Plugins/XeSS/Binaries/ThirdParty/Win64/igxess.dll
 Dysterra/Plugins/XeSS/Binaries/ThirdParty/Win64/libxess.dll
 Engine/Plugins/Runtime/Intel/XeSS/Binaries/ThirdParty/Win64/igxess.dll
