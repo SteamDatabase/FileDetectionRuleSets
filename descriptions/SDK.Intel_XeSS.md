@@ -1,0 +1,1 @@
+[**Xe Super Sampling (XeSS)**](https://www.intel.com/content/www/us/en/products/docs/arc-discrete-graphics/xess.html) is an AI accelerated resolution upscaling algorithm developed by Intel and designed to increase frame rates in video games.
