@@ -399,6 +399,8 @@ cry3denginexdll
 CryRenderD3D1xdll
 CryRenderD3D11xdll
 CryRenderD3D12xdll
+ffx_fsr2_api_x42.dll
+Binaries/ffx_fsr2_api_x64.dlll
 CryRenderVulkanxdll
 CryD3DCompilerStubxdll
 enginexpak
@@ -475,6 +477,10 @@ CoronaLabs_Corona_Native_dll
 Unigine_x64.pak
 UnigineEngine.dll
 Unigine_x86_dll
+/ffx_fsr2_api_x64@dll
+/ffx_fsr2_api_x86@dll
+ffx_fsr2_api_x64@dll
+ffx_fsr2_api_x86@dll
 libUnigine.so
 thisaintproject.godot
 project.godotfork
