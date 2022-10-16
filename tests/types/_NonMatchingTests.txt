@@ -659,3 +659,4 @@ greenworks-win_node
 greenworks-win10.node
 greenworks-win32_node
 greenworks
+abcgreenworks-win32.node
