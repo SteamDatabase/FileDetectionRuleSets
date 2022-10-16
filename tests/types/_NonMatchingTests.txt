@@ -654,6 +654,10 @@ notreallyarc.nsa
 ntoreallynscript.dat
 nscript.data
 arc.nsasdf
+mmfs2_dll
+abcmmfs2.dll
+mmfs2.dllasdonasf
+mmfs2asdf.dll
 greenworks.nodespasdkj
 greenworks-win_node
 greenworks-win10.node
