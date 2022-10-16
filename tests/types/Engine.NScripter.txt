@@ -1,0 +1,6 @@
+0.utf
+arc.nsa
+nscript.dat
+ons.cfg
+pns.cfg
+pscript.dat
