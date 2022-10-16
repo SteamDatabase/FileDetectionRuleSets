@@ -658,3 +658,9 @@ mmfs2_dll
 abcmmfs2.dll
 mmfs2.dllasdonasf
 mmfs2asdf.dll
+greenworks.nodespasdkj
+greenworks-win_node
+greenworks-win10.node
+greenworks-win32_node
+greenworks
+abcgreenworks-win32.node
