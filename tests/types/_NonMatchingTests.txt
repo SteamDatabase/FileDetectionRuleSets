@@ -636,3 +636,11 @@ Binaries/Retail/ooo2core_5_win64.dll
 oo2test_6_win64.dll
 oo2core_7_win64_dll
 oo2core_8_win64.dlll
+/settings.vndata
+settings_vndata
+data/z.json.js
+/data/z.json.js
+data/z_json_js
+/data/z_json_js
+data/a.js
+/data/a.js
