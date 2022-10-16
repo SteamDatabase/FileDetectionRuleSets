@@ -646,3 +646,11 @@ data/something.js
 /data/something.js
 data/summaries.jsblah
 /data/summaries.jsblah
+arc_nsa
+nscript_dat
+/arc.nsa
+/nscript.dat
+notreallyarc.nsa
+ntoreallynscript.dat
+nscript.data
+arc.nsasdf
