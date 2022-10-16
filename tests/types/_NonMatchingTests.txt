@@ -664,3 +664,7 @@ greenworks-win10.node
 greenworks-win32_node
 greenworks
 abcgreenworks-win32.node
+/files/gamecore/projectiletypes/_e_rpggrenade_d.dds
+files_gamecore_projectiletypes_e_rpggrenade_d.dds
+files/gamecore/blah
+files/gamecore/projectiletypes/_e_rpggrenade_d.ddsdf
