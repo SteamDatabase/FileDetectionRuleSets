@@ -654,3 +654,8 @@ notreallyarc.nsa
 ntoreallynscript.dat
 nscript.data
 arc.nsasdf
+greenworks.nodespasdkj
+greenworks-win_node
+greenworks-win10.node
+greenworks-win32_node
+greenworks
