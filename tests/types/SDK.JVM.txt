@@ -1,6 +1,11 @@
-jre/bin/java.exe
-jre/bin/java.dll
-jre/bin/java
+/bin/java
+/bin/java.dll
+/bin/java.exe
+bin/java
 bin/java.dll
+bin/java.exe
+jre/bin/java
+jre/bin/java.dll
+jre/bin/java.exe
 long/random/path/bin/java
 wildermyth.app/Contents/Resources/jre/bin/java

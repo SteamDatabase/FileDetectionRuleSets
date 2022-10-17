@@ -1,1 +1,2 @@
+/Unity.Rendering.Hybrid.dll
 Unity.Rendering.Hybrid.dll

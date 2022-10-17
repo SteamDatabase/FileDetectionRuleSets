@@ -1,0 +1,1 @@
+[**AMD FidelityFX Super Resolution 2 (FSR2)**](https://github.com/GPUOpen-Effects/FidelityFX-FSR2/) is a cutting-edge upscaling technique developed from the ground up to produce high resolution frames from lower resolution inputs.
