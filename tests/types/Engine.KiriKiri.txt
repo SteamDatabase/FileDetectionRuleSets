@@ -1,12 +1,2 @@
-/KAGParser.dll
-/KAGParserEx.dll
-/krkrsteam.dll
-/wuvorbis.dll
-KAGParser.dll
-KAGParserEx.dll
-krkrsteam.dll
-plugin/KAGParser.dll
-plugin/KAGParserEx.dll
-plugin/krkrsteam.dll
-plugin/wuvorbis.dll
-wuvorbis.dll
+data.xp3
+/data.xp3
