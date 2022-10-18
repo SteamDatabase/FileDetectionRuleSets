@@ -35,7 +35,6 @@ Sub/Folder/argss102j.dll
 Sub/Folder/argss102e.dll
 data_xp3
 notreallydata.xp3
-/data.xp3
 data.xp3aisjdosadjods
 Binaries/Win64Whatever
 dEngine.BuildInfo.dll
