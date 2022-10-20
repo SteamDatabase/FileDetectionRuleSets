@@ -40,4 +40,6 @@ sub/dir/assets/cocos2d-js-min.js
 cocos2d-js.js
 /assets/cocos2d-js.js
 sub/dir/assets/cocos2d-js.js
-
+cocos2d-js-min.b01a3.js
+/assets/cocos2d-js-min.b01a3.js
+sub/dir/assets/cocos2d-js-min.b01a3.js
