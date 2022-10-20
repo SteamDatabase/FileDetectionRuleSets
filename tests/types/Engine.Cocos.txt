@@ -34,3 +34,10 @@ sub/dir/cocos-js/cc.jsc
 cocos-js/cc.a9323.js
 /cocos-js/cc.a9323.js
 sub/dir/cocos-js/cc.a9323.js
+cocos2d-js-min.js
+/assets/cocos2d-js-min.js
+sub/dir/assets/cocos2d-js-min.js
+cocos2d-js.js
+/assets/cocos2d-js.js
+sub/dir/assets/cocos2d-js.js
+
