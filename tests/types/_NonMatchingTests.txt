@@ -415,6 +415,8 @@ scummvmxexe
 sdl2xdll
 sdlxdll
 nodexdll
+nw.dlls
+nwjs-win/nwxdll
 StandalonePlayerLocalizablexstrings
 VisionaireConfigurationToolxexe
 lovexdll
