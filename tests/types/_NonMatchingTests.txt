@@ -417,6 +417,8 @@ sdlxdll
 nodexdll
 nw.dlls
 nwjs-win/nwxdll
+nw.pakk
+elliot_questnw.pak
 StandalonePlayerLocalizablexstrings
 VisionaireConfigurationToolxexe
 lovexdll
