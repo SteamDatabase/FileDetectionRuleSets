@@ -143,6 +143,8 @@ igxess.dlls
 libxess.dl
 libxessdl
 ess.dll
+OpenImageDenoisexdll
+OpenImageDenoise
 _CommonRedist/FXNA/4.0/installscript.vdf
 _CommonRedist/FXNA/4.0/xnafx40_redist.msi
 FXNA/4.0/installscript.vdf
