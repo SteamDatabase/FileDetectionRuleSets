@@ -1,0 +1,1 @@
+[**Intel® Open Image Denoise**](https://www.openimagedenoise.org/) is an open source denoising library.
