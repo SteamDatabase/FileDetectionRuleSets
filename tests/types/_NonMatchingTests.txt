@@ -609,6 +609,9 @@ libopenxr_loader
 openxr_loader
 libopenxr_loader_so
 openxr_loader_dll
+BONEWORKS/BONEWORKS_Data/Plugins/OVRPlugin_dll
+BONEWORKS/BONEWORKS_Data/Plugins/OVRPlugin.dl
+VRPlugin.dll
 OgreMainx64.dll
 OgreMain_dll
 OgreMain_x64_dll
