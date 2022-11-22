@@ -133,9 +133,9 @@ ggameinfoogi
 bsppack.dlll
 bsppack-dll
 binbsppack.dll
-hltviexe
-hltv.exee
-bin/hltv.exe
+liblist
+liblist.txt
+liblist.game
 nvngx_dlssddll
 nvngx_dlss.dlli
 envngx_dlss.dll
