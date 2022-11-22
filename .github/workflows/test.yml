@@ -10,7 +10,11 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
     - name: Checkout
       uses: actions/checkout@v3
     - name: Test
-      run: php8.0 tests/Test.php
+      run: php tests/Test.php
