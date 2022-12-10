@@ -1,0 +1,1 @@
+[**iZotope**](https://www.izotope.com/) is an audio technology company who creates various plugins for use in music creation and playback. One of these such plugins can be used with Wwise, another SDK.
