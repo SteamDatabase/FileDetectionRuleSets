@@ -566,6 +566,10 @@ coccos-js/cc.a9323_js
 coccos-js/cc_a9323_js
 /coccos-js/cc.a9323.jsf
 sub/dir/coccos-js/cc_a9323.jsf
+Assets/Rewired/Internal/Assets/Integration/Cinemachine.zip
+BH3_Data/StreamingAssets/ThirdPartyNotice/Cinemachine/LICENSE.md
+Cinemachina.dll
+Cinemachin.dll
 PartyyWin7.dll
 PartyXboxxLive.dll
 chroome_elf.dll

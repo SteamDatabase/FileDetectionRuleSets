@@ -1,0 +1,5 @@
+/Cinemachine.dll
+Cinemachine.dll
+Deepening Fire_Data/Managed/Cinemachine.dll
+Dungeon Deathball_Data/Managed/_Project.External.Cinemachine.Runtime.dll
+Crossfire_Legion_Data/Managed/Cinemachine.Unity.dll
