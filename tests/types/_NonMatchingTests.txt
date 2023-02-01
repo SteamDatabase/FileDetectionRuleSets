@@ -473,6 +473,9 @@ GameData/bundle_PCC.ipk
 bootresourcemap_pc64.ipk
 bundle_PC_ipk
 test.ipk
+datapc_forge
+datapc64.forg
+datapc_00.forge
 pso2_bin/GameGuarded.des
 Toobbii.EyeX.Client.dlll
 tobbii_gameintegration_x64.dll
