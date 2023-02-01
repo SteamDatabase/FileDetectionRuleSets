@@ -439,6 +439,9 @@ gamexdmanifest
 game.dmanifestfdfd
 pfdfdfgame.gmanifest
 Sub/Folder/game.dmanifestfdfdfdf
+dieselx_cfg
+dieselx.cf
+ieselx.cfg
 Plugins/discordzz-rpc.dll
 discord-rpc.dlll
 Plugins/discord_gamezzz_sdk.dll
