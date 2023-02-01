@@ -1,0 +1,1 @@
+[**Diesel**](https://en.wikipedia.org/wiki/Diesel_(game_engine)) is a game engine developed by Grin and first used in the game Ballistics, released in 2001.
