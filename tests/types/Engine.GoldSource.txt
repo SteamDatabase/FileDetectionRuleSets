@@ -1,1 +1,3 @@
-hltv.exe
+valve/liblist.gam
+cstrike/liblist.gam
+tfc/liblist.gam
