@@ -212,6 +212,9 @@ sub/dir/FBUILD.EXE
 sub/dir/Fbuildlic.txt
 sub/dir/FGAME.CON
 sub/dir/FCOMMIT.DAT
+Dat/C4
+Data/C
+Data/C5
 FChromeEngine2.dll
 FChromeEngine3.dll
 FChromEd.exe
