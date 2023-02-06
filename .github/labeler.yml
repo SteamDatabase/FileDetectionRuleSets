@@ -3,3 +3,6 @@
 
 "Type: SDK":
   - '**/SDK.*'
+
+"Type: Anti-Cheat":
+  - '**/AntiCheat.*'
