@@ -1,0 +1,3 @@
+lol.erp
+sub/something.erp
+sub/sub/something_again.erp
