@@ -221,7 +221,7 @@ sub/dir/FCOMMIT.DAT
 Randgrid.sy
 andgrid.sys
 Randgrid_sys
-Dat/C4
+Dat/C
 Data/C5
 FChromeEngine2.dll
 FChromeEngine3.dll

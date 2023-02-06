@@ -1,1 +1,2 @@
 Data/C4
+Game/Data/C4.pak
