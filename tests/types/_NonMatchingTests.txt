@@ -287,6 +287,9 @@ sub/dir/CryRenderD3D12.dllf
 sub/dir/CryRenderVulkan.dllf
 sub/dir/CryD3DCompilerStub.dllf
 sub/dir/engine.pakf
+TP3Helper.ex
+P3Helper.exe
+TP3Helper_exe
 data.wink
 some/dir/data.wink
 fdata.win

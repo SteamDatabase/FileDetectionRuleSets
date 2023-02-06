@@ -1,0 +1,1 @@
+TenProtect is an anticheat made by Tencent, one of biggest grossing multimedia companies in the world based on revenue. This AntiCheat also get flagged by antivirus, so be aware.
