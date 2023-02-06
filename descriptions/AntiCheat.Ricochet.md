@@ -1,0 +1,1 @@
+[**Ricochet**](https://www.callofduty.com/warzone/ricochet) is a multi-faceted approach to combat cheating, featuring new server-side tools which monitor analytics to identify cheating, enhanced investigation processes to stamp out cheaters, updates to strengthen account security, and more.
