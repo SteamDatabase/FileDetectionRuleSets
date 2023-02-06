@@ -1,0 +1,1 @@
+[**EA AntiCheat**](https://www.ea.com/security/news/eaac-deep-dive) is a kernel-mode anti-cheat and anti-tamper solution developed in-house at Electronic Arts. 

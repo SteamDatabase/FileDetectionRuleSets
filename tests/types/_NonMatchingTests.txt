@@ -283,6 +283,9 @@ base/SVSWAP.WL6
 VVVVSWAP.BS6
 SVSWAP.VSI
 VSWAP
+AAntiCheat.Installer.exe
+EAAntiCheat.Installer.ex
+EAAntiCheat.Installer_exe
 something.cfgf
 some/dir/something.cfgf
 something.pk34
