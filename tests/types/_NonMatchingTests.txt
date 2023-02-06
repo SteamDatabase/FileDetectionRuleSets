@@ -69,6 +69,9 @@ Engine.BuildInfo_Win32_retail_dllxdll
 Engine.BuildInfo_Win64_retailxdll
 Engine.BuildInfo_Win64_retail_dllxdll
 Unity.Entities.dlll
+biter.dll
+Arbiter.dl
+Arbiter_dll
 SuperUnity.Entities.dll
 Unity.Entitie.dll
 Unity_Entities_dll
