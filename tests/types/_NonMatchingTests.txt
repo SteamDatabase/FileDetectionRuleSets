@@ -181,6 +181,9 @@ fDosbox
 fdosbox.exe
 FDOSBOX.exe
 dosbox.exef
+rGame.dll
+xrGame.dl
+xrGame_dll
 scummvm.exef
 fscummvm.exe
 LICENSE.electron.txtf
