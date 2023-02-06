@@ -1,1 +1,1 @@
-Halo Infinite is shipped with its own proprietary anti-cheat system which we call [**Arbiter**](https://www.halowaypoint.com/news/closer-look-halo-infinites-anti-cheat-strategy).
+[**Arbiter**](https://www.halowaypoint.com/news/closer-look-halo-infinites-anti-cheat-strategy) is the anti-cheat system used by Halo Infinite.
