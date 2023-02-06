@@ -1,1 +1,2 @@
 xrGame.dll
+bin/xrGame.dll
