@@ -6,3 +6,6 @@
 
 "Type: Anti-Cheat":
   - '**/AntiCheat.*'
+
+"Type: Launcher":
+  - '**/Launcher.*'
