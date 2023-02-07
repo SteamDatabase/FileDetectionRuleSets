@@ -249,6 +249,8 @@ CryRenderD3D12.dllf
 CryRenderVulkan.dllf
 CryD3DCompilerStub.dllf
 engine.pakf
+team4C2
+Steam4C
 sub/dir/something.cryf
 sub/dir/cry3dengine.dllf
 sub/dir/Cry3DEngine.dllf

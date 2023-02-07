@@ -1,0 +1,1 @@
+[**Steam4C2**](https://www.construct.net/en/forum/scirra-website/asset-store-36/steam4c2-plugins-114191) is a plugin for Construct 2 that allows games to communicate with Steam.

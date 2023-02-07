@@ -1,0 +1,7 @@
+package.nw/Steam4C2-linux32.node
+package.nw/Steam4C2-linux64.node
+package.nw/Steam4C2-osx32.node
+package.nw/Steam4C2-osx64.node
+package.nw/Steam4C2-win32.node
+package.nw/Steam4C2-win64.node
+package.nw/Steam4C2.js
