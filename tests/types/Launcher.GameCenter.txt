@@ -1,0 +1,2 @@
+/GameCenterDistribs.xml
+GameCenterDistribs.xml
