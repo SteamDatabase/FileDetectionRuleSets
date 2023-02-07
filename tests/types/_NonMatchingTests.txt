@@ -594,6 +594,12 @@ window_set_cursor.dllf
 joydll.dllf
 something.gmbckf
 something.gmsprf
+Support/UplayInstaller_exe
+Support/UplayInstaller.ex
+Support/playInstaller.exe
+UbisoftConnectInstaller_exe
+UbisoftConnectInstaller.ex
+bisoftConnectInstaller.exe
 GMXInput.dllf
 gm7zip.dllf
 sub/dir/game.unxf
