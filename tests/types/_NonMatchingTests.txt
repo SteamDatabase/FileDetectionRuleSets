@@ -701,6 +701,9 @@ defines.txt
 00_defines.txt
 /AkEngine.dll
 AkSoundEnginedlll.dll
+Redistributables/Rockstar-Games-Launcher_exe
+ockstar-Games-Launcher.exe
+Rockstar-Games-Launcher.ex
 /coffee/java.png
 jre/java.json
 random/jre/stuff.exe
