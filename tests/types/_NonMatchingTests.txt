@@ -223,6 +223,9 @@ andgrid.sys
 Randgrid_sys
 Dat/C
 Data/C5
+Data/C4.pa
+Data/C4.ak
+Data/C4_pak
 FChromeEngine2.dll
 FChromeEngine3.dll
 FChromEd.exe
