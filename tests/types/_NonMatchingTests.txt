@@ -136,6 +136,9 @@ ggameinfoogi
 bsppack.dlll
 bsppack-dll
 binbsppack.dll
+chunk0_rpkg
+chunk0.rpk
+chunk0.pkg
 hltviexe
 hltv.exee
 bin/hltv.exe
