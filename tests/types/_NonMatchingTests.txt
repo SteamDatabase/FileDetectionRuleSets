@@ -754,6 +754,9 @@ greenworks.nodespasdkj
 greenworks-win_node
 greenworks-win10.node
 greenworks-win32_node
+ameCenterDistribs.xml
+GameCenterDistribs.xm
+GameCenterDistribs_xml
 greenworks
 abcgreenworks-win32.node
 /files/gamecore/projectiletypes/_e_rpggrenade_d.dds

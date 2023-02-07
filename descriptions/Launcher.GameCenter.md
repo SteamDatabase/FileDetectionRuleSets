@@ -1,0 +1,1 @@
+**GameCenter** is a proprietary launcher for My.games games.
