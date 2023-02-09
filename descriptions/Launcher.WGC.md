@@ -1,0 +1,1 @@
+[**Wargaming.net Game Center**](https://eu.wargaming.net/en/wgc) is part of Wargaming digital distribution platform (game launcher app) that lets you keep all your Wargaming games in one place, read up on the latest news about upcoming features, watch videos, and find dynamite deals with ease!
