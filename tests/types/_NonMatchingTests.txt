@@ -92,6 +92,9 @@ EAappInstaller_exe
 ui.hdllollipop
 uv.hdllollipop
 APRT_RT.exe
+wgcs_api.ex
+gcs_api.exe
+wgcs_api_exe
 RPT_RT.exeeee
 ajs/rpg_core.js
 js/rpg_core.jssss
