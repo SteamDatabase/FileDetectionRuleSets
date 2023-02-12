@@ -100,6 +100,8 @@ ajs/rpg_core.js
 js/rpg_core.jssss
 js/rmmz_core.jssss
 ajs/rmmz_core.js
+entry
+sentr
 Sub/Folder/RPT_RT.exeeee
 Sub/Folder/js/rpg_core.jssss
 Sub/Folder/www/js/rpg_core.jsss

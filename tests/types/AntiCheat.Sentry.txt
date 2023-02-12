@@ -1,0 +1,4 @@
+sentry
+sentry/config.toml
+sentry/sel.dll
+sentry/splash.png
