@@ -96,6 +96,9 @@ wgcs_api.ex
 gcs_api.exe
 wgcs_api_exe
 RPT_RT.exeeee
+K.exe
+ZK.ex
+ZK_exe
 ajs/rpg_core.js
 js/rpg_core.jssss
 js/rmmz_core.jssss
