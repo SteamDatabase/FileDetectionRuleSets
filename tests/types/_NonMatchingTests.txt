@@ -245,6 +245,8 @@ bytecode.by
 ytecode.byc
 bytecode_byc
 fdata.dcp
+babylo
+abylon
 bytecode.rpybeer
 Sub/Folder/bytecode.rpybeer
 acsetup.cfgoof

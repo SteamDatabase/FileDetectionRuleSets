@@ -1,0 +1,8 @@
+copyrightnetcinematics/3d/boxicore10.babylon
+copyrightnetcinematics/3d/boxicore10.babylon.manifest
+copyrightnetcinematics/3d/boxigonthick1.babylon
+copyrightnetcinematics/3d/boxigonthick1.babylon.manifest
+copyrightnetcinematics/3d/boxigonthick3.babylon
+copyrightnetcinematics/3d/boxigonthick3a.babylon
+copyrightnetcinematics/3d/boxigonthick4.babylon
+lib/babylon
