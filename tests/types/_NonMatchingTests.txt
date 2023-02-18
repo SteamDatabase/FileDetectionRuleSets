@@ -109,6 +109,9 @@ renpy.stuff
 data.dcpcp
 testxem
 .xemtest
+bytecode.by
+ytecode.byc
+bytecode_byc
 fdata.dcp
 bytecode.rpybeer
 Sub/Folder/bytecode.rpybeer
