@@ -1,0 +1,1 @@
+[**Clausewitz Engine**](https://en.wikipedia.org/wiki/Paradox_Development_Studio) is the in-house game engine of Paradox Development Studio. It has been used for Paradox's grand strategy games since 2007, including Crusader Kings II/III, Stellaris and Europa Universalis III/IV.
