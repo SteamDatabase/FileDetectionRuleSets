@@ -1,1 +1,0 @@
-[**Vision Engine**](https://web.archive.org/web/20150211175016/http://www.havok.com/products/vision-engine) is a discontinued, cross-platform, 3D game engine originally authored by Trinigy and later acquired by Havok.
