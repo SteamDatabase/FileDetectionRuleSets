@@ -146,6 +146,15 @@ chunk0_rpkg
 chunk0.rpk
 chunk0.pkg
 hltviexe
+mss16.dl
+mss32.dl
+mss64.dl
+ss16.dll
+ss32.dll
+ss64.dll
+mss16_dll
+mss32_dll
+mss64_dll
 hltv.exee
 bin/hltv.exe
 nvngx_dlssddll
