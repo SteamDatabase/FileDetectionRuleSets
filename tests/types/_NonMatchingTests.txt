@@ -140,6 +140,9 @@ core/gameinfo.gii
 core/gameinfoogi
 ggameinfoogi
 bsppack.dlll
+c_04bbc6b1c3845b4df59b001a5b268246-00.fbr
+_04bbc6b1c3845b4df59b001a5b268246-00.fbrb
+c_04bbc6b1c3845b4df59b001a5b268246-00_fbrb
 bsppack-dll
 binbsppack.dll
 chunk0_rpkg
