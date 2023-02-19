@@ -1,0 +1,1 @@
+[3D Gamestudio](http://www.3dgamestudio.com/) is the world's fastest authoring system for interactive 2D and 3D applications - such as multimedia tools, video games, simulations, or any other software program.
