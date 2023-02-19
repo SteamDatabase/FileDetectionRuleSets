@@ -131,6 +131,12 @@ FAdobe AIR/Versions
 FAdobe AIR/Versions/1.0
 FAdobe AIR/Versions/1.0/Adobe AIR.dll
 love.dllfdfd
+granny2.dl
+ranny2.dll
+granny2_dll
+granny2_x64.dl
+ranny2_x64.dll
+granny2_x64_dll
 pfdfdflove.dll
 Sub/Folder/love.dllfdfdfdf
 SGODOT_LICENSE.txt
