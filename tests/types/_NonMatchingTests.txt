@@ -113,6 +113,12 @@ fdata.dcp
 bytecode.rpybeer
 Sub/Folder/bytecode.rpybeer
 acsetup.cfgoof
+acknex.dl
+cknex.dll
+acknex_dll
+acknex.wd
+cknex.wdf
+acknex_wdf
 Sub/Folder/acsetup.cfgoof
 pacsetup.cfg
 natives_blob.bink
