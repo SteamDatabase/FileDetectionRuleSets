@@ -143,6 +143,15 @@ bsppack.dlll
 bsppack-dll
 binbsppack.dll
 chunk0_rpkg
+orx.s
+rx.so
+orx_so
+liborx.s
+iborx.so
+liborx_so
+liborx.dyli
+iborx.dylib
+liborx_dylib
 chunk0.rpk
 chunk0.pkg
 hltviexe
