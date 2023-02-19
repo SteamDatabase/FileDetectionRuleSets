@@ -84,6 +84,9 @@ Unity.Render.Hybrids.dll
 Unity_Rendering_Hybrid.dll
 ui.hdllf
 uv.hdllf
+smackw32.dl
+mackw32.dll
+smackw32_dll
 Sub/ui.hdllf
 Sub/uv.hdllf
 EAappInstaller.ex

@@ -1,0 +1,1 @@
+[**Smacker Video**](http://www.radgametools.com/smkmain.htm) is very different than most video codecs. It is an 256-color (8-bit) codec - it uses a palette (or a series of palettes) for the video frames. 
