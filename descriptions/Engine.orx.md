@@ -1,1 +1,0 @@
-[**orx**](https://orx-project.org/) is a 2.5D data-driven game development engine. It is open source, ultra-fast, multi-platform and full-featured for C/C++ programmers: beginners and experts alike.
