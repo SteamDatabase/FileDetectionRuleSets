@@ -19,6 +19,8 @@ abylon.js
 babylon.j
 babylon_js
 lib_babylon
+notrelatedto.babylo
+notrelatedto_babylon
 SomeEngine/Binaries/ThirdParty
 e_chunk_000.pak
 re_chunk_000.pa
