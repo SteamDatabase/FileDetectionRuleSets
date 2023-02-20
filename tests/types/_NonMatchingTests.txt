@@ -17,6 +17,12 @@ sub/dir/fna.dllwhoops
 fx_core_dll
 ChEasyAntiCheat/
 EasyAntiCheat.whatever
+gse-export-legacy.j
+gse-export.j
+se-export-legacy.js
+se-export.js
+gse-export-legacy_js
+gse-export_js
 SomeEngine/Binaries/ThirdParty
 Engine/Binaries/ThirdPartySomething
 blahrpg_rt.exe
