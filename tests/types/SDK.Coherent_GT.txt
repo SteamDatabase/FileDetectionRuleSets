@@ -1,0 +1,8 @@
+/CoherentGTCore.dll
+/CoherentGTCore.dylib
+/CoherentUIGT.dll
+/CoherentUIGT.dylib
+CoherentGTCore.dll
+CoherentGTCore.dylib
+CoherentUIGT.dll
+CoherentUIGT.dylib
