@@ -72,6 +72,16 @@ Unity.Entities.dlll
 biter.dll
 Arbiter.dl
 Arbiter_dll
+enoirCore.Mac.dylib
+enoirCore.WindowsDesktop.dll
+ohtml.WindowsDesktop.dll
+RenoirCore.Mac.dyli
+RenoirCore.WindowsDesktop.dl
+cohtml.WindowsDesktop.dl
+RenoirCore.Mac_dylib
+RenoirCore.WindowsDesktop_dll
+cohtml.WindowsDesktop_dll
+
 SuperUnity.Entities.dll
 Unity.Entitie.dll
 Unity_Entities_dll
