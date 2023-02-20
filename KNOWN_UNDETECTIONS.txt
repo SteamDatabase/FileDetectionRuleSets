@@ -18,6 +18,10 @@ It is possible to package a GameMaker game as a standalone executable with no su
 
 Godot games can also be packaged as standalone executables with no external asset files.
 
+### GDevelop
+
+GDevelop also doesn't have any non-generic files, so detection is kind of impossible.
+
 ## The following SDKs are known to be undetected by our heurestics
 
 ### Havok
