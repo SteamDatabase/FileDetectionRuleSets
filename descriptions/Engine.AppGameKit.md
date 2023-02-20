@@ -1,1 +1,1 @@
-[**AppGameKit**](https://www.appgamekit.com/) is a game engine that offers a high level coding and programming tool which aims to be easy for beginners to learn.
+[**AppGameKit**](https://www.appgamekit.com/) is a game engine developed by "The Game Creators" which aims to be easy for beginners to learn.
