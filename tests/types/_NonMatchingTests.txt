@@ -85,6 +85,15 @@ Unity_Rendering_Hybrid.dll
 ui.hdllf
 uv.hdllf
 Sub/ui.hdllf
+zstd.dl
+zstd.dyli
+zstd.s
+std.dll
+std.dylib
+std.so
+zstd_dll
+zstd_dylib
+zstd_so
 Sub/uv.hdllf
 EAappInstaller.ex
 AappInstaller.exe
