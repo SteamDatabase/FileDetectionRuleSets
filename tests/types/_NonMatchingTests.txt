@@ -105,6 +105,12 @@ Sub/Folder/js/rpg_core.jssss
 Sub/Folder/www/js/rpg_core.jsss
 Sub/Folder/js/rmmz_core.jsss
 Lib/renpy.stuff
+bchmark.dl
+chmark.dll
+bchmark_dll
+oaremote_plugin.dl
+aremote_plugin.dll
+oaremote_plugin_dll
 renpy.stuff
 data.dcpcp
 testxem
@@ -204,6 +210,9 @@ fscummvm.exe
 LICENSE.electron.txtf
 fLICENSE.electron.txt
 node.dllk
+.as
+_asr
+.sr
 ootstrap.cfg
 bootstrap.cf
 bootstrap_cfg
