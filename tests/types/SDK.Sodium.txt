@@ -1,0 +1,6 @@
+/libsodium.dll
+/libsodium.dylib
+/libsodium.so
+libsodium.dll
+libsodium.dylib
+libsodium.so
