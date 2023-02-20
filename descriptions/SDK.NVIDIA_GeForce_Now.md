@@ -1,0 +1,1 @@
+[**GeForce Now**](https://www.nvidia.com/en-us/geforce-now/) is a cloud-based game streaming service, delivering real-time gameplay straight from the cloud to your laptop, desktop, Mac, Chromebook, SHIELD TV, select Samsung and LG TVs, iPhone, iPad, and Android devices.
