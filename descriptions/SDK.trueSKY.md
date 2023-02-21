@@ -1,1 +1,1 @@
-[**trueSKY**](https://simul.co/) is the leading cloud, atmosphere and weather tool kit.
+[**trueSKY**](https://simul.co/) is a software development kit that allows realistic skies, clouds and atmospheric effects to be rendered in real time on a variety of platforms.
