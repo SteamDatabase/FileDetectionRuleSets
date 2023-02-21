@@ -92,6 +92,9 @@ ui.hdllf
 uv.hdllf
 Sub/ui.hdllf
 Sub/uv.hdllf
+fnRuntimeSdk.dll
+GfnRuntimeSdk.dl
+GfnRuntimeSdk_dll
 EAappInstaller.ex
 AappInstaller.exe
 EAappInstaller_exe
