@@ -90,14 +90,8 @@ ssleay32_dll
 Unity_Rendering_Hybrid.dll
 ui.hdllf
 libsodium.dl
-libsodium.dyli
-libsodium.s
 ibsodium.dll
-ibsodium.dylib
-ibsodium.so
 libsodium_dll
-libsodium_dylib
-libsodium_so
 uv.hdllf
 smackw32.dl
 mackw32.dll
