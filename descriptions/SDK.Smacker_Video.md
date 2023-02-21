@@ -1,1 +1,1 @@
-[**Smacker Video**](http://www.radgametools.com/smkmain.htm) is very different than most video codecs. It is an 256-color (8-bit) codec - it uses a palette (or a series of palettes) for the video frames. 
+[**Smacker Video**](http://www.radgametools.com/smkmain.htm) is a video codec that was first released in 1994. It has since been superseded in most of its use case by [Bink](/tech/SDK/Bink_Video/)
