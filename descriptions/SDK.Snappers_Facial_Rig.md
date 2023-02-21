@@ -1,0 +1,1 @@
+[**Snappers Facial Rig**](https://www.snapperstech.com/facial-rigging) is an adaptive Rig which allows combining any number of expressions using optimized list of blendshapes.

@@ -15,6 +15,9 @@ fna.dllwhoops
 sub/dir/notactuallyfna.dll
 sub/dir/fna.dllwhoops
 fx_core_dll
+nappers_RigLogic_DLL.dll
+Snappers_RigLogic_DLL.dl
+Snappers_RigLogic_DLL_dll
 ChEasyAntiCheat/
 EasyAntiCheat.whatever
 SomeEngine/Binaries/ThirdParty
