@@ -18,6 +18,9 @@ fx_core_dll
 ChEasyAntiCheat/
 EasyAntiCheat.whatever
 SomeEngine/Binaries/ThirdParty
+e_chunk_000.pak
+re_chunk_000.pa
+re_chunk_000_pak
 Engine/Binaries/ThirdPartySomething
 blahrpg_rt.exe
 sub/blahrpg_rt.exe
