@@ -1,0 +1,5 @@
+.redscripts
+.w2scripts
+r6/cache/final.redscripts
+CookedPC/compiledscripts.w2scripts
+content/content0/cookedfinal.redscripts
