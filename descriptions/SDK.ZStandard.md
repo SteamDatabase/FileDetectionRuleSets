@@ -1,0 +1,1 @@
+[**Zstandard**](https://facebook.github.io/zstd/) is a fast compression algorithm, providing high compression ratios.
