@@ -91,6 +91,9 @@ sleay32.dll
 libeay32_dll
 ssleay32_dll
 Unity_Rendering_Hybrid.dll
+phaser.dl
+haser.dll
+phaser_dll
 ui.hdllf
 libsodium.dl
 ibsodium.dll
