@@ -1,6 +1,2 @@
 /zstd.dll
-/zstd.dylib
-/zstd.so
 zstd.dll
-zstd.dylib
-zstd.so
