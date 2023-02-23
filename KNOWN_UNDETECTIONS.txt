@@ -27,3 +27,13 @@ GDevelop also doesn't have any non-generic files, so detection is kind of imposs
 ### Havok
 
 Games using Havok SDK Suite (Physics, Cloth and AI) are usually don't have any special files for them, so we can not detect them.
+
+## The following AntiCheats are known to be undetected by our heretics
+
+### Valve Anti-Cheat
+
+It's built into Steam and game exe, so its can't be detected
+
+### Denuvo Anti-Cheat
+
+Denuvo is built into exe, so it can not be detected either
