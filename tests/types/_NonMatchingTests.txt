@@ -90,6 +90,9 @@ ibeay32.dll
 sleay32.dll
 libeay32_dll
 ssleay32_dll
+yrano.js
+tyrano.j
+tyrano_js
 Unity_Rendering_Hybrid.dll
 ui.hdllf
 libsodium.dl
