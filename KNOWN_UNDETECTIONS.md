@@ -22,7 +22,7 @@ Godot games can also be packaged as standalone executables with no external asse
 
 GDevelop also doesn't have any non-generic files, so detection is kind of impossible.
 
-## Stencyl
+### Stencyl
 
 Stencyl is based on Adobe AIR(?) so it does not give any signal on it's own.
 
