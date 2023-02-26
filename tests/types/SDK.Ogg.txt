@@ -1,0 +1,10 @@
+/libogg.0.dylib
+/libogg.dll
+/libogg.so.0
+/libogg_64.dll
+/ogg.dll
+libogg.0.dylib
+libogg.dll
+libogg.so.0
+libogg_64.dll
+ogg.dll
