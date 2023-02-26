@@ -1,0 +1,1 @@
+[DbgHelp](https://learn.microsoft.com/en-us/windows/win32/debug/debug-help-library) is a set of debugging support routines that allow you to work with executable images in the portable executable (PE) format.

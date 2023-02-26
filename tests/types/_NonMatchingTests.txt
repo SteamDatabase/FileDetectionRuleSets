@@ -87,6 +87,9 @@ Unity.Render.Hybrids.dll
 libeay32.dl
 ssleay32.dl
 ibeay32.dll
+dbghelp.dl
+bghelp.dll
+dbghelp_dll
 sleay32.dll
 libeay32_dll
 ssleay32_dll
