@@ -117,6 +117,9 @@ wgcs_api.ex
 gcs_api.exe
 wgcs_api_exe
 RPT_RT.exeeee
+Cache.Window
+ache.Windows
+Cache_Windows
 ajs/rpg_core.js
 js/rpg_core.jssss
 js/rmmz_core.jssss
