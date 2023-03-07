@@ -116,6 +116,9 @@ APRT_RT.exe
 wgcs_api.ex
 gcs_api.exe
 wgcs_api_exe
+CachedShaders_D3D12_gro
+CachedShaders_D3D12.gr
+achedShaders_D3D12.gro
 RPT_RT.exeeee
 ajs/rpg_core.js
 js/rpg_core.jssss
