@@ -79,6 +79,9 @@ SuperUnity.Entities.dll
 Unity.Entitie.dll
 Unity_Entities_dll
 StreamingAssets/Scenes/
+TrueSkyPluginRender_MT.dl
+rueSkyPluginRender_MT.dll
+TrueSkyPluginRender_MT_dll
 StreamingSets/SubScenes/
 Unity.Rendering.Hybrid.dlll
 SuperUnity.Rendering.Hybrid.dll
