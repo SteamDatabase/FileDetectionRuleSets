@@ -1,0 +1,1 @@
+[**FreeImage**](https://freeimage.sourceforge.io/) is an Open Source library project for developers who would like to support popular graphics image formats like PNG, BMP, JPEG, TIFF and others as needed by today's multimedia applications.

@@ -94,6 +94,12 @@ edscripts
 2scripts
 libeay32_dll
 ssleay32_dll
+FreeImage.dl
+FreeImage.s
+reeImage.dll
+reeImage.so
+FreeImage_dll
+FreeImage_so
 Unity_Rendering_Hybrid.dll
 ui.hdllf
 athEngine.dll
