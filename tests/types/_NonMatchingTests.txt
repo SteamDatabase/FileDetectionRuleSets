@@ -88,6 +88,10 @@ libeay32.dl
 ssleay32.dl
 ibeay32.dll
 sleay32.dll
+redscript
+w2script
+edscripts
+2scripts
 libeay32_dll
 ssleay32_dll
 Unity_Rendering_Hybrid.dll
