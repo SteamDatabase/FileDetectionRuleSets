@@ -97,6 +97,10 @@ edscripts
 2scripts
 libeay32_dll
 ssleay32_dll
+yrano.js
+tyrano.j
+tyrano_js
+tyrano.jss
 FreeImage.dl
 FreeImage.s
 reeImage.dll
