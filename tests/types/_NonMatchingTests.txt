@@ -108,6 +108,9 @@ reeImage.so
 FreeImage_dll
 FreeImage_so
 Unity_Rendering_Hybrid.dll
+phaser.dl
+haser.dll
+phaser_dll
 ui.hdllf
 athEngine.dll
 PathEngine.dl
