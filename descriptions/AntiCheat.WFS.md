@@ -1,0 +1,1 @@
+**WFS** (no official name) is an anticheat family made by [**WFS, Inc.**](https://www.wfs.games/en-us) for their games.

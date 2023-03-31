@@ -181,6 +181,15 @@ bytecode.by
 ytecode.byc
 bytecode_byc
 fdata.dcp
+wfsdrv.sy
+fsdrv.sys
+wfsdrv_sys
+wfshbr64.sy
+fshbr64.sys
+wfshbr64_sys
+wfshbr32.sy
+fshbr32.sys
+wfshbr32_sys
 bytecode.rpybeer
 Sub/Folder/bytecode.rpybeer
 acsetup.cfgoof
