@@ -1,0 +1,1 @@
+[**Unity Localization**](https://docs.unity3d.com/Packages/com.unity.localization@latest) is a customizable cross-platform localization solution built by Unity to add support for multiple languages and regional variants.
