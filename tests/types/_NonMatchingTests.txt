@@ -87,6 +87,10 @@ Unity.Rendering.Hybrid.dlll
 SuperUnity.Rendering.Hybrid.dll
 Unity.Rendering.Hybrids.dll
 Unity.Render.Hybrids.dll
+Unity.Loc.dll
+Unity.Localization.dlll
+SuperUnity.Localization.dll
+Unity.Localisation.dll
 libeay32.dl
 ssleay32.dl
 ibeay32.dll
