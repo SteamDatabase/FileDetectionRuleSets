@@ -763,6 +763,11 @@ openvr_api
 libopenvr_api_so
 openvr_api_dll
 openvr_api_bundle
+tbb
+tbb_dll
+tbb12
+tbbmalloc
+tbbmalloc_dll
 libopenxr_loader
 openxr_loader
 libopenxr_loader_so

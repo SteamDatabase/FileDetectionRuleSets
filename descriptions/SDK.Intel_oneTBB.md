@@ -1,0 +1,1 @@
+[**Intel® oneAPI Threading Building Blocks**](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onetbb.html) (oneTBB; formerly Intel® Threading Building Blocks or Intel® TBB) is a flexible performance library that simplifies the work of adding parallelism to complex applications across accelerated architectures.
