@@ -1,5 +1,6 @@
 /Assembly-CSharp.dll
 /UnityCrashHandler64.exe
+/UnityCrashHandler32.exe
 /UnityEngine.@
 /UnityEngine.@@
 /UnityEngine.dll
@@ -14,6 +15,7 @@ Sub/Folder/UnityEngine.dylib
 Sub/Folder/UnityPlayer.dll
 Sub/Folder/UnityPlayer.dylib
 UnityCrashHandler64.exe
+UnityCrashHandler32.exe
 UnityEngine.@
 UnityEngine.@@
 UnityEngine.CoreModule.dll
