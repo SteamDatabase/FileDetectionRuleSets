@@ -869,3 +869,8 @@ abcgreenworks-win32.node
 files_gamecore_projectiletypes_e_rpggrenade_d.dds
 files/gamecore/blah
 files/gamecore/projectiletypes/_e_rpggrenade_d.ddsdf
+xyzmusic.dll
+zmusic.dllaspidjosaoijf
+notreallygzdoom.sf2
+gzdoom.pk3asdopa
+gzdoom.sf2apsjdoiasfdjas
