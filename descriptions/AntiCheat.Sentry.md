@@ -1,0 +1,1 @@
+**Sentry**(https://support.sentry.co.jp/hc/en-jp) is an anticheat made by Sentry Corporation.
