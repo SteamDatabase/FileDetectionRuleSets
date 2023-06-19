@@ -1,1 +1,1 @@
-[**EngineX**](https://sphinxandthecursedmummy.fandom.com/wiki/EngineX) is an in-house engine of the late Eurocom Entertainment Software and its derived games.
+[**EngineX**](https://sphinxandthecursedmummy.fandom.com/wiki/EngineX) is a versatile in-house engine from the late Eurocom Entertainment Software, originally created for Sphinx and the Cursed Mummy.
