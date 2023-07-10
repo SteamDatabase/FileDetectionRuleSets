@@ -1,0 +1,5 @@
+/js/rpg_core.js
+Sub/Folder/js/rpg_core.js
+Sub/Folder/www/js/rpg_core.js
+js/rpg_core.js
+www/js/rpg_core.js
