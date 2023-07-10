@@ -1,8 +1,13 @@
 .rgssad
 .rxdata
+.rxproj
 /rgss104e.dll
 AwesomeGame.rgssad
+AwesomeGame.rxdata
+AwesomeGame.rxproj
 RGSS104E.dll
 Sub/Folder/AwesomeGame.rgssad
+Sub/Folder/AwesomeGame.rxdata
+Sub/Folder/AwesomeGame.rxproj
 Sub/Folder/RGSS104E.dll
 rgss104e.dll
