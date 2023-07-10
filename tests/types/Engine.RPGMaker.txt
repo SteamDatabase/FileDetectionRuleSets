@@ -1,5 +1,4 @@
 .rgss2a
-.rgss3a
 .rgssad
 .rvproj2
 /RPG_RT.ini
@@ -14,12 +13,10 @@
 /rpg_rt.exe
 /rpt_rt.exe
 AwesomeGame.rgssad
-AwesomeGame.rvproj2
 RGSS104E.dll
 RPG_RT.ini
 RPT_RT.exe
 Sub/Folder/AwesomeGame.rgssad
-Sub/Folder/AwesomeGame.rvproj2
 Sub/Folder/RGSS104E.dll
 Sub/Folder/RPT_RT.exe
 Sub/Folder/js/rmmz_core.js
