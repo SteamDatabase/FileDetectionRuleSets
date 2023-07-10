@@ -1,0 +1,3 @@
+/js/rmmz_core.js
+Sub/Folder/js/rmmz_core.js
+js/rmmz_core.js
