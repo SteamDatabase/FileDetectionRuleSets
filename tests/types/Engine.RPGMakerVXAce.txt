@@ -1,0 +1,3 @@
+.rgss3a
+AwesomeGame.rvproj2
+Sub/Folder/AwesomeGame.rvproj2
