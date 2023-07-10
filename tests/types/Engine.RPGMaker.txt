@@ -5,8 +5,6 @@
 /config.rpgsave
 /js/rmmz_core.js
 /js/rpg_core.js
-/rgss102e.dll
-/rgss102j.dll
 /rgss202e.dll
 /rgss301.dll
 /rpg_rt.exe
@@ -18,15 +16,11 @@ Sub/Folder/AwesomeGame.rvproj2
 Sub/Folder/RPT_RT.exe
 Sub/Folder/js/rmmz_core.js
 Sub/Folder/js/rpg_core.js
-Sub/Folder/rgss102e.dll
-Sub/Folder/rgss102j.dll
 Sub/Folder/rpg_rt.exe
 Sub/Folder/www/js/rpg_core.js
 config.rpgsave
 js/rmmz_core.js
 js/rpg_core.js
-rgss102e.dll
-rgss102j.dll
 rgss202e.dll
 rgss301.dll
 rpg_rt.exe
