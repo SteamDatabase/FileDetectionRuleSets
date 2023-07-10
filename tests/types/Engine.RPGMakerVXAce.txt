@@ -1,5 +1,9 @@
 .rgss3a
+.rvproj2
 /rgss301.dll
+AwesomeGame.rgss3a
 AwesomeGame.rvproj2
+Sub/Folder/AwesomeGame.rgss3a
 Sub/Folder/AwesomeGame.rvproj2
+Sub/Folder/rgss301.dll
 rgss301.dll
