@@ -1,6 +1,5 @@
 .rgss2a
 .rgssad
-.rvproj2
 /RPG_RT.ini
 /config.rpgsave
 /js/rmmz_core.js
