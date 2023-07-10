@@ -1,4 +1,3 @@
-.rgss2a
 .rgss3a
 .rgssad
 .rvproj2
@@ -9,7 +8,6 @@
 /rgss102e.dll
 /rgss102j.dll
 /rgss104e.dll
-/rgss202e.dll
 /rgss301.dll
 /rpg_rt.exe
 /rpt_rt.exe
@@ -34,7 +32,6 @@ js/rpg_core.js
 rgss102e.dll
 rgss102j.dll
 rgss104e.dll
-rgss202e.dll
 rgss301.dll
 rpg_rt.exe
 rpt_rt.exe
