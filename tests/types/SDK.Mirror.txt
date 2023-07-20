@@ -1,4 +1,4 @@
-Managed/Mirror.Authenticators.dll
-Managed/Mirror.Components.dll
-Managed/Mirror.dll
+/Managed/Mirror.Authenticators.dll
+/Managed/Mirror.Components.dll
+/Managed/Mirror.dll
 
