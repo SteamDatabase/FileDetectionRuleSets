@@ -1,0 +1,6 @@
+Managed/FishNet.CodeAnalysis.dll
+Managed/FishNet.Example.dll
+Managed/FishNet.Generated.dll
+Managed/FishNet.Plugins.ColliderRollback.Generated.dll
+Managed/FishNet.Runtime.dll
+
