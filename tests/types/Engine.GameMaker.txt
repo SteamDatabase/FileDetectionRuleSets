@@ -5,7 +5,6 @@
 /Steamworks.gmk.dll
 /Steamworks.gml.dll
 /audiogroup1.dat
-/data.win
 /display_mouse_lock.dll
 /game.ios
 /game.unx
