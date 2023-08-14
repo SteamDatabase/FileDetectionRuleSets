@@ -1,4 +1,6 @@
 /c2runtime.js
 /c3runtime.js
+/package.nw
 c2runtime.js
 c3runtime.js
+package.nw
