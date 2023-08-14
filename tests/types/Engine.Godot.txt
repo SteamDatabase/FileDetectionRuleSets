@@ -1,3 +1,4 @@
 /project.godot
 Sub/Folder/project.godot
 project.godot
+steamsdk-godot.dll
