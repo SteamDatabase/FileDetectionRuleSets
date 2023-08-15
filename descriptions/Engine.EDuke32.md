@@ -1,0 +1,1 @@
+[**EDuke32**](https://www.eduke32.com/) is a free homebrew source port of Duke Nukem 3D's Build Engine to Windows, Linux, Mac OS X, FreeBSD, and several handhelds. EDuke32 is [**open source**](https://voidpoint.io/terminx/eduke32) software that is completely free to use for all non-commercial purposes.
