@@ -1,0 +1,1 @@
+[**Rpgboss**](https://rpgboss.freeforums.net/) is a [**open source**](https://github.com/rpgboss/rpgboss) RPG engine and editor designed for ease of use, with no coding requirement for your 2d jrpg needs. Based off on Scala and libgdx / javascript.
