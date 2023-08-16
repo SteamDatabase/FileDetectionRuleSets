@@ -1,17 +1,1 @@
 /GlyphClient.cfg
-/GlyphClient.exe
-/GlyphClient.xml
-/GlyphClientApp.exe
-/GlyphCrashHandler.exe
-/GlyphDownloader.exe
-/GlyphUninstall.exe
-GlyphClient.cfg
-GlyphClient.exe
-GlyphClient.xml
-GlyphClientApp.exe
-GlyphCrashHandler.exe
-GlyphDownloader.exe
-GlyphUninstall.exe
-Library/GlyphLibrary.xml
-Library/GlyphScript.qml
-x64/GlyphCrashHandler64.exe
