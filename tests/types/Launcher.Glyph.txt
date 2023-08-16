@@ -1,2 +1,1 @@
-/GlyphClient.cfg
 GlyphClient.cfg
