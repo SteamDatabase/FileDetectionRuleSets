@@ -1,0 +1,1 @@
+[**PyGame**](https://www.pygame.org/) is a set of highly portable Python libraries designed for writing video games. It runs on almost all OSs and platforms. Pygame is released under the LGPL licence, and is completely free.
