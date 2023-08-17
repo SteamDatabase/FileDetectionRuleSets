@@ -1,0 +1,16 @@
+WaveEngine.Adapter.dll
+WaveEngine.Adapter.Video.dll
+WaveEngine.Analytics.dll
+WaveEngine.Common.dll
+WaveEngine.Components.dll
+WaveEngine.Framework.dll
+WaveEngine.Materials.dll
+WaveEngine.Physics.dll
+/WaveEngine.Adapter.dll
+/WaveEngine.Adapter.Video.dll
+/WaveEngine.Analytics.dll
+/WaveEngine.Common.dll
+/WaveEngine.Components.dll
+/WaveEngine.Framework.dll
+/WaveEngine.Materials.dll
+/WaveEngine.Physics.dll
