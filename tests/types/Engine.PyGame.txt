@@ -1,3 +1,5 @@
 pygame/
 pygame_gui/
 pygame.base.pyd
+pygame_sdl2.event.pyd
+pygame_sdl2.error.pyd
