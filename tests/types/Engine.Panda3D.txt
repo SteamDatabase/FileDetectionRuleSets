@@ -1,0 +1,4 @@
+panda3d.bullet.pyd
+panda3d.core.pyd
+panda3d.direct.pyd
+panda3d.physics.pyd
