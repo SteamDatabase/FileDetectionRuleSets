@@ -1,0 +1,1 @@
+[**SLUDGE**](https://opensludge.github.io/) (Scripting Language for Unhindered Development of a Gaming Environment) is an SDK and programming language by [**Hungry Software**](http://www.hungrysoftware.com/). SLUDGE is free and [**Open Source**](https://github.com/opensludge/opensludge).
