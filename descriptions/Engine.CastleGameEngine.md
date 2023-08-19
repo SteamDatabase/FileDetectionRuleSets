@@ -1,0 +1,1 @@
+The [**Castle Game Engine**](https://castle-engine.io/) is a cross-platform (desktop, mobile, console) 3D and 2D game engine supporting many asset formats (glTF, X3D, Spine...) and using modern Object Pascal. It is [**free to use**](https://castle-engine.itch.io/castle-game-engine), and [**open source**](https://github.com/castle-engine/castle-engine).
