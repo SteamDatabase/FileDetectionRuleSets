@@ -1,0 +1,1 @@
+[**FFmpeg**](https://ffmpeg.org/) is a free [**open-source**](https://github.com/FFmpeg/FFmpeg) suite of libraries and programs for recording, converting and streaming video, audio, and other multimedia files and streams.
