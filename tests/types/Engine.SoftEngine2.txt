@@ -7,6 +7,10 @@
 .g1s
 .g1t
 .g1vs
+.gapk
+.gepk
+.gmpk
+.gspk
 .ktsl2asbin
 .ktsl2gcbin
 .ktsl2stbin
