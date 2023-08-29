@@ -2,6 +2,7 @@
 .atsl
 .g1a
 .g1l
+.g1l.win
 .g1m
 .g1pf
 .g1s
