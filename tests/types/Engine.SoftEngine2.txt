@@ -1,1 +1,13 @@
 .ktsl2asbin
+.ktsl2stbin
+.atsl
+.asbin
+.ktsl2gcbin
+.g1vs
+.sebin
+.g1t
+.g1m
+.g1a
+.g1s
+.g1pf
+.g1l
