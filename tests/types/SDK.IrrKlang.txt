@@ -1,1 +1,3 @@
 irrKlang.dll
+ikpFlac.dll
+ikpMP3.dll
