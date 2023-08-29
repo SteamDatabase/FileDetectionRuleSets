@@ -1,0 +1,1 @@
+The [**Irrlicht Engine**](https://irrlicht.sourceforge.io/) is an open source realtime 3D engine written in C++. It is cross-platform, using D3D, OpenGL and its own software renderers. It is a stable library which has been worked on for nearly 2 decades.
