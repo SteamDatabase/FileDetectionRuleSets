@@ -2,7 +2,3 @@ assets/data/behaviors.mbs
 assets/data/game.mbs
 assets/data/resources.mbs
 assets/data/scenes.mbs
-lime.ndll
-lime-legacy.ndll
-steamwrap.ndll
-systools.ndll
