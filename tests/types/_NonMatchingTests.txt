@@ -287,7 +287,6 @@ fscummvm.exe
 LICENSE.electron.txtf
 fLICENSE.electron.txt
 node.dllk
-.as
 _asr
 .sr
 ootstrap.cfg
