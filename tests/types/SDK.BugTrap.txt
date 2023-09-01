@@ -1,0 +1,6 @@
+/BugTrap.dll
+/BugTrapU.dll
+/bugtrapu-x64.dll
+BugTrap.dll
+BugTrapU.dll
+BugTrapU-x64.dll
