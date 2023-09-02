@@ -711,6 +711,7 @@ sub/dir/rousrDissonance.dllf
 sub/dir/CleanMem.dllf
 sub/dir/window_set_cursor.dllf
 sub/dir/joydll.dllf
+root.pfs.000
 sub/dir/something.gmbckf
 sub/dir/something.gmsprf
 sub/dir/GMXInput.dllf
