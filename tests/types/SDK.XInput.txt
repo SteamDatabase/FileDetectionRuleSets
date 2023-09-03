@@ -10,3 +10,4 @@ redist/DirectX9/AUG2006_xinput_x86.cab
 redist/DirectX9/Oct2005_xinput_x64.cab
 redist/DirectX9/Oct2005_xinput_x86.cab
 xinput1_3.dll
+xinput9_1_0.dll
