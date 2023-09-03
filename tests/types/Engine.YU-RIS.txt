@@ -1,0 +1,2 @@
+yscfg.dat
+/path/to/yscfg.dat
