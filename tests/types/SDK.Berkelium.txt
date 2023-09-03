@@ -1,4 +1,6 @@
 /berkelium.dll
 /berkelium.exe
+/liblibberkelium.dylib
 berkelium.dll
 berkelium.exe
+liblibberkelium.so
