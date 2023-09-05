@@ -1,0 +1,1 @@
+[**Unreal Engine**](https://www.unrealengine.com/en-US) is game engine developed by Epic Games and first used in Unreal (1998). Alongside games, Unreal Engine has also been used in film and television, live events and more. Note that we cannot allways distinguish between different versions of the Unreal engine.
