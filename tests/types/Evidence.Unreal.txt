@@ -9,7 +9,6 @@ Binaries/Win64/
 Binaries/Win64/APEX_Clothing_x64.dll
 Binaries/Win64/AgentInterface.dll
 Binaries/Win64/BugSplat64.dll
-Binaries/Win64/UE3ShaderCompileWorker.exe
 Binaries/Win64/lib64/DoNotDelete.txt
 Binaries/Win64/lib64/libEOSSDK-Linux-Shipping.so
 Engine/Binaries/ThirdParty/
