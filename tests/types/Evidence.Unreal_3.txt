@@ -1,0 +1,7 @@
+.upk
+.ut3
+.ukr
+.umap
+.usf
+.udk
+Binaries/Win64/UE3ShaderCompileWorker.exe
