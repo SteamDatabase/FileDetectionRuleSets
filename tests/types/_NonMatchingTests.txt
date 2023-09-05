@@ -877,3 +877,7 @@ zmusic.dllaspidjosaoijf
 notreallygzdoom.sf2
 gzdoom.pk3asdopa
 gzdoom.sf2apsjdoiasfdjas
+Files/entitybank/_markers/arrow_dbo
+Files/entitybank/_markers/notactuallyarrow.dbo
+Files/entitybank/_markers/arrow.dbowhoops
+entitybank/_markers/arrow.dbo

@@ -1,0 +1,2 @@
+Files/entitybank/_markers/arrow.dbo
+my_fpsc_game/Files/entitybank/_markers/arrow.dbo
