@@ -1,0 +1,10 @@
+/Content/Movies/UE4_Moving_Logo_720_60.mp4
+/Content/Movies/UE4_Moving_Logo_1080_60.mp4
+/Content/Movies/UE4_Still_Logo_1080_60.mp4
+/Content/Movies/UE4_Startup_Moving_Logo_1088_60.mp4
+/Content/Movies/UE4_Startup_Still_Logo_1088_60.mp4
+Engine/Binaries/Win32/UE4Game-Win32-Shipping.exe
+Engine/Binaries/Win64/UE4Game-Win64-Shipping.exe
+Engine/Content/Slate/Testing/UE4Icon.png
+Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe
+Engine/Extras/Redist/en-us/UE4PrereqSetup_x86.exe

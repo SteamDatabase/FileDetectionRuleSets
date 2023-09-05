@@ -1,0 +1,7 @@
+.uasset
+.ubulk
+.uexp
+.ufont
+.umap
+.uplugin
+.uproject
