@@ -199,6 +199,11 @@ class FileDetector
 			return 'Engine.Heaps';
 		}
 
+		if( $has( 'Evidence.Unreal' ) )
+		{
+			return 'Engine.Unreal';
+		}
+
 		if( $has( 'Emulator.DOSBOX' ) )
 		{
 			//If it's a DOS game...
