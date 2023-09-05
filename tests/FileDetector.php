@@ -201,6 +201,10 @@ class FileDetector
 
 		if( $has( 'Evidence.Unreal' ) )
 		{
+			if( $has( 'Evidence.Unreal_3' ) )
+			{
+				return 'Engine.Unreal_3';
+			}
 			return 'Engine.Unreal';
 		}
 
