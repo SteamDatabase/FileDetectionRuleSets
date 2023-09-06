@@ -261,11 +261,6 @@ class FileDetector
 			return 'Engine.idTech3';
 		}
 
-		if( $has( 'Engine.RPGMaker' ) && $has( 'Evidence.RPG_Maker_MV' ) )
-		{
-			return 'Engine.RPG_Maker_MV';
-		}
-
 		return null;
 	}
 
