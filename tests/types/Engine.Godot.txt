@@ -1,5 +1,4 @@
 /project.godot
-evidence/php
 libsteamsdk-godot.so
 project.godot
 steamsdk-godot.dll
