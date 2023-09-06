@@ -1,0 +1,1 @@
+[**RPG Maker 2003**](https://www.rpgmakerweb.com/products/rpg-maker-2003) is both [**highly affordable**](https://store.steampowered.com/app/362870/RPG_Maker_2003/) and easy to use, and it remains one of the most popular RPG Maker installments to date. It is the first engine in the series to employ a sideview battle system similar to the classic RPGs of the early-to-mid 90s.
