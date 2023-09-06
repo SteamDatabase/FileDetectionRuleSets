@@ -828,6 +828,8 @@ game0.arcc
 archives_win64/game0.aarc
 game0_tab
 game0.tabbb
+www/audio/bgs/MBJH_SE_Water5.rpgmve
+www/audio/bgs/MBJH_SE_Water5.rpgmv5
 Archives/pc.ttab
 Addons/3den.pbo.a3.bissign
 rocks.pbo.bi_bisign
