@@ -1,4 +1,6 @@
+/config.rpgsave
 /js/rpg_core.js
+config.rpgsave
 Sub/Folder/js/rpg_core.js
 Sub/Folder/www/js/rpg_core.js
 js/rpg_core.js
