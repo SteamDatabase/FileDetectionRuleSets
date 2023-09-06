@@ -194,11 +194,6 @@ class FileDetector
 			return 'Engine.RAGE';
 		}
 
-		if( $has( 'Engine.RPGMaker' ) && $has( 'Evidence.RPG_Maker_MV' ) )
-		{
-			return 'Engine.RPG_Maker_MV';
-		}
-
 		if( $has( 'Evidence.HDLL' ) && $not( 'Engine.Lime_OR_OpenFL' ) )
 		{
 			return 'Engine.Heaps';
@@ -264,6 +259,11 @@ class FileDetector
 		if( $has( 'Evidence.PK3' ) )
 		{
 			return 'Engine.idTech3';
+		}
+
+		if( $has( 'Engine.RPGMaker' ) && $has( 'Evidence.RPG_Maker_MV' ) )
+		{
+			return 'Engine.RPG_Maker_MV';
 		}
 
 		return null;
