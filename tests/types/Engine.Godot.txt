@@ -1,4 +1,6 @@
 /project.godot
-Sub/Folder/project.godot
+evidence/php
+libsteamsdk-godot.so
 project.godot
 steamsdk-godot.dll
+Sub/Folder/project.godot
