@@ -1,1 +1,1 @@
-[**RPG Maker MV**](https://www.rpgmakerweb.com/products/rpg-maker-mv) includes a large number of changes over previous versions, having multiplatform support, side-view battles, and high resolution features. It is the first engine in the series to use JavaScript instead of Ruby, with the addition of plugins. Completed games can be played on PC and mobile devices. 
+[**RPG Maker MV**](https://www.rpgmakerweb.com/products/rpg-maker-mv) is one of the latest installments in RPG Maker engine series, it was released in 2015 by Degica.
