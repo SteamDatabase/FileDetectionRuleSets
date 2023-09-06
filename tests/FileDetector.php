@@ -184,6 +184,18 @@ class FileDetector
 			return $Count;
 		};
 
+		if( $has( 'Evidence.RPGMaker2000' ) )
+		{
+			if($has( 'Evidence.RPGMaker2003' ) )
+			{
+				return 'Engine.RPGMaker2003';
+			}
+			else
+			{
+				return 'Engine.RPGMaker2000';
+			}
+		}
+
 		if( $has( 'Evidence.ARC' ) && $has( 'Evidence.TAB' ) )
 		{
 			return 'Engine.ApexEngine';
