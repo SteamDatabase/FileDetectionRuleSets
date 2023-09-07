@@ -711,7 +711,7 @@ sub/dir/rousrDissonance.dllf
 sub/dir/CleanMem.dllf
 sub/dir/window_set_cursor.dllf
 sub/dir/joydll.dllf
-root.pfs.000
+snd1.pfs
 sub/dir/something.gmbckf
 sub/dir/something.gmsprf
 sub/dir/GMXInput.dllf
@@ -848,6 +848,7 @@ data/something.js
 /data/something.js
 data/summaries.jsblah
 /data/summaries.jsblah
+Release/Spells.pfs
 arc_nsa
 nscript_dat
 /arc.nsa
