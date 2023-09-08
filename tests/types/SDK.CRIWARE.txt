@@ -1,7 +1,6 @@
 .acb
 .adx
 .awb
-.cpk
 .sfd
 .usm
 /AT/Content/DLC/05/Sound/Demo/C05_010_S010_gdm.awb
