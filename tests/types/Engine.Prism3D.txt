@@ -1,3 +1,7 @@
 /base.scs
 base.scs
 folder/base.scs
+p3shared.dll
+prism3d.exe
+prism3d.ini
+prism3d.log
