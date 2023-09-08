@@ -878,6 +878,8 @@ xyzmusic.dll
 zmusic.dllaspidjosaoijf
 notreallygzdoom.sf2
 gzdoom.pk3asdopa
+EasyAntiCheat_Setup.ex
+asyAntiCheat_Setup.exe
 gzdoom.sf2apsjdoiasfdjas
 asteamsdk-godot.dll
 alibsteamsdk-godot.so
