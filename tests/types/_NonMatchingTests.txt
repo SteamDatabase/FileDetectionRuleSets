@@ -813,6 +813,8 @@ AkSoundEnginedlll.dll
 Redistributables/Rockstar-Games-Launcher_exe
 ockstar-Games-Launcher.exe
 Rockstar-Games-Launcher.ex
+sdasdasda/OpenAL64_bundled.dl
+OpenAL61_notBundled.dll
 /coffee/java.png
 jre/java.json
 random/jre/stuff.exe
@@ -877,6 +879,13 @@ zmusic.dllaspidjosaoijf
 notreallygzdoom.sf2
 gzdoom.pk3asdopa
 gzdoom.sf2apsjdoiasfdjas
+asteamsdk-godot.dll
+alibsteamsdk-godot.so
+/asteamsdk-godot-test
+/alibsteamsdk-godot-test
+agodotsteam.dll
+agodotsteam.so
+/agodotsteam-test
 Files/languagebank/english/textfiles/fpsc-050
 Files/languagebank/english/textfiles/notactuallyfpsc-050.ini
 Files/languagebank/english/textfiles/fpsc-050.iniwhoops

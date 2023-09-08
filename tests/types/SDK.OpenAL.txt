@@ -5,3 +5,5 @@ OpenAL32.dll
 OpenAL64.dll
 StarMade/native/windows/OpenAL32.dll
 StarMade/native/windows/OpenAL64.dll
+OpenAL64_bundled.dll
+sub/OpenAL64_bundled.dll
