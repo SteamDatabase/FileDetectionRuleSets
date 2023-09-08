@@ -877,3 +877,10 @@ zmusic.dllaspidjosaoijf
 notreallygzdoom.sf2
 gzdoom.pk3asdopa
 gzdoom.sf2apsjdoiasfdjas
+asteamsdk-godot.dll
+alibsteamsdk-godot.so
+/asteamsdk-godot-test
+/alibsteamsdk-godot-test
+agodotsteam.dll
+agodotsteam.so
+/agodotsteam-test
