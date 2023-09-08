@@ -8,6 +8,7 @@ libpython2.7.so.1.0
 libpython3.9.dll
 python.exe
 python22.dll
+python26.dll
 python27.dll
 python3.dll
 python310.dll
