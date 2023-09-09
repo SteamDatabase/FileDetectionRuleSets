@@ -1,6 +1,5 @@
 .an2
 .ft2
-.ms2
 .mt2
 .sc2
 .sk2
