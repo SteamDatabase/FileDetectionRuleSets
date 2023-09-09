@@ -1,3 +1,4 @@
+/XInputDotNetPure.dll
 /XInputInterface32.dll
 redist/APR2007_xinput_x64.cab
 redist/APR2007_xinput_x86.cab
