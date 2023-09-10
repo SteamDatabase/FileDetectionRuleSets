@@ -237,8 +237,8 @@ class FileDetector
 			return 'Engine.Infinity';
 		}
 
-		//Any 2 of options.ini + data.win + snd_<whatever>.ogg is a good sign of a GameMaker Game
-		if( $count( [ 'Evidence.OPTIONS_INI', 'Evidence.DATA_WIN', 'Evidence.SND_OGG' ] ) > 1)
+		//Any 2 of options.ini snd_<whatever>.ogg is a good sign of a GameMaker Game
+		if( $has( 'Evidence.OPTIONS_INI' ) && $has( 'Evidence.SND_OGG' ) )
 		{
 			return 'Engine.GameMaker';
 		}
