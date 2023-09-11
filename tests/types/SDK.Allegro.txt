@@ -10,7 +10,7 @@
 /allegro_monolith-5.2.dll
 /allegro_physfs-5.2.dll
 /allegro_primitives-5.2.dll
-/allegro_ttf-5.2.dll	dll
+/allegro_ttf-5.2.dll
 /allegro_video-5.2.dll
 allegro-5.2.dll
 allegro_acodec-5.2.dll
