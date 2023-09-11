@@ -26,6 +26,10 @@ blahrpg_rt.exe
 sub/blahrpg_rt.exe
 rgssad
 rvproj2
+Microsoft_Xbox_Services_141_GDK_C_Thunks.ded
+XGamingRuntimeThunks.del
+XGamingRuntime.dle
+XCurl.dll2323
 AwesomeGame.argssad
 AwesomeGame.arvproj2
 AwesomeGame.rgssadf
