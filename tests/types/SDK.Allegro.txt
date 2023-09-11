@@ -38,7 +38,7 @@ allegro_memfile-5.2.dll
 allegro_monolith-5.2.dll
 allegro_physfs-5.2.dll
 allegro_primitives-5.2.dll
-allegro_ttf-5.2.dll	dll
+allegro_ttf-5.2.dll
 allegro_video-5.2.dll
 liballegro.so.5.2
 liballegro_acodec.so.5.2
