@@ -1,0 +1,28 @@
+/allegro-5.2.dll
+/allegro_acodec-5.2.dll
+/allegro_audio-5.2.dll
+/allegro_color-5.2.dll
+/allegro_dialog-5.2.dll
+/allegro_font-5.2.dll
+/allegro_image-5.2.dll
+/allegro_main-5.2.dll
+/allegro_memfile-5.2.dll
+/allegro_monolith-5.2.dll
+/allegro_physfs-5.2.dll
+/allegro_primitives-5.2.dll
+/allegro_ttf-5.2.dll	dll
+/allegro_video-5.2.dll
+allegro-5.2.dll
+allegro_acodec-5.2.dll
+allegro_audio-5.2.dll
+allegro_color-5.2.dll
+allegro_dialog-5.2.dll
+allegro_font-5.2.dll
+allegro_image-5.2.dll
+allegro_main-5.2.dll
+allegro_memfile-5.2.dll
+allegro_monolith-5.2.dll
+allegro_physfs-5.2.dll
+allegro_primitives-5.2.dll
+allegro_ttf-5.2.dll	dll
+allegro_video-5.2.dll
