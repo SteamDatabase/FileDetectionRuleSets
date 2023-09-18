@@ -1,0 +1,14 @@
+Nethereum.ABI.dll
+Nethereum.Accounts.dll
+Nethereum.BlockchainProcessing.dll
+Nethereum.Contracts.dll
+Nethereum.Hex.dll
+Nethereum.JsonRpc.Client.dll
+Nethereum.JsonRpc.RpcClient.dll
+Nethereum.KeyStore.dll
+Nethereum.Model.dll
+Nethereum.RLP.dll
+Nethereum.RPC.dll
+Nethereum.Signer.dll
+Nethereum.Util.dll
+Nethereum.Web3.dll
