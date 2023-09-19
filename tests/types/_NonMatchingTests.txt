@@ -10,6 +10,7 @@ SuperUnityEngine.dll
 notactuallylime.ndll
 notactuallylime-legacy.dll
 notactuallylime-legacy.ndll
+s/sassets/something.pfp
 notactuallyfna.dll
 fna.dllwhoops
 sub/dir/notactuallyfna.dll
