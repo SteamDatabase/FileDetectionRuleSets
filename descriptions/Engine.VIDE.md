@@ -1,0 +1,1 @@
+[**VIDE**](http://david.fancyfishgames.com/search/label/VIDE) stands for Vectorized Image Deformation Engine, and is a powerful bone-based 2D image and vector art animation engine. It is written entirely in Haxe/NME, and so is available on many platforms.
