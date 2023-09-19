@@ -1,0 +1,5 @@
+.MeshDesc
+.OxAnim
+.OxCookedAnimRecords
+.OxCookedModelRecords
+.OxModel
