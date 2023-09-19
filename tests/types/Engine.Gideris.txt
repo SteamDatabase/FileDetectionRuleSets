@@ -1,0 +1,2 @@
+gideros.dll
+libgideros.1.dylib
