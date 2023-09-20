@@ -181,6 +181,12 @@ bytecode.by
 ytecode.byc
 bytecode_byc
 fdata.dcp
+gobotsteam.dll
+gobotstem.x86_32.dll
+lidgodotsteam.so
+lidgodotsteam.debug.so
+libgodofsteam.dylib
+libgodofsteam.release.dylib
 bytecode.rpybeer
 Sub/Folder/bytecode.rpybeer
 acsetup.cfgoof

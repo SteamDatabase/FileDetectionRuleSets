@@ -1,0 +1,13 @@
+godotsteam.dll
+godotsteam.x86_64.dll
+godotsteam.debug.x86_64.dll
+godotsteam.x86_32.dll
+godotsteam.debug.x86_32.dll
+libgodotsteam.so
+libgodotsteam.x86_32.so
+libgodotsteam.debug.x86_32.so
+libgodotsteam.x86_64.so
+libgodotsteam.debug.x86_64.so
+libgodotsteam
+libgodotsteam.dylib
+libgodotsteam.debug.dylib
