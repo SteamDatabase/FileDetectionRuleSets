@@ -1,0 +1,1 @@
+NEAC Protect is an anticheat solution developed by NetEase and used in Naraka: Bladepoint.
