@@ -1,5 +1,5 @@
-somecrazygame_data/Plugins/x86_64/LogitechGArxControlEnginesWrapper.dll	dll	9.50 KiB
-somecrazygame_data/Plugins/x86_64/LogitechGkeyEnginesWrapper.dll	dll	10.00 KiB
-somecrazygame_data/Plugins/x86_64/LogitechLcdEnginesWrapper.dll	dll	9.50 KiB
-somecrazygame_data/Plugins/x86_64/LogitechLedEnginesWrapper.dll	dll	12.00 KiB
+somecrazygame_data/Plugins/x86_64/LogitechGArxControlEnginesWrapper.dll
+somecrazygame_data/Plugins/x86_64/LogitechGkeyEnginesWrapper.dll
+somecrazygame_data/Plugins/x86_64/LogitechLcdEnginesWrapper.dll
+somecrazygame_data/Plugins/x86_64/LogitechLedEnginesWrapper.dll
 somecrazygame_data/Plugins/x86_64/LogitechSteeringWheelEnginesWrapper.dll
