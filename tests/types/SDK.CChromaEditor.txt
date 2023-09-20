@@ -1,0 +1,2 @@
+binaries/CChromaEditorLibrary64.dll
+binaries/CChromaEditorLibrary.dll
