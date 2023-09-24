@@ -585,6 +585,10 @@ Sub/Folder/game.dmanifestfdfdfdf
 dieselx_cfg
 dieselx.cf
 ieselx.cfg
+d.dll
+storage.dll
+dstorage_dll
+dstorage.dl
 Plugins/discordzz-rpc.dll
 discord-rpc.dlll
 Plugins/discord_gamezzz_sdk.dll
