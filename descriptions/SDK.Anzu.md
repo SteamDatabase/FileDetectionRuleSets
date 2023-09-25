@@ -1,1 +1,1 @@
-[Anzu](https://www.anzu.io/) enables developers to monetize their games and advertisers to reach players across mobile, PC, console, and gaming metaverses with non-disruptive ads that are part of the gameplay.
+[Anzu](https://www.anzu.io/) is an in-game ad sdk.

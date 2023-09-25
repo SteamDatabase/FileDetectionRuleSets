@@ -1,2 +1,3 @@
-anzu.dll
+/anzu.dll
 Slapshot_Data/Plugins/x86_64/anzu.dll
+anzu.dll
