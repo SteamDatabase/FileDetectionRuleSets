@@ -1,0 +1,14 @@
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icudt53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icudtd53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icuin53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icuind53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icuio53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icuiod53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icule53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/iculed53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/iculx53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/iculxd53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icutu53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icutud53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icuuc53.dll
+Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icuucd53.dll
