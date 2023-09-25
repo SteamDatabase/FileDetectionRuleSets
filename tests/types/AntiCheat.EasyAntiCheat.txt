@@ -7,6 +7,6 @@ EasyAntiCheat/Certificates
 EasyAntiCheat/EasyAntiCheat_x64.dll
 EasyAntiCheat/EasyAntiCheat_x86.dll
 EasyAntiCheat_Setup.exe
-Sub/Folder/EasyAntiCheat/EasyAntiCheat_x64.dll
-Sub/Folder/EasyAntiCheat/EasyAntiCheat_x86.dll
-sub/EasyAntiCheat_Setup.exe
+win64/EasyAntiCheat_x64.dll
+GameData/EasyAntiCheat/EasyAntiCheat_x86.dll
+EasyAntiCheat/cuisine_royale/EasyAntiCheat_Setup.exe
