@@ -842,6 +842,9 @@ oo2test_6_win64.dll
 oo2core_7_win64_dll
 oo2core_8_win64.dlll
 data
+abzu.dll
+anzu.del
+anzu.dl
 /data
 data_summaries
 /data_summaries
