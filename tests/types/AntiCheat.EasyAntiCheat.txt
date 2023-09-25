@@ -1,11 +1,12 @@
 /EasyAntiCheat/
 /EasyAntiCheat/@
+EasyAntiCheat
 EasyAntiCheat/
 EasyAntiCheat/@
 EasyAntiCheat/Certificates
 EasyAntiCheat/EasyAntiCheat_x64.dll
 EasyAntiCheat/EasyAntiCheat_x86.dll
+EasyAntiCheat_Setup.exe
 Sub/Folder/EasyAntiCheat/EasyAntiCheat_x64.dll
 Sub/Folder/EasyAntiCheat/EasyAntiCheat_x86.dll
-EasyAntiCheat_Setup.exe
 sub/EasyAntiCheat_Setup.exe
