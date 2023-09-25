@@ -601,10 +601,8 @@ Local/Englishxhpk
 Local/English.hpkk
 amd_ags_x42.dll
 Binaries/amd_ags_x64.dlll
-PhysX_32.dlll
 Dll/x64/PhisX_64.dll
 PysXCore.dll
-PhysXLoder.dll
 equ8_db
 totallynotequ8_conf.json
 sub/dir/equ8.jsondblol
