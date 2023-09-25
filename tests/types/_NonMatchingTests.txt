@@ -15,8 +15,6 @@ fna.dllwhoops
 sub/dir/notactuallyfna.dll
 sub/dir/fna.dllwhoops
 fx_core_dll
-ChEasyAntiCheat/
-EasyAntiCheat.whatever
 SomeEngine/Binaries/ThirdParty
 e_chunk_000.pak
 re_chunk_000.pa
@@ -882,6 +880,7 @@ xyzmusic.dll
 zmusic.dllaspidjosaoijf
 notreallygzdoom.sf2
 gzdoom.pk3asdopa
+asyAntiCheat_Setup.exe
 gzdoom.sf2apsjdoiasfdjas
 asteamsdk-godot.dll
 alibsteamsdk-godot.so
