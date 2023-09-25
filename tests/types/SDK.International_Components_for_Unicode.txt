@@ -12,3 +12,5 @@ Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icutu53.dll
 Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icutud53.dll
 Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icuuc53.dll
 Engine/Binaries/ThirdParty/ICU/icu4c-53_1/Win64/VS2015/icuucd53.dll
+bin/icui18n.dll
+bin/icuuc.dll
