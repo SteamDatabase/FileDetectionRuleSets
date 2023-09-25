@@ -17,3 +17,6 @@ PhysX_64.dll
 binaries/x64/PhysX3_x64.dll
 binaries/x86/PhysX3_x86.dll
 DiscContentPC/PhysXCooking.dll
+Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll
+Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3CookingPROFILE_x64.dll
+Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3PROFILE_x64.dll
