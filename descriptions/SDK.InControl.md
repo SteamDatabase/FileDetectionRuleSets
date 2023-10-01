@@ -1,0 +1,1 @@
+[**InControl**](https://www.gallantgames.com/pages/incontrol-introduction) is an input manager for Unity3D that standardizes input mappings across platforms for common controllers.
