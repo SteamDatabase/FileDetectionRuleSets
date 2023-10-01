@@ -25,3 +25,5 @@ phonon.so
 steamaudio.dll
 steamaudio.dylib
 steamaudio.so
+app_Data/Plugins/x86_64/audioplugin_phonon.dll
+app_Data/Plugins/x86_64/phonon_fmod.dll
