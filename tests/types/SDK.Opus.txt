@@ -1,0 +1,1 @@
+app_Data/Plugins/x86_64/opus.dll
