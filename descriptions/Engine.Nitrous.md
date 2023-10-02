@@ -1,1 +1,1 @@
-[**Nitrous**](https://www.oxidegames.com/nitrous/) is a game engine designed to handle enormous amounts of visual and gameplay complexity, from 10,000+ simpler units to 1,000 highly complex units and environments.
+[**Nitrous**](https://www.oxidegames.com/nitrous/) is a game engine developped by Oxide Games, first used in Ashes of the Singularity: Classic released in 2016
