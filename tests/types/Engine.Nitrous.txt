@@ -1,5 +1,3 @@
 .MeshDesc
-.OxAnim
-.OxCookedAnimRecords
-.OxCookedModelRecords
-.OxModel
+Assets/Background/BlueSky/BlueSky.MeshDesc
+Assets/Background/Cosmos/Cosmos.MeshDesc
