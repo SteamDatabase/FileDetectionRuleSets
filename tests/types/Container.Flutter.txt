@@ -1,0 +1,5 @@
+/flutter_windows.dll
+/FlutterMacOS
+/libflutter_linux_gtk.so
+flutter_windows.dll
+libflutter_linux_gtk.so
