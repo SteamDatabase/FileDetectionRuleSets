@@ -1,2 +1,3 @@
-yscfg.dat
 /path/to/yscfg.dat
+/yscfg.dat
+yscfg.dat

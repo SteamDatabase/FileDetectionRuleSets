@@ -1,0 +1,1 @@
+[**DirectStorage**](https://github.com/microsoft/DirectStorage) is a feature intended to allow games to make full use of high-speed storage (such as NVMe SSDs) that can can deliver multiple gigabytes a second of small data reads with minimal CPU overhead.

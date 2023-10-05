@@ -15,8 +15,6 @@ fna.dllwhoops
 sub/dir/notactuallyfna.dll
 sub/dir/fna.dllwhoops
 fx_core_dll
-ChEasyAntiCheat/
-EasyAntiCheat.whatever
 SomeEngine/Binaries/ThirdParty
 e_chunk_000.pak
 re_chunk_000.pa
@@ -585,6 +583,10 @@ Sub/Folder/game.dmanifestfdfdfdf
 dieselx_cfg
 dieselx.cf
 ieselx.cfg
+d.dll
+storage.dll
+dstorage_dll
+dstorage.dl
 Plugins/discordzz-rpc.dll
 discord-rpc.dlll
 Plugins/discord_gamezzz_sdk.dll
@@ -813,6 +815,8 @@ AkSoundEnginedlll.dll
 Redistributables/Rockstar-Games-Launcher_exe
 ockstar-Games-Launcher.exe
 Rockstar-Games-Launcher.ex
+sdasdasda/OpenAL64_bundled.dl
+OpenAL61_notBundled.dll
 /coffee/java.png
 jre/java.json
 random/jre/stuff.exe
@@ -838,6 +842,9 @@ oo2test_6_win64.dll
 oo2core_7_win64_dll
 oo2core_8_win64.dlll
 data
+abzu.dll
+anzu.del
+anzu.dl
 /data
 data_summaries
 /data_summaries
@@ -876,4 +883,12 @@ xyzmusic.dll
 zmusic.dllaspidjosaoijf
 notreallygzdoom.sf2
 gzdoom.pk3asdopa
+asyAntiCheat_Setup.exe
 gzdoom.sf2apsjdoiasfdjas
+asteamsdk-godot.dll
+alibsteamsdk-godot.so
+/asteamsdk-godot-test
+/alibsteamsdk-godot-test
+agodotsteam.dll
+agodotsteam.so
+/agodotsteam-test
