@@ -1,5 +1,7 @@
 /config.rpgsave
 /js/rpg_core.js
+.rpgmvo
+.rpgmvp
 config.rpgsave
 Sub/Folder/js/rpg_core.js
 Sub/Folder/www/js/rpg_core.js
