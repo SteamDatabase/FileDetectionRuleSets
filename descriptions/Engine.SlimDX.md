@@ -1,0 +1,1 @@
+[**SlimDX**](github.com/SlimDX) is a free open source framework that enables developers to easily build DirectX applications using .NET technologies such as C#, VB.NET, and IronPython.
