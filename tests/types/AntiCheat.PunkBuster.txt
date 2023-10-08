@@ -1,6 +1,10 @@
-/PnkBstrA.exe
 /pbsvc.exe
+/pb/pbsv.dll
+/PnkBstrA.exe
+/punkbuster.cfg
+/Punkbuster.jpg
 Binaries/pbsvc.exe
-PnkBstrA.exe
+pb/pbsv.dll
 pb/PnkBstrA.exe
 pbsvc.exe
+PnkBstrA.exe
