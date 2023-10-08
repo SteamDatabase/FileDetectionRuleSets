@@ -1,4 +1,4 @@
-.rpack
+_pc.rpack
 /ChromEd.exe
 /ChromeEngine0.dll
 /ChromeEngine1.dll
@@ -10,6 +10,7 @@
 /ChromeEngine7.dll
 /ChromeEngine8.dll
 /ChromeEngine9.dll
+/Data/engine.rpack
 ChromEd.exe
 ChromeEngine0.dll
 ChromeEngine1.dll
