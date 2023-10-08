@@ -1,0 +1,1 @@
+The [**Chrome Early Loading Framework**](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/chrome/chrome_elf) provides a facility to execute code during Chrome's process startup before other imported DLLs.
