@@ -1,4 +1,5 @@
 /pbsvc.exe
+/pbsvc_moh.exe
 /pb/pbsv.dll
 /PnkBstrA.exe
 /punkbuster.cfg
