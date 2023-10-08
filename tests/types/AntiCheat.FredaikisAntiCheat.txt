@@ -1,0 +1,2 @@
+/FredaikisAntiCheat/cfg.json
+FredaikisAntiCheat/cfg.json
