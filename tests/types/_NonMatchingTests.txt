@@ -848,6 +848,11 @@ data
 abzu.dll
 anzu.del
 anzu.dl
+/OpenTK.Cre.dll
+OpenT.dll
+/OpenTK_dll
+/OpenT.dl
+penT.dll
 /data
 data_summaries
 /data_summaries
