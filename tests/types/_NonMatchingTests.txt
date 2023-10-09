@@ -533,6 +533,10 @@ test.scss
 BlackCiphers
 notactuallyBlackCipher
 BlackCipher.whatever
+TencentGME_dll
+TencentGME.dl
+Tencent.dll
+GME.dll
 AnselSDK.dll
 dx12Retail/AAnselSDK32.dll
 AnselSDK34.dlll
