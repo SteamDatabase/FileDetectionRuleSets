@@ -1,1 +1,1 @@
-The [**Open Toolkit**](https://opentk.net/) is set of fast, portable, low-level C# bindings for OpenGL, OpenGL ES, OpenAL, and OpenCL. The OpenTK source code is available on [**GitHub**](https://github.com/opentk/opentk)
+The [**Open Toolkit**](https://opentk.net/) is set of fast, portable, low-level C# bindings for OpenGL, OpenGL ES, OpenAL, and OpenCL.
