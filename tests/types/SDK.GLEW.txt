@@ -1,0 +1,6 @@
+/glew32.dll
+/libGLEW.1.7.0.dylib
+/libGLEW.so.1.7
+glew32.dll
+libGLEW.1.7.0.dylib
+libGLEW.so.1.7
