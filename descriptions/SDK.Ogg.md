@@ -1,1 +1,1 @@
-[**Ogg**](https://en.wikipedia.org/wiki/Ogg) is a free, open container format maintained by the Xiph.Org Foundation.
+[**Ogg**](https://wiki.xiph.org/Ogg) is a free, open container format maintained by the Xiph.Org Foundation.
