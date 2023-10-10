@@ -1,0 +1,2 @@
+Files/languagebank/english/textfiles/fpsc-050.ini
+my_fpsc_game/Files/languagebank/english/textfiles/fpsc-050.ini
