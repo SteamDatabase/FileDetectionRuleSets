@@ -1,2 +1,0 @@
-SlimDX.dll
-sub/SlimDX.dll
