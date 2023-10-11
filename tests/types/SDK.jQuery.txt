@@ -1,8 +1,12 @@
 /jQuery-3.1.1.js
 /jQuery-3.1.1.min.js
+/jquery-3.5.1.js
+/jquery-3.5.1.min.js
 /jQuery.js
 /jQuery.min.js
 jQuery-3.1.1.js
 jQuery-3.1.1.min.js
+jquery-3.5.1.js
+jquery-3.5.1.min.js
 jQuery.js
 jQuery.min.js
