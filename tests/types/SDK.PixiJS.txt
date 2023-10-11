@@ -1,4 +1,4 @@
-\pixi.js
-\pixi.min.js
+/pixi.js
+/pixi.min.js
 pixi.js
 pixi.min.js
