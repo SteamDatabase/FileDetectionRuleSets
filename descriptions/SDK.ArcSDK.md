@@ -1,1 +1,1 @@
-Gigantic uses ArcSDK.dll to communicate with the arc client.
+Arc SDK the client application for [**Arcgames**](www.arcgames.com) MMOs.
