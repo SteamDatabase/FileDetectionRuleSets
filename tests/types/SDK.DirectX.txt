@@ -1,2 +1,8 @@
+/D3dx9d_40.dll
+/D3dx9d_41.dll
+/D3dx9d_42.dll
 /D3DX9_43.dll
+D3dx9d_40.dll
+D3dx9d_41.dll
+D3dx9d_42.dll
 D3DX9_43.dll
