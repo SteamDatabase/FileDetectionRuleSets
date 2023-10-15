@@ -38,6 +38,7 @@
 /d3dx9d_40.dll
 /d3dx9d_41.dll
 /d3dx9d_42.dll
+/d3dxof.dll
 d3dx10_33.dll
 d3dx10_34.dll
 d3dx10_35.dll
@@ -78,3 +79,4 @@ d3dx9d_39.dll
 d3dx9d_40.dll
 d3dx9d_41.dll
 d3dx9d_42.dll
+d3dxof.dll
