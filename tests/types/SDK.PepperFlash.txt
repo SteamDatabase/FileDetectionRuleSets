@@ -1,3 +1,4 @@
+/flash/pepflashplayer.dll
 /PepperFlash/pepflashplayer.dll
 /PepperFlash/pepflashplayer32_34_0_0_184.dll
 PepperFlash/pepflashplayer.dll
