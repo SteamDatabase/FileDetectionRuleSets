@@ -1,6 +1,8 @@
+/glew_license.txt
 /glew32.dll
 /libGLEW.1.7.0.dylib
 /libGLEW.so.1.7
+glew_license.txt
 glew32.dll
 libGLEW.1.7.0.dylib
 libGLEW.so.1.7
