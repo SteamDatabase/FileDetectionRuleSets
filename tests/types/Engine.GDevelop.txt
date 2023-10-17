@@ -60,3 +60,4 @@ gdjs-evtsext__shakeobject__shakeobject_positionangle.js
 gdjs-evtsext__shakeobject__shakeobject_positionanglescale.js
 gd-logo-light.js
 gd-logo-dark.js
+GDCpp.dll
