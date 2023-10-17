@@ -1,0 +1,3 @@
+data/db/index
+/data/db/index
+Folder/data/db/index
