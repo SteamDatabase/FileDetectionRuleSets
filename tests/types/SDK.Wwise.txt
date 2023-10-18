@@ -10,3 +10,5 @@ DeadByDaylight/Plugins/Wwise/ThirdParty/x64_vc160/Release/bin/AkSoundEngineDLL.d
 EtG_Data/Plugins/AkSoundEngine.dll
 Firewatch.app/Contents/Plugins/AkSoundEngine.bundle
 YookaLaylee64_Data/Plugins/AkSoundEngine.dll
+WwiseLibPCx64R.dll
+SOUNDBANKS/WwiseIDs.PC.bin
