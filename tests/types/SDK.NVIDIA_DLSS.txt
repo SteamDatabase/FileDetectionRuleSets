@@ -1,3 +1,4 @@
 /nvngx_dlss.dll
 bin/nvngx_dlss.dll
 nvngx_dlss.dll
+nvngx_dlssg.dll
