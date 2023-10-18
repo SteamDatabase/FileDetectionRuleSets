@@ -8,3 +8,4 @@ PartyWin32.dll
 PartyWin7.dll
 PartyXboxLive.dll
 PartyXboxLiveWin32.dll
+Party.dll
