@@ -818,7 +818,6 @@ somefile.kpfwhoops
 somefilekpf
 somefile_kpf
 iSotope.dll
-DATA/audio/Wwise 2016.1.0.5775/Authoring/Help/iZotope_HybridReverb.pdf
 Izotope.exe
 bink2w64.ddl
 notabink.dll
