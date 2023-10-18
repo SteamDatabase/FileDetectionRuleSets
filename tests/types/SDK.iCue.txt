@@ -6,8 +6,6 @@ CgSDK.x64_2019.dll
 Dwerve_Data/Managed/CgSDK.dll
 FireProject_Data/Plugins/x86_64/CgSDK.x64_2017.dll
 bin/CgSDK.x64_2015.dll
-bin/CgSDK.x64_2015.dll
-bin/CgSDK.x64_2015.dll
 Freshly Frosted_Data/Plugins/x86_64/CgSDK_2017.dll
 GameDEC/Plugins/iCue/Binaries/ThirdParty/CgSDKPlugin/x64/CgSDK.x64_2019.dll
 Ghostrunner/Binaries/Win64/CgSDK.x64_2013.dll
