@@ -1,0 +1,1 @@
+[**Tiled_Map_Editor**](https://www.mapeditor.org/) is a flexible [**open source**](https://github.com/mapeditor/tiled) general purpose 2D level editor. Tiled is completly [**free**](https://thorbjorn.itch.io/tiled), meaning both freedom, and free of charge.
