@@ -1,3 +1,5 @@
+/ringqt_light.dll
+/ring.dll
 ring.dll
 ring_allegro.dll
 ring_freeglut.dll
