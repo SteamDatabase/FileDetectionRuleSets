@@ -1,0 +1,1 @@
+[**CUDA**](https://developer.nvidia.com/about-cuda) (Compute Unified Device Architecture) is a software framework developed by NVIDIA to extend from general purpose compute processors featured in NVIDIA GPUs, and to expand the capabilities of GPU acceleration.
