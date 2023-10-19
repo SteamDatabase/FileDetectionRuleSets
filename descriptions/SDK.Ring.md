@@ -1,0 +1,1 @@
+[**Ring**](https://ring-lang.github.io/) is a practical general-purpose multi-paradigm language, written by Mahmoud Fayed. It's [**open source**](https://github.com/ring-lang/ring), and free under the MIT License.
