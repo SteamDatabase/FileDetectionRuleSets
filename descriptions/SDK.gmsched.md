@@ -1,0 +1,1 @@
+[**gmsched**](https://github.com/skyfloogle/gmsched) is GameMaker plugin that backports GameMaker Studio 2.3.2's handling of the Windows scheduler to earlier versions of GameMaker, for better prefomance.
