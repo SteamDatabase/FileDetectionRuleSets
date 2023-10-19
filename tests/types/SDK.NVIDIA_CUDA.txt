@@ -1,3 +1,4 @@
-Win32/cudart.dll
-Win32/cudart32_30_9.dll
-Win32/cudart32_41_22.dll
+/cudart.dll
+/cudart32_30_9.dll
+/cudart32_41_22.dll
+/cudart32_50_35.dll
