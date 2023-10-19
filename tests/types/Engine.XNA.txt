@@ -1,4 +1,5 @@
 .XNA
+.XNB
 .XNA.
 .XNA/
 /XNA
