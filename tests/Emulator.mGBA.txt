@@ -1,0 +1,4 @@
+/mgba-sdl.exe
+/mGBA.exe
+mgba-sdl.exe
+mGBA.exe
