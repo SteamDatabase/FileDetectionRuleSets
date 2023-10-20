@@ -1,1 +1,2 @@
 AntTweakBar.dll
+AntTweakBar64.dll
