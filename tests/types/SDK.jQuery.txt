@@ -1,3 +1,4 @@
+/jquery-1.6.1.min.js
 /jQuery-3.1.1.js
 /jQuery-3.1.1.min.js
 /jquery-3.5.1.js
