@@ -1,2 +1,4 @@
-/GameCenterDistribs.xml
-GameCenterDistribs.xml
+_chromeresources20/bin.7z
+_chromeresources20/bin.xml
+GameCenter_chromeresources20/bin.7z
+GameCenter_chromeresources20/bin.xml
