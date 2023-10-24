@@ -40,3 +40,4 @@ swresample-3.dll
 swscale-3.dll
 swscale-4.dll
 swscale-5.dll
+postproc-54.dll
