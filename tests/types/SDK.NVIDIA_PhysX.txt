@@ -11,6 +11,8 @@ Dll/x86/PhysX_32.dll
 PhysX3_x64.dll
 PhysX3_x86.dll
 PhysXCore.dll
+PhysXDevice64.dll
+PhysXGpu_64.dll
 PhysXLoader.dll
 PhysX_32.dll
 PhysX_64.dll
