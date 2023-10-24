@@ -1,3 +1,6 @@
+/libnode.dylib
 /node.dll
+libnode.dylib
 node.dll
+sub/dir/libnode.dylib
 sub/dir/node.dll
