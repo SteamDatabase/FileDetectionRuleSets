@@ -1,6 +1,9 @@
 /libnode.dylib
+/libnode.so
 /node.dll
 libnode.dylib
+libnode.so
 node.dll
 sub/dir/libnode.dylib
+sub/dir/libnode.so
 sub/dir/node.dll
