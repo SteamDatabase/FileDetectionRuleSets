@@ -1,3 +1,6 @@
+/SDL.framework/
+/SDL2.framework/
+/SDL3.framework/
 /sdl.dll
 /sdl2.dll
 /sdl3.dll
