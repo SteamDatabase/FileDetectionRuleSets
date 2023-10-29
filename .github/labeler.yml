@@ -12,3 +12,6 @@
 
 "Type: Container":
   - '**/Container.*'
+
+"Type: Emulator":
+  - '**/Emulatorr.*'
