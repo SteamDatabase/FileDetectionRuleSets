@@ -1,0 +1,11 @@
+/Box2D.dll
+/box2d.txt
+/Box2D.XNA.dll
+/box2d.wasm
+/box2d.wasm.js
+Box2D.dll
+box2d.txt
+Box2D.XNA.dll
+box2d.wasm
+box2d.wasm.js
+libs/gdx-box2d-1.9.14.jar
