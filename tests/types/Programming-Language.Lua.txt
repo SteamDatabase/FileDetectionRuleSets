@@ -1,6 +1,6 @@
 .lua
 .luac
 /lua.dll
-/lua52.dll
+/lua51.dll
 lua.dll
-lua52.dll
+lua51.dll
