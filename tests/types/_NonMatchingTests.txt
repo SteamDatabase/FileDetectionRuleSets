@@ -713,6 +713,9 @@ game.unxf
 game.iosf
 libYoYoGamepad.dylibf
 audiogroup1.datf
+AnyBrain.exe
+AnyBrain/Brain.dll
+AnyBrain-dll
 Steamworks.gmk.dllf
 Steamworks.gml.dllf
 display_mouse_lock.dllf
