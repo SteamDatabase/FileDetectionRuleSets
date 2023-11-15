@@ -26,6 +26,10 @@ GDevelop also doesn't have any non-generic files, so detection is kind of imposs
 
 Stencyl is based on Adobe AIR(?) so it does not give any signal on it's own.
 
+### Twine
+
+Twine games just have the same files as any other Chromium framework app.
+
 ## The following SDKs are known to be undetected by our heurestics
 
 ### Havok
