@@ -1,0 +1,1 @@
+[**JSON**](https://www.json.org/json-en.html) (JavaScript Object Notation) is a lightweight data-interchange format, that is easy both for humans to read and write, and for machines to parse and generate.
