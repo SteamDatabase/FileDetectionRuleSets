@@ -15,10 +15,13 @@ Some/Dir/SDL.dll
 Some/Dir/SDL2.dll
 sdl.dll
 sdl.framework/
+sdl.txt
 sdl2.dll
 sdl2.framework/
+sdl2.txt
 sdl3.dll
 sdl3.framework/
+sdl3.txt
 some/dir/sdl.dll
 some/dir/sdl2.dll
 tinyandbig.app/Contents/Frameworks/SDL.framework/Versions
