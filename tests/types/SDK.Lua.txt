@@ -1,4 +1,4 @@
-lua50.dll 
+lua50.dll
 lua51.dll
 lua52.dll
 lua53.dll
@@ -13,7 +13,7 @@ liblua51.so
 liblua52.so
 liblua53.so
 liblua54.so
-/lua50.dll 
+/lua50.dll
 /lua51.dll
 /lua52.dll
 /lua53.dll
