@@ -38,6 +38,10 @@ data_xp3
 notreallydata.xp3
 data.xp3aisjdosadjods
 Binaries/Win64Whatever
+lua5.4.dl
+iblua50.so
+lua50_dll 
+sdsd_lua
 dEngine.BuildInfo.dll
 dEngine.BuildInfo_Win32_retail.dll
 dEngine.BuildInfo_Win32_retail_dll.dll
