@@ -31,15 +31,18 @@
 /lua5.4.so
 /lua50.dll
 /lua50.so
-AutomationGame/Binaries/Win32/lua51.dll
+/lua51.dll
 /lua51.so
-exiled_Data/Plugins/x86_64/lua52.dll
+/lua52.dll
 /lua52.so
 /lua53.dll
 /lua53.so
 /lua54.dll
 /lua54.so
-portal2/scripts/vguiedit/campaignmenu.lua
+AutomationGame/Binaries/Win32/lua51.dll
+DevMode.lua
+Libs/x64/lua5.1.dll
+exiled_Data/Plugins/x86_64/lua52.dll
 liblua5.0.dll
 liblua5.0.so
 liblua5.1.dll
@@ -62,7 +65,7 @@ liblua54.dll
 liblua54.so
 lua5.0.dll
 lua5.0.so
-Libs/x64/lua5.1.dll
+lua5.1.dll
 lua5.1.so
 lua5.2.dll
 lua5.2.so
@@ -80,4 +83,4 @@ lua53.dll
 lua53.so
 lua54.dll
 lua54.so
-DevMode.lua
+portal2/scripts/vguiedit/campaignmenu.lua
