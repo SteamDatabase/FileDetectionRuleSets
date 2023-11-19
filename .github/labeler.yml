@@ -9,3 +9,6 @@
 
 "Type: Launcher":
   - '**/Launcher.*'
+
+"Type: Container":
+  - '**/Container.*'
