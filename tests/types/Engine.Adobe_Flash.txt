@@ -24,3 +24,6 @@ flash_player
 gateway.app/Contents/MacOS/Flash Player
 gateway.app/Contents/Resources/Flash Player.rsrc
 gateway.app/Contents/Resources/FlashPlayer.icns
+.swf
+cg_version.swf
+/cg_highscore.swf

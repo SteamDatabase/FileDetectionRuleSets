@@ -1,1 +1,0 @@
-[**Adobe Shockwave**](https://en.wikipedia.org/wiki/Adobe_Shockwave) is a discontinued multimedia platform for building interactive multimedia applications and video games.
