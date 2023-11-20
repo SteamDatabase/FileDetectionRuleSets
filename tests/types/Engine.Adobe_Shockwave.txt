@@ -1,3 +1,0 @@
-.swf
-cg_version.swf
-/cg_highscore.swf
