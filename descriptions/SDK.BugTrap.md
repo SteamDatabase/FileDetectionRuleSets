@@ -1,0 +1,1 @@
+[**BugTrap**](https://github.com/bchavez/BugTrap) is a tool to catch unhandled exceptions in unmanaged and managed .NET code.
