@@ -1,0 +1,1 @@
+[**XAudio2**](https://learn.microsoft.com/en-us/windows/win32/xaudio2/xaudio2-apis-portal) is a low-level audio API that provides signal processing and mixing foundation for developing high performance audio engines for games.
