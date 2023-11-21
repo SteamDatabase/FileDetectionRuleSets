@@ -1,0 +1,1 @@
+[**EasyHook**](https://easyhook.github.io/) makes it possible to extend (via hooking) unmanaged code APIs with pure managed functions, from within a fully managed environment.

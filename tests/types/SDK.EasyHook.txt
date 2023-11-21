@@ -1,0 +1,5 @@
+Binaries/Win32/EasyHook32.dll
+/EasyHook32.dll
+EasyHook32.dll
+/EasyHook64.dll
+EasyHook64.dll
