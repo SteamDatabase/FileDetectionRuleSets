@@ -1,0 +1,1 @@
+[**Symbol Server**](https://learn.microsoft.com/en-us/windows/win32/debug/using-symsrv) delivers symbol files from centralized symbol stores.
