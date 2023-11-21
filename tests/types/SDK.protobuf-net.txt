@@ -1,0 +1,3 @@
+Binaries/Win32/protobuf-net.dll
+/protobuf-net.dll
+protobuf-net.dll

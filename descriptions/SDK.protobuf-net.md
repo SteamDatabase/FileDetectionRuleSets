@@ -1,0 +1,1 @@
+[**protobuf-net**](https://github.com/protobuf-net/protobuf-net) is a contract based serializer for .NET code, that happens to write data in the "protocol buffers" serialization format engineered by Google.
