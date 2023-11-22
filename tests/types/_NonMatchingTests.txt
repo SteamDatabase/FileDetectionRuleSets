@@ -38,6 +38,10 @@ data_xp3
 notreallydata.xp3
 data.xp3aisjdosadjods
 Binaries/Win64Whatever
+lua5.4.dl
+iblua50.so
+lua50_dll 
+sdsd_lua
 dEngine.BuildInfo.dll
 dEngine.BuildInfo_Win32_retail.dll
 dEngine.BuildInfo_Win32_retail_dll.dll
@@ -142,6 +146,12 @@ libogg_dll
 libogg_so_0
 libogg_64_dll
 ogg_dll
+Stride_Core_dll
+Stride.Core_dll
+Xenko_Core_dll
+Xenko.Core_dll
+NotStride.Core.dll
+NXenko.Core.dll
 GfnRuntimeSdk_dll
 EAappInstaller.ex
 AappInstaller.exe
@@ -310,6 +320,11 @@ ootstrap.cfg
 bootstrap.cf
 bootstrap_cfg
 fnode.dll
+pytho.dll
+pythonxdll
+python.dl
+/sub/dir/python1234.dll
+/sub/dir/python789.dll
 FVisionaireConfigurationTool.exe
 VisionaireConfigurationTool.exef
 AGIDATA.OVLTINE
