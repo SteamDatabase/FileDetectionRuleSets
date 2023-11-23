@@ -1,3 +1,4 @@
+/PhysX3PROFILE_x64.dll
 /PhysX3_x64.dll
 /PhysX3_x86.dll
 /PhysXCore.dll
@@ -8,6 +9,8 @@ Binaries/Win32/PhysXCore.dll
 Binaries/Win32/PhysXLoader.dll
 Dll/x64/PhysX_64.dll
 Dll/x86/PhysX_32.dll
+Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3PROFILE_x64.dll
+PhysX3PROFILE_x64.dll
 PhysX3_x64.dll
 PhysX3_x86.dll
 PhysXCore.dll
@@ -16,4 +19,3 @@ PhysX_32.dll
 PhysX_64.dll
 binaries/x64/PhysX3_x64.dll
 binaries/x86/PhysX3_x86.dll
-Engine/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/PhysX3PROFILE_x64.dll
