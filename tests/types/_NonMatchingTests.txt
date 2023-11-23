@@ -21,7 +21,6 @@ re_chunk_000.pa
 re_chunk_000_pak
 Engine/Binaries/ThirdPartySomething
 blahrpg_rt.exe
-UnityFbxSdkNative_dll
 sub/blahrpg_rt.exe
 rgssad
 rvproj2
