@@ -215,6 +215,9 @@ Sub/Folder/natives_blob.bink
 Bin32/CryD3DCompilerStub.dllk
 CryD3DCompilerStub.dllk
 SCryD3DCompilerStub.dll
+SlimDX.dl
+SlimDX_dll
+limDX.dll
 Adobe AIRCRAFT
 Adobe AIRCRAFT/Versions
 Adobe AIRCRAFT/Versions/1.0
