@@ -1,3 +1,4 @@
-.pbo
-Addons/3den.pbo.a3.pbo
-rocks.pbo.bi.pbo
+.bisign
+Addons/3den.pbo.a3.bisign
+rocks.pbo.bi.bisign
+AddOns/6G30.pbo
