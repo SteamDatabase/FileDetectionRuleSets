@@ -1,5 +1,2 @@
 /data.sgbpack
-/sgb_rpgplayer.resources.dll
-/sgbplog.txt
 data.sgbpack
-sgbplog.txt
