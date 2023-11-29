@@ -1,0 +1,1 @@
+The [**Concurrency Runtime**](https://learn.microsoft.com/en-us/cpp/parallel/concrt/concurrency-runtime) for C++ helps you write robust, scalable, and responsive parallel applications.
