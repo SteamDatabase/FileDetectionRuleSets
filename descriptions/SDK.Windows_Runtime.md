@@ -1,0 +1,1 @@
+[**Windows Runtime**](https://en.wikipedia.org/wiki/Windows_Runtime) (WinRT) is a platform-agnostic component and application architecture first introduced in Windows 8 and Windows Server 2012 in 2012.
