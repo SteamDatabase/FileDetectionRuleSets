@@ -1,0 +1,8 @@
+WashVR/Binaries/Win64/boost_atomic-vc142-mt-x64-1_70.dll
+WashVR/Binaries/Win64/boost_chrono-vc142-mt-x64-1_70.dll
+WashVR/Binaries/Win64/boost_iostreams-vc142-mt-x64-1_70.dll
+WashVR/Binaries/Win64/boost_program_options-vc142-mt-x64-1_70.dll
+WashVR/Binaries/Win64/boost_python39-vc142-mt-x64-1_70.dll
+WashVR/Binaries/Win64/boost_regex-vc142-mt-x64-1_70.dll
+WashVR/Binaries/Win64/boost_system-vc142-mt-x64-1_70.dll
+WashVR/Binaries/Win64/boost_thread-vc142-mt-x64-1_70.dll
