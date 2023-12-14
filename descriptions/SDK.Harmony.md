@@ -1,0 +1,1 @@
+[**Harmony**](https://github.com/pardeike/Harmony) gives you an elegant and high level way to alter the functionality in applications written in C#.
