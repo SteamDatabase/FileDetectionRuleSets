@@ -1,0 +1,1 @@
+GPUDatabase (GPUScoreDatabase internally) is a dll which contains scores of GPU performances measured by Ubisoft for use in their games.
