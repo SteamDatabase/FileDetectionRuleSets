@@ -1,8 +1,8 @@
-uplay_r2_loader.dll
-uplay_r2_loader64.dll
+uplay_r1_loader.dll
+uplay_r1_loader64.dll
 upc_r2_loader.dll
 upc_r2_loader64.dll
-/uplay_r2_loader.dll
-/uplay_r2_loader64.dll
+/uplay_r1_loader.dll
+/uplay_r1_loader64.dll
 /upc_r2_loader.dll
 /upc_r2_loader64.dll
