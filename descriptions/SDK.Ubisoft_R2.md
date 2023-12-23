@@ -1,0 +1,1 @@
+Ubisoft R2 is an SDK used by Ubisoft to communicate with their APIs (Ubisoft Club, Friends List and all that stuff).
