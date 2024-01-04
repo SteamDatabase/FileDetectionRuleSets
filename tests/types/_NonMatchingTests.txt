@@ -32,8 +32,6 @@ ARGSS104E.dll
 argss102j.dll
 argss102e.dll
 Sub/Folder/ARGSS104E.dll
-CgSDK.x64_2019.dell
-CgSDK.x64_2013.4ll
 CgS_2019.dll
 SDK.x4_219.dll
 Sub/Folder/argss102j.dll
