@@ -24,6 +24,8 @@ re_chunk_000_pak
 Engine/Binaries/ThirdPartySomething
 blahrpg_rt.exe
 sub/blahrpg_rt.exe
+CChromaEditorLibrary641.dll
+CChromaEditorLibrary1.dll
 rgssad
 rvproj2
 AwesomeGame.argssad
