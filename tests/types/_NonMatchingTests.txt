@@ -758,6 +758,9 @@ particle_ring_wave_curl.vtf
 particle_ring_wave_curl
 corl.dll
 curl_dll
+/fluid.dll
+/luidsynth.dll
+/fluidsynt.dll
 ttarch
 somefile.ttarches
 CKDX6Rasterizer.dll
