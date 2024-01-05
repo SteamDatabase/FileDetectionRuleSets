@@ -36,5 +36,7 @@ Ghostrunner/Binaries/Win64/CgSDK.x64_2013.dll
 Grid Force - Mask Of The Goddess_Data/Managed/CgSDK_2019.dll
 PHOGS_Data/Plugins/x86_64/CgSDK_2013.dll
 PHOGS_Data/Plugins/x86_64/CgSDK_2015.dll
+cgsdk
 cgsdk.x64_2015.dll
+cuesdk
 distribution/bin/CUESDK_2017.dll
