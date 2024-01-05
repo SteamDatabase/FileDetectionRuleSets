@@ -34,6 +34,8 @@ ARGSS104E.dll
 argss102j.dll
 argss102e.dll
 Sub/Folder/ARGSS104E.dll
+CgS_2019.dll
+SDK.x4_219.dll
 Sub/Folder/argss102j.dll
 Sub/Folder/argss102e.dll
 data_xp3
