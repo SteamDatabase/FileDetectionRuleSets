@@ -45,6 +45,9 @@ Binaries/Win64Whatever
 lua5.4.dl
 iblua50.so
 lua50_dll 
+xpat
+patex
+expot
 sdsd_lua
 dEngine.BuildInfo.dll
 dEngine.BuildInfo_Win32_retail.dll
