@@ -1,0 +1,1 @@
+The [**PCRE2**](https://www.pcre.org/) library is a set of C functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5.
