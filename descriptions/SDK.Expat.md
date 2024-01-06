@@ -1,0 +1,1 @@
+[**Expat**](https://libexpat.github.io/) is a stream-oriented XML parser written in C.

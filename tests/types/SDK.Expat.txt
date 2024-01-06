@@ -1,0 +1,12 @@
+/expat
+/libexpat
+/libexpat.dll
+/libexpatw.dll
+/pyexpat
+expat
+lib/python3.9/xml/parsers/expat.pyc
+libexpat
+libexpat.dll
+libexpatw.dll
+panda3d/spacebullet_1.9/linux_i386/pyexpat.so
+pyexpat
