@@ -1,1 +1,1 @@
-The LithTech engine was created by [**MonoLith**](https://lith.com/) Productions.
+[**LithTech engine**](https://en.wikipedia.org/wiki/LithTech) was created by [**MonoLith**](https://lith.com/) Productions.
