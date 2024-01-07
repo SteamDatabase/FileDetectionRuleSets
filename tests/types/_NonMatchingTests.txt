@@ -683,6 +683,9 @@ fmodxdll
 fmoooooooood.dll
 win64/fmod64.dlll
 fmodstudiodll
+data_sgbpack
+data.sgbpac
+.sgbpack
 vurbis
 orbis
 game/bin/win64/qt_plugins/sqldrivers/qsqlited4.dll
