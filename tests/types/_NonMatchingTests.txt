@@ -573,6 +573,9 @@ BEService_x64.exee
 something.scs
 who/who.scs
 test.scss
+Data/data002.vnda
+Data/data002_vndat
+Data/data002.ndat
 BlackCiphers
 notactuallyBlackCipher
 BlackCipher.whatever
