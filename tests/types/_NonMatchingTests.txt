@@ -42,6 +42,9 @@ data_xp3
 notreallydata.xp3
 data.xp3aisjdosadjods
 Binaries/Win64Whatever
+GFSDK_sasdasWorks
+probably_not_GFSDK_HairWorks
+GeforceSDK_HaerW0rks
 lua5.4.dl
 iblua50.so
 lua50_dll 
