@@ -1,0 +1,4 @@
+GFSDK_TXAA.win64.dll
+GFSDK_TXAA_AlphaResolve.win64.dll
+/GFSDK_TXAA.win64.dll
+/GFSDK_TXAA_AlphaResolve.win64.dll
