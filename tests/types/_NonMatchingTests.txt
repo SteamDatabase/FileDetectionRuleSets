@@ -24,6 +24,9 @@ blahrpg_rt.exe
 sub/blahrpg_rt.exe
 CChromaEditorLibrary641.dll
 CChromaEditorLibrary1.dll
+GFeSDK_dll
+FeSDK.dll
+GFeSDK.dl
 rgssad
 rvproj2
 AwesomeGame.argssad
