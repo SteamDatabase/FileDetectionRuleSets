@@ -2,3 +2,5 @@ GFSDK_HairWorks.win64.dll
 GFSDK_HairWorksExt.win64.dll
 /GFSDK_HairWorks.win64.dll
 /GFSDK_HairWorksExt.win64.dll
+Elyon/Engine/Shaders/Binaries/GFSDK_HairWorks_ShaderCommon.bin
+bin/GFSDK_HairWorks.win64.dll
