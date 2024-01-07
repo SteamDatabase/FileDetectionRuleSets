@@ -478,6 +478,9 @@ fbaseq2/pak1.pk1
 fbaseq2/models
 fbaseq2/pics
 fbaseq2/st
+Server/Modi.dll
+/mod_io
+/odio
 fglhexen
 data1/fglhexen
 data1/fglhexen/NFarrow.ms2
