@@ -1,0 +1,4 @@
+/NvRemixBridge32.dll
+NvRemixBridge32.dll
+/NvRemixBridge.exe
+NvRemixBridge.exe
