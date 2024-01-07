@@ -24,6 +24,9 @@ blahrpg_rt.exe
 sub/blahrpg_rt.exe
 CChromaEditorLibrary641.dll
 CChromaEditorLibrary1.dll
+GFeSDK_dll
+FeSDK.dll
+GFeSDK.dl
 rgssad
 rvproj2
 AwesomeGame.argssad
@@ -91,6 +94,9 @@ SuperUnity.Entities.dll
 Unity.Entitie.dll
 Unity_Entities_dll
 StreamingAssets/Scenes/
+notGFSDK_TXAA
+GFSDK_AATX
+GFSDK_TAXA
 TrueSkyPluginRender_MT.dl
 rueSkyPluginRender_MT.dll
 TrueSkyPluginRender_MT_dll
@@ -475,6 +481,9 @@ fbaseq2/pak1.pk1
 fbaseq2/models
 fbaseq2/pics
 fbaseq2/st
+Server/Modi.dll
+/mod_io
+/odio
 fglhexen
 data1/fglhexen
 data1/fglhexen/NFarrow.ms2
