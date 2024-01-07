@@ -1,0 +1,1 @@
+[**SQLite**](https://www.sqlite.org/) is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
