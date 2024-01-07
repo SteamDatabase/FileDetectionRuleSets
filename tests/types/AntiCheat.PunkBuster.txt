@@ -1,12 +1,14 @@
 /PnkBstrA.exe
-/Punkbuster.jpg
+/Punkbuster
+/Punkbuster/
 /pb/pbsv.dll
 /pbsv.dll
 /pbsvc.exe
-/punkbuster.cfg
 Binaries/pbsvc.exe
 PnkBstrA.exe
 Punkbuster
+Punkbuster/
+install/PunkBuster
 pb/PnkBstrA.exe
 pb/pbsv.dll
 pbsv.dll
