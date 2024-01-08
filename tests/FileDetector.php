@@ -51,6 +51,8 @@ class FileDetector
 				{
 					$this->Map[ $MarkIndex ] = "{$Type}.{$Name}";
 
+					$Regex = strtolower( $Regex );
+
 					if( str_starts_with( $Regex, $CommonFolderPrefix ) )
 					{
 						$Regexes[ 0 ][] = substr( $Regex, strlen( $CommonFolderPrefix ) ) . '(*:' . $MarkIndex . ')';
