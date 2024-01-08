@@ -1,0 +1,1 @@
+[**A3D (Aureal 3-Dimensional)**](https://en.wikipedia.org/wiki/Aureal_Semiconductor#A3D) is the technology used by Aureal Semiconductor in their Vortex line of PC sound chips to deliver three-dimensional sound through headphones, two or even four speakers.
