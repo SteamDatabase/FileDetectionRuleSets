@@ -720,6 +720,9 @@ ffx_fsr2_api_x86@dll
 libUnigine.so
 thisaintproject.godot
 project.godotfork
+Squall_dll
+Squall.dl
+quall.dll
 fgame.unx
 fgame.ios
 flibYoYoGamepad.dylib
