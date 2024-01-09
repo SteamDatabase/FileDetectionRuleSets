@@ -623,6 +623,9 @@ CryD3DCompilerStubxdll
 enginexpak
 LICENSExelectronxtxt
 scummvmxexe
+packs/sli_spk
+sli.spk
+packs/sli
 sdl2xdll
 sdlxdll
 nodexdll
