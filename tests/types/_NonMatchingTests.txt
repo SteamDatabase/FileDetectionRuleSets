@@ -321,6 +321,9 @@ fDosbox
 fdosbox.exe
 FDOSBOX.exe
 dosbox.exef
+gaijin_downloader_exe
+gaijin_downloader.ex
+_downloader.exe
 rGame.dll
 xrGame.dl
 xrGame_dll
