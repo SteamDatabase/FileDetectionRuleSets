@@ -904,6 +904,8 @@ OpenAL42.dll
 /OpenAL.dll
 Photon3Unity3D.dlll
 PhotonDotNet.dll
+asdf.b3
+.b3dd
 abcth_dnh.def
 th_dnh_def
 Engine/Binarisdes/ThirdParty/PhysX3/Win64/VS2015/NvClothdaasdPROFILE_x64.dlsdaasl
