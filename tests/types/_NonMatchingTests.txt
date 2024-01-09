@@ -399,6 +399,9 @@ ChromEd.exef
 sub/dir/ChromeEngine2.dllf
 sub/dir/ChromeEngine3.dllf
 sub/dir/ChromEd.exef
+vtt.dll
+nvtt_dll
+nvtt.dl
 fcry3dengine.dll
 fCry3DEngine.dll
 fCryRenderD3D11.dll
