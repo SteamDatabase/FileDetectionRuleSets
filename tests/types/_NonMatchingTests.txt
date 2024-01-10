@@ -188,6 +188,9 @@ Sub/Folder/js/rpg_core.jssss
 Sub/Folder/www/js/rpg_core.jsss
 Sub/Folder/js/rmmz_core.jsss
 Lib/renpy.stuff
+Core.dll
+S2Core_dll
+S2Core.dl
 bchmark.dl
 chmark.dll
 bchmark_dll
