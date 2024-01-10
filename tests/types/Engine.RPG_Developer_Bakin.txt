@@ -1,6 +1,3 @@
-.rbpack
+/bakinengine.dll
+bakinengine.dll
 data/bakinengine.dll
-data/bakinplayer.exe
-data/bakinplayer.exe.config
-data/en/bakinengine.resources.dll
-data/en/bakinplayer.resources.dll
