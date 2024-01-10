@@ -231,6 +231,9 @@ SCryD3DCompilerStub.dll
 SlimDX.dl
 SlimDX_dll
 limDX.dll
+ideros.dll
+gidros.dll
+gidero.dll
 Adobe AIRCRAFT
 Adobe AIRCRAFT/Versions
 Adobe AIRCRAFT/Versions/1.0
