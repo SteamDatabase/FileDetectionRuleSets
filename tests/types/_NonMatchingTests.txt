@@ -393,6 +393,9 @@ Data/C5
 Data/C4.pa
 Data/C4.ak
 Data/C4_pak
+Xors3d.dl
+Xors3d_dll
+ors3d.dll
 FChromeEngine2.dll
 FChromeEngine3.dll
 FChromEd.exe
