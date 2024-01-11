@@ -162,6 +162,9 @@ libogg_dll
 libogg_so_0
 libogg_64_dll
 ogg_dll
+Rayne.dl
+Rayne_dll
+ayne.dll
 Stride_Core_dll
 Stride.Core_dll
 Xenko_Core_dll
