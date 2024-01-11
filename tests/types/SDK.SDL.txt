@@ -3,10 +3,13 @@
 /SDL3.framework/
 /sdl.dll
 /sdl.framework/
+/sdl.txt
 /sdl2.dll
 /sdl2.framework/
+/sdl2.txt
 /sdl3.dll
 /sdl3.framework/
+/sdl3.txt
 GunpointSteam.app/Contents/Frameworks/SDL2.framework/Versions
 SDL.dll
 SDL2.dll
@@ -22,6 +25,7 @@ sdl2.txt
 sdl3.dll
 sdl3.framework/
 sdl3.txt
+share/data/licences/sdl2.txt
 some/dir/sdl.dll
 some/dir/sdl2.dll
 tinyandbig.app/Contents/Frameworks/SDL.framework/Versions
