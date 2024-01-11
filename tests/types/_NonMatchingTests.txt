@@ -560,6 +560,12 @@ something.hdllf
 sub/dir/something.hdllf
 something.fhdll
 sub/dir/something.fhdll
+GameData/VS2EN/runtime.rt
+GameData/VS2EN/runtime_rts
+GameData/VS2EN/time.rts
+Outsider_Strategist/data.dt
+Outsider_Strategist/data_dts
+Outsider_Strategist/ata.dts
 Microsoft.FXna.Framework.XmlSerializers.dll
 sub/dir/Microsoft.FXna.Framework.XmlSerializers.dll
 fxnafx31_redist.msi
