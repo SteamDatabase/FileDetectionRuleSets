@@ -1,3 +1,6 @@
+/data.dts
+/runtime.rts
+GameData/VS2EN/runtime.rts
+Outsider_Strategist/data.dts
 data.dts
-environment.evs
 runtime.rts
