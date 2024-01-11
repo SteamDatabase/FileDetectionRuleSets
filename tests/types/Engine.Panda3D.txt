@@ -1,9 +1,6 @@
-panda3d.bullet.pyd
-panda3d.core.pyd
-panda3d.direct.pyd
-panda3d.physics.pyd
+/libpanda.
+Plith.app/Contents/Resources/panda3d/cmu_1.9/osx_i386/libpanda.dylib
+lib/panda3d/cmu_1.9/linux_amd64/libpanda.so
+libpanda.
 libpanda.dll
-libpandabullet.dll
-libpandaexpress.dll
-libpandagl.dll
-libpandaphysics.dll
+panda3d/spacebullet_1.9/win_i386/libpanda.dll

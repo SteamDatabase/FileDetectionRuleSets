@@ -218,6 +218,10 @@ bassflac_dll
 bassmidi_dll
 libbass_dylib
 libbass_so
+libpanda
+panda.dll
+libanda.dll
+libpanda_dll
 .xemtest
 bytecode.by
 ytecode.byc
