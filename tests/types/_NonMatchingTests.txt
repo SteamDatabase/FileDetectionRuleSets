@@ -147,6 +147,9 @@ zstd_dll
 Sub/uv.hdllf
 fnRuntimeSdk.dll
 GfnRuntimeSdk.dl
+data/behaviors.mbs
+assets/data/behaviors_mbs
+assets/data/behaviors.m
 libogg.0.dyli
 libogg.dl
 libogg.so.
