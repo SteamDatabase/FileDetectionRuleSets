@@ -1,1 +1,1 @@
-[**BK Engine**](https://bke.bakery.moe/index_en.html) is a Cross Platform Visual Novel Game Engine. It is free, [**open source**](https://github.com/BKEngine/Creator), and supports Most Desktop and Mobile OS
+[**BK Engine**](https://bke.bakery.moe/index_en.html) is a Visual Novel Game Engine.
