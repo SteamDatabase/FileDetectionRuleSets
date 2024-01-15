@@ -1,1 +1,0 @@
-[**XPlatCpp**](https://github.com/PlayFab/XPlatCppSdk) is a Cross-Platform C++ PlayFab SDK.
