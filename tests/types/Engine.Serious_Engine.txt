@@ -1,2 +1,2 @@
-CachedShaders_D3D12.gro
-Content/CachedShaders_D3D12.gro
+Content/SeriousSamHD/All.gro
+Content/SeriousSam2017/00_All.gro
