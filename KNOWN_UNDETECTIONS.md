@@ -20,7 +20,7 @@ Godot games can also be packaged as standalone executables with no external asse
 
 ### Stencyl
 
-Stencyl is based on Adobe AIR(?) so it does not give any signal on it's own.
+Stencyl games don't always have recognizable files so it may not give any signal on it's own.
 
 ## The following SDKs are known to be undetected by our heurestics
 
