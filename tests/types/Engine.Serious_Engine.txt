@@ -1,2 +1,6 @@
-Content/SeriousSamHD/All.gro
+/00_All.gro
+/All.gro
+00_All.gro
+All.gro
 Content/SeriousSam2017/00_All.gro
+Content/SeriousSamHD/All.gro
