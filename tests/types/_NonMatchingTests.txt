@@ -184,6 +184,8 @@ APRT_RT.exe
 wgcs_api.ex
 gcs_api.exe
 wgcs_api_exe
+CachedShaders_D3D12_gro
+CachedShaders_D3D12.gr
 RPT_RT.exeeee
 xaudio2_9redist.dl
 audio2_9redist.dll
