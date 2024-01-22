@@ -347,6 +347,7 @@ mod_tools/Sublime/python26.dll
 python.dll
 python1.dll
 python10.dll
+python100.dll
 python101.dll
 python102.dll
 python103.dll
@@ -495,6 +496,7 @@ python231.dll
 python232.dll
 python233.dll
 python234.dll
+python235.dll
 python236.dll
 python237.dll
 python238.dll

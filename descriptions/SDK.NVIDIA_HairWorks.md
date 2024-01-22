@@ -1,0 +1,1 @@
+[**NVIDIA HairWorks**](https://www.nvidia.com/en-gb/geforce/technologies/hairworks/) uses DirectX 11 tessellation technology to add dynamic, realistic hairs to characters, creatures, and game worlds.
