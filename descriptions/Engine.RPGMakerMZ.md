@@ -1,1 +1,1 @@
-RPG Maker has a long history of letting anyone, regardless of skill level, make a game. And in Summer 2020, the latest and most powerful version, [**RPG Maker MZ**](https://www.rpgmakerweb.com/products/rpg-maker-mz) released to help you make YOUR game. RPG Maker MZ empowers you with simple tools to create your RPG right out of the box, yet is customizable enough to make the exact RPG you want!
+[**RPG Maker MZ**](https://www.rpgmakerweb.com/products/rpg-maker-mz) is the latest version in the RPG Maker series. RPG Maker MZ has simple tools , yet is very customizable.
