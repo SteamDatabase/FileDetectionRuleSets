@@ -1,0 +1,2 @@
+ArkGame/Binaries/Win64/GbSpy64.dll
+WashVR/Binaries/Win64/CrashSight64.dll
