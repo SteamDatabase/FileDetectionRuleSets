@@ -1,1 +1,1 @@
-[**id Tech 1 **](https://en.wikipedia.org/wiki/Doom_engine), also known as the "Doom engine", is a game engine developed by id Software to power their game [Doom](https://steamdb.info/app/2280/) released in 1995.
+[**id Tech 1**](https://en.wikipedia.org/wiki/Doom_engine), also known as the "Doom engine", is a game engine developed by id Software to power their game [Doom](https://steamdb.info/app/2280/) released in 1995.
