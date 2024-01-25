@@ -1,5 +1,0 @@
-sl.common.dll
-sl.dlss.dll
-sl.dlss_g.dll
-sl.interposer.dll
-sl.reflex.dll
