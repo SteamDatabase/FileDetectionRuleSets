@@ -1,5 +1,7 @@
 /GfxPluginNVIDIAReflex.dll
 /nvlowlatencyvk.dll
+/sl.reflex.dll
 GfxPluginNVIDIAReflex.dll
 RustClient_Data/Plugins/x86_64/GfxPluginNVIDIAReflex.dll
 nvlowlatencyvk.dll
+sl.reflex.dll
