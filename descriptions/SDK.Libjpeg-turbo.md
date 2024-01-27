@@ -1,0 +1,1 @@
+[**libjpeg-turbo**](https://libjpeg-turbo.org/) is a JPEG image codec that uses SIMD instructions (MMX, SSE2, AVX2, Neon, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, Arm, and PowerPC systems, as well as progressive JPEG compression on x86, x86-64, and Arm systems
