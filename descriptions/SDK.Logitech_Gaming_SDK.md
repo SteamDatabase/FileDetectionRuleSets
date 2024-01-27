@@ -1,1 +1,1 @@
-[**Logitech Gaming SDK**](https://www.logitechg.com/en-eu/innovation/developer-lab.html) is a bundle of dlls that offer support for different Logitech devices features like Illumination, and all that stuff.
+[**Logitech Gaming SDK**](https://www.logitechg.com/en-eu/innovation/developer-lab.html) is a library that allows games to interact with Logitech Peripherals.
