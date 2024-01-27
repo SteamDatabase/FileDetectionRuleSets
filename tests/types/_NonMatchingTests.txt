@@ -121,6 +121,9 @@ tyrano_js
 tyrano.jss
 FreeImage.dl
 FreeImage.s
+.sstk
+.stkk
+.sttk
 reeImage.dll
 reeImage.so
 FreeImage_dll
