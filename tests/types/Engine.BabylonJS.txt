@@ -1,5 +1,4 @@
 babylon.js
 /babylon.js
 lib/babylon
-asdasd.babylon
-/verygoodfile.babylon
+www/js/libs/babylon.js
