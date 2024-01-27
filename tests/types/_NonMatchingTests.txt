@@ -549,6 +549,12 @@ sub/folder/snd_.ogg
 HShield/HSInst_dll
 HShield/HSInst
 HSInst.dll
+/anvngx_dlss.dll
+/nvngx_dlss.dlla
+/nvngx_dlss_dll
+/asl.dlss.dll
+/sl.dlss.dlla
+/sl.dlss_dll
 data.podf
 sub/dir/data.podf
 something.rimf
