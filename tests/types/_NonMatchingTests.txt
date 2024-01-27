@@ -110,6 +110,9 @@ redscript
 w2script
 edscripts
 2scripts
+NRD_dll
+abcNRD.dll
+NRD.dllabc
 libeay32_dll
 ssleay32_dll
 yrano.js
