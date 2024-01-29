@@ -97,6 +97,12 @@ Unity.Entities.dlll
 biter.dll
 Arbiter.dl
 Arbiter_dll
+RRenoirCore.WindowsDesktop.dll
+CCohtml.WindowsDesktop.dll
+RenoirCore.WindowsDesktop.dlll
+cohtml.WindowsDesktop.dlll
+RenoirCore.WindowsDesktop_dll
+cohtml.WindowsDesktop_dll
 SuperUnity.Entities.dll
 Unity.Entitie.dll
 Unity_Entities_dll
