@@ -1,1 +1,0 @@
-[**Coherent Gameface**](https://docs.coherent-labs.com/cpp-gameface/) is a game UI middleware. It’s powered by the libraries Cohtml (HTML engine) and Renoir (rendering engine). 
