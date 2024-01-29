@@ -1,0 +1,8 @@
+/flexDebug_x64.dll
+/flexExtDebug_x64.dll
+/flexExtRelease_x64.dll
+/flexRelease_x64.dll
+flexDebug_x64.dll
+flexExtDebug_x64.dll
+flexExtRelease_x64.dll
+flexRelease_x64.dll
