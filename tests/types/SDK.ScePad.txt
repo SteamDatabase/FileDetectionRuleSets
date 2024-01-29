@@ -1,0 +1,4 @@
+/libScePad.dll
+/libScePad_x64.dll
+libScePad.dll
+libScePad_x64.dll

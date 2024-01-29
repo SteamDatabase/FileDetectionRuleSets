@@ -1,0 +1,1 @@
+Pad is an SDK made by Sony Computer Entertainment, to bring native Dual(Shock/Sense) controller support to PC games. Also allows developers to implement better haptic feedback on those controllers.
