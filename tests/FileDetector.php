@@ -223,7 +223,7 @@ class FileDetector
 		}
 
 		//.u files only turn up in idTech0 and UnrealEngine games -- if we haven't positively ID'd idTech0 so far, it's Unreal
-		if( $has( 'Evidence.U' ) && $not( 'Emulator.DOSBOX' ) )
+		if( $has( 'Evidence.U' ) && $not( 'Emulator.DOSBOX' ) && $not( 'Engine.DarkEngine'))
 		{
 			return 'Engine.Unreal';
 		}
