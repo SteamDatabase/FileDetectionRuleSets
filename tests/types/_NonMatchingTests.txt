@@ -677,6 +677,9 @@ cry3denginexdll
 CryRenderD3D1xdll
 CryRenderD3D11xdll
 CryRenderD3D12xdll
+data/flutter_assets/assets/engine/win/fflutter_windows.dll
+data/flutter_assets/assets/engine/win/flutter_windows_dll
+data/flutter_assets/assets/engine/win/flutter_windows.dlll
 AntiCheatExperts
 notactuallyAntiCheatExpert
 AntiCheatExpert.whatever
