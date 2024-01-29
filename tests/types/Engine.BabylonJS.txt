@@ -1,4 +1,5 @@
-babylon.js
 /babylon.js
+/lib/babylon
+babylon.js
 lib/babylon
 www/js/libs/babylon.js
