@@ -1,0 +1,2 @@
+app_Data/Plugins/x86_64/vive_3dsp_api.dll
+app_Data/Plugins/x86_64/audioplugin_vive3dsp.dll
