@@ -57,6 +57,8 @@ GeforceSDK_HaerW0rks
 sxolla
 xsola
 allosx
+solla
+xsoll
 lua5.4.dl
 iblua50.so
 lua50_dll 
