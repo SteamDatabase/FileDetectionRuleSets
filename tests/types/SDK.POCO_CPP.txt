@@ -1,0 +1,16 @@
+/PocoCrypto.dll
+/PocoData.dll
+/PocoDataSQLite.dll
+/PocoFoundation.dll
+/PocoJSON.dll
+/PocoUtil.dll
+/PocoXML.dll
+/PocoZIP.dll
+PocoCrypto.dll
+PocoData.dll
+PocoDataSQLite.dll
+PocoFoundation.dll
+PocoJSON.dll
+PocoUtil.dll
+PocoXML.dll
+PocoZIP.dll
