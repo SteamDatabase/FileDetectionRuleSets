@@ -1,0 +1,1 @@
+The [**Advanced Media Framework**](https://gpuopen.com/advanced-media-framework/) SDK provides developers with optimal access to AMD GPUs for multimedia processing.
