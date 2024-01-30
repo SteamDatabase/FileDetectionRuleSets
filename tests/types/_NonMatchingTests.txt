@@ -72,6 +72,8 @@ libhl.soo
 libhl_so
 libhl_dll
 lib_burst_generated_dll
+rotobuf
+protobu
 lib_burst_generated.png
 lib_burst_generated_so
 lib_burst_generated.soo
