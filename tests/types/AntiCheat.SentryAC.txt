@@ -1,4 +1,3 @@
-sentry
-sentry/config.toml
-sentry/sel.dll
-sentry/splash.png
+sentry/uninstall/sacuninstaller.exe
+/sacuninstaller.exe
+sacuninstaller.exe
