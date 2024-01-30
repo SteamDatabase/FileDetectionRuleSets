@@ -12,6 +12,10 @@ notactuallylime-legacy.dll
 notactuallylime-legacy.ndll
 notactuallyfna.dll
 fna.dllwhoops
+entry.dll
+libsentry.dl
+sentry.dl
+sentry_dll
 sub/dir/notactuallyfna.dll
 sub/dir/fna.dllwhoops
 fx_core_dll
