@@ -749,6 +749,14 @@ PysXCore.dll
 equ8_db
 totallynotequ8_conf.json
 sub/dir/equ8.jsondblol
+ring/bin/allegro-5.2.dlll
+data/lib32/liballeg.sso.4.4
+ring/bin/aallegro-5.2.dll
+data/lib32/lliballeg.so.4.4
+ring/bin/alleegro-5.2.dll
+data/lib32/liballeeg.so.4.4
+ring/bin/allegro-5.2_dll
+data/lib32/liballeg_so.4.4
 c2runtimexjs
 c3runtimexjs
 ac2runtime.js
