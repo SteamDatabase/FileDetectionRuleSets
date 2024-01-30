@@ -1,6 +1,4 @@
-/libsentry.dylib
-/libsentry.so
+/libsentry.dll
 /sentry.dll
-libsentry.dylib
-libsentry.so
+libsentry.dll
 sentry.dll
