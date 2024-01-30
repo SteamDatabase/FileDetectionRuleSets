@@ -1,1 +1,1 @@
-[Solar2D](https://solar2d.com) is a cross-platform framework using the Lua programming language. It is ideal for rapidly creating apps and games for mobile devices, TV, desktop systems and HTML5. 
+[**Solar2D**](https://solar2d.com) is a cross-platform framework using the Lua programming language. It is ideal for rapidly creating apps and games for mobile devices, TV, desktop systems and HTML5. 

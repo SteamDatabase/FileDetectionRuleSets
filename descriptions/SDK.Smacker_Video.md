@@ -1,0 +1,1 @@
+[**Smacker Video**](http://www.radgametools.com/smkmain.htm) is a video codec that was first released in 1994. It has since been superseded in most of its use case by [Bink](/tech/SDK/Bink_Video/)
