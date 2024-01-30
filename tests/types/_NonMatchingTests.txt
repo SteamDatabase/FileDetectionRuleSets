@@ -12,14 +12,9 @@ notactuallylime-legacy.dll
 notactuallylime-legacy.ndll
 notactuallyfna.dll
 fna.dllwhoops
-ibsentry.dylib
-ibsentry.so
 entry.dll
-libsentry.dyli
-libsentry.s
+libsentry.dl
 sentry.dl
-libsentry_dylib
-libsentry_so
 sentry_dll
 sub/dir/notactuallyfna.dll
 sub/dir/fna.dllwhoops
