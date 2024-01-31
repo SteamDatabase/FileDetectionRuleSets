@@ -22,6 +22,10 @@ fx_core_dll
 abylon.js
 babylon.j
 babylon_js
+amd-core
+amf_core
+aamf-core
+mad-core
 lib_babylon
 notrelatedto.babylo
 notrelatedto_babylon

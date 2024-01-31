@@ -1,0 +1,3 @@
+XSplitBroadcaster/amf-core-windesktop32.dll
+/amf-core
+amf-core
