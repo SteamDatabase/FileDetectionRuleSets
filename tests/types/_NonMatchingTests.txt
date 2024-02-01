@@ -651,6 +651,14 @@ mus_cutscene_final_theme1.oggf
 mus_cutscene_final_theme2.oggf
 mus_death.oggf
 mus_firstcrash.oggf
+fuckLeap.dll
+fuckLeapC.dll
+LeapCD.dll
+LeapC.dlls
+Leap.dlls
+LeapASS.dll
+LeapC.mdll
+Leap.mdll
 pbsvcpexe
 pbsvc.exee
 BEService_x64eexe
