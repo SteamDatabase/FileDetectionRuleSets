@@ -1,0 +1,7 @@
+.upk
+.ut3
+.ukr
+.usf
+.udk
+Binaries/Redist/UE3Redist.exe
+Binaries/Win64/UE3ShaderCompileWorker.exe
