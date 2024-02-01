@@ -1,11 +1,19 @@
 "Type: Engine":
-  - '**/Engine.*'
+- changed-files:
+  - any-glob-to-any-file: '**/Engine.*'
 
 "Type: SDK":
-  - '**/SDK.*'
+- changed-files:
+  - any-glob-to-any-file: '**/SDK.*'
 
 "Type: Anti-Cheat":
-  - '**/AntiCheat.*'
+- changed-files:
+  - any-glob-to-any-file: '**/AntiCheat.*'
 
 "Type: Launcher":
-  - '**/Launcher.*'
+- changed-files:
+  - any-glob-to-any-file: '**/Launcher.*'
+
+"Type: Container":
+- changed-files:
+  - any-glob-to-any-file: '**/Container.*'
