@@ -226,6 +226,15 @@ Sub/Folder/RPT_RT.exeeee
 Sub/Folder/js/rpg_core.jssss
 Sub/Folder/www/js/rpg_core.jsss
 Sub/Folder/js/rmmz_core.jsss
+Game_Creator.cdata
+Game_Creator.gcdat
+Game_Creator.fgcdata
+Game_Creator.gcdataf
+Game_Creator_gcdata
+GameCreatorgcdata
+Game-Creator-gcdata
+Game_Creator/gcdata
+Game_Creator.gcdata.
 Lib/renpy.stuff
 Core.dll
 S2Core_dll
