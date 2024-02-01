@@ -490,6 +490,15 @@ sub/dir/CryRenderD3D12.dllf
 sub/dir/CryRenderVulkan.dllf
 sub/dir/CryD3DCompilerStub.dllf
 sub/dir/engine.pakf
+Loom.bloom
+Loom.loomf
+Loom_loom
+Loom-loom
+Loom/loom
+Loom.look
+Loom.boom
+Loom.lom
+Loom.looom
 TP3Helper.ex
 P3Helper.exe
 TP3Helper_exe
