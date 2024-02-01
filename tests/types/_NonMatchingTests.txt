@@ -888,6 +888,12 @@ coccos-js/cc.a9323_js
 coccos-js/cc_a9323_js
 /coccos-js/cc.a9323.jsf
 sub/dir/coccos-js/cc_a9323.jsf
+SLUDGE.slgf
+SLUDGE.fslg
+SLUDGE-slg
+SLUDGE_slg
+SLUDGE.slg.
+SLUDGE/slg
 PartyyWin7.dll
 PartyXboxxLive.dll
 chroome_elf.dll
