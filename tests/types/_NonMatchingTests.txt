@@ -55,6 +55,10 @@ data_xp3
 notreallydata.xp3
 data.xp3aisjdosadjods
 Binaries/Win64Whatever
+nri_dll
+nvidiari.dll
+nnri.dll
+nrii.dll
 GFSDK_sasdasWorks
 probably_not_GFSDK_HairWorks
 GeforceSDK_HaerW0rks
