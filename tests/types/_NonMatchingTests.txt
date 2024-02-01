@@ -475,6 +475,11 @@ sub/dir/fCryRenderVulkan.dll
 sub/dir/fCryD3DCompilerStub.dll
 sub/dir/fengine.pak
 something.cryf
+OHRRPGCE.rpgf
+OHRRPGCE.frpg
+OHRRPGCE_rpg
+OHRRPGCErpg
+OHRRPGCE-rpg
 cry3dengine.dllf
 Cry3DEngine.dllf
 CryRenderD3D11.dllf
