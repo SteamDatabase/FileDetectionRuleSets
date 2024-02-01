@@ -100,6 +100,16 @@ Engine.BuildInfo_Win32_retail_dllxdll
 Engine.BuildInfo_Win64_retailxdll
 Engine.BuildInfo_Win64_retail_dllxdll
 Unity.Entities.dlll
+TotallyAwesomium.dll
+Awesomium.dlls
+Awesomium_dll
+totally_awesomium_process.exe
+awesomium_process.rexe
+awesomium_process.exec
+awesomiumprocess.exe
+awesomium-process.exe
+awesomium-process_exe
+awesomium_processor.exe
 biter.dll
 Arbiter.dl
 Arbiter_dll
