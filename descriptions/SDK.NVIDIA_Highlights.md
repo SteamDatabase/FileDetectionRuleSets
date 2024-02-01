@@ -1,0 +1,1 @@
+[**NVIDIA Highlights**](https://developer.nvidia.com/highlights) enables automatic video capture of key moments, clutch kills, and match-winning plays, ensuring gamers’ best gaming moments are always saved.
