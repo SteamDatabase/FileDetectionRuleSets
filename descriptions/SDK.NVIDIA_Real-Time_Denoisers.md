@@ -1,0 +1,1 @@
+[**NVIDIA Real-Time Denoisers (NRD)**](https://developer.nvidia.com/rtx/ray-tracing/rt-denoisers) is a spatio-temporal, API-agnostic denoising library that’s designed to work with low ray-per-pixel signals. It uses input signals and environmental conditions to deliver results comparable to ground-truth images.

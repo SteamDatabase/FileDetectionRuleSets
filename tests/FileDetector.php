@@ -49,7 +49,9 @@ class FileDetector
 
 				foreach( $RuleRegexes as $Regex )
 				{
-					$this->Map[ $MarkIndex ] = "$Type.$Name";
+					$this->Map[ $MarkIndex ] = "{$Type}.{$Name}";
+
+					$Regex = strtolower( $Regex );
 
 					if( str_starts_with( $Regex, $CommonFolderPrefix ) )
 					{
@@ -150,7 +152,7 @@ class FileDetector
 			{
 				$Matches = array_filter(
 					$Matches,
-					fn( string $Match ) : bool => !str_starts_with( $Match, 'Evidence.' ),
+					static fn( string $Match ) : bool => !str_starts_with( $Match, 'Evidence.' ),
 					ARRAY_FILTER_USE_KEY
 				);
 			}
@@ -166,10 +168,10 @@ class FileDetector
 	private static function TryDeduceEngine( array $Files, array $Matches ) : ?string
 	{
 		// helper functions
-		$has = fn( string $Match ) : bool => isset( $Matches[ $Match ] );
-		$not = fn( string $Match ) : bool => !isset( $Matches[ $Match ] );
+		$has = static fn( string $Match ) : bool => isset( $Matches[ $Match ] );
+		$not = static fn( string $Match ) : bool => !isset( $Matches[ $Match ] );
 
-		$count = function( array $Search ) use ( $Matches ) : int
+		$count = static function( array $Search ) use ( $Matches ) : int
 		{
 			$Count = 0;
 
@@ -273,7 +275,7 @@ class FileDetector
 		//1. A single .pck file named exactly "data.pck", and NO other pck files
 		//2. For every executable, a correspondingly named pck file, and no other pck files
 
-		$swapExtension = fn( string $FileName, string $OldExtension, string $NewExtension ) : string => basename( $FileName, $OldExtension ) . $NewExtension;
+		$swapExtension = static fn( string $FileName, string $OldExtension, string $NewExtension ) : string => basename( $FileName, $OldExtension ) . $NewExtension;
 		$Pcks = [];
 		$Exes = [];
 
@@ -319,7 +321,7 @@ class FileDetector
 			}
 
 			//Otherwise we have to match up exe & pck pairs
-			foreach ( array_keys($Pcks) as $pck )
+			foreach ( array_keys( $Pcks ) as $pck )
 			{
 				//If we match an exe and a pck file pair, we're good
 				if( isset( $Exes[ $pck ] ) )

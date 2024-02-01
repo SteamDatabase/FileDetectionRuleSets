@@ -1,0 +1,3 @@
+.MeshDesc
+Assets/Background/BlueSky/BlueSky.MeshDesc
+Assets/Background/Cosmos/Cosmos.MeshDesc

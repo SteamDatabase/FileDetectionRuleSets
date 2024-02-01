@@ -1,0 +1,1 @@
+[**AMD TrueAudio Next**](https://gpuopen.com/true-audio-next) is a SDK for GPU accelerated and multi-core high-performance audio signal processing.

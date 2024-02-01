@@ -1,0 +1,4 @@
+{
+	"name": "PHP",
+	"build": {"dockerfile":"Dockerfile"},
+}

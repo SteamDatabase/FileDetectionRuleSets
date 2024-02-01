@@ -1,0 +1,1 @@
+[**Autodesk FBX SDK**](https://aps.autodesk.com/developer/overview/fbx-sdk) is a free C++ software development kit (SDK) that lets you create plug-ins, converters, and other applications that use Autodesk FBX technology. 

@@ -1,0 +1,3 @@
+.bkarc
+data_a.bkarc
+PaperPlane.app/Contents/Resources/data_a.bkarc

@@ -1,0 +1,4 @@
+/TencentGME.dll
+DungeonCrawler/Binaries/Win64/TencentGME.dll
+Engine/Plugins/WWise/ThirdParty/x64_vc150/Release/bin/TencentGME.dll
+TencentGME.dll
