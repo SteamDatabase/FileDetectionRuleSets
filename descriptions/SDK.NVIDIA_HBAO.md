@@ -1,0 +1,1 @@
+[**HBAO+**](https://www.nvidia.com/en-gb/geforce/technologies/hbao-plus/) improves upon existing Ambient Occlusion techniques to add richer, more detailed and realistic shadows around objects that occlude rays of light.
