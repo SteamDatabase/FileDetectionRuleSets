@@ -1,4 +1,6 @@
+/ScePadWrapper.dll
 /libScePad.dll
 /libScePad_x64.dll
+ScePadWrapper.dll
 libScePad.dll
 libScePad_x64.dll
