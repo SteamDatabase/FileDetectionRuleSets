@@ -216,11 +216,11 @@ class FileDetector
       
 			if( $has( 'Evidence.Unreal_4_OR_5' ) )
 			{
-				if( $has( 'Evidence.Unreal_4' ) )
+				if( $not( 'Engine.Unreal_4' ) )
 				{
-					return 'Engine.Unreal_4';
+					return 'Engine.Unreal_4_OR_5';
 				}
-				return 'Engine.Unreal_4_OR_5';
+				return 'Engine.Unreal_4';
 			}
       
 			return 'Engine.Unreal';
