@@ -186,7 +186,7 @@ class FileDetector
 			return $Count;
 		};
 
-		if( $has( 'Evidence.RPGMaker2000' ) )
+		if( $has( 'Evidence.RPGMaker200x' ) )
 		{
 			if($not( 'Engine.RPGMaker2003' ) )
 			{

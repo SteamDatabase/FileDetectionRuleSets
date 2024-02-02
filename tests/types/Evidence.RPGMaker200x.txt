@@ -1,0 +1,9 @@
+/RPG_RT.ini
+/rpg_rt.exe
+/rpt_rt.exe
+RPG_RT.ini
+RPT_RT.exe
+Sub/Folder/RPT_RT.exe
+Sub/Folder/rpg_rt.exe
+rpg_rt.exe
+rpt_rt.exe
