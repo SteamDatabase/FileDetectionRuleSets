@@ -1,5 +1,0 @@
-.uax
-.uhtm
-.umx
-.unr
-.utx
