@@ -1,0 +1,1 @@
+Thrustmaster Bridge is an SDK that allows developers to add support to Thrustmaster's peripherals.

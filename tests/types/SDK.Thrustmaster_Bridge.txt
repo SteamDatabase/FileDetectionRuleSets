@@ -1,0 +1,6 @@
+/thrustmaster_bridge_x64.dll
+/thrustmaster_bridge_x86.dll
+/tm_api_lib_bridge_x64.dll
+thrustmaster_bridge_x64.dll
+thrustmaster_bridge_x86.dll
+tm_api_lib_bridge_x64.dll
