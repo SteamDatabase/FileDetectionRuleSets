@@ -1,0 +1,2 @@
+/wooting_analog_sdk.dll
+wooting_analog_sdk.dll
