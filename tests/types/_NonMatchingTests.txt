@@ -352,9 +352,6 @@ howler/core/min.js
 howler/min.js
 howler.core/min.js
 howler/core.min.js
-howler.core.js
-howler.core.min.js
-howler.min.js
 howler-core.js
 howler-core-min.js
 howler-min.js
