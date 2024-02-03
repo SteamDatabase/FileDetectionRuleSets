@@ -1,1 +1,3 @@
+/res/intrface.crf
 Data/res/INTRFACE.CRF
+res/intrface.crf
