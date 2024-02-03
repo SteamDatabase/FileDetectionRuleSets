@@ -298,6 +298,12 @@ ranny2_x64.dll
 granny2_x64_dll
 pfdfdflove.dll
 Sub/Folder/love.dllfdfdfdf
+fDevIL.dll
+DevILish.dll
+DevIL.fdll
+DevIL.dllf
+DevIL.ll
+DevIL.dl
 SGODOT_LICENSE.txt
 GODOT_LICENESE.txtf
 libqodot.dllfdfdf
