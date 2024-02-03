@@ -840,6 +840,16 @@ sub/dir/fwindow_set_cursor.dll
 sub/dir/fjoydll.dll
 sub/dir/fGMXInput.dll
 sub/dir/fgm7zip.dll
+fsciter.dll
+sciterf.dll
+fsciter.fdll
+sciterf.dllf
+sciter-dll
+sciter_dll
+fsciter.ll
+sciterf.dl
+sciter/dll
+sciterdll
 game.unxf
 game.iosf
 libYoYoGamepad.dylibf
