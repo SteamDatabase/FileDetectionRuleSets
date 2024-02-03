@@ -99,6 +99,17 @@ yrano.js
 tyrano.j
 tyrano_js
 tyrano.jss
+ftyrano_data.sav
+fyrano_data.sav
+tyranodata.sav
+/tyrano_data.sav
+_tyrano/data.sav
+_tyrano-data.sav
+_tyrano.data
+_tyrano-data.fsav
+_tyrano-data.savf
+_tyrano-data.av
+_tyrano-data.sa
 FreeImage.dl
 FreeImage.s
 reeImage.dll
