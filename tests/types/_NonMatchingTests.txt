@@ -651,12 +651,12 @@ mus_cutscene_final_theme1.oggf
 mus_cutscene_final_theme2.oggf
 mus_death.oggf
 mus_firstcrash.oggf
-fuckLeap.dll
-fuckLeapC.dll
+fLeap.dll
+fLeapC.dll
 LeapCD.dll
 LeapC.dlls
 Leap.dlls
-LeapASS.dll
+Leapf.dll
 LeapC.mdll
 Leap.mdll
 pbsvcpexe
