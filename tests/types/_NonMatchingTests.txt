@@ -842,6 +842,15 @@ sub/dir/fGMXInput.dll
 sub/dir/fgm7zip.dll
 game.unxf
 game.iosf
+fRSPiX.py
+fRSPiX.pyd
+fRSPiX.so
+RSPiXf.py
+RSPiXf.pyd
+RSPiXf.so
+RSPiX.pyf
+RSPiX.pydf
+RSPiX.sof
 libYoYoGamepad.dylibf
 audiogroup1.datf
 Steamworks.gmk.dllf
