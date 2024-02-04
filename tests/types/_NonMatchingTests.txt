@@ -560,10 +560,6 @@ Id1/glquakef
 Id1/glquakef/15to8.pal
 Id1/glquakef/armor.ms2
 Id1/glquakef/backpack.ms2
-nmcogame.dll
-nmconew.dll
-nmcogame64.dll
-nmconew64.dll
 nmco.game.dll
 nmco.new.dll
 nmco.game64.dll
