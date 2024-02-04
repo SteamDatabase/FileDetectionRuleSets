@@ -1,0 +1,1 @@
+**CloakNT** is the [Cauldron's](http://www.cauldron.sk/) in-house engine.
