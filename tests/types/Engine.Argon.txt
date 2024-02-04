@@ -1,0 +1,6 @@
+!console.txt
+!opt
+/!console.txt
+/!opt
+/ar.cfg
+ar.cfg
