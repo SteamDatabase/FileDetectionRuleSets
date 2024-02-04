@@ -1,0 +1,1 @@
+[**Stride**](https://www.stride3d.net/) is a free and open-source game engine written in C#. It was originally developed by Silicon Studio under the name Xenko and has been open-sourced in 2018 and renamed to Stride in 2020.
