@@ -1,4 +1,4 @@
-/ClientLauncherG.dll
-/ClientLauncherG64.dll
-ClientLauncherG.dll
-ClientLauncherG64.dll
+/ClientLauncherG.exe
+/ClientLauncherG64.exe
+ClientLauncherG.exe
+ClientLauncherG64.exe
