@@ -1,0 +1,4 @@
+/ClientLauncherG.dll
+/ClientLauncherG64.dll
+ClientLauncherG.dll
+ClientLauncherG64.dll
