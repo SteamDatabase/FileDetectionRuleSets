@@ -1,0 +1,4 @@
+/0000.bin
+/aska0000.bin
+0000.bin
+aska0000.bin
