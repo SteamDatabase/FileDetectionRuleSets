@@ -1,0 +1,8 @@
+/filelist_scra.win32.bin
+/filelist_scrc.win32.bin
+/filelist_scru.win32.bin
+/filelist_scrv.win32.bin
+filelist_scra.win32.bin
+filelist_scrc.win32.bin
+filelist_scru.win32.bin
+filelist_scrv.win32.bin
