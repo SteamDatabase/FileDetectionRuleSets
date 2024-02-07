@@ -60,7 +60,7 @@ probably_not_GFSDK_HairWorks
 GeforceSDK_HaerW0rks
 lua5.4.dl
 iblua50.so
-lua50_dll 
+lua50_dll
 sdsd_lua
 dEngine.BuildInfo.dll
 dEngine.BuildInfo_Win32_retail.dll
@@ -188,6 +188,9 @@ ibogg.dll
 ibogg.so.0
 ibogg_64.dll
 gg.dll
+UnityPlayerso
+UnityPlayer.sod
+uUnityPlayer.so
 libogg_0_dylib
 libogg_dll
 libogg_so_0
@@ -230,6 +233,10 @@ Lib/renpy.stuff
 Core.dll
 S2Core_dll
 S2Core.dl
+globalgamemanagers.asset
+globalgamemanager.assets
+globalgamemanagersassets
+Gglobalgamemanagersassets
 bchmark.dl
 chmark.dll
 bchmark_dll
@@ -716,9 +723,9 @@ StandalonePlayerLocalizablexstrings
 VisionaireConfigurationToolxexe
 lovexdll
 AGIDATAxOVL
-anvil/archives/Data.sgaa 
-anvil/archives/Data.ssga 
-anvil/archives/Data_sga 
+anvil/archives/Data.sgaa
+anvil/archives/Data.ssga
+anvil/archives/Data_sga
 game/bin/linuxsteamrt64/libsteamaudio.soooooo
 SteamAudiooooo.dll
 steamnet.dll

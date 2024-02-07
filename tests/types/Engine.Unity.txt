@@ -19,3 +19,7 @@ UnityEngine.dll
 UnityEngine.dylib
 UnityPlayer.dll
 UnityPlayer.dylib
+/UnityPlayer.so
+Sub/Folder/UnityPlayer.so
+/globalgamemanagers.assets
+Sub/Folder/globalgamemanagers.assets
