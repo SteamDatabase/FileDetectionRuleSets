@@ -616,6 +616,8 @@ sub/dir/xnaffx31_redist.msi
 something.streamedf
 something.fstreamed
 streamed
+bigfile.000.nfo
+bigfile.tiger
 something.mega2f
 something.fmega2f
 something.texdbff
