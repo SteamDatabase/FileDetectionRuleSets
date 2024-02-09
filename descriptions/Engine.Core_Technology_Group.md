@@ -1,0 +1,1 @@
+**Core Technology Group** (CTG) is the [Volition's](https://www.volitiongames.com/) in-house engine.
