@@ -2,7 +2,6 @@
 /vrage.dll
 Bin64/ModTools/VRage.dll
 Bin64/VRage.dll
-Bin64/VRage.dll
 Content/Textures/Logo/vrage.dds
 DedicatedServer64/VRage.dll
 Tools/VRageEditor/Bin/VRage.dll
