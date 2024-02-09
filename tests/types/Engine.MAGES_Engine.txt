@@ -1,0 +1,9 @@
+/system.acb
+/system.cpk
+/system.mpk
+Data/system.cpk
+USRDIR/system.mpk
+app/_data/sound/system.acb
+system.acb
+system.cpk
+system.mpk
