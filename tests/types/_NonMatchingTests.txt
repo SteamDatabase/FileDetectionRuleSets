@@ -578,6 +578,9 @@ sub/folder/sndf_whatever.ogg
 sub/folder/sndf_a.ogg
 snd_.ogg
 sub/folder/snd_.ogg
+.mviewf
+.fmview
+/mview
 HShield/HSInst_dll
 HShield/HSInst
 HSInst.dll
