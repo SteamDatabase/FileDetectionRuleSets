@@ -188,9 +188,6 @@ ibogg.dll
 ibogg.so.0
 ibogg_64.dll
 gg.dll
-UnityPlayerso
-UnityPlayer.sod
-uUnityPlayer.so
 libogg_0_dylib
 libogg_dll
 libogg_so_0
