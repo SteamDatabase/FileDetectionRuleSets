@@ -620,6 +620,12 @@ fbaseq2/st
 Server/Modi.dll
 /mod_io
 /odio
+/COMMON_POD
+/STARTUP_POD
+/COMMON.PODD
+/STARTUP.PODD
+/CCOMMON.POD
+/SSTARTUP.POD
 deluxe/assets/tiled/overworld/decor_tsx
 fmdata/Default.tmxx
 deluxe/assets/tiled/overworld/decor.ttsx
