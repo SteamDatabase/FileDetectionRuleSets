@@ -1,0 +1,1 @@
+[**NVIDIA Texture Tools**](https://developer.nvidia.com/gpu-accelerated-texture-compression) can be used to compress textures to and from block-compressed formats including BC1-7 and LDR ASTC, which stay small both on disk and in GPU memory.
