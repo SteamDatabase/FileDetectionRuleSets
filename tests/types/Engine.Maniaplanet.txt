@@ -1,0 +1,3 @@
+/ManiaPlanet.pak
+ManiaPlanet.pak
+Packs/Maniaplanet.pak
