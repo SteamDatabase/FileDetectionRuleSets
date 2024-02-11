@@ -1,0 +1,5 @@
+core/global.pak
+packages/boe1914-core/global.pak
+packages/core/global.pak
+resource/game.pak
+resource/gamelogic.pak

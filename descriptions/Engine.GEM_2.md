@@ -1,0 +1,1 @@
+[**GEM 2**](https://web.archive.org/web/20200217233940/http://eng.bestway.com.ua:80/index.php/game-engine/gem2) is a proprietary engine made by Ukrainian game developers Best Way.
