@@ -1,0 +1,5 @@
+.vromfs.bin
+bot.vromfs.bin
+content/common/common.vromfs.bin
+ob.vromfs.bin
+patch/content.hq/hq_tex/res/grp_hdr.vromfs.bin
