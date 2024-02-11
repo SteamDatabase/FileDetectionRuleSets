@@ -1,1 +1,1 @@
-[**Dagor Engine**](https://gaijinent.com/news/dagor-engine-gone-open-source) is the [Gaijin's](https://gaijinent.com/) in-house engine.
+[**Dagor Engine**](https://en.wikipedia.org/wiki/Gaijin_Entertainment#Dagor_Engine) is the [Gaijin's](https://gaijinent.com/) in-house engine.
