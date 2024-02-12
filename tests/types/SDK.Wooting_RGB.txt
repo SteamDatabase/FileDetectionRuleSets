@@ -1,0 +1,2 @@
+/wooting-rgb-sdk.dll
+wooting-rgb-sdk.dll

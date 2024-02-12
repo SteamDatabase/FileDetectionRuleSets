@@ -1,0 +1,1 @@
+[**Wooting RGB**](https://github.com/WootingKb/wooting-rgb-sdk) allows developers to customize RGB colors on your Wooting Keyboard.
