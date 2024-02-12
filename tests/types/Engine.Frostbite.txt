@@ -8,4 +8,7 @@ Engine.BuildInfo_Win32_retail.dll
 Engine.BuildInfo_Win32_retail_dll.dll
 Engine.BuildInfo_Win64_retail.dll
 Engine.BuildInfo_Win64_retail_dll.dll
-dist/win32/async/levels/sp_003_b/cutscene/c_04bbc6b1c3845b4df59b001a5b268246-00.fbrb
+dist/win32/async/startup-00.fbrb
+Package/async/startup-00.fbrb
+MP/dist/win32/async/startup-00.fbrb
+MP/dist/win32/patch/async/startup-00.fbrb
