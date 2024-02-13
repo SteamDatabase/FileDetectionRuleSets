@@ -1,0 +1,1 @@
+**Sega NN Graphics Library** is the [Sega's](https://www.sega.com/) in-house engine.
