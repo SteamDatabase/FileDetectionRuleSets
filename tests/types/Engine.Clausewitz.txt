@@ -1,8 +1,11 @@
+/clausewitz_logo.dds
 /common/defines.lua
 /common/defines.txt
+clausewitz_logo.dds
 common/defines.lua
 common/defines.txt
 common/defines/00_defines.txt
 game/common/defines/00_defines.txt
+gfx/interface/clausewitz_logo.dds
 mod/Dies_irae_Gotterdammerung/common/defines.lua
 tfh/common/defines.lua
