@@ -1,0 +1,4 @@
+/drakensang.exe
+/nkernel.dll
+drakensang.exe
+nkernel.dll
