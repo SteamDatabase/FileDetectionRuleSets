@@ -1,2 +1,8 @@
+/LTMemory.dll
 /default.archcfg
+/lithtech.exe
+/ltmsg.dll
+LTMemory.dll
 default.archcfg
+lithtech.exe
+ltmsg.dll
