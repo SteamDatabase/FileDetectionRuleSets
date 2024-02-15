@@ -1,0 +1,4 @@
+client/preload/paks/shared.pak
+halo1/prebuild/paks/initial_ps.s3dpak
+halo2/preload/paks/shared.pck
+preload/paks/out.s3darc
