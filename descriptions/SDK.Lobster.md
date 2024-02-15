@@ -1,0 +1,1 @@
+[**Lobster**](https://strlen.com/lobster/) is a statically typed programming language with a Python-esque syntax that combines the advantages of an expressive type system and compile-time memory management with a very lightweight, friendly and terse syntax, by doing most of the heavy lifting for you.
