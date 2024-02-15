@@ -417,6 +417,10 @@ sub/dir/CTouchHelper.dll
 sub/dir/PCTouchHelper_dll
 sub/dir/PCTouchHelper.dl
 _CommonRedist/FXNA
+.esf
+startpos.esf
+data/campaigns/episodic_1/startpos_esf
+data/campaigns/episodic_1/startpos.esff
 XSDL.dll
 xsdl.dll
 SDL.dllk
