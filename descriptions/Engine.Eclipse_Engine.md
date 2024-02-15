@@ -1,0 +1,1 @@
+[**Eclipse Engine**](https://en.wikipedia.org/wiki/Digital_Eclipse#Eclipse_Engine) is the [Digital Eclipse's](https://www.digitaleclipse.com/) in-house engine.
