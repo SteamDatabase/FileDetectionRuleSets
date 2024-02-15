@@ -1,0 +1,2 @@
+.kfc_data
+.kfc_dir
