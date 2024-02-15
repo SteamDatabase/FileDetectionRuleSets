@@ -880,6 +880,8 @@ sub/dir/something.gmbckf
 sub/dir/something.gmsprf
 sub/dir/GMXInput.dllf
 sub/dir/gm7zip.dllf
+.sdpz
+.sdzk
 libcoccos2d_dll
 sub/dir/libcoccos2d.dllf
 coccos2d-jsb.c156d_jsc
