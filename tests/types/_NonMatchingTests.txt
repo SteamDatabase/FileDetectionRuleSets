@@ -422,6 +422,8 @@ sub/dir/FBUILD.EXE
 sub/dir/Fbuildlic.txt
 sub/dir/FGAME.CON
 sub/dir/FCOMMIT.DAT
+kfc_data.f
+kfc_dir.f
 Randgrid.sy
 andgrid.sys
 Randgrid_sys
