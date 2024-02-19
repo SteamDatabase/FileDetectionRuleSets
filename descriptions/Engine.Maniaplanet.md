@@ -1,1 +1,1 @@
-[**Maniaplanet**](https://maniaplanet.com/) is the [Nadeo's](https://www.nadeo.com/) in-house engine.
+[**Maniaplanet**](https://maniaplanet.com/) is the Nadeo's in-house engine.
