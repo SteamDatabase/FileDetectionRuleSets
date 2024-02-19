@@ -34,6 +34,9 @@ blahrpg_rt.exe
 sub/blahrpg_rt.exe
 CChromaEditorLibrary641.dll
 CChromaEditorLibrary1.dll
+vromfs.bn
+_vromfs.bin
+.vromfs_bin
 GFeSDK_dll
 FeSDK.dll
 GFeSDK.dl
