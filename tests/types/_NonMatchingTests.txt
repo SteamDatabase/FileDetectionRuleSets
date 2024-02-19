@@ -56,7 +56,10 @@ notreallydata.xp3
 data.xp3aisjdosadjods
 Binaries/Win64Whatever
 GFSDK_sasdasWorks
-probably_not_GFSDK_HairWorks
+probably_not_GFSDK_HairWork
+maniaplanet_pak
+maniaplanet.pck
+amaniaplanet.pak
 GeforceSDK_HaerW0rks
 lua5.4.dl
 iblua50.so
