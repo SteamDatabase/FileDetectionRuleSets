@@ -1,0 +1,1 @@
+Keen Software House developed and utilizes a video game engine called [**VRAGE**](https://en.wikipedia.org/wiki/Keen_Software_House#VRAGE). VRAGE stands for "volumetric rage" and/or "voxel rage".

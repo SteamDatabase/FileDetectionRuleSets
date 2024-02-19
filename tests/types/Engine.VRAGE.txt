@@ -1,0 +1,16 @@
+/vrage.dds
+/vrage.dll
+Bin64/ModTools/VRage.dll
+Bin64/VRage.dll
+Content/Textures/Logo/vrage.dds
+DedicatedServer64/VRage.dll
+Tools/VRageEditor/Bin/VRage.dll
+Tools/VRageEditor/Bin64/VRage.dll
+Tools/VRageEditor/Plugins/AnimationController/VRage.dll
+Tools/VRageEditor/Plugins/BehaviorTree/VRage.dll
+Tools/VRageEditor/Plugins/ModelBuilder/VRage.dll
+Tools/VRageEditor/Plugins/ModelBuilder/net48/VRage.dll
+Tools/VRageEditor/Plugins/ModelViewer/VRage.dll
+Tools/VRageEditor/Plugins/VisualScripting/VRage.dll
+vrage.dds
+vrage.dll
