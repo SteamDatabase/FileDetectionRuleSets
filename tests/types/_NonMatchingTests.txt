@@ -399,7 +399,6 @@ pytho.dll
 pythonxdll
 python.dl
 /sub/dir/python1234.dll
-/sub/dir/python789.dll
 FVisionaireConfigurationTool.exe
 VisionaireConfigurationTool.exef
 AGIDATA.OVLTINE
