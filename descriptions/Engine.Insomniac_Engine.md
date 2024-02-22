@@ -1,0 +1,1 @@
+**Insomniac Engine** is the [Insomniac Games'](https://insomniac.games/) in-house engine.
