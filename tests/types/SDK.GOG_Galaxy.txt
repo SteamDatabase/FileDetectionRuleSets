@@ -1,0 +1,9 @@
+/Galaxy64.dll
+/GalaxyCSharp.dll
+/GalaxyCSharpGlue.dll
+Engine\Plugins\Online\OnlineSubsystemGOG\Source\ThirdParty\GalaxySDK\Libraries/Galaxy64.dll
+Engine\Plugins\Online\OnlineSubsystemGOG\Source\ThirdParty\GalaxySDK\Libraries_CSharp/GalaxyCSharp.dll
+Engine\Plugins\Online\OnlineSubsystemGOG\Source\ThirdParty\GalaxySDK\Libraries_CSharp/GalaxyCSharpGlue.dll
+Galaxy64.dll
+GalaxyCSharp.dll
+GalaxyCSharpGlue.dll
