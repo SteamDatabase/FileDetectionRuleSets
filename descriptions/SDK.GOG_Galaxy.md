@@ -1,0 +1,1 @@
+The [**GOG GALAXY SDK**](https://docs.gog.com/sdk/) allows your users to access online GOG features such as achievements, leaderboards, multiplayer, storage and more.
