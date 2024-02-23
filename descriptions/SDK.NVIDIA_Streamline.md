@@ -1,1 +1,1 @@
-[**Streamline**](https://developer.nvidia.com/rtx/streamline) is an open-sourced cross-IHV solution that simplifies integration of the latest NVIDIA and other independent hardware vendors’ super resolution technologies into applications and games.
+[**Streamline**](https://developer.nvidia.com/rtx/streamline) is an open-sourced cross hardware vendor solution that simplifies integration of the latest NVIDIA and other manufacturers’ super resolution technologies into applications and games.
