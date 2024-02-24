@@ -116,6 +116,9 @@ StreamingAssets/Scenes/
 notGFSDK_TXAA
 GFSDK_AATX
 GFSDK_TAXA
+sl_common_dll
+streamline_comm0n.dll
+sl_common.dll
 TrueSkyPluginRender_MT.dl
 rueSkyPluginRender_MT.dll
 TrueSkyPluginRender_MT_dll
