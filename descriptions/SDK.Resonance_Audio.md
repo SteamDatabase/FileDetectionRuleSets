@@ -1,0 +1,1 @@
+[**Resonance Audio**](https://resonance-audio.github.io/resonance-audio/discover/overview.html) is a multi-platform spatial audio SDK, delivering high fidelity at scale.
