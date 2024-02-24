@@ -1,0 +1,1 @@
+[**The LIV SDK**](https://docs.liv.tv/intro) provides a spectator view of your application. It contextualizes what the user feels & experiences by capturing their body directly inside your world.
