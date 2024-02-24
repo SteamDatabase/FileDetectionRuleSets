@@ -1,6 +1,6 @@
+/xsolla
 Launcher/XsollaAuth.dll
 Launcher/XsollaCore.dll
 Launcher/XsollaDownloader.dll
 Launcher/XsollaGUS.dll
 Launcher/XsollaSteam.dll
-xsolla
