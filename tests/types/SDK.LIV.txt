@@ -1,0 +1,15 @@
+/LIV.dll
+/LIV.SDK.Unity.dll
+/LIV_Bridge.dll
+/LIV_MR.dll
+/app.livsdk
+ARK_ADE/Binaries/Win64/app.livsdk
+Across the Valley_Data/Plugins/x86_64/LIV_Bridge.dll
+Audica_Data/Plugins/LIV_MR.dll
+Beat Saber_Data/Managed/LIV.dll
+LIV.dll
+LIV.SDK.Unity.dll
+LIV_Bridge.dll
+LIV_MR.dll
+WHATTHEBAT_Data/Managed/Liv.SDK.Unity.dll
+app.livsdk
