@@ -1,0 +1,3 @@
+/gfsdk_waveworks.win64.dll
+Engine/Binaries/ThirdParty/WaveWorks/win64/gfsdk_waveworks.win64.dll
+gfsdk_waveworks.win64.dll
