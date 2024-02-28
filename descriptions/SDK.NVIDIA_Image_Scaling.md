@@ -1,0 +1,1 @@
+The [**NVIDIA Image Scaling**](https://github.com/NVIDIAGameWorks/NVIDIAImageScaling) SDK provides a single spatial scaling and sharpening algorithm for cross-platform support. The scaling algorithm uses a 6-tap scaling filter combined with 4 directional scaling and adaptive sharpening filters, which creates nice smooth images and sharp edges.
