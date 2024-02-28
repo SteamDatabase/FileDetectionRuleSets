@@ -1,0 +1,3 @@
+[**NVIDIA Voxel Global Illumintaion (VXGI)**](https://developer.nvidia.com/vxgi) is a framework that can be used to implement voxel-based lighting effects in a real-time renderer. It provides means to quickly compute a voxel representation of a mesh scene and use that representation with Voxel Cone Tracing for diffuse and specular global illumination, ambient occlusion, and high-quality area lighting. Adding these effects to the scene greatly improves the realism of the rendered images. Besides these lighting effects implemented inside VXGI, applications can use the voxel data to build custom rendering effects, such as refractive materials or light map baking.
+
+
