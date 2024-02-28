@@ -39,6 +39,10 @@ FeSDK.dll
 GFeSDK.dl
 rgssad
 rvproj2
+Microsoft_Xbox_Services_141_GDK_C_Thunks.ded
+XGamingRuntimeThunks.del
+XGamingRuntime.dle
+XCurl.dll2323
 AwesomeGame.argssad
 AwesomeGame.arvproj2
 AwesomeGame.rgssadf
@@ -60,7 +64,7 @@ probably_not_GFSDK_HairWorks
 GeforceSDK_HaerW0rks
 lua5.4.dl
 iblua50.so
-lua50_dll 
+lua50_dll
 sdsd_lua
 dEngine.BuildInfo.dll
 dEngine.BuildInfo_Win32_retail.dll
@@ -116,6 +120,9 @@ StreamingAssets/Scenes/
 notGFSDK_TXAA
 GFSDK_AATX
 GFSDK_TAXA
+sl_common_dll
+streamline_comm0n.dll
+sl_common.dll
 TrueSkyPluginRender_MT.dl
 rueSkyPluginRender_MT.dll
 TrueSkyPluginRender_MT_dll
@@ -230,6 +237,10 @@ Lib/renpy.stuff
 Core.dll
 S2Core_dll
 S2Core.dl
+globalgamemanagers.asset
+globalgamemanager.assets
+globalgamemanagersassets
+Gglobalgamemanagersassets
 bchmark.dl
 chmark.dll
 bchmark_dll
@@ -395,7 +406,6 @@ pytho.dll
 pythonxdll
 python.dl
 /sub/dir/python1234.dll
-/sub/dir/python789.dll
 FVisionaireConfigurationTool.exe
 VisionaireConfigurationTool.exef
 AGIDATA.OVLTINE
@@ -726,9 +736,9 @@ StandalonePlayerLocalizablexstrings
 VisionaireConfigurationToolxexe
 lovexdll
 AGIDATAxOVL
-anvil/archives/Data.sgaa 
-anvil/archives/Data.ssga 
-anvil/archives/Data_sga 
+anvil/archives/Data.sgaa
+anvil/archives/Data.ssga
+anvil/archives/Data_sga
 game/bin/linuxsteamrt64/libsteamaudio.soooooo
 SteamAudiooooo.dll
 steamnet.dll
