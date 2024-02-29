@@ -1,2 +1,4 @@
+/wooting-analog-sdk64.dll
 /wooting_analog_sdk.dll
+wooting-analog-sdk64.dll
 wooting_analog_sdk.dll
