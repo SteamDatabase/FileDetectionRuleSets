@@ -1,1 +1,1 @@
-**GlyphX** is the [**Petroglyph Games'**](https://petroglyphgames.com/) in-house engine.
+**GlyphX** is [**Petroglyph Games'**](https://petroglyphgames.com/) in-house engine.
