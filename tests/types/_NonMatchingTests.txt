@@ -32,6 +32,9 @@ re_chunk_000_pak
 Engine/Binaries/ThirdPartySomething
 blahrpg_rt.exe
 sub/blahrpg_rt.exe
+cs2conf1.dll
+cs2conf_dll
+cs2conf.dlll
 CChromaEditorLibrary641.dll
 CChromaEditorLibrary1.dll
 GFeSDK_dll

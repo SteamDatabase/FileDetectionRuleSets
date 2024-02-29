@@ -1,4 +1,2 @@
-/cs2conf.dll
-/cs2confx.dll
 cs2conf.dll
 cs2confx.dll
