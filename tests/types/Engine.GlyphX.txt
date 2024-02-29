@@ -1,4 +1,2 @@
-/ClientLauncherG.exe
-/ClientLauncherG64.exe
 ClientLauncherG.exe
 ClientLauncherG64.exe

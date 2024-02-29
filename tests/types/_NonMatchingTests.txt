@@ -63,6 +63,9 @@ iblua50.so
 lua50_dll 
 sdsd_lua
 dEngine.BuildInfo.dll
+dclientlauncherg.exe
+clientlauncherg32.exe
+clientlauncherg_exe
 dEngine.BuildInfo_Win32_retail.dll
 dEngine.BuildInfo_Win32_retail_dll.dll
 dEngine.BuildInfo_Win64_retail.dll
