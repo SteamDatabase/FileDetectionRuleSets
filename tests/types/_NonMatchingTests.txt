@@ -384,6 +384,9 @@ fDosbox
 fdosbox.exe
 FDOSBOX.exe
 dosbox.exef
+v8.dlll
+v8_dll
+v7v8.dll
 gaijin_downloader_exe
 gaijin_downloader.ex
 _downloader.exe
