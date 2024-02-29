@@ -1,0 +1,1 @@
+[**Logitech Gaming SDK**](https://www.logitechg.com/en-eu/innovation/developer-lab.html) is a library that allows games to interact with Logitech Peripherals.
