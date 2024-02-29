@@ -1,0 +1,1 @@
+[**NVIDIA Volumetric Lighting**](https://developer.nvidia.com/volumetriclighting) implements a physical model of light scattering through DirectX shaders. Directional, omni and spot lights are supported.
