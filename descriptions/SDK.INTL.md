@@ -1,0 +1,1 @@
+[**INTL**](https://web.archive.org/web/20230921163330/https://developers.intlgame.com/docs/intlsdk/) is a complete solution for games including client SDK, server, and console.
