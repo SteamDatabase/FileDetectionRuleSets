@@ -1,0 +1,1 @@
+**KTGL** (Probably means "Koei Tecmo Graphics Library") is the [Koei Tecmo's](https://www.koeitecmo.co.jp/e/index.html) in-house engine.

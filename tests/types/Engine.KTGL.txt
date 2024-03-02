@@ -1,0 +1,5 @@
+/GlobalConfig.ktsl2gcbin
+/KTGLEffect.g1s
+Data/PACK00_01.PAK
+GlobalConfig.ktsl2gcbin
+KTGLEffect.g1s
