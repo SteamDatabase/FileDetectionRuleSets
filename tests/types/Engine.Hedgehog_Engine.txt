@@ -1,0 +1,6 @@
+/sonic0.pck
+disk/bb.cpk
+disk/sonic2013_0.cpk
+image/x64/disk
+image/x64/raw
+sonic0.pck

@@ -1,0 +1,1 @@
+**Hedgehog Engine** is the [Sonic Team's](http://www.sonicteam.com/) in-house engine.
