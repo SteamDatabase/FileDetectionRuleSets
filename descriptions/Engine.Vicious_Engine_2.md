@@ -1,0 +1,1 @@
+[**Vicious Engine 2**](https://en.wikipedia.org/wiki/Vicious_Engine#Vicious_Engine_2) (sometimes stylized as Vᵉ²) has been optimized for eighth-generation consoles and high-end PCs. It was released on March 25, 2009, at the Game Developers Conference.
