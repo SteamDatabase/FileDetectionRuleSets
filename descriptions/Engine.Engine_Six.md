@@ -1,0 +1,1 @@
+**Engine Six** is the [Team6 Game Studios'](https://www.team6-games.com/) in-house engine.
