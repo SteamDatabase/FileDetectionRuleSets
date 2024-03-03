@@ -1,0 +1,1 @@
+**Forge** is the [Capcom Vancouver's](https://web.archive.org/web/20180519150037/https://www.capcomvancouver.com/) in-house engine.
