@@ -1,1 +1,1 @@
-[**Zouna**] is Asobo Studio's proprietary engine used in games developed by them.
+**Zouna** is the [Asobo Studio's](https://www.asobostudio.com/) in-house engine.
