@@ -223,6 +223,9 @@ ui.hdllollipop
 uv.hdllollipop
 APRT_RT.exe
 wgcs_api.ex
+lone.tsc
+clone.ts
+clone_tsc
 gcs_api.exe
 wgcs_api_exe
 CachedShaders_D3D12_gro
