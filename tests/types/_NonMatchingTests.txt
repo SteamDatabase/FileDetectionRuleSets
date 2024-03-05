@@ -32,6 +32,9 @@ re_chunk_000_pak
 Engine/Binaries/ThirdPartySomething
 blahrpg_rt.exe
 sub/blahrpg_rt.exe
+cs2conf1.dll
+cs2conf_dll
+cs2conf.dlll
 CChromaEditorLibrary641.dll
 CChromaEditorLibrary1.dll
 GFeSDK_dll
@@ -39,6 +42,10 @@ FeSDK.dll
 GFeSDK.dl
 rgssad
 rvproj2
+Microsoft_Xbox_Services_141_GDK_C_Thunks.ded
+XGamingRuntimeThunks.del
+XGamingRuntime.dle
+XCurl.dll2323
 AwesomeGame.argssad
 AwesomeGame.arvproj2
 AwesomeGame.rgssadf
@@ -63,6 +70,9 @@ iblua50.so
 lua50_dll
 sdsd_lua
 dEngine.BuildInfo.dll
+dclientlauncherg.exe
+clientlauncherg32.exe
+clientlauncherg_exe
 dEngine.BuildInfo_Win32_retail.dll
 dEngine.BuildInfo_Win32_retail_dll.dll
 dEngine.BuildInfo_Win64_retail.dll
@@ -116,6 +126,9 @@ StreamingAssets/Scenes/
 notGFSDK_TXAA
 GFSDK_AATX
 GFSDK_TAXA
+sl_common_dll
+streamline_comm0n.dll
+sl_common.dll
 TrueSkyPluginRender_MT.dl
 rueSkyPluginRender_MT.dll
 TrueSkyPluginRender_MT_dll
@@ -377,6 +390,9 @@ fDosbox
 fdosbox.exe
 FDOSBOX.exe
 dosbox.exef
+v8.dlll
+v8_dll
+v7v8.dll
 gaijin_downloader_exe
 gaijin_downloader.ex
 _downloader.exe
@@ -399,7 +415,6 @@ pytho.dll
 pythonxdll
 python.dl
 /sub/dir/python1234.dll
-/sub/dir/python789.dll
 FVisionaireConfigurationTool.exe
 VisionaireConfigurationTool.exef
 AGIDATA.OVLTINE
@@ -587,6 +602,14 @@ HSInst.dll
 /asl.dlss.dll
 /sl.dlss.dlla
 /sl.dlss_dll
+resources/app/app/gdjs-evtsext_
+resources/app/app/gdjsevtsext__achievements__unlockachievement-func.js
+resources/app/app/gdjsevtsext__camerashake__camerashake-func.js
+resources/app/app/ggdjs-evtsext__achievements__unlockachievement-func.js
+resources/app/app/ggdjs-evtsext__camerashake__camerashake-func.js
+GDCpp.dlll
+GDCpp_dll
+GGDCpp.dll
 data.podf
 sub/dir/data.podf
 something.rimf
