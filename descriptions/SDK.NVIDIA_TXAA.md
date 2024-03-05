@@ -1,0 +1,1 @@
+[**TXAA (Temporal anti-aliasing)**](https://www.nvidia.com/en-gb/geforce/technologies/txaa/) anti-aliasing creates a smoother, clearer image by combining high-quality MSAA multisample anti-aliasing, post processes, and NVIDIA-designed temporal filters.
