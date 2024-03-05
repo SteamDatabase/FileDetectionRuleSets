@@ -1,0 +1,1 @@
+[**Dagor Engine**](https://en.wikipedia.org/wiki/Gaijin_Entertainment#Dagor_Engine) is the [Gaijin's](https://gaijinent.com/) in-house engine.

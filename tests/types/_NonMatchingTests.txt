@@ -37,6 +37,9 @@ cs2conf_dll
 cs2conf.dlll
 CChromaEditorLibrary641.dll
 CChromaEditorLibrary1.dll
+vromfs.bn
+_vromfs.bin
+.vromfs_bin
 GFeSDK_dll
 FeSDK.dll
 GFeSDK.dl
