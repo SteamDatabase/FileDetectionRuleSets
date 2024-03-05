@@ -602,6 +602,14 @@ HSInst.dll
 /asl.dlss.dll
 /sl.dlss.dlla
 /sl.dlss_dll
+resources/app/app/gdjs-evtsext_
+resources/app/app/gdjsevtsext__achievements__unlockachievement-func.js
+resources/app/app/gdjsevtsext__camerashake__camerashake-func.js
+resources/app/app/ggdjs-evtsext__achievements__unlockachievement-func.js
+resources/app/app/ggdjs-evtsext__camerashake__camerashake-func.js
+GDCpp.dlll
+GDCpp_dll
+GGDCpp.dll
 data.podf
 sub/dir/data.podf
 something.rimf
