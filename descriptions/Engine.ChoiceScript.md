@@ -1,1 +1,1 @@
-[**ChoiceScript**](https://www.choiceofgames.com/make-your-own-games/choicescript-intro/) is a simple programming language for writing interactive novels like [Ch**oice of the Dragon](http://www.choiceofgames.com/dragon/).
+[**ChoiceScript**](https://www.choiceofgames.com/make-your-own-games/choicescript-intro/) is a simple programming language for writing interactive novels like [Choice of the Dragon](http://www.choiceofgames.com/dragon/).
