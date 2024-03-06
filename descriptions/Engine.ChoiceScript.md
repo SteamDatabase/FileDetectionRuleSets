@@ -1,0 +1,1 @@
+ChoiceScript is a simple programming language for writing interactive novels like [Choice of the Dragon](http://www.choiceofgames.com/dragon/).
