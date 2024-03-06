@@ -1,0 +1,14 @@
+/GFSDK_HairWorks
+/GFSDK_HairWorks.win64.dll
+/GFSDK_HairWorksExt.win64.dll
+/NvHairWorks
+/NvHairWorksDx11.win64.dll
+/NvHairWorksDx12.win64.dll
+Elyon/Engine/Shaders/Binaries/GFSDK_HairWorks_ShaderCommon.bin
+GFSDK_HairWorks
+GFSDK_HairWorks.win64.dll
+GFSDK_HairWorksExt.win64.dll
+NvHairWorks
+NvHairWorksDx11.win64.dll
+NvHairWorksDx12.win64.dll
+bin/GFSDK_HairWorks.win64.dll
