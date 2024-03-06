@@ -1,0 +1,8 @@
+/GDCpp.dll
+/gdjs-evtsext__
+GDCpp.dll
+gdjs-evtsext__
+gdjs-evtsext__achievements__unlockachievement-func.js
+gdjs-evtsext__camerashake__camerashake-func.js
+resources/app/app/gdjs-evtsext__achievements__unlockachievement-func.js
+resources/app/app/gdjs-evtsext__camerashake__camerashake-func.js

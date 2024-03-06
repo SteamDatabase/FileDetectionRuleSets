@@ -1,8 +1,16 @@
+/sn_@.ogg
+/sn_@@.ogg
 /snd_@.ogg
 /snd_@@.ogg
+sn_@.ogg
+sn_@@.ogg
+sn_a.ogg
+sn_whatever.ogg
 snd_@.ogg
 snd_@@.ogg
 snd_a.ogg
 snd_whatever.ogg
+sub/folder/sn_a.ogg
+sub/folder/sn_whatever.ogg
 sub/folder/snd_a.ogg
 sub/folder/snd_whatever.ogg

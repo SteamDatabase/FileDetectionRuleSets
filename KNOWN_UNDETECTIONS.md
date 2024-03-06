@@ -22,10 +22,6 @@ It is possible to package a GameMaker game as a standalone executable with no su
 
 Godot games can also be packaged as standalone executables with no external asset files.
 
-### GDevelop
-
-GDevelop also doesn't have any non-generic files, so detection is kind of impossible.
-
 ### Stencyl
 
 Stencyl games don't always have recognizable files so it may not give any signal on it's own.
