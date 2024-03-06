@@ -1,1 +1,1 @@
-TenProtect is an anti-cheat made by Tencent.
+**TenProtect** is an anti-cheat made by Tencent.
