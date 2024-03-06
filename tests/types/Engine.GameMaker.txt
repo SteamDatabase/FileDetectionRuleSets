@@ -9,6 +9,7 @@
 /game.ios
 /game.unx
 /gm7zip.dll
+/gmsched.dll
 /joydll.dll
 /libYoYoGamepad.dylib
 /rousrDissonance.dll
@@ -24,6 +25,7 @@ display_mouse_lock.dll
 game.ios
 game.unx
 gm7zip.dll
+gmsched.dll
 joydll.dll
 libYoYoGamepad.dylib
 rousrDissonance.dll
