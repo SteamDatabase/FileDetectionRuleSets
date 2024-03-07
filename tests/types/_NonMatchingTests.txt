@@ -104,6 +104,9 @@ Engine.BuildInfo.dlld
 Engine.BuildInfo_Win32_retail.dlld
 Engine.BuildInfo_Win32_retail_dll.dlld
 Engine.BuildInfo_Win64_retail.dlld
+dowser_exe
+adowser.exe
+dowser.exee
 Engine.BuildInfo_Win64_retail_dll.dlld
 EnginexBuildInfo.dll
 EnginexBuildInfo_Win32_retail.dll
