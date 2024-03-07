@@ -799,6 +799,10 @@ ring/bin/alleegro-5.2.dll
 data/lib32/liballeeg.so.4.4
 ring/bin/allegro-5.2_dll
 data/lib32/liballeg_so.4.4
+data/USEnglish/USEnglish-1.363/enu.gro
+All_gro
+All.groo
+1.gro
 c2runtimexjs
 c3runtimexjs
 ac2runtime.js
