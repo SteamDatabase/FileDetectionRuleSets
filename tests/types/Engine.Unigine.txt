@@ -1,8 +1,6 @@
 /core.ung
 /Unigine_x64.dll
 /Unigine_x86.dll
-/libUnigine_x64.dll
-/libUnigine_x86.dll
 core.ung
 data/core.ung
 Unigine_x64.dll
