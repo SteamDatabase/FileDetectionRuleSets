@@ -1,0 +1,1 @@
+**Paradox Launcher** is the launcher bundled with [Paradox Interactive's](https://steamdb.info/publisher/Paradox+Interactive/) games.
