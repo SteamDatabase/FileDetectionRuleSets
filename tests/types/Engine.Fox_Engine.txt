@@ -1,0 +1,10 @@
+/dt00.cpk
+/dt00_win.cpk
+/dt00f2p_win.cpk
+/dt00_x64.cpk
+data_00.g0s
+dt00.cpk
+dt00_win.cpk
+dt00f2p_win.cpk
+dt00_x64.cpk
+master/chunk0.dat
