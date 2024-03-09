@@ -1,0 +1,1 @@
+**Siege Engine** is the [Wargaming Seattle's](https://en.wikipedia.org/wiki/Wargaming_Seattle) in-house engine.
