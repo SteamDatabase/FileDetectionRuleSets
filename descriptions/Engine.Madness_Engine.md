@@ -1,0 +1,1 @@
+[**Madness Engine**](https://web.archive.org/web/20220818125623/https://www.slightlymadstudios.com/technology/) is a cross-platform engine and development framework that powers the Project CARS franchise.
