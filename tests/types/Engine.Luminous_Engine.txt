@@ -1,0 +1,3 @@
+.earc
+datas/ai/commonai.earc
+datas/c000.earc

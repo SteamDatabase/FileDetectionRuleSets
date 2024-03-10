@@ -1,0 +1,1 @@
+[**Luminous Engine**](https://en.wikipedia.org/wiki/Luminous_Engine) (ルミナス・エンジン, Ruminasu Enjin), originally called **Luminous Studio** (ルミナス・スタジオ, Ruminasu Sutajio), is a multi-platform game engine developed and used internally by Square Enix and later on by Luminous Productions.
