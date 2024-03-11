@@ -286,16 +286,15 @@ class FileDetector
             if( !empty( $Extension ) )
             {
                 $BaseFile = substr( $File, 0, -strlen( $Extension ) - 1 );
-                $Extension = strtoupper( $Extension );
             }
 
 			if( $Extension === 'PCK' )
 			{
-				$Pcks[ $BaseFile .".pck" ] = true;
+				$Pcks[ $BaseFile . ".pck" ] = true;
 			}
 			if( $Extension === 'EXE' )
 			{
-				$Exes[ $BaseFile .".pck" ] = true;
+				$Exes[ $BaseFile . ".pck" ] = true;
 			}
 			else if( $Extension === 'X86' ) // 32-bit Linux in Godot 2.x/3.x
 			{
