@@ -307,7 +307,7 @@ class FileDetector
 			{
 				//Mac and Linux can have extensionless executables, make sure we don't have folders in the mix, just filenames though
 				//MacOs exe aren't in the same folder, let's make it seems like they are
-				$File = str_replace("MacOS", "Resources", $File);
+				$File = str_replace("/MacOS/", "/Resources/", $File);
 				$Exes[ $File . ".pck" ] = true;
 			}
 		}
