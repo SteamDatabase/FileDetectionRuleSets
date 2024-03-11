@@ -275,40 +275,46 @@ class FileDetector
 		//1. A single .pck file named exactly "data.pck", and NO other pck files
 		//2. For every executable, a correspondingly named pck file, and no other pck files
 
-		$swapExtension = static fn( string $FilePath, string $OldExtension, string $NewExtension ) : string => preg_replace('/^.\//','',dirname($FilePath) . '/' . basename( $FilePath, $OldExtension ) . $NewExtension);
 		$Pcks = [];
 		$Exes = [];
 
 		foreach( $Files as $File )
 		{
-			$Extension = strtolower( pathinfo( $File, PATHINFO_EXTENSION ) );
+			$Extension = strtoupper( pathinfo( $File, PATHINFO_EXTENSION ) );
+			$BaseFile = $File;
 
-			if( $Extension === 'pck' )
+            if( !empty( $Extension ) )
+            {
+                $BaseFile = substr( $File, 0, -strlen( $Extension ) - 1 );
+                $Extension = strtoupper( $Extension );
+            }
+
+			if( $Extension === 'PCK' )
 			{
-				$Pcks[ $File ] = true;
+				$Pcks[ $BaseFile .".pck" ] = true;
 			}
-			if( $Extension === 'exe' )
+			if( $Extension === 'EXE' )
 			{
-				$Exes[ $swapExtension( $File, ".exe", ".pck" ) ] = true;
+				$Exes[ $BaseFile .".pck" ] = true;
 			}
-			else if( $Extension === 'x86' ) // 32-bit Linux in Godot 2.x/3.x
+			else if( $Extension === 'X86' ) // 32-bit Linux in Godot 2.x/3.x
 			{
-				$Exes[ $swapExtension( $File, ".x86", ".pck" ) ] = true;
+				$Exes[ $BaseFile . ".pck" ] = true;
 			}
-			else if( $Extension === 'x86_32' ) // 32-bit Linux in Godot 4.x
+			else if( $Extension === 'X86_32' ) // 32-bit Linux in Godot 4.x
 			{
-				$Exes[ $swapExtension( $File, ".x86_32", ".pck" ) ] = true;
+				$Exes[ $BaseFile . ".pck" ] = true;
 			}
-			else if( $Extension === 'x86_64' ) // 64-bit Linux in all versions
+			else if( $Extension === 'X86_64' ) // 64-bit Linux in all versions
 			{
-				$Exes[ $swapExtension( $File, ".x86_64", ".pck" ) ] = true;
+				$Exes[ $BaseFile . ".pck" ] = true;
 			}
 			else
 			{
 				//Mac and Linux can have extensionless executables, make sure we don't have folders in the mix, just filenames though
 				//MacOs exe aren't in the same folder, let's make it seems like they are
-				$File = str_replace("/MacOS/", "/Resources/", $File);
-				$Exes[ $File . ".pck" ] = true;
+				$BaseFile = str_replace("/MacOS/", "/Resources/", $BaseFile);
+				$Exes[ $BaseFile . ".pck" ] = true;
 			}
 		}
 
