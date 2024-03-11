@@ -1,5 +1,5 @@
 Luck be a Landlord.exe
-Luck be a Landlord.app/Contents/Resources/Luck be a Landlord.pck
+Luck be a Landlord.pck
 Luck be a Landlord.app
 Luck be a Landlord.app/Contents
 Luck be a Landlord.app/Contents/Info.plist

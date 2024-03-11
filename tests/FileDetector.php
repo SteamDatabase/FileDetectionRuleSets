@@ -275,39 +275,40 @@ class FileDetector
 		//1. A single .pck file named exactly "data.pck", and NO other pck files
 		//2. For every executable, a correspondingly named pck file, and no other pck files
 
-		$swapExtension = static fn( string $FileName, string $OldExtension, string $NewExtension ) : string => basename( $FileName, $OldExtension ) . $NewExtension;
+		$swapExtension = static fn( string $FilePath, string $OldExtension, string $NewExtension ) : string => preg_replace('/^.\//','',dirname($FilePath) . '/' . basename( $FilePath, $OldExtension ) . $NewExtension);
 		$Pcks = [];
 		$Exes = [];
 
 		foreach( $Files as $File )
 		{
 			$Extension = strtolower( pathinfo( $File, PATHINFO_EXTENSION ) );
-			$BaseFile = basename( $File );
 
 			if( $Extension === 'pck' )
 			{
-				$Pcks[ $BaseFile ] = true;
+				$Pcks[ $File ] = true;
 			}
 			if( $Extension === 'exe' )
 			{
-				$Exes[ $swapExtension( $BaseFile, ".exe", ".pck" ) ] = true;
+				$Exes[ $swapExtension( $File, ".exe", ".pck" ) ] = true;
 			}
 			else if( $Extension === 'x86' ) // 32-bit Linux in Godot 2.x/3.x
 			{
-				$Exes[ $swapExtension( $BaseFile, ".x86", ".pck" ) ] = true;
+				$Exes[ $swapExtension( $File, ".x86", ".pck" ) ] = true;
 			}
 			else if( $Extension === 'x86_32' ) // 32-bit Linux in Godot 4.x
 			{
-				$Exes[ $swapExtension( $BaseFile, ".x86_32", ".pck" ) ] = true;
+				$Exes[ $swapExtension( $File, ".x86_32", ".pck" ) ] = true;
 			}
 			else if( $Extension === 'x86_64' ) // 64-bit Linux in all versions
 			{
-				$Exes[ $swapExtension( $BaseFile, ".x86_64", ".pck" ) ] = true;
+				$Exes[ $swapExtension( $File, ".x86_64", ".pck" ) ] = true;
 			}
 			else
 			{
 				//Mac and Linux can have extensionless executables, make sure we don't have folders in the mix, just filenames though
-				$Exes[ $BaseFile . ".pck" ] = true;
+				//MacOs exe aren't in the same folder, let's make it seems like they are
+				$File = str_replace("MacOS", "Resources", $File);
+				$Exes[ $File . ".pck" ] = true;
 			}
 		}
 
