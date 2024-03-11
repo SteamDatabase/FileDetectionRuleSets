@@ -1,0 +1,1 @@
+[**Adobe Director**](https://en.wikipedia.org/wiki/Adobe_Director) (formerly **Macromedia Director**, **MacroMind Director**, and **MacroMind VideoWorks**) was a multimedia application authoring platform created by Macromedia and managed by Adobe Systems until its discontinuation.
