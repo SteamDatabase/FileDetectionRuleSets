@@ -1,0 +1,1 @@
+**Paradox Launcher** is the launcher bundled with [Paradox Interactive's](https://www.paradoxinteractive.com/our-games/discover) games.
