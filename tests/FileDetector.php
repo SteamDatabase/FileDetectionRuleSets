@@ -294,7 +294,7 @@ class FileDetector
 
 			if( $Extension === 'PCK' )
 			{
-				$Pcks[ $File ] = true;
+				$Pcks[] = $File;
 				continue;
 			}
 
@@ -321,20 +321,26 @@ class FileDetector
 		// This can happen if Evidence.PCK finds "BASE.PCK", but the $Pcks will be empty due to case sensitivity
 		if( !empty( $Pcks ) )
 		{
-			//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
-			if( count( $Pcks ) === 1 && array_key_first( $Pcks ) === 'data.pck' )
-			{
-				return true;
-			}
+			$OnlyDataPck = true;
 
 			//Otherwise we have to match up exe & pck pairs
-			foreach( array_keys( $Pcks ) as $pck )
+			foreach( $Pcks as $Pck )
 			{
+				if( basename( $Pck ) !== 'data.pck' )
+				{
+					$OnlyDataPck = false;
+				}
+
 				//If we match an exe and a pck file pair, we're good
-				if( isset( $Exes[ $pck ] ) )
+				if( isset( $Exes[ $Pck ] ) )
 				{
 					return true;
 				}
+			}
+
+			if( $OnlyDataPck )
+			{
+				return true;
 			}
 		}
 
