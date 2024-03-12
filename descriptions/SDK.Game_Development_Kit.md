@@ -1,0 +1,1 @@
+The [**Microsoft Game Development Kit (GDK)**](https://learn.microsoft.com/en-us/gaming/gdk/) is a complete set of tools, APIs, extensions, and programing models that can be used across current and future Microsoft Gaming platforms and initiatives.
