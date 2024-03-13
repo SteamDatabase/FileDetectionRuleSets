@@ -55,6 +55,7 @@ $SeenTestTypes = [];
 TestBasicRules( $Detector, $SeenTestTypes, $FailingTests );
 TestFilelists( $Detector, $SeenTestTypes, $FailingTests );
 TestDescriptions( $SeenTestTypes, $FailingTests );
+TestExtra( $Detector, $FailingTests );
 
 // Really basic code to find extra detections that aren't specified in rules.ini
 $Code = file_get_contents( __DIR__ . '/FileDetector.php' );
@@ -313,6 +314,35 @@ function TestFilelists( FileDetector $Detector, array &$SeenTestTypes, array &$F
 				$FailingTests[] = "FALSE Positive? $ExpectedType for filelists/$BaseName (matched as " . implode( ', ', array_keys( $Matches ) ) . ")";
 				break;
 			}
+		}
+	}
+}
+
+function TestExtra( FileDetector $Detector, array &$FailingTests ) : void
+{
+	$GodotTests =
+	[
+		[
+			'Game.exe',
+			'Sound/Game.pck',
+		],
+		[
+			'Folder/Game',
+			'Sound/Game.pck',
+		],
+		[
+			'Folder/Game.exe',
+			'Game.pck',
+		],
+	];
+
+	foreach( $GodotTests as $Files )
+	{
+		$Matches = $Detector->GetMatchesForFileList( $Files );
+
+		if( count( $Matches ) !== 1 || !isset( $Matches[ 'Evidence.PCK' ] ) )
+		{
+			$FailingTests[] = "Incorrectly matched Godot";
 		}
 	}
 }
