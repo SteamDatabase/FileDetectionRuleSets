@@ -86,6 +86,12 @@ rotobuf
 protobu
 lib_burst_generated.png
 lib_burst_generated_so
+data_pie
+data.wii
+adata.pie
+Bundle/bundlemain.bundle
+Bundle/bundlemain_mbundle
+launcher/bundle/bundlemain.mbundle
 lib_burst_generated.soo
 febexsdek-20113.dll
 fbxsdek-1337.dll
@@ -98,6 +104,9 @@ Engine.BuildInfo.dlld
 Engine.BuildInfo_Win32_retail.dlld
 Engine.BuildInfo_Win32_retail_dll.dlld
 Engine.BuildInfo_Win64_retail.dlld
+dowser_exe
+adowser.exe
+dowser.exee
 Engine.BuildInfo_Win64_retail_dll.dlld
 EnginexBuildInfo.dll
 EnginexBuildInfo_Win32_retail.dll
@@ -790,6 +799,10 @@ ring/bin/alleegro-5.2.dll
 data/lib32/liballeeg.so.4.4
 ring/bin/allegro-5.2_dll
 data/lib32/liballeg_so.4.4
+data/USEnglish/USEnglish-1.363/enu.gro
+All_gro
+All.groo
+1.gro
 c2runtimexjs
 c3runtimexjs
 ac2runtime.js
