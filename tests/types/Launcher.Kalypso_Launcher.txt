@@ -1,0 +1,5 @@
+/KalypsoLauncher.dll
+/KalypsoLauncher.exe
+Launcher/KalypsoLauncher.exe
+KalypsoLauncher.dll
+KalypsoLauncher.exe

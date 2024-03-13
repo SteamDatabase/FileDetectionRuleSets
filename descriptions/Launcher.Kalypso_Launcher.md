@@ -1,0 +1,1 @@
+**Kalypso Launcher** is the launcher bundled [**Kalypso Media's**](https://www.kalypsomedia.com/us) games.
