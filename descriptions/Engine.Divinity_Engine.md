@@ -1,0 +1,1 @@
+**Divinity Engine** is the [Larian Studios'](https://larian.com/) in-house engine.
