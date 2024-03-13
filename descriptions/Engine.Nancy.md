@@ -1,0 +1,1 @@
+The [**Nancy Drew**](https://wiki.scummvm.org/index.php?title=Nancy) engine is used in HeR Interactive's point-and-click adventure games. The engine was first created for the 1996 title The Vampire Diaries, and later went on to be used in most of the company's Nancy Drew series.
