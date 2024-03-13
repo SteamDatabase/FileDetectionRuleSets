@@ -99,6 +99,9 @@ lib_burst_generatedd.dll
 flexRelease_x128.dll
 flexRelease_x64_dll
 lib_burst_generated.dlll
+notData/Localization/language.lsx
+Data/Localization/language.lsxx
+Data/Localization/language_lsx
 llib_burst_generated.dlll
 Engine.BuildInfo.dlld
 Engine.BuildInfo_Win32_retail.dlld
