@@ -239,6 +239,9 @@ CachedShaders_D3D12.gr
 RPT_RT.exeeee
 xaudio2_9redist.dl
 audio2_9redist.dll
+/Nancy.cid
+Nancy.cidd
+Nancy_cid
 xaudio2_9redist_dll
 ajs/rpg_core.js
 js/rpg_core.jssss
