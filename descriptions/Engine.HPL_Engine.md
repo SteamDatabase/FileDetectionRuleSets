@@ -1,0 +1,1 @@
+The [**HPL Engine**](https://en.wikipedia.org/wiki/Frictional_Games#HPL_Engine) is Frictional's in-house game engine. It is named after writer H. P. Lovecraft.
