@@ -1,0 +1,1 @@
+[**zlib**](https://zlib.net/) is designed to be a lossless data-compression library for use on virtually any computer hardware and operating system.
