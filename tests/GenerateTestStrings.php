@@ -9,12 +9,6 @@ foreach( $Rulesets as $Type => $Rules )
 {
 	foreach( $Rules as $Name => $RuleRegexes )
 	{
-		if( $Name === 'MUS_OGG' )
-		{
-			// Skip this test as it uses .+ which generates random data
-			continue;
-		}
-
 		if( !is_array( $RuleRegexes ) )
 		{
 			$RuleRegexes = [ $RuleRegexes ];
@@ -31,9 +25,13 @@ foreach( $Rulesets as $Type => $Rules )
 		$Output = [];
 		$Added = false;
 
-		foreach( $RuleRegexes as $Regex )
+		// Skip generating certain regexes
+		if( $Name !== 'MUS_OGG' && $Name !== 'Bitsquid' && $Name !== 'Python')
 		{
-			exec( 'node ' . escapeshellarg( __DIR__ . '/randexp/index.js' ) . ' ' . escapeshellarg( $Regex ), $Output );
+			foreach( $RuleRegexes as $Regex )
+			{
+				exec( 'node ' . escapeshellarg( __DIR__ . '/randexp/index.js' ) . ' ' . escapeshellarg( $Regex ), $Output );
+			}
 		}
 
 		foreach( $Output as $Line )
@@ -56,3 +54,6 @@ foreach( $Rulesets as $Type => $Rules )
 		echo "Updated {$Type}.{$Name}\n";
 	}
 }
+
+echo "Now running tests...\n";
+require __DIR__ . '/Test.php';
