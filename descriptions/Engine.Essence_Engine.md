@@ -1,0 +1,1 @@
+The Essence Engine by [**Relic Entertainment**](http://www.relic.com/) was originally developed for Company of Heroes. It has since been used in each following entry in the series, as well as the Dawn of War franchise.
