@@ -1,0 +1,3 @@
+.qml
+/qshapesqmlplugin.dll
+qshapesqmlplugin.dll
