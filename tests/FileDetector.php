@@ -210,15 +210,10 @@ class FileDetector
 				//If it matches the pattern of a Build engine game (Duke Nukem 3D engine)
 				return 'Engine.Build';
 			}
-			else if( $has( 'Evidence.VSWAP' ) )
+			else if( $has( 'Evidence.VSWAP' ) || ( $has( 'Evidence.CFG' ) && $has( 'Evidence.WAD' ) ) )
 			{
-				//If it's got VSWAP files it's probably idTech0 (Wolf3D engine)
-				return 'Engine.idTech0';
-			}
-			else if( $has( 'Evidence.CFG' ) && $has( 'Evidence.WAD' ) )
-			{
-				//If it's got CFG and WAD files it's probably idTech1 (DOOM engine)
-				return 'Engine.idTech1';
+				//If it's got VSWAP files or CFG and WAD files it's probably idTech
+				return 'Engine.idTech';
 			}
 		}
 
@@ -261,7 +256,7 @@ class FileDetector
 		//If I have matched nothing so far and I have a PK3 file, it's likely idTech3 (Quake3 engine)
 		if( $has( 'Evidence.PK3' ) )
 		{
-			return 'Engine.idTech3';
+			return 'Engine.idTech';
 		}
 
 		return null;
