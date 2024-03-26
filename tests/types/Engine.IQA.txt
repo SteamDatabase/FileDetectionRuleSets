@@ -1,0 +1,2 @@
+resources/app/local/image/iqa.png
+resources/app/local/iqa.png
