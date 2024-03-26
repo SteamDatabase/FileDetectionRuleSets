@@ -224,15 +224,10 @@ class FileDetector
 				//If it matches the pattern of a Build engine game (Duke Nukem 3D engine)
 				return 'Engine.Build';
 			}
-			else if( $has( 'Evidence.VSWAP' ) )
+			else if( $has( 'Evidence.VSWAP' ) || ( $has( 'Evidence.CFG' ) && $has( 'Evidence.WAD' ) ) )
 			{
-				//If it's got VSWAP files it's probably idTech0 (Wolf3D engine)
-				return 'Engine.idTech0';
-			}
-			else if( $has( 'Evidence.CFG' ) && $has( 'Evidence.WAD' ) )
-			{
-				//If it's got CFG and WAD files it's probably idTech1 (DOOM engine)
-				return 'Engine.idTech1';
+				//If it's got VSWAP files or CFG and WAD files it's probably idTech
+				return 'Engine.idTech';
 			}
 		}
 
@@ -245,16 +240,17 @@ class FileDetector
 		//If we have both BIF and TLK files it's probably a BioWare Engine
 		if( $count( [ 'Evidence.BIF', 'Evidence.TLK' ] ) > 1 )
 		{
-			if( $has('Evidence.RIM') || $has('Evidence.TGA') )
+			if( $has( 'Evidence.RIM' ) || $has( 'Evidence.TGA' ) )
 			{
 				//RIM and TGA are found in Aurora but not in Infinity
 				return 'Engine.Aurora';
 			}
+
 			return 'Engine.Infinity';
 		}
 
 		//Any 2 of options.ini + data.win + snd_<whatever>.ogg is a good sign of a GameMaker Game
-		if( $count( [ 'Evidence.OPTIONS_INI', 'Evidence.DATA_WIN', 'Evidence.SND_OGG' ] ) > 1)
+		if( $count( [ 'Evidence.OPTIONS_INI', 'Evidence.DATA_WIN', 'Evidence.SND_OGG' ] ) > 1 )
 		{
 			return 'Engine.GameMaker';
 		}
@@ -266,7 +262,7 @@ class FileDetector
 		}
 
 		//If I have a PCK file it might be Godot
-		if( $has( 'Evidence.PCK' ) && $count(['Engine.Unreal', 'Engine.idTech5', 'Engine.idTech6', 'Engine.idTech7', 'Emulator.DOSBOX']) == 0 && self::IsEngineGodot( $Files ) )
+		if( $has( 'Evidence.PCK' ) && self::IsEngineGodot( $Files ) )
 		{
 			return 'Engine.Godot';
 		}
@@ -274,7 +270,7 @@ class FileDetector
 		//If I have matched nothing so far and I have a PK3 file, it's likely idTech3 (Quake3 engine)
 		if( $has( 'Evidence.PK3' ) )
 		{
-			return 'Engine.idTech3';
+			return 'Engine.idTech';
 		}
 
 		return null;
@@ -289,59 +285,71 @@ class FileDetector
 		//1. A single .pck file named exactly "data.pck", and NO other pck files
 		//2. For every executable, a correspondingly named pck file, and no other pck files
 
-		$swapExtension = static fn( string $FileName, string $OldExtension, string $NewExtension ) : string => basename( $FileName, $OldExtension ) . $NewExtension;
 		$Pcks = [];
 		$Exes = [];
 
+		$ExecutableExtensions =
+		[
+			'EXE' => true, // Windows
+			'X86' => true, // 32-bit Linux in Godot 2.x/3.x
+			'X86_32' => true, // 32-bit Linux in Godot 4.x
+			'X86_64' => true, // 64-bit Linux in all versions
+		];
+
 		foreach( $Files as $File )
 		{
-			$Extension = strtolower( pathinfo( $File, PATHINFO_EXTENSION ) );
-			$BaseFile = basename( $File );
+			$Extension = pathinfo( $File, PATHINFO_EXTENSION );
+			$Extension = strtoupper( $Extension );
 
-			if( $Extension === 'pck' )
+			if( $Extension === 'PCK' )
 			{
-				$Pcks[ $BaseFile ] = true;
+				$Pcks[] = $File;
+				continue;
 			}
-			if( $Extension === 'exe' )
+
+			// Mac and Linux can have extension-less executables
+			if( empty( $Extension ) )
 			{
-				$Exes[ $swapExtension( $BaseFile, ".exe", ".pck" ) ] = true;
+				if( str_ends_with( dirname( $File ), '/MacOS' ) )
+				{
+					// Mac executable is not in the same folder, let's pretend they are in the same folder
+					$File = str_replace( '/MacOS/', '/Resources/', $File );
+				}
+
+				$Exes[ $File . '.pck' ] = true;
 			}
-			else if( $Extension === 'x86' ) // 32-bit Linux in Godot 2.x/3.x
+			else if( isset( $ExecutableExtensions[ $Extension ] ) )
 			{
-				$Exes[ $swapExtension( $BaseFile, ".x86", ".pck" ) ] = true;
-			}
-			else if( $Extension === 'x86_32' ) // 32-bit Linux in Godot 4.x
-			{
-				$Exes[ $swapExtension( $BaseFile, ".x86_32", ".pck" ) ] = true;
-			}
-			else if( $Extension === 'x86_64' ) // 64-bit Linux in all versions
-			{
-				$Exes[ $swapExtension( $BaseFile, ".x86_64", ".pck" ) ] = true;
-			}
-			else
-			{
-				//Mac and Linux can have extensionless executables, make sure we don't have folders in the mix, just filenames though
-				$Exes[ $BaseFile . ".pck" ] = true;
+				// Strip extension from the file path
+				$File = substr( $File, 0, -strlen( $Extension ) );
+
+				$Exes[ $File . 'pck' ] = true;
 			}
 		}
 
 		// This can happen if Evidence.PCK finds "BASE.PCK", but the $Pcks will be empty due to case sensitivity
 		if( !empty( $Pcks ) )
 		{
-			//If we have exactly 1 PCK file and it is data.pck, we can skip all the fancy checks
-			if( count( $Pcks ) === 1 && array_key_first( $Pcks ) === 'data.pck' )
-			{
-				return true;
-			}
+			$OnlyDataPck = true;
 
 			//Otherwise we have to match up exe & pck pairs
-			foreach ( array_keys( $Pcks ) as $pck )
+			foreach( $Pcks as $Pck )
 			{
+				if( basename( $Pck ) !== 'data.pck' )
+				{
+					$OnlyDataPck = false;
+				}
+
 				//If we match an exe and a pck file pair, we're good
-				if( isset( $Exes[ $pck ] ) )
+				if( isset( $Exes[ $Pck ] ) )
 				{
 					return true;
 				}
+			}
+
+			if( $OnlyDataPck )
+			{
+				return true;
 			}
 		}
 
