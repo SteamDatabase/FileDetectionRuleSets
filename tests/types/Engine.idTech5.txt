@@ -1,3 +1,0 @@
-.streamed
-something.streamed
-sub/dir/something.streamed
