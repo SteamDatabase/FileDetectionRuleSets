@@ -1,0 +1,8 @@
+/nmcogame.dll
+/nmcogame64.dll
+/nmconew.dll
+/nmconew64.dll
+nmcogame.dll
+nmcogame64.dll
+nmconew.dll
+nmconew64.dll
