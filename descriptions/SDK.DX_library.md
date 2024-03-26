@@ -1,0 +1,1 @@
+[**DX Library**](https://dxlib.xsrv.jp/index.html) is a game library for C++ that makes it possible to use programs related to many systems, in an easy-to-use format. This allows programmers to concentrate on the essential programming of the game.
