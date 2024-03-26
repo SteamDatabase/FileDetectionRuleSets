@@ -866,12 +866,9 @@ vurbis
 orbis
 game/bin/win64/qt_plugins/sqldrivers/qsqlited4.dll
 game/bin/win64/qt_plugins/qmltooling/qmldbg_tcpd4.dll
-shapexmlplugin.dll
-shapesxmlplugin.dll
-qshapexmlplugin.dll
-qshapesxmlplugin.dll
-shapesqmlplugin.dll
-shapeqmlplugin.dll
+threedqmlplugin.dll
+threedxmlplugin.dll
+qthreedxmlplugin.dll
 GFSDK_Aftermath_Lib_UWP.x86
 GFSDK_Aftermath_Lib_UWP.x64
 gfsdk_aftermath_lib
