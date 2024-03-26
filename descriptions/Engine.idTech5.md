@@ -1,1 +1,0 @@
-[**id Tech 5**](https://en.wikipedia.org/wiki/Id_Tech_5) is a proprietary game engine developed by id Software, first show in 2007 and first used in the game [Rage](https://steamdb.info/app/9200/)
