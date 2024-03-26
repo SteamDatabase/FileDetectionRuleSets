@@ -1,1 +1,0 @@
-[**id Tech 4**](https://en.wikipedia.org/wiki/Id_Tech_4), also know as the "Doom 3 engine", is a proprietary game engine developed by id Software and first used in the game [Doom 3](https://steamdb.info/app/9050/)
