@@ -1,1 +1,0 @@
-[**id Tech 3**](https://en.wikipedia.org/wiki/Id_Tech_3), also known as the "Quake III Arena engine", is a game engine developed by id Software to power their game [Quake III Arena](https://steamdb.info/app/2200/) released in 2005. 
