@@ -26,6 +26,10 @@ Godot games can also be packaged as standalone executables with no external asse
 
 Stencyl games don't always have recognizable files so it may not give any signal on it's own.
 
+### Twine
+
+Twine games just have the same files as any other Chromium framework app.
+
 ## The following SDKs are known to be undetected by our heurestics
 
 ### Havok
