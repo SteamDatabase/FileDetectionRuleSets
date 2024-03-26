@@ -1,0 +1,4 @@
+/SharpDX.dll
+/SharpDX.xml
+SharpDX.dll
+SharpDX.xml
