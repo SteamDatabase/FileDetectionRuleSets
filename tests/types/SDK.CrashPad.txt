@@ -1,0 +1,8 @@
+/crashpad/release/crashpad_handler.exe
+/CrashpadMetrics-active.pma
+crashpad_handler.exe
+crashpad/crashpad_database_util.exe
+crashpad/crashpad_handler.com
+crashpad/crashpad_handler.exe
+crashpad/crashpad_http_upload.exe
+crashpad_wer.dll
