@@ -1,0 +1,6 @@
+/ts3_client.dll
+/ts3client.dll
+/ts3server.dll
+ts3_client.dll
+ts3client.dll
+ts3server.dll
