@@ -668,6 +668,15 @@ sub/dir/something.fhdll
 GameData/VS2EN/runtime.rt
 GameData/VS2EN/runtime_rts
 GameData/VS2EN/time.rts
+/ts3_client
+/ts3client
+/ts3server
+s3_client.
+s3client.
+s3server.
+rts3_client.dll
+rts3client.dll
+rts3server.dll
 Outsider_Strategist/data.dt
 Outsider_Strategist/data_dts
 Outsider_Strategist/ata.dts
