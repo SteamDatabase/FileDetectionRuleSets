@@ -773,8 +773,6 @@ sli.spk
 packs/sli
 sdl2xdll
 sdlxdll
-raylib.dllwhoops
-Sub/Folder/raylib.dllwhoops
 nodexdll
 nw.dlls
 nwjs-win/nwxdll
