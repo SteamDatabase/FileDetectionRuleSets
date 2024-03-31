@@ -1,8 +1,3 @@
-/D3D11Install.exe
-/D3D11InstallHelper.dll
-/d3d12.dll
-/D3D12Core.dll
-/d3dcompiler_47.dll
 /d3dx10_33.dll
 /d3dx10_34.dll
 /d3dx10_35.dll
@@ -38,7 +33,6 @@
 /d3dx9_41.dll
 /d3dx9_42.dll
 /d3dx9_43.dll
-/d3dx9_43.dll
 /d3dx9d_39.dll
 /d3dx9d_40.dll
 /d3dx9d_41.dll
@@ -47,10 +41,6 @@
 /DXSETUP.exe
 /GFSDK_SSAO_D3D11.win64.dll
 /gfx_directx.dll
-D3D11Install.exe
-D3D11InstallHelper.dll
-d3d12.dll
-D3D12Core.dll
 d3dx10_33.dll
 d3dx10_34.dll
 d3dx10_35.dll
@@ -85,7 +75,6 @@ d3dx9_39.dll
 d3dx9_40.dll
 d3dx9_41.dll
 d3dx9_42.dll
-d3dx9_43.dll
 d3dx9_43.dll
 d3dx9d_39.dll
 GFSDK_SSAO_D3D11.win64.dll
