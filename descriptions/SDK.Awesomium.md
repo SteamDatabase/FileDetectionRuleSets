@@ -1,0 +1,1 @@
+Awesomium was a free (to non-commercial users) SDK that allowed devs to embed WebKit into projects. Awesomium's API has been abandoned since ~2016 by its creators. It is no longer available to download directly and is not recommended, as Awesomium does not support HTML5 and contains unfixed bugs with security flaws.
