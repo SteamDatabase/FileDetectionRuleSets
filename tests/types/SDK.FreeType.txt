@@ -1,5 +1,4 @@
-/libfreetype.so
-/libfreetype.6
+/libfreetype.so.6
 /freetype.dll
 /libfreetype-6.dll
 freetype.dll
