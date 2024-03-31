@@ -725,8 +725,10 @@ _msgpack
 msg.pack
 msg-pack
 msg_pack
-msg.pack
 msg/pack
+msgpack
+.msgpac
+.msgpak
 pbsvcpexe
 pbsvc.exee
 BEService_x64eexe
@@ -810,11 +812,6 @@ d.dll
 storage.dll
 dstorage_dll
 dstorage.dl
-.msgpackf
-.fmsgpack
-msgpack
-.msgpac
-.msgpak
 Plugins/discordzz-rpc.dll
 discord-rpc.dlll
 Plugins/discord_gamezzz_sdk.dll
