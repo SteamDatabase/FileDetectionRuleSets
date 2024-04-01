@@ -730,9 +730,9 @@ Data/data002.ndat
 BlackCiphers
 notactuallyBlackCipher
 BlackCipher.whatever
-TencentGME_dll
-TencentGME.dl
-Tencent.dll
+gmesdk_dll
+gmesdk.dl
+gme.dll
 GME.dll
 AnselSDK.dll
 dx12Retail/AAnselSDK32.dll
