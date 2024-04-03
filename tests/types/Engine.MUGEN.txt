@@ -1,0 +1,4 @@
+data\mugen1\fight.def
+data\mugen1\fight.sff
+data\mugen1\system.def
+data\mugen1\system.sff
