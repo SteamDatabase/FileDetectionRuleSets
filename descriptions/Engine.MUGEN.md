@@ -1,0 +1,1 @@
+[**M.U.G.E.N**](https://www.elecbyte.com/mugendocs-11b1/mugen.html) is a 2D fighting game engine for commercial-quality fighting games. The majority of content created for M.U.G.E.N is created by the [**community**](https://mugenarchive.com/).
