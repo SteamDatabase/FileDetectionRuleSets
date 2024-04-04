@@ -1,0 +1,4 @@
+UPDATE.WIZ
+localres.pff
+med.pff
+resource.pff
