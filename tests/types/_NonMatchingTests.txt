@@ -272,6 +272,12 @@ APRT_RT.exe
 wgcs_api.ex
 gcs_api.exe
 wgcs_api_exe
+Update_wiz
+resource_pff
+UUpdate.wiz
+Rresource.pff
+Update.wizz
+resource.pfff
 CachedShaders_D3D12_gro
 CachedShaders_D3D12.gr
 RPT_RT.exeeee
