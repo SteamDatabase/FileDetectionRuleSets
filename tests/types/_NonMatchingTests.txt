@@ -871,6 +871,10 @@ data.sgbpac
 .sgbpack
 vurbis
 orbis
+.n3canimkeys
+.n3fxanim
+.n3cbundle
+.n3cgroup
 game/bin/win64/qt_plugins/sqldrivers/qsqlited4.dll
 game/bin/win64/qt_plugins/qmltooling/qmldbg_tcpd4.dll
 GFSDK_Aftermath_Lib_UWP.x86
