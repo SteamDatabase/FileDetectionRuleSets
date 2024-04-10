@@ -1,0 +1,4 @@
+/XojoGUIFramework32.dll
+/XojoGUIFramework64.dll
+XojoGUIFramework32.dll
+XojoGUIFramework64.dll
