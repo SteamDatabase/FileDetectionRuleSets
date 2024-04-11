@@ -1,2 +1,4 @@
 /xaudio2_9redist.dll
+/XAudio2_7_64.dll
 xaudio2_9redist.dll
+XAudio2_7_64.dll
