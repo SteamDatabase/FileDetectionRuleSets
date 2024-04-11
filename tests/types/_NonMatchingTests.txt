@@ -162,6 +162,7 @@ SuperUnity.Entities.dll
 Unity.Entitie.dll
 Unity_Entities_dll
 StreamingAssets/Scenes/
+StreamingAssets/EntityScene/
 notGFSDK_TXAA
 GFSDK_AATX
 GFSDK_TAXA
@@ -172,6 +173,7 @@ TrueSkyPluginRender_MT.dl
 rueSkyPluginRender_MT.dll
 TrueSkyPluginRender_MT_dll
 StreamingSets/SubScenes/
+StreamingAsset/EntityScenes/
 Unity.Rendering.Hybrid.dlll
 SuperUnity.Rendering.Hybrid.dll
 Unity.Rendering.Hybrids.dll
@@ -668,6 +670,13 @@ sub/dir/something.fhdll
 GameData/VS2EN/runtime.rt
 GameData/VS2EN/runtime_rts
 GameData/VS2EN/time.rts
+/ts3client
+/ts3client_win32
+/ts3client_win.dll
+s3client.
+s3client_win32.
+rts3client.dll
+rts3client_win32.dll
 Outsider_Strategist/data.dt
 Outsider_Strategist/data_dts
 Outsider_Strategist/ata.dts
@@ -730,9 +739,9 @@ Data/data002.ndat
 BlackCiphers
 notactuallyBlackCipher
 BlackCipher.whatever
-TencentGME_dll
-TencentGME.dl
-Tencent.dll
+gmesdk_dll
+gmesdk.dl
+gme.dll
 GME.dll
 AnselSDK.dll
 dx12Retail/AAnselSDK32.dll
