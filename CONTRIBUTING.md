@@ -38,6 +38,10 @@ If the rule is written correctly, it should NOT match any of these filenames.
 
 Notice the `fna_dll` where there is a `_` in place of `.` to make sure the dot was escaped correctly in the regex.
 
+- For `.`: replace them with another character to test that they are escaped, `.abc` -> `_abc` (must be a dot, and not any character)
+- For `^`: add text before the matching regex, `^test` -> `abctest` (must start)
+- For `$`: add text after the matching regex, `test$` -> `testabc` (must end)
+
 New contributions should make sure they also provide tests and have run those tests themselves, and should be careful about introducing lots of false positives or negatives. Ideally, you want to look for the most unique looking file that is common to most or all games of a particular engine/technology, that is very unlikely to occur for other apps.
 
 Also note that we are not particularly interested in maintaining rules for engines that only like 3 people have ever used.
