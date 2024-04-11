@@ -3,9 +3,9 @@
 Here's what to do whenever adding new rules:
 
 1. Add your regex to `rules.ini`
-2. Add a corresponding test to `tests/types/` with a matching name.
-3. Add corresponding lines to `tests/types/_NonMatchingTests.txt` that your test should NOT pick up on. *To reduce merge conflicts, we suggest inserting new strings into random place in the file, instead of at the bottom.*
-4. Add a corresponding file in `descriptions` with a matching name describing the technology in a short manner.
+2. Add a corresponding test to [`tests/types/`](tests/types) with a matching name.
+3. Add corresponding lines to [`tests/types/_NonMatchingTests.txt`](tests/types/_NonMatchingTests.txt) that your test should NOT pick up on. *To reduce merge conflicts, we suggest inserting new strings into random place in the file, instead of at the bottom.*
+4. Add a corresponding file in [`descriptions`](descriptions) with a matching name describing the technology in a short manner.
 
 **Example:**
 Let's say we want to add a rule to detect the FNA game engine. This one is very convenient because it can be matched by simply finding a file named `fna.dll`. However, we also want to be sure to match `some/directory/fna.dll`, but we *don't* want to return a match if we find `some_file_that_just_ends_with_fna.dll` or `fna.dllsomethingelse`.
@@ -24,7 +24,7 @@ Sub/Folder/fna.dll
 
 If the rule is written correctly, it should match both of these filenames.
 
-Then add some lines to `tests/types/_NonmatchingTests.txt` with this content:
+Then add some lines to [`tests/types/_NonMatchingTests.txt`](tests/types/_NonMatchingTests.txt) with this content:
 
 ```
 fna_dll
