@@ -139,7 +139,6 @@ Engine.BuildInfo_Win32_retail_dllxdll
 Engine.BuildInfo_Win64_retailxdll
 Engine.BuildInfo_Win64_retail_dllxdll
 BugTrapUN-x64.dll
-BugTrap-x64.dll
 BugTrapUN.dll
 Unity.Entities.dlll
 TotallyAwesomium.dll
