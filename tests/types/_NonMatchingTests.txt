@@ -162,6 +162,7 @@ SuperUnity.Entities.dll
 Unity.Entitie.dll
 Unity_Entities_dll
 StreamingAssets/Scenes/
+StreamingAssets/EntityScene/
 notGFSDK_TXAA
 GFSDK_AATX
 GFSDK_TAXA
@@ -172,6 +173,7 @@ TrueSkyPluginRender_MT.dl
 rueSkyPluginRender_MT.dll
 TrueSkyPluginRender_MT_dll
 StreamingSets/SubScenes/
+StreamingAsset/EntityScenes/
 Unity.Rendering.Hybrid.dlll
 SuperUnity.Rendering.Hybrid.dll
 Unity.Rendering.Hybrids.dll
