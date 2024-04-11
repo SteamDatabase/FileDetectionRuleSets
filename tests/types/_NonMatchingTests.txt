@@ -139,7 +139,6 @@ Engine.BuildInfo_Win32_retail_dllxdll
 Engine.BuildInfo_Win64_retailxdll
 Engine.BuildInfo_Win64_retail_dllxdll
 Unity.Entities.dlll
-(?:crashpad/(?:release/)?)?crashpad_(?:handler\.(?:exe|com)|database_util\.exe|http_upload\.exe|wer\.dll)$
 crashpadhandler.exe
 crashpadhandler.com
 crashpaddatabase_util.exe
