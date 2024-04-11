@@ -17,3 +17,7 @@
 "Type: Container":
 - changed-files:
   - any-glob-to-any-file: '**/Container.*'
+
+"Type: Emulator":
+- changed-files:
+  - any-glob-to-any-file: '**/Emulator.*'
