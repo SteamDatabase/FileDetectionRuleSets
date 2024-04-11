@@ -1,0 +1,16 @@
+/XInputDotNetPure.dll
+/XInputInterface32.dll
+/XInputInterface64.dll
+redist/APR2007_xinput_x64.cab
+redist/APR2007_xinput_x86.cab
+redist/DirectX9/Apr2006_xinput_x64.cab
+redist/DirectX9/Apr2006_xinput_x86.cab
+redist/DirectX9/APR2007_xinput_x64.cab
+redist/DirectX9/APR2007_xinput_x86.cab
+redist/DirectX9/AUG2006_xinput_x64.cab
+redist/DirectX9/AUG2006_xinput_x86.cab
+redist/DirectX9/Oct2005_xinput_x64.cab
+redist/DirectX9/Oct2005_xinput_x86.cab
+xinput1_3.dll
+XInput1_4.dll
+xinput9_1_0.dll
