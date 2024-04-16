@@ -1,1 +1,1 @@
-**CyaTech** is the [Cyanide Studio's](https://cyanide-studio.com/en/) proprietary engine.
+**CyaTech** is an in-house engine used to power [Cyanide Studio](https://cyanide-studio.com/) games.
