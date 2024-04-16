@@ -1,0 +1,1 @@
+The [**Dawn Engine**](https://www.eidosmontreal.com/news/powered-by-the-dawn-engine/), based on a heavily modified version of IO Interactive’s Glacier™ 2 engine, features new technology that allows for improved rendering capabilities, real-time physics, and advanced artificial intelligence programming, among other things.
