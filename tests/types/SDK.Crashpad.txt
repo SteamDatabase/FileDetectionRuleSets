@@ -1,0 +1,2 @@
+/crashpad_handler.exe
+crashpad_handler.exe

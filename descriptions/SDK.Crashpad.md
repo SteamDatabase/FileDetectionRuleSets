@@ -1,0 +1,1 @@
+[**Crashpad**](https://crashpad.chromium.org/) is a crash-reporting system.
