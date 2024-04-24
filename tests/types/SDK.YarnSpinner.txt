@@ -1,10 +1,5 @@
 /YarnSpinner.dll
-/YarnSpinner.Compiler.dll
 /yarnspinner.dll
-/yarnspinner.compiler.dll
 YarnSpinner.dll
-YarnSpinner.Compiler.dll
 yarnspinner.dll
-yarnspinner.compiler.dll
 NightInTheWoods_Data/Managed/YarnSpinner.dll
-

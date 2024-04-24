@@ -1153,6 +1153,5 @@ Files/languagebank/english/textfiles/notactuallyfpsc-050.ini
 Files/languagebank/english/textfiles/fpsc-050.iniwhoops
 languagebank/english/textfiles/fpsc-050.ini
 YarnSpinnerTest.dll
-YarnSpinner.Compiler
 /Yarn/Spinner
 YarnSpin
