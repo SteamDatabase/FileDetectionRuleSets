@@ -1,4 +1,6 @@
 /StreamingAssets/SubScenes/
+/StreamingAssets/EntityScenes/
 /Unity.Entities.dll
 StreamingAssets/SubScenes/
+StreamingAssets/EntityScenes/
 Unity.Entities.dll
