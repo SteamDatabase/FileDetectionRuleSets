@@ -1,0 +1,10 @@
+.ifapp
+.ifMap
+.ifres
+.ifset
+.ifsharp
+.ifui
+/iFCon.dll
+/iFActionGame.dll
+iFCon.dll
+iFActionGame.dll
