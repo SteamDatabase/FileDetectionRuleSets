@@ -550,6 +550,10 @@ sub/dir/FBUILD.EXE
 sub/dir/Fbuildlic.txt
 sub/dir/FGAME.CON
 sub/dir/FCOMMIT.DAT
+/FCon
+FCon
+/iFCon.
+iFCon.
 Randgrid.sy
 andgrid.sys
 Randgrid_sys
