@@ -4,7 +4,7 @@
 .ifset
 .ifsharp
 .ifui
-/iFCon.dll
+/iFCon
 /iFActionGame.dll
-iFCon.dll
+iFCon
 iFActionGame.dll
