@@ -1,0 +1,2 @@
+/WPLauncher.exe
+WPLauncher.exe
