@@ -1,0 +1,12 @@
+/GameTalkAPIDlld.dll
+/GTCommunityAgentD.exe
+/GTCommunityAPId.dll
+/GTCommunityAPIProxyd.dll
+/GtGameModeD.dll
+/GtLogD.dll
+GameTalkAPIDlld.dll
+GTCommunityAgentD.exe
+GTCommunityAPId.dll
+GTCommunityAPIProxyd.dll
+GtGameModeD.dll
+GtLogD.dll
