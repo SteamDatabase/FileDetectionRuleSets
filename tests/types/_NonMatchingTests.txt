@@ -348,6 +348,13 @@ FAdobe AIR/Versions
 FAdobe AIR/Versions/1.0
 FAdobe AIR/Versions/1.0/Adobe AIR.dll
 love.dllfdfd
+GameTalkAPIDll.dll
+GTCommunityAgent.exe
+GTCommunityAgentd.dll
+GTCommunityAPI.dll
+GTCommunityAPIProxy.dll
+GtGameMode.dll
+GtLog.dll
 granny2.dl
 ranny2.dll
 granny2_dll
