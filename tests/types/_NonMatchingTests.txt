@@ -1131,6 +1131,7 @@ GameCenterDistribs.xm
 GameCenterDistribs_xml
 greenworks
 abcgreenworks-win32.node
+xtrap
 /files/gamecore/projectiletypes/_e_rpggrenade_d.dds
 files_gamecore_projectiletypes_e_rpggrenade_d.dds
 files/gamecore/blah
