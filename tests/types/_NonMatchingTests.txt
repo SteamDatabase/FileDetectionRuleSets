@@ -1076,6 +1076,10 @@ Engine/Binarieasds/ThirdParty/PhysX3/Win64/VS2015/NvCloth_asdx64.dasdll
 Engisdane/Binaries/ThirdParty/PhysX3/Win32/VS2015/NvClotsshPROFILE_x86.dlsdasdl
 Engine/Binasdries/ThirdParty/PhysX3/Win32/VS2015/NvsClosth_x86.dasdasdll
 th_dnh.definitive
+/plauncher.exe
+/wlauncher.exe
+wplauncher
+wplauncher.dll
 game0_arc
 game0.arcc
 archives_win64/game0.aarc
