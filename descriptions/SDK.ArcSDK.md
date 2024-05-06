@@ -1,1 +1,1 @@
-Arc SDK the client application for [**Arcgames**](www.arcgames.com) MMOs.
+Arc SDK is the client application for [**Arcgames**](www.arcgames.com) MMOs.
