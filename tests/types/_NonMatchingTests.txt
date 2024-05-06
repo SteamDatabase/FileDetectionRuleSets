@@ -52,7 +52,7 @@ ArcSDK_dll
 ArcSDK/dll
 Arc.SDK.dll
 Arc_SDK.dll
-Arc\SDK.dll
+Arc/SDK.dll
 Arc-SDK.dll
 ArcSDKdll
 Microsoft_Xbox_Services_141_GDK_C_Thunks.ded
