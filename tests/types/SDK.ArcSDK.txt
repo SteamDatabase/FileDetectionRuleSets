@@ -1,1 +1,2 @@
+/ArcSDK.dll
 ArcSDK.dll
