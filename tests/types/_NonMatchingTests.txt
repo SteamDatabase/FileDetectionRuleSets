@@ -354,8 +354,15 @@ ranny2_x64.dll
 granny2_x64_dll
 pfdfdflove.dll
 Sub/Folder/love.dllfdfdfdf
+/DevILish.dll
+/DevIL.fll
+/DevIL.fdll
+/DevIL.dllf
+/DevIL.ll
+/DevIL.dl
 fDevIL.dll
 DevILish.dll
+DevIL.fll
 DevIL.fdll
 DevIL.dllf
 DevIL.ll
