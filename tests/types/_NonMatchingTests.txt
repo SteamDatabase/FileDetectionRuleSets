@@ -46,6 +46,10 @@ Microsoft_Xbox_Services_141_GDK_C_Thunks.ded
 XGamingRuntimeThunks.del
 XGamingRuntime.dle
 XCurl.dll2323
+amBX_bn
+.amBX
+.BXml
+.amBX_bnf
 AwesomeGame.argssad
 AwesomeGame.arvproj2
 AwesomeGame.rgssadf
