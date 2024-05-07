@@ -1164,3 +1164,7 @@ languagebank/english/textfiles/fpsc-050.ini
 YarnSpinnerTest.dll
 /Yarn/Spinner
 YarnSpin
+odin_dll
+libodin_so
+notodin.dll
+notlibodin.so
