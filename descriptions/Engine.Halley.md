@@ -1,0 +1,1 @@
+[**Halley**](https://github.com/amzeratul/halley) is a lightweight game engine written in C++17. It has been used to ship Wargroove, a turn-based strategy game, on Windows, Mac (experimental), Nintendo Switch, Xbox One and PS4 (with experimental Android and iOS ports WIP).
