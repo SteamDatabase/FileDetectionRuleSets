@@ -109,7 +109,7 @@ Data/Config/User-cfg
 ddata/Config/User.cfg
 Data/Config/user.lua1
 Data/Config/user-lua
-ddata/Config/user.lua
+ddata/Config/user.lua1
 lib_burst_generated.png
 lib_burst_generated_so
 data_pie
