@@ -278,6 +278,8 @@ RPT_RT.exeeee
 xaudio2_9redist.dl
 audio2_9redist.dll
 xaudio2_9redist_dll
+/flitiengine-core-0.5.1-beta-SNAPSHOT.jar
+flitiengine-core-0.5.1-beta-SNAPSHOT.jar
 ajs/rpg_core.js
 js/rpg_core.jssss
 js/rmmz_core.jssss
