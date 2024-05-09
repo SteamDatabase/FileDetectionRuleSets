@@ -1,0 +1,2 @@
+/litiengine-core-0.5.1-beta-SNAPSHOT.jar
+litiengine-core-0.5.1-beta-SNAPSHOT.jar
