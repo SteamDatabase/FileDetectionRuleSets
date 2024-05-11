@@ -375,6 +375,9 @@ chunk0_rpkg
 chunk0.rpk
 chunk0.pkg
 hltviexe
+vgui.dlll
+vgui-dll
+vgui2.dll
 mss16.dl
 mss32.dl
 mss64.dl
