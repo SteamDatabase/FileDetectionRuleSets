@@ -374,7 +374,6 @@ binbsppack.dll
 chunk0_rpkg
 chunk0.rpk
 chunk0.pkg
-hltviexe
 vgui.dlll
 vgui-dll
 vgui2.dll
@@ -387,8 +386,7 @@ ss64.dll
 mss16_dll
 mss32_dll
 mss64_dll
-hltv.exee
-bin/hltv.exe
+hltv.exe
 nvngx_dlssddll
 nvngx_dlss.dlli
 envngx_dlss.dll
