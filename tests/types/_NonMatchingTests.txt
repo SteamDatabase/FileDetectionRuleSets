@@ -374,6 +374,7 @@ binbsppack.dll
 chunk0_rpkg
 chunk0.rpk
 chunk0.pkg
+system/vgui.dll
 vgui.dlll
 vgui-dll
 vgui2.dll
