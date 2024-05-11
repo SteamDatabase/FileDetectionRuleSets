@@ -610,6 +610,10 @@ fbaseq2/st
 Server/Modi.dll
 /mod_io
 /odio
+deluxe/assets/tiled/overworld/decor_tsx
+fmdata/Default.tmxx
+deluxe/assets/tiled/overworld/decor.ttsx
+fmdata/Default.tdx
 fglhexen
 data1/fglhexen
 data1/fglhexen/NFarrow.ms2
