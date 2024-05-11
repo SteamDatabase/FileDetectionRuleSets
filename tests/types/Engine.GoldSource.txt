@@ -1,2 +1,3 @@
 hltv.exe
 vgui.dll
+Bin/vgui.dll
