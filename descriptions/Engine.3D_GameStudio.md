@@ -1,0 +1,1 @@
+[**3D GameStudio**](https://en.wikipedia.org/wiki/3D_GameStudio) or **3DGS** is a pan 3D computer game development system which allows the users to create 3D games and other virtual reality applications, and publish them royalty-free.
