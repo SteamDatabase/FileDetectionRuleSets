@@ -104,6 +104,12 @@ libhl_dll
 lib_burst_generated_dll
 rotobuf
 protobu
+Data/Config/User.cfg1
+Data/Config/User-cfg
+ddata/Config/User.cfg
+Data/Config/user.lua1
+Data/Config/user-lua
+ddata/Config/user.lua1
 lib_burst_generated.png
 lib_burst_generated_so
 data_pie
@@ -368,7 +374,10 @@ binbsppack.dll
 chunk0_rpkg
 chunk0.rpk
 chunk0.pkg
-hltviexe
+system/vgui.dll
+vgui.dlll
+vgui-dll
+vgui2.dll
 mss16.dl
 mss32.dl
 mss64.dl
@@ -378,8 +387,7 @@ ss64.dll
 mss16_dll
 mss32_dll
 mss64_dll
-hltv.exee
-bin/hltv.exe
+hltv.exe
 nvngx_dlssddll
 nvngx_dlss.dlli
 envngx_dlss.dll
@@ -602,6 +610,10 @@ fbaseq2/st
 Server/Modi.dll
 /mod_io
 /odio
+deluxe/assets/tiled/overworld/decor_tsx
+fmdata/Default.tmxx
+deluxe/assets/tiled/overworld/decor.ttsx
+fmdata/Default.tdx
 fglhexen
 data1/fglhexen
 data1/fglhexen/NFarrow.ms2
@@ -923,6 +935,9 @@ game.unxf
 game.iosf
 libYoYoGamepad.dylibf
 audiogroup1.datf
+AnyBrain.exe
+AnyBrain/Brain.dll
+AnyBrain-dll
 Steamworks.gmk.dllf
 Steamworks.gml.dllf
 display_mouse_lock.dllf
@@ -1152,3 +1167,10 @@ Files/languagebank/english/textfiles/fpsc-050
 Files/languagebank/english/textfiles/notactuallyfpsc-050.ini
 Files/languagebank/english/textfiles/fpsc-050.iniwhoops
 languagebank/english/textfiles/fpsc-050.ini
+YarnSpinnerTest.dll
+/Yarn/Spinner
+YarnSpin
+odin_dll
+libodin_so
+notodin.dll
+notlibodin.so
