@@ -232,6 +232,14 @@ Sub/ui.hdllf
 zstd.dl
 std.dll
 zstd_dll
+facknex.dll
+fmain.wrs
+facknex.dllf
+fmain.wrsf
+facknex.fdll
+fmain.fwrs
+acknexf.dll
+mainf.wrs
 Sub/uv.hdllf
 fnRuntimeSdk.dll
 GfnRuntimeSdk.dl
