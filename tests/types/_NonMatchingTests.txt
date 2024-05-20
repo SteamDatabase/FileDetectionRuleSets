@@ -125,6 +125,12 @@ lib_burst_generatedd.dll
 flexRelease_x128.dll
 flexRelease_x64_dll
 lib_burst_generated.dlll
+windata/alldata_bin
+windata/config_body_bin
+windata/alldata.binn
+windata/config_body.binn
+awindata/alldata.bin
+awindata/config_body.bin
 llib_burst_generated.dlll
 Engine.BuildInfo.dlld
 Engine.BuildInfo_Win32_retail.dlld
