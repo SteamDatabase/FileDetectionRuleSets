@@ -1,0 +1,2 @@
+windata/alldata.bin
+windata/config_body.bin
