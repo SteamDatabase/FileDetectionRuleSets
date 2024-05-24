@@ -1,1 +1,3 @@
+drm/common/drm.xml
 drm.swf
+drm.xml
