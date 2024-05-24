@@ -2,12 +2,17 @@
 /CryRenderD3D11.dll
 /CryRenderD3D12.dll
 /CryRenderVulkan.dll
+/Localization/English_xml.pak
+/Localization/English_xml_patch.pak
 /cry3dengine.dll
 Cry3DEngine.dll
 CryD3DCompilerStub.dll
 CryRenderD3D11.dll
 CryRenderD3D12.dll
 CryRenderVulkan.dll
+Localization/English_xml.pak
+Localization/English_xml_patch.pak
+Whiplash/Localization/English_xml_patch.pak
 cry3dengine.dll
 sub/dir/Cry3DEngine.dll
 sub/dir/CryD3DCompilerStub.dll
