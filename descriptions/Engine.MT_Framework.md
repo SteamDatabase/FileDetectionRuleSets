@@ -1,0 +1,1 @@
+[**MT Framework**](https://en.wikipedia.org/wiki/MT_Framework) is a game engine created by Capcom. "MT" stands for "Multi-Thread", "Meta Tools" and "Multi-Target".
