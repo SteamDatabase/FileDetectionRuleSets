@@ -166,6 +166,9 @@ RenoirCore.WindowsDesktop_dll
 cohtml.WindowsDesktop_dll
 SuperUnity.Entities.dll
 Unity.Entitie.dll
+gamedef_xml
+ggamedef.xml
+gamedef.xmll
 Unity_Entities_dll
 StreamingAssets/Scenes/
 StreamingAssets/EntityScene/
