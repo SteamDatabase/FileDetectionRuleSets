@@ -943,10 +943,6 @@ dt00_x64.cpkk
 dt00f2p_win.cpkk
 master/chunk0.datt
 ddata_00.g0s
-ddt00.cpk
-ddt00_win.cpk
-ddt00_x64.cpk
-ddt00f2p_win.cpk
 mmaster/chunk0.dat
 fwindow_set_cursor.dll
 fjoydll.dll
