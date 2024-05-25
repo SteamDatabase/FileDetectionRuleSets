@@ -1,0 +1,9 @@
+.ff
+.iwd
+.xpak
+/common.ff
+/core.xpak
+/iw_00.iwd
+common.ff
+core.xpak
+iw_00.iwd

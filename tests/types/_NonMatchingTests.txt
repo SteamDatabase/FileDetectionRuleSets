@@ -938,6 +938,9 @@ project.godotfork
 Squall_dll
 Squall.dl
 quall.dll
+.iwdd
+.fff
+.xpakk
 fgame.unx
 fgame.ios
 flibYoYoGamepad.dylib
