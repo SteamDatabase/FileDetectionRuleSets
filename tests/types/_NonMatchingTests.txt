@@ -306,6 +306,13 @@ globalgamemanagers.asset
 globalgamemanager.assets
 globalgamemanagersassets
 Gglobalgamemanagersassets
+FHGE.dll
+HGEF.dll
+HGE.fdll
+HGEF.dllf
+HGE.DL
+HGE_DLL
+HGE.ll
 bchmark.dl
 chmark.dll
 bchmark_dll
