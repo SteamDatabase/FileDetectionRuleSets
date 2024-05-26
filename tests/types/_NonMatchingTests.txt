@@ -624,6 +624,14 @@ base/SVSWAP.WL6
 VVVVSWAP.BS6
 SVSWAP.VSI
 VSWAP
+firrKlang.dll
+irrKlang.dllf
+irrKlangf.dll
+irrKlang.fdll
+/irrKlang32bit.dll
+/irrKlangNET4.dll
+/irrKlang_.dll
+/irrKlang_dll
 AAntiCheat.Installer.exe
 EAAntiCheat.Installer.ex
 EAAntiCheat.Installer_exe
