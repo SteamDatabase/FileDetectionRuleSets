@@ -97,6 +97,8 @@ box2d.wasm.jsf
 box2d-wasm.js
 box2d_wasm.js
 box2d/wasm.js
+.fovl
+.ovlf
 libhl.dlll
 libhl.soo
 libhl_so
