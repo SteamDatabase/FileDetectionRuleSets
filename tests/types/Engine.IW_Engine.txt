@@ -1,9 +1,10 @@
-.ff
 .iwd
-.xpak
 /common.ff
-/core.xpak
 /iw_00.iwd
+code_post_gfx.ff
 common.ff
-core.xpak
+common_zm.ff
 iw_00.iwd
+main/iw_00.iwd
+worldwide/ww_code_post_gfx.ff
+zone/all/common_zm.ff
