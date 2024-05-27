@@ -1,0 +1,8 @@
+FlatRedBall.Forms.dll
+FlatRedBallDesktopGL.dll
+FlatRedBall.Forms.DesktopGlNet6.dll
+FlatRedBallDesktopGLNet6.dll
+FlatRedBall.dll
+FlatRedBall.PropertyGrid.dll
+FlatRedBallProfiler.exe
+FlatRedBall.xml
