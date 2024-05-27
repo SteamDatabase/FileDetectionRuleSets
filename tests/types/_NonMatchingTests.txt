@@ -383,6 +383,11 @@ FAdobe AIR
 FAdobe AIR/Versions
 FAdobe AIR/Versions/1.0
 FAdobe AIR/Versions/1.0/Adobe AIR.dll
+fFlatRedBall
+/FlatRedBall
+Flat.Red.Ball
+Flat-Red-Ball
+Flat_Red_Ball
 love.dllfdfd
 granny2.dl
 ranny2.dll
