@@ -1026,6 +1026,9 @@ gmv_sp_000.usn
 /data/launch/data1.xcpk
 C05_010_S010_gdm.awboops
 common_rpf
+SteamChoiceScript-Info_plist
+SteamChoiceScript-Info.plistt
+SSteamChoiceScript-Info.plist
 update/update.rpff
 metadata.data
 metadata_dat
