@@ -97,6 +97,12 @@ box2d.wasm.jsf
 box2d-wasm.js
 box2d_wasm.js
 box2d/wasm.js
+init_ovl
+init.ovll
+nit.ovl
+common_ovl
+common.ovll
+ommon.ovl
 libhl.dlll
 libhl.soo
 libhl_so
