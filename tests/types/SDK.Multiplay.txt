@@ -1,0 +1,4 @@
+Unity.Services.Multiplay.dll
+games/Unity.Services.Multiplay.dll
+path/To/File/Unity.Services.Multiplay.dll
+folder/Multiplay/Unity.Services.Multiplay.dll
