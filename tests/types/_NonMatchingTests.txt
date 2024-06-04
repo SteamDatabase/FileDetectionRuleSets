@@ -7,6 +7,12 @@ $
 UnityPlayer.dlll
 UUnityPlayer.dll
 SuperUnityEngine.dll
+data_1rc
+data1.rc
+fdata.1rc
+dataf.1rc
+data.f1rc
+data.1rcf
 notactuallylime.ndll
 notactuallylime-legacy.dll
 notactuallylime-legacy.ndll
