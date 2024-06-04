@@ -7,6 +7,8 @@ $
 UnityPlayer.dlll
 UUnityPlayer.dll
 SuperUnityEngine.dll
+global-metadata.dat
+il2cpp/global-metadata.dat
 data_1rc
 data1.rc
 fdata.1rc
