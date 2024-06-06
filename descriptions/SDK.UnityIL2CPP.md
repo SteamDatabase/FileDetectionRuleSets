@@ -1,1 +1,1 @@
-[**IL2CPP**](https://docs.unity3d.com/Manual/IL2CPP.html) The IL2CPP backend converts MSIL (Microsoft Intermediate Language) code (for example, C# code in scripts) into C++ code, then uses the C++ code to create a native binary file (for example, .exe, .apk, or .xap) for your chosen platform.
+[**IL2CPP**](https://docs.unity3d.com/Manual/IL2CPP.html) is one of Unity's possible backend that converts MSIL (Microsoft Intermediate Language) code (for example, C# code in scripts) into C++ code and then uses this code to create a binary file.
