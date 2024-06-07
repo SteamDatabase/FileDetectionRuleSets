@@ -501,13 +501,16 @@ fscummvm.exe
 LICENSE.electron.txtf
 fLICENSE.electron.txt
 node.dllk
+fnode.dll
+libnode_dylib
+ibnode.dylib
+libnode.dylibb
 .as
 _asr
 .sr
 ootstrap.cfg
 bootstrap.cf
 bootstrap_cfg
-fnode.dll
 pytho.dll
 pythonxdll
 python.dl

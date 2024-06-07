@@ -1,9 +1,11 @@
+/libnode.dll
 /libnode.dylib
-/libnode.so
 /node.dll
+/node.dylib
+Game.app/Contents/Frameworks/nwjs Framework.framework/Versions/85.0.4183.83/libnode.dylib
+libnode.dll
 libnode.dylib
-libnode.so
 node.dll
+node.dylib
 sub/dir/libnode.dylib
-sub/dir/libnode.so
 sub/dir/node.dll
