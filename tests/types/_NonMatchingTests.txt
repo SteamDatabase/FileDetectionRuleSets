@@ -221,6 +221,11 @@ yrano.js
 tyrano.j
 tyrano_js
 tyrano.jss
+tyrano_data.sav
+_tyrano_data.savv
+_tyrano_data_sav
+_tyrano-data.av
+_tyrano-data.sa
 FreeImage.dl
 FreeImage.s
 .sstk
