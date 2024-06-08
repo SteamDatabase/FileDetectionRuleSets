@@ -1,0 +1,1 @@
+The [**IW engine**](https://en.wikipedia.org/wiki/IW_(game_engine)) is a game engine created and developed by Infinity Ward for the Call of Duty series.
