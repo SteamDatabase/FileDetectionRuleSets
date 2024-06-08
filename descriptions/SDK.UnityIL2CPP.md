@@ -1,0 +1,1 @@
+[**IL2CPP**](https://docs.unity3d.com/Manual/IL2CPP.html) is one of Unity's possible backend that converts MSIL (Microsoft Intermediate Language) code (for example, C# code in scripts) into C++ code and then uses this code to create a binary file.
