@@ -1,1 +1,1 @@
-[**Gideros**](http://giderosmobile.com/) is a free and [**open sourced**](https://github.com/gideros/gideros) game engine that provides the cross-platform technology to create amazing games.
+[**Gideros**](https://www.gideros.rocks/) is a free and open source game engine that provides the cross-platform technology to create amazing games.
