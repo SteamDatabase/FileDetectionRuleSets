@@ -1,0 +1,6 @@
+/Flare.ico
+/flare_logo.svg
+/flare_logo_text.svg
+Flare.ico
+flare_logo.svg
+flare_logo_text.svg
