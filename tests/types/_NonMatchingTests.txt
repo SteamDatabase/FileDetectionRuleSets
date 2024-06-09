@@ -906,6 +906,14 @@ discord_game_sdk.dllthatgame
 discord-rpcxdll
 discordxdll
 discord_game_sdkxdll
+/squirrel
+squirrel/
+squirrel.exef
+squirrel.fexe
+squirrel.fxe
+squirrel.exf
+fsquirrel
+.squirrel
 kmyCore_dll
 kmyCore.dlll
 myCore.dll
