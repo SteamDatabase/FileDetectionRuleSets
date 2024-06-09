@@ -1,6 +1,14 @@
-/Flare.ico
 /flare_logo.svg
 /flare_logo_text.svg
-Flare.ico
+/flare.desktop.in
+/flare.man
+/flare_logo.svg
+/flare_logo_icon.png
+/flare_logo_icon.svg
 flare_logo.svg
 flare_logo_text.svg
+flare.desktop.in
+flare.man
+flare_logo.svg
+flare_logo_icon.png
+flare_logo_icon.svg
