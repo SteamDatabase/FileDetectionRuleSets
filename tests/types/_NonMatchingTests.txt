@@ -267,6 +267,14 @@ GfnRuntimeSdk.dl
 data/behaviors.mbs
 assets/data/behaviors_mbs
 assets/data/behaviors.m
+lwjgl.dl
+lwjgl.ja
+lwjgl_dll
+lwjgl_jar
+lwjgl64_dll
+wjgl.dll
+wjgl.jar
+lwjgl6.dll
 libogg.0.dyli
 libogg.dl
 libogg.so.
