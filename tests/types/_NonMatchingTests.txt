@@ -129,6 +129,13 @@ lib_burst_generated_so
 data_pie
 data.wii
 adata.pie
+fDFEngine.dll
+DFEngine.fdll
+DFEngine.dllf
+DFEngine.dl
+DFEngine.fll
+DFEngine/
+.DFEngine
 Bundle/bundlemain.bundle
 Bundle/bundlemain_mbundle
 launcher/bundle/bundlemain.mbundle
