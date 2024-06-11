@@ -1,0 +1,2 @@
+/libSparkPromoStandalone.mac.dylib
+/libSparkPromoStandalone.so
