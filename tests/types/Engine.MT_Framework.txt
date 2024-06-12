@@ -1,0 +1,16 @@
+/chunkG0.bin
+/nativeDX10/
+/nativeDX11x64/
+/nativePC/
+/nativePCNext/
+/nativePC_MT/
+/nativePCx64/
+/nativeWin64/
+chunkG0.bin
+nativeDX10/
+nativeDX11x64/
+nativePC/
+nativePCNext/
+nativePC_MT/
+nativePCx64/
+nativeWin64/
