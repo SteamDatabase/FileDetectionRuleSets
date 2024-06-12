@@ -581,6 +581,13 @@ ChromEd.exef
 sub/dir/ChromeEngine2.dllf
 sub/dir/ChromeEngine3.dllf
 sub/dir/ChromEd.exef
+/InfestationLauncher.exe
+fInfestationLauncher.exe
+Infestation.exe
+InfestationLauncher/
+InfestationLauncherf
+InfestationLauncher.f
+InfestationLauncher.exef
 vtt.dll
 nvtt_dll
 nvtt.dl
