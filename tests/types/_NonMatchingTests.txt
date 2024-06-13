@@ -73,7 +73,6 @@ krkrsteam.dll
 krsteam.dll
 fkrkrsteam.dll
 krkrsteam/
-/krkrsteam.dll
 Binaries/Win64Whatever
 GFSDK_sasdasWorks
 probably_not_GFSDK_HairWorks
