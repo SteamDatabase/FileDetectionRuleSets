@@ -1,5 +1,4 @@
 data.xp3
 /data.xp3
-plugin/krflash.dll
-plugin/krmovie.dll
-plugin/krkrsteam.dll
+krkrsteam.dll
+/krkrsteam.dll
