@@ -1,4 +1,3 @@
 data.xp3
 /data.xp3
 krkrsteam.dll
-/krkrsteam.dll
