@@ -69,7 +69,6 @@ Sub/Folder/argss102e.dll
 data_xp3
 notreallydata.xp3
 data.xp3aisjdosadjods
-krkrsteam.dll
 krsteam.dll
 fkrkrsteam.dll
 krkrsteam/
