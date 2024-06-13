@@ -1,2 +1,4 @@
 data.xp3
 /data.xp3
+krflash.dll
+/krflash.dll
