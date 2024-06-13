@@ -1,0 +1,1 @@
+[**nGlide**](https://www.zeus-software.com/downloads/nglide) is a 3Dfx Voodoo Glide wrapper. It allows you to play games designed for 3Dfx Glide API without the need for having 3Dfx Voodoo graphics card.
