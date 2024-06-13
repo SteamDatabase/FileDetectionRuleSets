@@ -127,6 +127,9 @@ ddata/Config/user.lua1
 lib_burst_generated.png
 lib_burst_generated_so
 data_pie
+/art.big
+apt-big
+apt.bigg
 data.wii
 adata.pie
 Bundle/bundlemain.bundle
