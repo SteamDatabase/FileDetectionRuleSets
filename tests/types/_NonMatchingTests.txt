@@ -72,8 +72,8 @@ data.xp3aisjdosadjods
 krkrsteam.dll
 krsteam.dll
 fkrkrsteam.dll
-/krkrsteam/
-f/krkrsteam.dll
+krkrsteam/
+/krkrsteam.dll
 Binaries/Win64Whatever
 GFSDK_sasdasWorks
 probably_not_GFSDK_HairWorks
