@@ -872,6 +872,12 @@ sli.spk
 packs/sli
 sdl2xdll
 sdlxdll
+fPoly2Tri.dll
+Poly2Trif.dll
+Poly2Tri.fdll
+Poly2Tri.dllf
+Poly2Tri.ll
+Poly2Tri.dl
 nodexdll
 nw.dlls
 nwjs-win/nwxdll
