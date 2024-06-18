@@ -38,6 +38,7 @@ curl64.lib
 curl64.so
 curl64.so.4
 curl64.so.4.5.0
+curl4.dll
 curl_pluginw64_release.dll
 curl_pluginw64_release.exe
 curl_pluginw64_release.lib
@@ -74,6 +75,9 @@ libcurl.lib
 libcurl.so
 libcurl.so.4
 libcurl.so.4.5.0
+libcurl.so.4.56.78
+libcurl.so.3
+libcurl.so.3.4.5
 libcurl64.dll
 libcurld.dll
 lua_curl_pluginw64_release.dll
