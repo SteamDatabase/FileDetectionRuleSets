@@ -733,6 +733,11 @@ resources/app/app/ggdjs-evtsext__camerashake__camerashake-func.js
 GDCpp.dlll
 GDCpp_dll
 GGDCpp.dll
+fNadeo.ini
+Nadeof
+Nadeo.f 
+Nadeo.init
+/Nadeo.ini 
 data.podf
 sub/dir/data.podf
 something.rimf
