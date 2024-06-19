@@ -1,3 +1,4 @@
+/GodotSharp.dll
 /godotsteam
 /godotsteam-test
 /godotsteam.dll
@@ -8,6 +9,7 @@
 /steamsdk-godot
 /steamsdk-godot-test
 Sub/Folder/project.godot
+GodotSharp.dll
 godotsteam
 godotsteam.dll
 godotsteam.so
