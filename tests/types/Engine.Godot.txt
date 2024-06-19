@@ -1,3 +1,4 @@
+.import
 /godotsteam
 /godotsteam-test
 /godotsteam.dll
