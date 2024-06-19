@@ -1251,8 +1251,13 @@ asteamsdk-godot.dll
 alibsteamsdk-godot.so
 /asteamsdk-godot-test
 /alibsteamsdk-godot-test
+GodotSharp.dlll
+GodotSharp.dll/
+GodotSharp/
+aGodotSharp.dll
 agodotsteam.dll
 agodotsteam.so
+/aGodotSharp-test
 /agodotsteam-test
 Files/languagebank/english/textfiles/fpsc-050
 Files/languagebank/english/textfiles/notactuallyfpsc-050.ini
