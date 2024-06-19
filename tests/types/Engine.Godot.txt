@@ -8,6 +8,7 @@
 /steamsdk-godot
 /steamsdk-godot-test
 Sub/Folder/project.godot
+.gd
 godotsteam
 godotsteam.dll
 godotsteam.so
