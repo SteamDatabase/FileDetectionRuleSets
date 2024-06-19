@@ -1249,6 +1249,12 @@ asyAntiCheat_Setup.exe
 gzdoom.sf2apsjdoiasfdjas
 asteamsdk-godot.dll
 alibsteamsdk-godot.so
+.important
+.unimport
+import
+import/
+import.
+/import
 /asteamsdk-godot-test
 /alibsteamsdk-godot-test
 agodotsteam.dll
