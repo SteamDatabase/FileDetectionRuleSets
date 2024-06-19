@@ -1254,6 +1254,13 @@ alibsteamsdk-godot.so
 agodotsteam.dll
 agodotsteam.so
 /agodotsteam-test
+.gd.
+/gd
+gd/
+fgd
+.fgd
+.gdf
+.gd/
 Files/languagebank/english/textfiles/fpsc-050
 Files/languagebank/english/textfiles/notactuallyfpsc-050.ini
 Files/languagebank/english/textfiles/fpsc-050.iniwhoops
