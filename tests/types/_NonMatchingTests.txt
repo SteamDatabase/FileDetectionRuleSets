@@ -381,6 +381,13 @@ Sub/Folder/bytecode.rpybeer
 acsetup.cfgoof
 Sub/Folder/acsetup.cfgoof
 pacsetup.cfg
+j3o
+j3m
+j3odata
+j3f
+/jme3-d
+/jme3DSXL
+jme3-core
 natives_blob.bink
 fnatives_blob.bin
 Sub/Folder/natives_blob.bink

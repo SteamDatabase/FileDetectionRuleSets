@@ -1,0 +1,7 @@
+.j3o
+.j3m
+.j3f
+/jme3-core-3.5.2-stable.jar
+/jme3-core.jar
+/jme3-core-3.2.1-stable-sources.jar
+/jme3-core-3.2.1-stable.jar
