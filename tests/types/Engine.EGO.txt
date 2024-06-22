@@ -1,0 +1,11 @@
+/config.assetgroup
+/config.erp
+/game.nefs
+/win_000.nfs
+ai/ai_behaviour_fire.xml
+config.assetgroup
+config.erp
+data/system/hardware_settings_config.xml
+game.nefs
+system/hardware_settings_config.xml
+win_000.nfs
