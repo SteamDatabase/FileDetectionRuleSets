@@ -1,0 +1,1 @@
+The [**Fox Engine**](https://en.wikipedia.org/wiki/Fox_Engine) was a proprietary game engine by Konami.
