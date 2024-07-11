@@ -1,0 +1,1 @@
+[**neoSphere**](https://www.spheredev.org/) is a lightweight, fully sandboxed, JavaScript-powered game engine and development platform. Graphics and audio support are provided through [Allegro 5](http://liballeg.org/), and JavaScript support is enabled by [ChakraCore](https://github.com/Microsoft/ChakraCore), the same JavaScript engine that once powered Microsoft Edge.
