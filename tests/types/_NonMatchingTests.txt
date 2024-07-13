@@ -381,6 +381,7 @@ Sub/Folder/bytecode.rpybeer
 acsetup.cfgoof
 Sub/Folder/acsetup.cfgoof
 pacsetup.cfg
+j3a
 j3o
 j3m
 j3odata
