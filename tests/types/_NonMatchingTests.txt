@@ -175,6 +175,11 @@ awesomiumprocess.exe
 awesomium-process.exe
 awesomium-process_exe
 awesomium_processor.exe
+Nadei.ini
+Nadio.ini
+Nadeo.ixi
+Nadexa
+Nadeo ini
 biter.dll
 Arbiter.dl
 Arbiter_dll
