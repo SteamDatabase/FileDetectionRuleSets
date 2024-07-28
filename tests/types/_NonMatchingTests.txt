@@ -221,6 +221,11 @@ yrano.js
 tyrano.j
 tyrano_js
 tyrano.jss
+tyrano_data.sav
+_tyrano_data.savv
+_tyrano_data_sav
+_tyrano-data.av
+_tyrano-data.sa
 FreeImage.dl
 FreeImage.s
 .sstk
@@ -728,6 +733,11 @@ resources/app/app/ggdjs-evtsext__camerashake__camerashake-func.js
 GDCpp.dlll
 GDCpp_dll
 GGDCpp.dll
+fNadeo.ini
+Nadeof
+Nadeo.f 
+Nadeo.init
+/Nadeo.ini 
 data.podf
 sub/dir/data.podf
 something.rimf
@@ -857,6 +867,10 @@ notactuallyAceAntibotClient
 AceAntibotClient.whatever
 ffx_fsr2_api_x42.dll
 Binaries/ffx_fsr2_api_x64.dlll
+amd_fidelityfx_dx22.dll
+Binaries/amd_fidelityfx_dx12.dlll
+amd_fidelityfx_bk.dll
+Binaries/amd_fidelityfx_vk.dlll
 CryRenderVulkanxdll
 CryD3DCompilerStubxdll
 enginexpak
@@ -950,6 +964,10 @@ tobbii_gameintegration_x64.dll
 Plugins/ToobiiEyetracking/ThirdParty/GameIntegration/lib/Win64/Toobii.GameIntegration.dll
 vivoix
 vivo
+Unity.Services.Multiplay_dll
+Services.Multiplay.dll
+Unity.Services.Multiplay.dl
+Unity.Services.Multiplayer.dll
 ortpxdll
 ortp.ll
 fmodxdll
@@ -975,6 +993,10 @@ Unigine_x86_dll
 /ffx_fsr2_api_x86@dll
 ffx_fsr2_api_x64@dll
 ffx_fsr2_api_x86@dll
+/amd_fidelityfx_dx12@dll
+/amd_fidelityfx_vk@dll
+amd_fidelityfx_dx12@dll
+amd_fidelityfx_vk@dll
 libUnigine.so
 thisaintproject.godot
 project.godotfork
@@ -1070,6 +1092,7 @@ BlendThum.dll
 BlendThumb.dlll
 gmv_sp_000.usn
 /data/launch/data1.xcpk
+iwillcri_ware_unity.dll
 C05_010_S010_gdm.awboops
 common_rpf
 SteamChoiceScript-Info_plist

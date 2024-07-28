@@ -1,0 +1,14 @@
+/amd_fidelityfx_dx12.dll
+/amd_fidelityfx_vk.dll
+/ffx_fsr2_api_x64.dll
+/ffx_fsr2_api_x86.dll
+Binaries/amd_fidelityfx_dx12.dll
+Binaries/amd_fidelityfx_vk.dll
+Binaries/ffx_fsr2_api_x64.dll
+amd_fidelityfx_dx12.dll
+amd_fidelityfx_vk.dll
+ffx_fsr2_api_x64.dll
+ffx_fsr2_api_x86.dll
+win32/amd_fidelityfx_dx12.dll
+win32/amd_fidelityfx_vk.dll
+win32/ffx_fsr2_api_x86.dll

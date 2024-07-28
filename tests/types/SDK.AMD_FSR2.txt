@@ -1,6 +1,0 @@
-/ffx_fsr2_api_x64.dll
-/ffx_fsr2_api_x86.dll
-Binaries/ffx_fsr2_api_x64.dll
-ffx_fsr2_api_x64.dll
-ffx_fsr2_api_x86.dll
-win32/ffx_fsr2_api_x86.dll
