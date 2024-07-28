@@ -1,1 +1,0 @@
-**FromSoftware** Engine is speculated to be used in games made by FromSoftware, Inc.
