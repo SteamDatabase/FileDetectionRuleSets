@@ -1,0 +1,4 @@
+/all.psc
+/clone.tsc
+all.psc
+clone.tsc
