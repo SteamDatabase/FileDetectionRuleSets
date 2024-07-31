@@ -1,0 +1,4 @@
+data/_wfshaders.pak
+data/_wfshadersdx11.pak
+data/_wfshadersdx9.pak
+data/autoload.pak
