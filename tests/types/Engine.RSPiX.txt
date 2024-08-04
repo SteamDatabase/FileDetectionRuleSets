@@ -1,0 +1,3 @@
+_RSPiX.pyd
+_RSPiX.so
+RSPiX.py
