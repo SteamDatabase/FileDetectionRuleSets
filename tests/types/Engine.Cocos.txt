@@ -1,3 +1,4 @@
+.pvr.ccz
 /Cocos2d.lua
 /assets/cocos2d-js-min.b01a3.js
 /assets/cocos2d-js-min.js

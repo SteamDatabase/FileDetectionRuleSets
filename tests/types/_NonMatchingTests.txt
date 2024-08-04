@@ -105,6 +105,9 @@ box2d.wasm.jsf
 box2d-wasm.js
 box2d_wasm.js
 box2d/wasm.js
+.pvr.cczf
+fpvr.ccz
+/pvr.ccz
 init_ovl
 init.ovll
 nit.ovl
