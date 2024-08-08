@@ -1,0 +1,6 @@
+.bhd
+.bhd5
+.hkxbhd
+DATA/dvdbnd0.bhd5
+Data0.bhd
+map/m10_00_00_00/h10_00_00_00.hkxbhd
