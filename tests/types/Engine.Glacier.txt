@@ -1,4 +1,4 @@
 Runtime/chunk0.rpkg
-Music/Main/Main.sgt
+Music/Low/China/Style1.sty
 Scenes/C2-1/C2-1__MAIN.WHD
-runtime/common/pc.layoutconfig/02BA51D28AB0A6EA4F1B82883E04831C.pc_resourcelib
+runtime/common/pc.layoutconfig/12B5222F01E307438F36ECD485306B76.pc_packagelist
