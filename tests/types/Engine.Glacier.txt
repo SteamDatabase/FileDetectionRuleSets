@@ -1,2 +1,4 @@
-.rpkg
 Runtime/chunk0.rpkg
+Music/Main/Main.sgt
+Scenes/C2-1/C2-1__MAIN.WHD
+runtime/common/pc.layoutconfig/02BA51D28AB0A6EA4F1B82883E04831C.pc_resourcelib
