@@ -1,3 +1,2 @@
 /OptickCore.dll
 OptickCore.dll
-OptickPlugin.dll
