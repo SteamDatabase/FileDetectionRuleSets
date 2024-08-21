@@ -1,4 +1,6 @@
 /c2runtime.js
 /c3runtime.js
+/construct2_license.txt
 c2runtime.js
 c3runtime.js
+construct2_license.txt
