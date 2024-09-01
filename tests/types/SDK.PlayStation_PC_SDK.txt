@@ -1,6 +1,0 @@
-/install_pspc_sdk_runtime.bat
-/PsPcSdkRuntimeInstaller.msi
-/PsPcSdkRuntimeManager.msi
-install_pspc_sdk_runtime.bat
-PsPcSdkRuntimeInstaller.msi
-PsPcSdkRuntimeManager.msi
