@@ -660,6 +660,12 @@ base/SVSWAP.WL6
 VVVVSWAP.BS6
 SVSWAP.VSI
 VSWAP
+_ktsl2asbin
+_ktsl2stbin
+.ktsl2asbinf
+.ktsl2stbinf
+.ktslasbin
+.ktslstbin
 firrKlang.dll
 irrKlang.dllf
 irrKlangf.dll
