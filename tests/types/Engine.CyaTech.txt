@@ -3,5 +3,4 @@
 CyatechInterface.dll
 Data/CyaLive_HD.xml
 Data/Gui/Single/Sponsors/Cyatech_Sponsors.tif
-Data/Toolchain/TypesInfos/CommonTypes.assetInfos
 Videos/cyanide.avi
