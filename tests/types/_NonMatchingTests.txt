@@ -1211,6 +1211,10 @@ SoundEngine.bundle
 common/defines.xml
 defines.txt
 00_defines.txt
+/cudar
+/udart.dll
+/licudart
+/cuart
 Punkbuste
 buster
 /AkEngine.dll
