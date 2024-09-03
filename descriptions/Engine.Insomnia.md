@@ -1,0 +1,1 @@
+**Insomnia** is an engine used primarily for different *Simulator* games developed/published by [United Independent Entertainment](http://www.uieg.de/).
