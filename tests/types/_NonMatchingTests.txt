@@ -69,6 +69,8 @@ Sub/Folder/argss102e.dll
 data_xp3
 notreallydata.xp3
 data.xp3aisjdosadjods
+fkrflash.dll
+krflash/
 Binaries/Win64Whatever
 GFSDK_sasdasWorks
 probably_not_GFSDK_HairWorks
@@ -267,6 +269,14 @@ GfnRuntimeSdk.dl
 data/behaviors.mbs
 assets/data/behaviors_mbs
 assets/data/behaviors.m
+lwjgl.dl
+lwjgl.ja
+lwjgl_dll
+lwjgl_jar
+lwjgl64_dll
+wjgl.dll
+wjgl.jar
+lwjgl6.dll
 libogg.0.dyli
 libogg.dl
 libogg.so.
@@ -542,6 +552,10 @@ sub/dir/FBUILD.EXE
 sub/dir/Fbuildlic.txt
 sub/dir/FGAME.CON
 sub/dir/FCOMMIT.DAT
+/FCon
+FCon
+/iFCon.
+iFCon.
 Randgrid.sy
 andgrid.sys
 Randgrid_sys
@@ -646,6 +660,12 @@ base/SVSWAP.WL6
 VVVVSWAP.BS6
 SVSWAP.VSI
 VSWAP
+_ktsl2asbin
+_ktsl2stbin
+.ktsl2asbinf
+.ktsl2stbinf
+.ktslasbin
+.ktslstbin
 firrKlang.dll
 irrKlang.dllf
 irrKlangf.dll
@@ -1049,6 +1069,9 @@ joydll.dllf
 something.gmbckf
 something.gmsprf
 Support/UplayInstaller_exe
+notData/Localization/language.lsx
+Data/Localization/language.lsxx
+Data/Localization/language_lsx
 Support/UplayInstaller.ex
 Support/playInstaller.exe
 UbisoftConnectInstaller_exe
