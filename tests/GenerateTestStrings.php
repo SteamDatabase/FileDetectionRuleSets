@@ -26,7 +26,7 @@ foreach( $Rulesets as $Type => $Rules )
 		$Added = false;
 
 		// Skip generating certain regexes
-		if( $Name !== 'MUS_OGG' && $Name !== 'Bitsquid' && $Name !== 'Python')
+		if( $Name !== 'MUS_OGG' && $Name !== 'Bitsquid' && $Name !== 'Python' && $Name !== 'cURL')
 		{
 			foreach( $RuleRegexes as $Regex )
 			{

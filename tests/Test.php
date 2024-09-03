@@ -72,9 +72,21 @@ foreach( $AllFoundTestTypes as $TestType )
 
 	$File = __DIR__ . '/../descriptions/' . $TestType . '.md';
 
-	if( !str_starts_with( $TestType, 'Evidence.' ) && !file_exists( $File ) )
+	if( !file_exists( $File ) )
 	{
-		$FailingTests[] = "\"descriptions/{$TestType}.md\" does not exist";
+		if( !str_starts_with( $TestType, 'Evidence.' ) )
+		{
+			$FailingTests[] = "\"descriptions/{$TestType}.md\" does not exist";
+		}
+
+		continue;
+	}
+
+	$Text = file_get_contents( $File );
+
+	if( str_contains( $Text, 'steamdb.info' ) )
+	{
+		$FailingTests[] = "\"descriptions/{$TestType}.md\" - SteamDB links in descriptions should be relative (do not include the domain)";
 	}
 }
 

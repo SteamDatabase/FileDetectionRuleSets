@@ -1,1 +1,1 @@
-[**KiriKiri (吉里吉里)**](http://kirikirikag.sourceforge.net/contents/index.html) is a scripting engine  initially released in 1998. It is almost exclusively used with the KAG (KiriKiri Adventure Game System) framework as a visual novel engine. 
+[**KiriKiri (吉里吉里)**](https://kirikirikag.sourceforge.net/contents/index.html) is a scripting engine  initially released in 1998. It is almost exclusively used with the KAG (KiriKiri Adventure Game System) framework as a visual novel engine. 
