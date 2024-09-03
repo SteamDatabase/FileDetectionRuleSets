@@ -417,6 +417,9 @@ FAdobe AIR
 FAdobe AIR/Versions
 FAdobe AIR/Versions/1.0
 FAdobe AIR/Versions/1.0/Adobe AIR.dll
+FFlatRedBall.
+FlatRedBall_
+FlatReBall.
 love.dllfdfd
 granny2.dl
 ranny2.dll
