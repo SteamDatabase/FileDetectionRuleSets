@@ -1045,6 +1045,12 @@ sub/dir/coccos2d-jsb.c156d.jscf
 coccos2d-jsb.c156d_js
 sub/dir/coccos2d-jsb.c156d.jsf
 coccos2d-jsb_jsc
+music_vpp
+smusic.vpp
+music.vp
+.1vpp_pc
+_vpp_pc
+.vpp_pcc
 coccos2d-jsb_js
 coccos-js/cc.a9323_js
 coccos-js/cc_a9323_js
