@@ -1071,6 +1071,9 @@ Steamworks.gmk.dllf
 Steamworks.gml.dllf
 display_mouse_lock.dllf
 rousrDissonance.dllf
+ar_cfg
+rar.cfg
+ar.cfgg
 CleanMem.dllf
 window_set_cursor.dllf
 joydll.dllf
