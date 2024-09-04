@@ -1061,6 +1061,12 @@ sub/dir/fjoydll.dll
 sub/dir/fGMXInput.dll
 sub/dir/fgm7zip.dll
 game.unxf
+ZZ_1_dat
+ZZ_Win_dat
+ZZZ_1.dat
+ZZZ_Win.dat
+ZZ_1.datt
+ZZ_Win.datt
 game.iosf
 libYoYoGamepad.dylibf
 audiogroup1.datf
