@@ -396,6 +396,9 @@ Sub/Folder/bytecode.rpybeer
 acsetup.cfgoof
 Sub/Folder/acsetup.cfgoof
 pacsetup.cfg
+/jme-core
+/jme3-cor
+/me3-core
 natives_blob.bink
 fnatives_blob.bin
 Sub/Folder/natives_blob.bink
