@@ -61,6 +61,8 @@ AwesomeGame.rvproj2f
 ARGSS104E.dll
 argss102j.dll
 argss102e.dll
+notreally_neosphere.exe
+neosphere.exehaha
 Sub/Folder/ARGSS104E.dll
 CgS_2019.dll
 SDK.x4_219.dll

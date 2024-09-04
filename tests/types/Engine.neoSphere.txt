@@ -1,0 +1,3 @@
+/neosphere.exe
+Sub/Folder/neosphere.exe
+neosphere.exe
