@@ -1,2 +1,7 @@
+/liboptick.dll
 /OptickCore.dll
+/Optick.dll
+Bin64/Optick.dll
+liboptick.dll
 OptickCore.dll
+Optick.dll
