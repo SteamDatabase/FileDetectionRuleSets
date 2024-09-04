@@ -1,0 +1,5 @@
+/fdb.bin
+anim1.fbq
+Data1.fbz
+.fdq
+.ftz
