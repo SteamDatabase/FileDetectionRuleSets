@@ -1221,6 +1221,11 @@ common/main.ts.dso
 common/main_cs.dso
 SoundEngine.bundle
 common/defines.xml
+Neoxml
+Neo.xml
+fneox.xml
+neox.fxml
+neox.xmlf
 defines.txt
 00_defines.txt
 /cudar
