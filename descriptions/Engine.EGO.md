@@ -1,0 +1,1 @@
+[**Ego Game Technology Engine**](https://en.wikipedia.org/w/index.php?title=Ego_(game_engine)&oldid=1181735534) is a video game engine developed by Codemasters. While it is primarily used for racing games, it has also been used in a few first-person shooters.
