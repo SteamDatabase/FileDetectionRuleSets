@@ -1044,6 +1044,12 @@ fgame.unx
 fgame.ios
 flibYoYoGamepad.dylib
 faudiogroup1.dat
+all_psc
+clone_tsc
+all.pscc
+clone.tscc
+aall.psc
+cclone.tsc
 fSteamworks.gmk.dll
 fSteamworks.gml.dll
 fdisplay_mouse_lock.dll
