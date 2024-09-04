@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Tests",
+            "type": "php",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/Test.php",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "port": 9003
+        },
+        {
+            "name": "Generate Test Strings",
+            "type": "php",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/GenerateTestStrings.php",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "port": 9003
+        },
+        {
+            "name": "Debug current script in console",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "externalConsole": false,
+            "port": 9003
+        },
+        {
+            "name": "Listen for Xdebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9003
+        }
+    ]
+}
