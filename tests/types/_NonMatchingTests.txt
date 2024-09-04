@@ -921,6 +921,9 @@ AGIDATAxOVL
 anvil/archives/Data.sgaa
 anvil/archives/Data.ssga
 anvil/archives/Data_sga
+SharpDX.dl
+SharpDX_dll
+harpDX.dll
 game/bin/linuxsteamrt64/libsteamaudio.soooooo
 SteamAudiooooo.dll
 steamnet.dll
