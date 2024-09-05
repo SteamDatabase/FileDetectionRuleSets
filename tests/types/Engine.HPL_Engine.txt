@@ -1,0 +1,3 @@
+redist/config/English.lang
+config/base_english.lang
+config/english.lang
