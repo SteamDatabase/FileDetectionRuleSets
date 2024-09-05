@@ -1106,6 +1106,12 @@ sub/dir/game.unxf
 sub/dir/game.iosf
 sub/dir/libYoYoGamepad.dylibf
 sub/dir/audiogroup1.datf
+/PsPcSdkRuntimeInstaller.ms
+PsPcSdkRuntimeInstaller.ms
+/PsPcSdkRuntimeInstaller_msi
+PsPcSdkRuntimeInstaller_msi
+/PsPcSdkRuntimeInstaller.msii
+PsPcSdkRuntimeInstaller.msii
 sub/dir/Steamworks.gmk.dllf
 sub/dir/Steamworks.gml.dllf
 sub/dir/display_mouse_lock.dllf
