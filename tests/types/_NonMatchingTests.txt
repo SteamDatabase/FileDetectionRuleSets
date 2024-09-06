@@ -1044,6 +1044,15 @@ fgame.unx
 fgame.ios
 flibYoYoGamepad.dylib
 faudiogroup1.dat
+_fbq
+_fbz
+fdb_bin
+.fbq1
+.fbz1
+fdb.bin1
+.1fbq
+.1fbz
+1fdb.bin
 fSteamworks.gmk.dll
 fSteamworks.gml.dll
 fdisplay_mouse_lock.dll
