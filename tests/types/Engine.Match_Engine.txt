@@ -1,0 +1,3 @@
+.fmf
+data/game/how_to.fmf
+data/comp editor.fmf
