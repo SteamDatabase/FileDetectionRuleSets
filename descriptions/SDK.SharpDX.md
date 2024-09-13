@@ -1,1 +1,1 @@
-[**SharpDX**](http://sharpdx.org/) is an open-source .NET wrapper of DirectX for delivering the full DirectX API on all Windows platforms.
+[**SharpDX**](https://web.archive.org/web/20231129181957/http://sharpdx.org/) was an open-source .NET wrapper of DirectX.
