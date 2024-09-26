@@ -63,6 +63,10 @@ argss102j.dll
 argss102e.dll
 Sub/Folder/ARGSS104E.dll
 CgS_2019.dll
+libwwise.windows.debug.dll
+libwwise.windows.release.dll
+libwwise.linux.release.so
+libwwise.linux.debug.so
 SDK.x4_219.dll
 Sub/Folder/argss102j.dll
 Sub/Folder/argss102e.dll
