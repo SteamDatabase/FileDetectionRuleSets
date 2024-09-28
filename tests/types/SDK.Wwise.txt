@@ -12,13 +12,4 @@ Firewatch.app/Contents/Plugins/AkSoundEngine.bundle
 YookaLaylee64_Data/Plugins/AkSoundEngine.dll
 WwiseGDNative.dll
 /WwiseGDNative.dll
-libWwiseGDNative.so
-/libWwiseGDNative.so
-/libwwise.windows.template_release.dll
-/libwwise.windows.template_debug.dll
-libwwise.windows.template_release.dll
-libwwise.windows.template_debug.dll
-/libwwise.linux.template_release.so
-/libwwise.linux.template_debug.so
-libwwise.linux.template_release.so
-libwwise.linux.template_debug.so
+build/windows/WwiseGDNative.dll
