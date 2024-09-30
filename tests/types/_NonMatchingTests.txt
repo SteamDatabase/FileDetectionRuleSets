@@ -1236,6 +1236,8 @@ Punkbuste
 buster
 /AkEngine.dll
 AkSoundEnginedlll.dll
+/AkUnityEngine.dll
+AKUnitySoundEnginedlll.dll
 WwiseGDNativedll.dll
 WwiseGDNativeso.so
 WwiseGDNativedll.so
