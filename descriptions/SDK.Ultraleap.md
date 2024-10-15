@@ -1,0 +1,1 @@
+[**Ultraleap LeapC**](https://developer.leapmotion.com/) provides support for hand tracking functionality, formerly known as Leap Motion.
