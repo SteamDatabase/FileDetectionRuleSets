@@ -235,6 +235,14 @@ _tyrano-data.av
 _tyrano-data.sa
 FreeImage.dl
 FreeImage.s
+folder/soundbankinfo.xml
+soundbankinfo.xml
+myprojectfile.wfppro
+myprojectfile_wfpproj
+sounds/notasoundbank_bnk
+sounds/notasoundbank.bnks
+sounds/notasound_wem
+sounds/notasound.wems
 .sstk
 .stkk
 .sttk
