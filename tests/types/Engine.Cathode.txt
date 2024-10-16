@@ -1,0 +1,3 @@
+data/tasks.txt
+data/tasks.bin
+data/chr_info.pak

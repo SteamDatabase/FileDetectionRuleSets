@@ -1252,6 +1252,9 @@ asdf.b3
 .b3dd
 abcth_dnh.def
 th_dnh_def
+data/chr_info_pak
+data/tasks
+data/tasks.zip
 Engine/Binarisdes/ThirdParty/PhysX3/Win64/VS2015/NvClothdaasdPROFILE_x64.dlsdaasl
 Engine/Binarieasds/ThirdParty/PhysX3/Win64/VS2015/NvCloth_asdx64.dasdll
 Engisdane/Binaries/ThirdParty/PhysX3/Win32/VS2015/NvClotsshPROFILE_x86.dlsdasdl
