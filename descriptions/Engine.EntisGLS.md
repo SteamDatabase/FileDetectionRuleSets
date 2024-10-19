@@ -1,0 +1,1 @@
+EntisGLS is a freeware game engine used primarily for creating visual novels and other interactive media.
