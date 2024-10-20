@@ -905,6 +905,11 @@ Binaries/amd_fidelityfx_vk.dlll
 CryRenderVulkanxdll
 CryD3DCompilerStubxdll
 enginexpak
+emotedriver_dll
+notactuallyemotedriver.dll
+emotedriver.dllwhoops
+sub/dir/notactuallyemotedriver.dll
+sub/dir/emotedriver.dllwhoops
 LICENSExelectronxtxt
 scummvmxexe
 packs/sli_spk
