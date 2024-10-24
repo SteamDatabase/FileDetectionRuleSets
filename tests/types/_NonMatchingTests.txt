@@ -1241,6 +1241,11 @@ Punkbuste
 buster
 /AkEngine.dll
 AkSoundEnginedlll.dll
+/AkUnityEngine.dll
+AKUnitySoundEnginedlll.dll
+WwiseGDNativedll.dll
+WwiseGDNativeso.so
+WwiseGDNativedll.so
 Redistributables/Rockstar-Games-Launcher_exe
 ockstar-Games-Launcher.exe
 Rockstar-Games-Launcher.ex
