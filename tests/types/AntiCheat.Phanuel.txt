@@ -1,3 +1,1 @@
-NeacInterface.dll
 NeacSafe64.sys
-*NeacClient.exe
