@@ -10,3 +10,9 @@ DeadByDaylight/Plugins/Wwise/ThirdParty/x64_vc160/Release/bin/AkSoundEngineDLL.d
 EtG_Data/Plugins/AkSoundEngine.dll
 Firewatch.app/Contents/Plugins/AkSoundEngine.bundle
 YookaLaylee64_Data/Plugins/AkSoundEngine.dll
+sounds/soundbanksinfo.xml
+soundbanksinfo.xml
+sounds/mysoundbank.bnk
+anothersoundbank.bnk
+sounds/mysound.wem
+myprojectfile.wfpproj
