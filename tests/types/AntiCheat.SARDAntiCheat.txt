@@ -1,7 +1,3 @@
-/armour.dll
-armour.dll
-/SARD/armour.dll
-/Sard/armour.dll
 /SARDUpdater.exe
 SARDUpdater.exe
 /SARD/SARDUpdater.exe
