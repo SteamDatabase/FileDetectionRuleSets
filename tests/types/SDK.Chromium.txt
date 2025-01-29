@@ -1,0 +1,2 @@
+chrome_100_percent.pak
+chrome_200_percent.pak
