@@ -1,0 +1,6 @@
+libsteam_api.so
+libsteam_api64.so
+steam_api.dll
+steam_api64.dll
+steam_api.so
+steam_api64.so
