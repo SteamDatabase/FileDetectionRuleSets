@@ -1,1 +1,1 @@
-[**GameMaker**](https://www.yoyogames.com/en/gamemaker) is a series of cross-platform game engines primarily intended for making games with 2D graphics, created by Mark Overmars in 1999 and developed by YoYo Games since 2007
+[**GameMaker**](https://gamemaker.io) is a series of cross-platform game engines primarily intended for making games with 2D graphics, created by Mark Overmars in 1999 and developed by YoYo Games since 2007
