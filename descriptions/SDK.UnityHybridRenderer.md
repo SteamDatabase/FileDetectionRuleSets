@@ -1,0 +1,1 @@
+[**Hybrid Renderer**](https://docs.unity3d.com/Packages/com.unity.rendering.hybrid@0.51/manual/index.html) provides systems and components for rendering ECS entities. Hybrid Renderer is not a render pipeline: it is a system that collects the data necessary for rendering ECS entities, and sends this data to Unity's existing rendering architecture.

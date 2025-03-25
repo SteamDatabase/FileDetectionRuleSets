@@ -1,3 +1,0 @@
-/libcocos2d.dll
-libcocos2d.dll
-sub/dir/libcocos2d.dll

@@ -1,0 +1,1 @@
+[**Amazon Lumberyard**](https://en.wikipedia.org/wiki/Amazon_Lumberyard) is a now-superseded freeware cross-platform game engine developed by Amazon and based on CryEngine (initially released in 2002), which was licensed from Crytek in 2015.

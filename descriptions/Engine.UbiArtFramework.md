@@ -1,0 +1,1 @@
+[**UbiArt Framework**](https://en.wikipedia.org/wiki/UbiArt_Framework) is a 2.5D engine, developed by Ubisoft Montpellier and first used in Rayman Origins.

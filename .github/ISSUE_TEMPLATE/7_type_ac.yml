@@ -1,0 +1,21 @@
+name: Suggest an Anti-Cheat detection
+description: Suggest an Anti-Cheat that is not being currently detected.
+labels: ["Type: Anti-Cheat"]
+body:
+- type: textarea
+  attributes:
+    label: Some reference to the Anti-Cheat, such as the developer site or a wikipedia article.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: SteamDB links
+    description: Link a few app pages that use this Anti-Cheat.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Possible way to detect it
+    description: As we use regex rules to detect, list your possible suggestions which files can be matched on. Keep in mind we can only operatore on filenames, we can't look in file contents or inside archives.

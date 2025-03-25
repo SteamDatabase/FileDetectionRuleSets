@@ -1,0 +1,1 @@
+[**The Entities package**](https://docs.unity3d.com/Packages/com.unity.entities@latest) adds functionality to your Unity project that lets you use Unity's Entity Component System (ECS). The ECS system organizes your project in a data-oriented way, as opposed to the traditional object-oriented way.

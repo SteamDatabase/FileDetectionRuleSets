@@ -1,0 +1,1 @@
+[**EA App**](https://www.ea.com/ea-app) is Electronic Arts’ all new, enhanced PC platform, where you can easily play your favorite games.

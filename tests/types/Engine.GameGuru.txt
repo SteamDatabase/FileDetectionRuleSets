@@ -1,0 +1,5 @@
+files/gamecore/projectiletypes/@.dds
+files/gamecore/projectiletypes/@@.dds
+files/gamecore/projectiletypes/_e_rpggrenade_d.dds
+files/gamecore/projectiletypes/fantasy/fireball/_e_fireball_d.dds
+files/gamecore/projectiletypes/modern/handgrenade/_e_handgrenade_d.dds

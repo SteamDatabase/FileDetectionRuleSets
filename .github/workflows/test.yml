@@ -1,5 +1,8 @@
 name: Test rules
 
+permissions:
+  contents: read
+
 on:
   workflow_dispatch:
   pull_request:
@@ -10,7 +13,11 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.3'
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Test
-      run: php8.0 tests/Test.php
+      run: php tests/Test.php
