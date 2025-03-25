@@ -1314,6 +1314,9 @@ mmfs2_dll
 abcmmfs2.dll
 mmfs2.dllasdonasf
 mmfs2asdf.dll
+rtx_io.dll
+rtxio_dll
+txio.dll
 greenworks.nodespasdkj
 greenworks-win_node
 greenworks-win10.node
