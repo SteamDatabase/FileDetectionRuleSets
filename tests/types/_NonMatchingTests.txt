@@ -58,6 +58,9 @@ AwesomeGame.argssad
 AwesomeGame.arvproj2
 AwesomeGame.rgssadf
 AwesomeGame.rvproj2f
+CrashKonijn.Agent.Core.dll
+CrashKonijn.Goap.Core.dllaa
+Rabbit.Goap.Resolver.dll
 ARGSS104E.dll
 argss102j.dll
 argss102e.dll
@@ -766,9 +769,9 @@ GDCpp_dll
 GGDCpp.dll
 fNadeo.ini
 Nadeof
-Nadeo.f 
+Nadeo.f
 Nadeo.init
-/Nadeo.ini 
+/Nadeo.ini
 data.podf
 sub/dir/data.podf
 something.rimf
