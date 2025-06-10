@@ -187,12 +187,9 @@ Arbiter.dl
 Arbiter_dll
 RRenoirCore.WindowsDesktop.dll
 CCohtml.WindowsDesktop.dll
-AudioPluginDissonance_bundle
+udioPluginDissonance.dll
 AudioPluginDissonance_dll
-AudioPluginDissonance_so
-AudioPluginDissonance.bundlexxx
 AudioPluginDissonance.dllxxx
-AudioPluginDissonance.soxxx
 RenoirCore.WindowsDesktop.dlll
 cohtml.WindowsDesktop.dlll
 RenoirCore.WindowsDesktop_dll
