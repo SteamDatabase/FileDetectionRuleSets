@@ -794,6 +794,9 @@ sub/dir/something.fhdll
 GameData/VS2EN/runtime.rt
 GameData/VS2EN/runtime_rts
 GameData/VS2EN/time.rts
+/ogpsteam.exe
+fogpsteam.exe
+ogpsteamf
 /ts3client
 /ts3client_win32
 /ts3client_win.dll
