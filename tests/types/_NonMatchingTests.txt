@@ -975,6 +975,11 @@ Binaries/amd_ags_x64.dlll
 Dll/x64/PhisX_64.dll
 PysXCore.dll
 equ8_db
+ending_noa
+notactuallyending.noa
+ending.noawhoops
+sub/dir/notactuallyending.noa
+sub/dir/ending.noawhoops
 totallynotequ8_conf.json
 sub/dir/equ8.jsondblol
 ring/bin/allegro-5.2.dlll
