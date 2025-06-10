@@ -1,1 +1,1 @@
-[**Dissonance Voice Chat**](https://assetstore.unity.com/packages/slug/70078) is a voice chat asset for Unity.
+[**Dissonance Voice Chat**](https://placeholder-software.co.uk/dissonance/) is a voice chat asset for Unity.
