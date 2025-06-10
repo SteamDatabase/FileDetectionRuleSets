@@ -1,6 +1,4 @@
 /YarnSpinner.dll
 YarnSpinner.dll
 NightInTheWoods_Data/Managed/YarnSpinner.dll
-Night In The Woods_Data/il2cpp_data/Resources/Yarn.System.Numerics.Vectors.dll-resources.dat
 Night In The Woods_Data/il2cpp_data/Resources/Yarn.System.Memory.dll-resources.dat
-Night In The Woods_Data/il2cpp_data/Resources/Yarn.System.Buffers.dll-resources.dat
