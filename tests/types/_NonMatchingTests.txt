@@ -257,6 +257,9 @@ falcoengine.dlll
 athEngine.dll
 PathEngine.dl
 PathEngine_dll
+somethingFishnet.Runtime.dll
+Fishnet.Runtime_dll
+Fishnet.Runtime.dllWhoopsie
 libsodium.dl
 ibsodium.dll
 libsodium_dll
