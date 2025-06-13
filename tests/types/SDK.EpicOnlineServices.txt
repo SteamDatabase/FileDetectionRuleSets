@@ -1,5 +1,8 @@
 /eossdk-win32-shipping.dll
 /eossdk-win64-shipping.dll
+/eossdk.dll
+Bin64/EOSSDK.dll
 data/epic_online_service/eossdk-win64-shipping.dll
 eossdk-win32-shipping.dll
 eossdk-win64-shipping.dll
+eossdk.dll
