@@ -24,6 +24,11 @@ Sub/Folder/fna.dll
 
 If the rule is written correctly, it should match both of these filenames.
 
+Prefer making regex rules that end with a clean extension name, because we optimize them. For example:
+
+- One: `\.dll$`
+- Multiple: `\.(?:dylib|dll|so)$`
+
 Then add some lines to [`tests/types/_NonMatchingTests.txt`](tests/types/_NonMatchingTests.txt) with this content:
 
 ```
