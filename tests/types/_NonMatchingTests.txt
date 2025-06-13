@@ -549,6 +549,7 @@ python.dl
 /sub/dir/python1234.dll
 FVisionaireConfigurationTool.exe
 VisionaireConfigurationTool.exef
+VisionaireConfigurationTool.exe/
 AGIDATA.OVLTINE
 DFDFAGIDATA.OVL
 HMIDET.386dfdf
@@ -692,6 +693,8 @@ irrKlang.fdll
 /irrKlang_.dll
 /irrKlang_dll
 AAntiCheat.Installer.exe
+fEAAntiCheat.Installer.exe
+EAAntiCheat.Installer.exef
 EAAntiCheat.Installer.ex
 EAAntiCheat.Installer_exe
 something.cfgf
@@ -772,9 +775,9 @@ GDCpp_dll
 GGDCpp.dll
 fNadeo.ini
 Nadeof
-Nadeo.f 
+Nadeo.f
 Nadeo.init
-/Nadeo.ini 
+/Nadeo.ini
 data.podf
 sub/dir/data.podf
 something.rimf
@@ -1050,6 +1053,8 @@ Squall_dll
 Squall.dl
 quall.dll
 .iwdd
+data/FILELIST@BIN
+EAAntiCheat@Installer.exe
 .fff
 .xpakk
 fgame.unx
@@ -1176,6 +1181,8 @@ angle/libEGLMarmalade_dll
 angle/libGLESv2Marmalade_dll
 angle/libEGL_Marmalade.dll
 angle/libGLESv2_Marmalade.dll
+angle/libGLESv2_Marmalade.dllf
+fangle/libGLESv2_Marmalade.dll
 particle_ring_wave_curl.vtf
 particle_ring_wave_curl
 corl.dll
