@@ -161,7 +161,7 @@ class FileDetector
 
 		foreach( $Files as $Path )
 		{
-			$RegexesToTry = $this->Regexes[ self::NO_EXTENSION_KEY ];
+			$RegexesToTry = $this->Regexes[ self::NO_EXTENSION_KEY ] ?? [];
 			$Extension = strtolower( pathinfo( $Path, PATHINFO_EXTENSION ) );
 
 			if( isset( $this->Regexes[ $Extension ] ) )
