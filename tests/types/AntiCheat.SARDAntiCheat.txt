@@ -1,0 +1,16 @@
+/SARD.Runner.exe
+SARD.Runner.exe
+/SARD.Updater.exe
+SARD.Updater.exe
+/SARD/SARD.Runner.exe
+/Sard/SARD.Runner.exe
+/SARD/SARD.Updater.exe
+/Sard/SARD.Updater.exe
+/SARDUpdater.exe
+SARDUpdater.exe
+/SARD/SARDUpdater.exe
+/Sard/SARDUpdater.exe
+/SardUpdater.exe
+SardUpdater.exe
+/SARD/SardUpdater.exe
+/Sard/SardUpdater.exe
