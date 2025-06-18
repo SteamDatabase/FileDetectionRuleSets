@@ -1,0 +1,6 @@
+Toyshop Simulator_Data/Managed/CrashKonijn.Goap.Core.dll
+Toyshop Simulator_Data/Managed/CrashKonijn.Goap.Resolver.dll
+Toyshop Simulator_Data/Managed/CrashKonijn.Goap.Runtime.dll
+CrashKonijn.Goap.Core.dll
+CrashKonijn.Goap.Resolver.dll
+CrashKonijn.Goap.Runtime.dll
