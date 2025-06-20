@@ -1,7 +1,4 @@
-/AntiCheatExpert/
-/anticheatexpert/@
-/anticheatexpert/ingame/x64/ace-drv64.dll
-AntiCheatExpert/
-Sub/Folder/anticheatexpert/ingame/x64/ace-drv64.dll
-anticheatexpert/@
-anticheatexpert/ingame/x64/ace-drv64.dll
+/ACE-Safe.dll
+ACE-Safe.dll
+ArkGame/Binaries/Win64/AntiCheatExpert/InGame/x64/ACE-Safe.dll
+bin/win64_dx11_release/anticheatexpert/ingame/x64/ace-safe.dll
