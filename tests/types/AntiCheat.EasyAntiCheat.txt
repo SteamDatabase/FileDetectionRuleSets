@@ -1,3 +1,6 @@
+/EasyAntiCheat_EOS_Setup.exe
 /EasyAntiCheat_Setup.exe
+EasyAntiCheat/EasyAntiCheat_EOS_Setup.exe
 EasyAntiCheat/cuisine_royale/EasyAntiCheat_Setup.exe
+EasyAntiCheat_EOS_Setup.exe
 EasyAntiCheat_Setup.exe
