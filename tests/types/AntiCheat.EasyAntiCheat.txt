@@ -1,9 +1,12 @@
+/EasyAntiCheat.dll
 /EasyAntiCheat_EOS_Setup.exe
 /EasyAntiCheat_Setup.exe
 /eac_server64.dll
+EasyAntiCheat.dll
 EasyAntiCheat/EasyAntiCheat_EOS_Setup.exe
 EasyAntiCheat/cuisine_royale/EasyAntiCheat_Setup.exe
 EasyAntiCheat/eac_server64.dll
 EasyAntiCheat_EOS_Setup.exe
 EasyAntiCheat_Setup.exe
 eac_server64.dll
+h2o_server_Data/Plugins/EasyAntiCheat.dll
