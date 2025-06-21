@@ -49,7 +49,14 @@ foreach( $Rulesets as $Type => $Rules )
 		sort( $Tests );
 		file_put_contents( $File, implode( "\n", $Tests ) . "\n" );
 
-		echo "Updated {$Type}.{$Name}\n";
+		if( getenv( 'CI' ) !== false )
+		{
+			echo "::notice file={$File}::Updated {$Type}.{$Name} (please run GenerateTestStrings and commit it)\n";
+		}
+		else
+		{
+			echo "Updated {$Type}.{$Name}\n";
+		}
 	}
 }
 
