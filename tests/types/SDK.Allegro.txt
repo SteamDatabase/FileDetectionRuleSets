@@ -1,11 +1,15 @@
 /allegro-5.2.dll
 /liballeg.so
+/liballeg.so@
 /liballegro.so
 /liballegro.so.5.2
+/liballegro.so@
 allegro-5.2.dll
 binary/linux/liballegro.so.5.2
 data/lib32/liballeg.so.4.4
 liballeg.so
+liballeg.so@
 liballegro.so
 liballegro.so.5.2
+liballegro.so@
 ring/bin/allegro-5.2.dll

@@ -16,6 +16,8 @@
 /something.gmbck
 /something.gmspr
 /window_set_cursor.dll
+@.gmbck
+@.gmspr
 CleanMem.dll
 GMXInput.dll
 Steamworks.gmk.dll

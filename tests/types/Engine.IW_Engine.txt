@@ -1,6 +1,11 @@
 .iwd
 /common.ff
 /iw_00.iwd
+@.iwd
+@code_post_gfx.ff
+@common.ff
+@common_mp.ff
+@common_zm.ff
 code_post_gfx.ff
 common.ff
 common_mp.ff

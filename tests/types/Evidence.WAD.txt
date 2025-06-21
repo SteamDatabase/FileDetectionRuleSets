@@ -1,4 +1,5 @@
 .wad
+@.wad
 Sub/Folder/something.wad
 blah.wad
 something.wad

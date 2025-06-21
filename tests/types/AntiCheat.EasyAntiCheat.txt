@@ -1,12 +1,13 @@
 /EasyAntiCheat/
 /EasyAntiCheat/@
+@EasyAntiCheat@
 EasyAntiCheat
 EasyAntiCheat/
 EasyAntiCheat/@
 EasyAntiCheat/Certificates
 EasyAntiCheat/EasyAntiCheat_x64.dll
 EasyAntiCheat/EasyAntiCheat_x86.dll
-EasyAntiCheat_Setup.exe
-win64/EasyAntiCheat_x64.dll
-GameData/EasyAntiCheat/EasyAntiCheat_x86.dll
 EasyAntiCheat/cuisine_royale/EasyAntiCheat_Setup.exe
+EasyAntiCheat_Setup.exe
+GameData/EasyAntiCheat/EasyAntiCheat_x86.dll
+win64/EasyAntiCheat_x64.dll

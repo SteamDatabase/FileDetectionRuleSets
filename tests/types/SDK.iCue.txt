@@ -13,6 +13,8 @@
 /CgSDK_2015.dll
 /CgSDK_2017.dll
 /CgSDK_2019.dll
+@cgsdk@
+@cuesdk@
 Blairwitch/Binaries/Win64/CgSDK.x64_2017.dll
 Breakpoint_Data/Plugins/CgSDK_2017.dll
 CUE/x64-2013/CUESDK.dll

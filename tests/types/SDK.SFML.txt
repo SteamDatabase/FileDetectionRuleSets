@@ -1,8 +1,11 @@
 /libsfml-
+/libsfml-@
 /sfml-
+/sfml-@
 Frameworks/sfml-window.framework
 LUFTRAUSERS.app/Contents/Frameworks/sfml-audio.framework
 libsfml-
+libsfml-@
 libsfml-audio.2.4.1.dylib
 libsfml-audio.so.2.5.1
 libsfml-graphics.2.4.1.dylib
@@ -14,6 +17,7 @@ libsfml-system.so.2.5.1
 libsfml-window.2.4.1.dylib
 libsfml-window.so.2.5.1
 sfml-
+sfml-@
 sfml-audio-d-2.dll
 sfml-graphics-2.dll
 sfml-graphics-d-2.dll

@@ -1,4 +1,7 @@
 /python.dll
+/python0.dll
+/python00.dll
+/python000.dll
 /python15.dll
 /python2.dll
 /python21.dll
@@ -38,6 +41,12 @@
 /python37.dll
 /python38.dll
 /python39.dll
+/python4.dll
+/python44.dll
+/python444.dll
+/python9.dll
+/python99.dll
+/python999.dll
 2.80/python/bin/python37.dll
 3.3/python/bin/python310.dll
 Bin/Win64/python34.dll
@@ -52,6 +61,9 @@ classic/Bin/python15.dll
 dist/FrameHandler/python38.dll
 mod_tools/Sublime/python26.dll
 python.dll
+python0.dll
+python00.dll
+python000.dll
 python15.dll
 python2.dll
 python21.dll
@@ -91,5 +103,11 @@ python36.dll
 python37.dll
 python38.dll
 python39.dll
+python4.dll
+python44.dll
+python444.dll
+python9.dll
+python99.dll
+python999.dll
 sdk/editor/python33.dll
 system/2.78/python/bin/python35.dll

@@ -13,6 +13,10 @@
 /rgss301.dll
 /rpg_rt.exe
 /rpt_rt.exe
+@.rgss2a
+@.rgss3a
+@.rgssad
+@.rvproj2
 AwesomeGame.rgssad
 AwesomeGame.rvproj2
 RGSS104E.dll

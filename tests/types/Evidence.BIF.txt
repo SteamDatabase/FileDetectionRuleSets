@@ -1,4 +1,5 @@
 .bif
+@.bif
 Sub/Folder/something.bif
 blah.bif
 something.bif
