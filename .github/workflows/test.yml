@@ -13,11 +13,17 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
+
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '8.3'
+        php-version: '8.4'
+
     - name: Checkout
       uses: actions/checkout@v4
+
     - name: Test
       run: php tests/Test.php
+
+    - name: Generate Strings
+      run: php tests/GenerateTestStrings.php
