@@ -1,12 +1,4 @@
-/BlackCipher/
-/BlackCipher/@
-BlackCipher/
-BlackCipher/@
 BlackCipher/BlackCall.aes
-BlackCipher/BlackCipher.aes
-BlackCipher/BlackXchg.aes
-BlackCipher/config.bc
 Sub/Folder/BlackCipher/BlackCall.aes
-Sub/Folder/BlackCipher/BlackCipher.aes
-Sub/Folder/BlackCipher/BlackXchg.aes
-Sub/Folder/BlackCipher/config.bc
+grap/BlackCat64.sys
+Sub/Folder/grap/BlackCat64.sys
