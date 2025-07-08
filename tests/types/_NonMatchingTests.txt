@@ -807,6 +807,14 @@ rts3client_win32.dll
 Outsider_Strategist/data.dt
 Outsider_Strategist/data_dts
 Outsider_Strategist/ata.dts
+gdx.dllf
+gdx64.dllf
+gdx.fdll
+gdx64.fdll
+gdxdll
+gdx64dll
+fgdx.dll
+fgdx64.dll
 Microsoft.FXna.Framework.XmlSerializers.dll
 sub/dir/Microsoft.FXna.Framework.XmlSerializers.dll
 fxnafx31_redist.msi
