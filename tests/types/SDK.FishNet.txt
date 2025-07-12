@@ -2,3 +2,9 @@
 /folder/FishNet.Runtime.dll
 FishNet.Runtime.dll
 Fishnet.Runtime.dll
+BuildInformation.json
+F04BuildInformation.json
+/BuildInformation.json
+/F04BuildInformation.json
+/folder/BuildInformation.json
+/folder/F04BuildInformation.json
