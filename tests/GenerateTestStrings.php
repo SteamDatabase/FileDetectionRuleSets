@@ -3,7 +3,14 @@ declare(strict_types=1);
 
 echo "Generating comprehensive test strings from regex patterns...\n";
 
+/** @var array<string, array<string, string|string[]>>|false */
 $Rulesets = parse_ini_file( __DIR__ . '/../rules.ini', true, INI_SCANNER_RAW );
+
+if( !is_array( $Rulesets ) )
+{
+	echo "Failed to parse rules.ini file\n";
+	exit( 1 );
+}
 
 foreach( $Rulesets as $Type => $Rules )
 {
@@ -20,12 +27,16 @@ foreach( $Rulesets as $Type => $Rules )
 		if( file_exists( $File ) )
 		{
 			$Tests = file( $File, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES );
+
+			if( $Tests === false )
+			{
+				$Tests = [];
+			}
 		}
 
 		$Output = [];
 		$Added = false;
 
-		// Skip generating certain regexes
 		foreach( $RuleRegexes as $Regex )
 		{
 			$Generated = generateVariations( $Regex );
@@ -67,21 +78,20 @@ require __DIR__ . '/Test.php';
  * Native PHP regex pattern generator
  * Generates ALL possible variations from regex patterns with smart bounds for infinite cases
  * Handles anchors, alternation, quantifiers, character classes, groups, and escapes
+ * @return string[]
  */
 function generateVariations( string $regex ) : array
 {
 	// Parse the regex pattern directly
 	$parsedPattern = parseRegex( $regex );
 
-	if( $parsedPattern === null )
-	{
-		throw new InvalidArgumentException( "Invalid regex pattern: {$regex}" );
-	}
-
 	return generateFromParsedPattern( $parsedPattern );
 }
 
-function parseRegex( string $pattern ) : ?array
+/**
+ * @return array<array<string,mixed>>
+ */
+function parseRegex( string $pattern ) : array
 {
 	$tokens = [];
 	$i = 0;
@@ -143,7 +153,7 @@ function parseRegex( string $pattern ) : ?array
 				{
 					// Non-capturing group
 					$groupEnd = findMatchingParen( $pattern, $i );
-					if( $groupEnd !== false )
+					if( $groupEnd !== null )
 					{
 						$groupContent = substr( $pattern, $i + 3, $groupEnd - $i - 3 );
 						$tokens[] = [ 'type' => 'group', 'capturing' => false, 'content' => parseRegex( $groupContent ) ];
@@ -159,7 +169,7 @@ function parseRegex( string $pattern ) : ?array
 				{
 					// Capturing group
 					$groupEnd = findMatchingParen( $pattern, $i );
-					if( $groupEnd !== false )
+					if( $groupEnd !== null )
 					{
 						$groupContent = substr( $pattern, $i + 1, $groupEnd - $i - 1 );
 						$tokens[] = [ 'type' => 'group', 'capturing' => true, 'content' => parseRegex( $groupContent ) ];
@@ -199,10 +209,10 @@ function parseRegex( string $pattern ) : ?array
 				if( $endPos !== false )
 				{
 					$quantifier = substr( $pattern, $i + 1, $endPos - $i - 1 );
-					if( preg_match( '/^(\d+)(?:,(\d+)?)?$/', $quantifier, $matches ) )
+					if( preg_match( '/^(\d+)(?:,(\d+)?)?$/', $quantifier, $matches ) === 1 )
 					{
 						$min = (int)$matches[1];
-						$max = isset( $matches[2] ) && $matches[2] !== '' ? (int)$matches[2] : ( isset( $matches[2] ) ? null : $min );
+						$max = !empty( $matches[2] ) ? (int)$matches[2] : ( isset( $matches[2] ) ? null : $min );
 						$tokens[] = [ 'type' => 'quantifier', 'min' => $min, 'max' => $max ];
 						$i = $endPos + 1;
 					}
@@ -256,6 +266,10 @@ function findMatchingParen( string $pattern, int $start ) : ?int
 	return $depth === 0 ? $i - 1 : null;
 }
 
+/**
+ * @param array<array<string,mixed>> $tokens
+ * @return string[]
+ */
 function generateFromParsedPattern( array $tokens, bool $isSubPattern = false ) : array
 {
 	$hasStartAnchor = detectStartAnchor( $tokens );
@@ -287,6 +301,8 @@ function generateFromParsedPattern( array $tokens, bool $isSubPattern = false ) 
 			$quantifier = $tokens[$i + 1];
 			$min = $quantifier['min'];
 			$max = $quantifier['max'];
+
+			assert( is_int( $min ) );
 
 			// Bound infinite quantifiers
 			if( $max === null )
@@ -376,30 +392,43 @@ function generateFromParsedPattern( array $tokens, bool $isSubPattern = false ) 
 	return array_unique( $results );
 }
 
+/**
+ * @param array<string,mixed> $token
+ * @return string[]
+ */
 function generateFromToken( array $token ) : array
 {
 	switch( $token['type'] )
 	{
 		case 'literal':
+			assert( is_string( $token[ 'value' ] ) );
 			return [ $token['value'] ];
 
 		case 'escape':
+			assert( is_string( $token[ 'value' ] ) );
 			return generateFromEscape( $token['value'] );
 
 		case 'any':
 			return [ 'a', 'Z', '1', '_', '-' ]; // Sample representative chars
 
 		case 'charclass':
+			assert( is_string( $token[ 'value' ] ) );
 			return processCharacterClass( $token['value'] );
 
 		case 'group':
-			return generateFromGroupContent( $token['content'] );
+			assert( is_array( $token[ 'content' ] ) );
+			/** @var array<array<string,mixed>> $content */
+			$content = $token['content'];
+			return generateFromGroupContent( $content );
 
 		default:
 			return [ '' ];
 	}
 }
 
+/**
+ * @return string[]
+ */
 function generateFromEscape( string $char ) : array
 {
 	switch( $char )
@@ -432,23 +461,38 @@ function generateFromEscape( string $char ) : array
 	}
 }
 
+/**
+ * @param array<string,mixed> $token
+ * @return string[]
+ */
 function getSampleCharsForToken( array $token ) : array
 {
+	if( !isset( $token['type'] ) )
+	{
+		return [ 'a' ];
+	}
+
 	switch( $token['type'] )
 	{
 		case 'any':
 			return [ 'a', 'Z', '1' ];
 		case 'escape':
+			assert( is_string( $token['value'] ) );
 			if( $token['value'] === 'd' ) return [ '0', '1', '9' ];
 			if( $token['value'] === 'w' ) return [ 'a', 'B', '3' ];
 			return [ $token['value'] ];
 		case 'charclass':
+			assert( is_string( $token['value'] ) );
 			return array_slice( processCharacterClass( $token['value'] ), 0, 3 );
 		default:
 			return [ 'a' ];
 	}
 }
 
+/**
+ * @param array<array<string,mixed>> $tokens
+ * @return string[]
+ */
 function generateFromGroupContent( array $tokens ) : array
 {
 	if( empty( $tokens ) )
@@ -497,6 +541,9 @@ function generateFromGroupContent( array $tokens ) : array
 	return array_unique( $allResults );
 }
 
+/**
+ * @return string[]
+ */
 function processCharacterClass( string $charClass ) : array
 {
 	// Handle negated classes
@@ -522,7 +569,7 @@ function processCharacterClass( string $charClass ) : array
 	}
 
 	// Handle ranges like a-z, 0-9
-	if( preg_match_all( '/(\w)-(\w)/', $charClass, $matches, PREG_SET_ORDER ) )
+	if( preg_match_all( '/(\w)-(\w)/', $charClass, $matches, PREG_SET_ORDER ) > 0 )
 	{
 		foreach( $matches as $match )
 		{
@@ -567,16 +614,25 @@ function processCharacterClass( string $charClass ) : array
 	return array_slice( $chars, 0, 6 ); // Limit to reasonable number
 }
 
+/**
+ * @param array<array<string,mixed>> $tokens
+ */
 function hasStartAnchorInAlternation( array $tokens ) : bool
 {
 	return hasAnchorInAlternation( $tokens, 'start', true );
 }
 
+/**
+ * @param array<array<string,mixed>> $tokens
+ */
 function hasEndAnchorInAlternation( array $tokens ) : bool
 {
 	return hasAnchorInAlternation( $tokens, 'end', false );
 }
 
+/**
+ * @param array<array<string,mixed>> $tokens
+ */
 function hasAnchorInAlternation( array $tokens, string $anchorType, bool $checkFirst ) : bool
 {
 	// Split tokens into alternatives
@@ -607,8 +663,6 @@ function hasAnchorInAlternation( array $tokens, string $anchorType, bool $checkF
 	// Check each alternative for the anchor
 	foreach( $alternatives as $alternative )
 	{
-		if( empty( $alternative ) ) continue;
-
 		if( $checkFirst )
 		{
 			// Check if alternative starts with the anchor
@@ -640,6 +694,9 @@ function hasAnchorInAlternation( array $tokens, string $anchorType, bool $checkF
 	return false;
 }
 
+/**
+ * @param array<array<string,mixed>> $tokens
+ */
 function detectStartAnchor( array $tokens ) : bool
 {
 	if( empty( $tokens ) ) return false;
@@ -653,12 +710,18 @@ function detectStartAnchor( array $tokens ) : bool
 	// Start anchor in first group (like (?:^|/))
 	if( $tokens[0]['type'] === 'group' )
 	{
-		return hasStartAnchorInAlternation( $tokens[0]['content'] );
+		assert( is_array( $tokens[0]['content'] ) );
+		/** @var array<array<string,mixed>> $content */
+		$content = $tokens[0]['content'];
+		return hasStartAnchorInAlternation( $content );
 	}
 
 	return false;
 }
 
+/**
+ * @param array<array<string,mixed>> $tokens
+ */
 function detectEndAnchor( array $tokens ) : bool
 {
 	if( empty( $tokens ) ) return false;
@@ -674,7 +737,10 @@ function detectEndAnchor( array $tokens ) : bool
 	// End anchor in last group (like (?:$|/))
 	if( $tokens[$lastIndex]['type'] === 'group' )
 	{
-		return hasEndAnchorInAlternation( $tokens[$lastIndex]['content'] );
+		assert( is_array( $tokens[$lastIndex]['content'] ) );
+		/** @var array<array<string,mixed>> $content */
+		$content = $tokens[$lastIndex]['content'];
+		return hasEndAnchorInAlternation( $content );
 	}
 
 	return false;
