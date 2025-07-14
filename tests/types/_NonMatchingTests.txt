@@ -998,6 +998,8 @@ ac2runtime.js
 ac3runtime.js
 c2runtime.jss
 c3runtime.jss
+c3mainxjs
+c3main.jsx
 GameGuard.desu
 GameData/bundle_PCC.ipk
 bootresourcemap_pc64.ipk
