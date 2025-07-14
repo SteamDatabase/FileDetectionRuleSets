@@ -1,16 +1,2 @@
-/dosbox
 /dosbox.exe
-/dosbox/
-DOSBOX/whatever
-Dosbox/whatever
-dosbox
 dosbox.exe
-dosbox/
-dosbox/whatever
-something/DOSBOX/whatever
-something/Dosbox/whatever
-something/dosbox.exe
-something/dosbox/whatever
-whatever/DOSBOX
-whatever/Dosbox
-whatever/dosbox
