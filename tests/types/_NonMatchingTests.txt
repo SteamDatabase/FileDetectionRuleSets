@@ -477,9 +477,7 @@ fbnEngine.dl
 fbnEngine_dll
 bnEngine.dll
 _CommonRedist/FXNA/4.0/installscript.vdf
-_CommonRedist/FXNA/4.0/xnafx40_redist.msi
 FXNA/4.0/installscript.vdf
-FXNA/4.0/xnafx40_redist.msi
 PCTouchHelper.dl
 PCTouchHelper_dll
 CTouchHelper.dll
