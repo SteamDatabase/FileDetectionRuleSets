@@ -1,0 +1,5 @@
+-audio.cpk
+-base.cpk
+-meshes.cpk
+-textures.cpk
+-world.cpk
