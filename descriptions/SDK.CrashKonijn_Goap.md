@@ -1,0 +1,1 @@
+[CrashKonijn GOAP](https://github.com/crashkonijn/GOAP) A robust, multi-threaded Goal Oriented Action Planning (GOAP) system designed for Unity, empowering developers to create complex AI behaviors with ease.
