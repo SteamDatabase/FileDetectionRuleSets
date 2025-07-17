@@ -260,6 +260,10 @@ falcoengine.dlll
 athEngine.dll
 PathEngine.dl
 PathEngine_dll
+Mirror_dll
+Mirror.dl
+Mirage_dll
+Mirage.dl
 somethingFishnet.Runtime.dll
 Fishnet.Runtime_dll
 Fishnet.Runtime.dllWhoopsie
