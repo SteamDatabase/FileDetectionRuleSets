@@ -1,0 +1,1 @@
+**Phanuel** also known as NEAC Protect, is anti-cheating software created, developed, and maintained by NetEase.
