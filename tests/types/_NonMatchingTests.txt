@@ -166,6 +166,9 @@ Engine.BuildInfo_Win32_retailxdll
 Engine.BuildInfo_Win32_retail_dllxdll
 Engine.BuildInfo_Win64_retailxdll
 Engine.BuildInfo_Win64_retail_dllxdll
+Runtime_Win64_retail_BuildSettings
+Runtime_Win64_retail.BuildSetting
+untime_Win64_retail.BuildSettings
 BugTrap.dl
 BugTrap_dll
 BugTrap-x6.dll
