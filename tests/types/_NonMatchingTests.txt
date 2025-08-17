@@ -1298,6 +1298,12 @@ Binaries/Retail/ooo2core_5_win64.dll
 oo2test_6_win64.dll
 oo2core_7_win64_dll
 oo2core_8_win64.dlll
+/DATAS/SHARED.DPCWHOOPS
+/GameData/Bigfiles/PC/P4/MISC.BFPCWHOOPS
+DATAS/SHARED_DPC
+GameData/Bigfiles/PC/P4/MISC_BFPC
+SHARED_DPC
+MISC_BFPC
 game
 pygam
 data
