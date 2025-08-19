@@ -798,6 +798,12 @@ sub/dir/something.fhdll
 GameData/VS2EN/runtime.rt
 GameData/VS2EN/runtime_rts
 GameData/VS2EN/time.rts
+RobocraftClient_Data/Plugins/audiopluginresonanceaudio.dl
+armello_Data/Plugins/x86_64/resonanceaudio.dl
+RobocraftClient_Data/Plugins/audiopluginresonanceaudio_dll
+armello_Data/Plugins/x86_64/resonanceaudio_dll
+RobocraftClient_Data/Plugins/udiopluginresonanceaudio.dll
+armello_Data/Plugins/x86_64/esonanceaudio.dll
 /ts3client
 /ts3client_win32
 /ts3client_win.dll
