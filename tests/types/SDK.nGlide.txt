@@ -1,0 +1,2 @@
+/nglide_config.exe
+nglide_config.exe
