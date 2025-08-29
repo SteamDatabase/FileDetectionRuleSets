@@ -1,3 +1,0 @@
-/coherentuigt.dll
-Engine/Binaries/ThirdParty/CoherentUIGT/Win64/Release/CoherentUIGT.dll
-coherentuigt.dll
