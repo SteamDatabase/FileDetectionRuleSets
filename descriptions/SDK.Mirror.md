@@ -1,1 +1,1 @@
-[**Mirror**](https://github.com/MirrorNetworking/Mirror) - The #1 free open source game networking library for Unity.
+[**Mirror**](https://github.com/MirrorNetworking/Mirror) - Free open source game networking library for Unity.
