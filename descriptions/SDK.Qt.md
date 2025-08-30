@@ -1,1 +1,1 @@
-[**Qt**](https://www.qt.io/) is a toolkit for creating graphical user interfaces.
+[**Qt**](https://www.qt.io/) is a comprehensive cross-platform C++ framework and toolkit for creating graphical user interfaces and applications that can run on multiple operating systems and mobile platforms.

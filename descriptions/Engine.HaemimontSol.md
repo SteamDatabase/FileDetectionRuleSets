@@ -1,1 +1,1 @@
-[**HaemimontSol**](https://www.haemimontgames.com/) engine is the in-house engine of Haemimont Games.
+[**HaemimontSol**](https://www.haemimontgames.com/) is the in-house engine of Haemimont Games.

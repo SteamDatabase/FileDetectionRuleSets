@@ -1,1 +1,1 @@
-[**4A Engine**](https://en.wikipedia.org/wiki/4A_Engine) is an engine developed by 4A Games for use in their video game series Metro.
+[**4A Engine**](https://en.wikipedia.org/wiki/4A_Engine) is a game engine developed by 4A Games for use in their video game series Metro.

@@ -1,1 +1,1 @@
-Flexi Engine is a game engine developed by [**Snail Games**](https://store.steampowered.com/publisher/SnailGamesUSA/) with strong MMO ability.
+[**Flexi Engine**](https://store.steampowered.com/publisher/SnailGamesUSA/) is a game engine developed by Snail Games with strong MMO capabilities.

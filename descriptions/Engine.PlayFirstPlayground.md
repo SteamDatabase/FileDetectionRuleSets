@@ -1,1 +1,1 @@
-[**Playground SDK**](https://web.archive.org/web/20111123021228/https://developer.playfirst.com/) is PlayFirst's in-house engine used for most of their titles.
+[**Playground SDK**](https://web.archive.org/web/20111123021228/https://developer.playfirst.com/) is PlayFirst's in-house game development engine used for creating casual games and puzzle titles, particularly known for popular franchises like Diner Dash and Wedding Dash series.

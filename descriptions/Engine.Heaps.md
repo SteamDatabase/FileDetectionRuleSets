@@ -1,1 +1,1 @@
-[**HEAPS**](https://heaps.io) is a mature cross platform graphics engine designed for high performance games written for the Haxe programming language. It is designed to leverage modern GPUs that are commonly available on both desktop and mobile devices.
+[**HEAPS**](https://heaps.io) is a mature cross-platform graphics engine designed for high-performance games written for the Haxe programming language. It is designed to leverage modern GPUs that are commonly available on both desktop and mobile devices.

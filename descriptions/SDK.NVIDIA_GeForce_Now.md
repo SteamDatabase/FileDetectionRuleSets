@@ -1,1 +1,1 @@
-[**GeForce Now**](https://www.nvidia.com/en-us/geforce-now/) is a cloud-based game streaming service created by NVIDIA.
+[**GeForce Now**](https://www.nvidia.com/en-us/geforce-now/) is a cloud-based game streaming service created by NVIDIA that allows users to play PC games on various devices by streaming from remote servers, providing access to high-end gaming performance without requiring powerful local hardware.

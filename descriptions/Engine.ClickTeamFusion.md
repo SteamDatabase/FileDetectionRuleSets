@@ -1,1 +1,1 @@
-[**ClickTeam Fusion**](https://www.clickteam.com/) is an event-based, drag'n'drop 2D game engine.
+[**ClickTeam Fusion**](https://www.clickteam.com/) is an event-based, drag-and-drop 2D game development engine that enables users to create games without traditional programming by using visual scripting, event sheets, and a library of pre-built behaviors and effects.

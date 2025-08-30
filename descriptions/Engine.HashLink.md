@@ -1,1 +1,1 @@
-[**HashLink**](https://hashlink.haxe.org/) is a virtual machine for Haxe.
+[**HashLink**](https://hashlink.haxe.org/) is a virtual machine for Haxe programming language that provides a fast runtime environment for executing Haxe bytecode with JIT compilation, garbage collection, and support for native C library integration.

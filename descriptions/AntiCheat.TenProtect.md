@@ -1,1 +1,1 @@
-**TenProtect** is an anti-cheat made by Tencent.
+[**TenProtect**](https://intl.cloud.tencent.com/) is an anti-cheat system developed by Tencent that provides comprehensive protection against cheating, hacking, and unauthorized game modifications in online multiplayer games, particularly used in Tencent's gaming portfolio and other Chinese game titles.

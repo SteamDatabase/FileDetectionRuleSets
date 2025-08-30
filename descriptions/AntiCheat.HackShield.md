@@ -1,1 +1,1 @@
-HackShield is an anticheat software by [**AhnLab**](https://global.ahnlab.com/site/main.do).
+[**HackShield**](https://global.ahnlab.com/site/main.do) is anti-cheat software developed by AhnLab that provides real-time protection against game hacking tools, memory manipulation, and unauthorized modifications, commonly used in Korean MMORPGs and online games to maintain fair gameplay.
