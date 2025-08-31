@@ -26,5 +26,4 @@ soundbanksinfo.xml
 sounds/mysoundbank.bnk
 anothersoundbank.bnk
 sounds/mysound.wem
-myprojectfile.wfpproj
 build/windows/WwiseGDNative.dll
