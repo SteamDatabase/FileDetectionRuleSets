@@ -1,4 +1,4 @@
-FreeImage.dll
-FreeImage.so
 /FreeImage.dll
 /FreeImage.so
+FreeImage.dll
+FreeImage.so

@@ -1,1 +1,1 @@
-[**Anti-Cheat Expert**](https://intl.anticheatexpert.com/) are developers of several anti-cheat technology such as ACE Anti-cheat.
+[**Anti-Cheat Expert**](https://intl.anticheatexpert.com/) is a developer of several anti-cheat technologies such as ACE Anti-cheat.

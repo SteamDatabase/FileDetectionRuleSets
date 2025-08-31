@@ -1,0 +1,12 @@
+includes:
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+parameters:
+	level: max
+	excludePaths:
+		- vendor
+		- types
+		- filelists
+	paths:
+		- .
+	strictRules:
+		disallowedEmpty: false

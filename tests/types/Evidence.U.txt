@@ -1,4 +1,5 @@
 .u
+@.u
 Sub/Folder/something.u
 blah.u
 something.u

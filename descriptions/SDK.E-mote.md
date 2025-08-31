@@ -1,0 +1,1 @@
+[**E-mote**](https://emote.mtwo.co.jp/) is a Japanese software developed by M2 Co., Ltd. It is primarily used in visual novels to create highly animated and expressive character sprites.

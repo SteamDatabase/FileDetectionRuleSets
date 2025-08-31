@@ -70,11 +70,9 @@ Some things to note:
 
 A two-pass script runs over every file. On the first pass it tries to make a "slam dunk" identification based on a strong signal from any file. **Engine** patterns are primarily used here, looking for obvious things like Unity, Unreal, MonoGame, RPGMaker, XNA/FNA, AdobeAIR, etc. These game engines often have very clear signatures — ie "UnityEngine.dll". An "Engine" pattern should be strong enough to confidently match against a particular engine based on _one_ single positive match against any file in the depot.
 
-**Evidence** patterns are meant for building up "hints" about what kind of engine or technology might be in use when a slam-dunk identification is not possible from a single pattern match. Once all the obvious tests have been made, if a particular app has no clear identification it will do a second pass in [`FileDetector.php`](tests/FileDetector.php) by calling the `TryDeduceEngine()` function. For instance, GameMaker games are hard to identify based on any single file, but they have a common pattern: an "options.ini" file, a "data.win" file, and an audio file matching the pattern `snd_<something>.ogg`. The problem is that these are pretty generic filenames that often occur outside of GameMaker games. However, once we have already ruled out most of the other engines from our first logic pass if we find two or more of these three file patterns chances are very good we're looking at a GameMaker game.
+**Evidence** patterns are meant for building up "hints" about what kind of engine or technology might be in use when a slam-dunk identification is not possible from a single pattern match. Once all the obvious tests have been made, if a particular app has no clear identification it will do a second pass in [`FileDetector.php`](tests/FileDetector.php) by calling the `TryDeduceEngine()` function.
 
-## Tests
-
-If you have PHP installed locally, you can run the tests from the root directory by typing `php tests/Test.php`.
+For instance, GameMaker games are hard to identify based on any single file, but they have a common pattern: an "options.ini" file, a "data.win" file, and an audio file matching the pattern `snd_<something>.ogg`. The problem is that these are pretty generic filenames that often occur outside of GameMaker games. However, once we have already ruled out most of the other engines from our first logic pass if we find two or more of these three file patterns chances are very good we're looking at a GameMaker game.
 
 ## Contributing
 
@@ -82,7 +80,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## How SteamDB uses this information
 
-SteamDB makes two sets of identifications — the technology the *file* likely represents, and the technology the *app* makes use of. Each file will match against at most one rule in a section. Therefore the order of the rules and the two-pass tests matters, but an app can have multiple rulings applied to it.
+SteamDB makes two sets of identifications — the technology the *file* likely represents, and the technology the *app* makes use of. Each file will match at most one rule per section. Therefore the order of the rules and the two-pass tests matters, but an app can have multiple rulings applied to it.
 
 It is even possible for an app to have multiple game engines — this happens when an app represents a multi-game compilation, or uses one technology for its launcher app and one for the game itself, or whatever.
 

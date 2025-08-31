@@ -1,1 +1,1 @@
-[**GameGuru**](https://www.game-guru.com/) is an FPS game engine designed for non-technical users.
+[**GameGuru**](https://www.game-guru.com/) is a first-person shooter game creation engine designed for non-technical users, featuring drag-and-drop level editing, pre-built assets, visual scripting, and simplified tools for creating 3D FPS games without programming knowledge.

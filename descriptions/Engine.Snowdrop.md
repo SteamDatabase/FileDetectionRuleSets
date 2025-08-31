@@ -1,1 +1,1 @@
-[**Snowdrop**](https://www.massive.se/project/snowdrop-engine/) is a proprietary game engine created by Massive Entertainment and Ubisoft, it was revealed in June 2013 with Tom Clancy's The Division, the first game using the engine. 
+[**Snowdrop**](https://www.massive.se/project/snowdrop-engine/) is a proprietary game engine created by Massive Entertainment and Ubisoft. It was revealed in June 2013 with Tom Clancy's The Division, the first game using the engine. 

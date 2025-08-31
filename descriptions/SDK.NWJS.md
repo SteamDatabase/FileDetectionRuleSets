@@ -1,1 +1,1 @@
-[**NW.js**](https://nwjs.io/), previously known as node-webkit, is an app runtime based on Chromium and node.js.
+[**NW.js**](https://nwjs.io/), previously known as node-webkit, is an app runtime framework based on Chromium and Node.js that enables developers to build cross-platform desktop applications using web technologies like HTML, CSS, and JavaScript.

@@ -1,4 +1,5 @@
 /ortp.dll
+@vivox@
 Bin32/ortp.dll
 Binaries/vivoxsdk.dll
 Binary/vivoxoal.dll

@@ -1,1 +1,1 @@
-[**Visionaire Studio**](https://www.visionaire-studio.net/) is a multi-platform game engine developped by Visionaire Studio specifically designed for the creation of 2D and 2.5D point & click adventure games.
+[**Visionaire Studio**](https://www.visionaire-studio.net/) is a multi-platform game engine developed by Visionaire Studio specifically designed for the creation of 2D and 2.5D point & click adventure games.

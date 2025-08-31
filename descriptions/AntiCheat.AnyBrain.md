@@ -1,1 +1,1 @@
-[**AnyBrain**](https://anybrain.gg/) is an AI based anti-cheat which focuses on keeping online gaming fair.
+[**AnyBrain**](https://anybrain.gg/) is an AI-based anti-cheat system that focuses on keeping online gaming fair.

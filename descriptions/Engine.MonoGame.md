@@ -1,1 +1,1 @@
-[**MonoGame**](https://www.monogame.net/) is a free and open source C# framework for creating games for desktop PCs, video game consoles, and mobile devices based on Microsoft XNA.
+[**MonoGame**](https://www.monogame.net/) is a free and open-source C# framework for creating games for desktop PCs, video game consoles, and mobile devices based on Microsoft XNA.

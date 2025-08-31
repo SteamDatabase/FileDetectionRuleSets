@@ -1,4 +1,5 @@
 /monogame
+/monogame@
 MonoGame.Build.Tasks.dll
 MonoGame.Build.Tasks.xml
 MonoGame.Framework.Content.Pipeline.dll
@@ -8,4 +9,5 @@ MonoGame.Framework.Net.xml
 MonoGame.Framework.dll
 MonoGame.Framework.xml
 monogame
+monogame@
 transition/plugins/updater/monogame_ui.dll

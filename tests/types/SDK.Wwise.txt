@@ -2,13 +2,24 @@
 /AkSoundEngine.dll
 /AkSoundEnginedll.bundle
 /AkSoundEnginedll.dll
+/AkUnitySoundEngine.bundle
+/AkUnitySoundEngine.dll
+/AkUnitySoundEnginedll.bundle
+/AkUnitySoundEnginedll.dll
+/WwiseGDNative.dll
 AkSoundEngine.bundle
 AkSoundEngine.dll
 AkSoundEnginedll.bundle
 AkSoundEnginedll.dll
+AkUnitySoundEngine.bundle
+AkUnitySoundEngine.dll
+AkUnitySoundEnginedll.bundle
+AkUnitySoundEnginedll.dll
 DeadByDaylight/Plugins/Wwise/ThirdParty/x64_vc160/Release/bin/AkSoundEngineDLL.dll
+Echoes of Fear_Data/Plugins/x86_64/AkUnitySoundEngine.dll
 EtG_Data/Plugins/AkSoundEngine.dll
 Firewatch.app/Contents/Plugins/AkSoundEngine.bundle
+WwiseGDNative.dll
 YookaLaylee64_Data/Plugins/AkSoundEngine.dll
 sounds/soundbanksinfo.xml
 soundbanksinfo.xml
@@ -16,3 +27,4 @@ sounds/mysoundbank.bnk
 anothersoundbank.bnk
 sounds/mysound.wem
 myprojectfile.wfpproj
+build/windows/WwiseGDNative.dll

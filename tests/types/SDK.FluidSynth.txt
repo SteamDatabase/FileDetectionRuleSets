@@ -10,6 +10,7 @@
 /libfluidsynth.so.2.3.1
 /libfluidsynth.so.3
 /libfluidsynth.so.3.2.1
+@fluidsynth@
 To the Moon/fluidsynth.dll
 fluidsynth
 fluidsynth.dll

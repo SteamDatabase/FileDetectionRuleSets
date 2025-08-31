@@ -1,1 +1,1 @@
-**YU-RIS** is a freeware visual novel engine created by Takumi Honoi (Fristia).
+[**YU-RIS**](https://en.wikipedia.org/wiki/YU-RIS) is a freeware visual novel engine created by Takumi Honoi (Fristia) that provides comprehensive tools for developing Japanese-style visual novels with support for advanced scripting, multimedia integration, and interactive storytelling features.

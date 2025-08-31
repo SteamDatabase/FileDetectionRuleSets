@@ -1,1 +1,1 @@
-[**Intel® Open Image Denoise**](https://www.openimagedenoise.org/) is an open source denoising library.
+[**Intel® Open Image Denoise**](https://www.openimagedenoise.org/) is an open-source, high-performance denoising library that uses machine learning algorithms to remove Monte Carlo noise from rendered images, particularly useful in ray tracing applications and 3D rendering pipelines.

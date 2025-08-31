@@ -1,1 +1,1 @@
-[**OpenAL**](https://www.openal.org/) is a cross-platform audio API.
+[**OpenAL**](https://www.openal.org/) is a cross-platform 3D audio API designed for efficient rendering of multichannel three-dimensional positional audio, commonly used in games and multimedia applications for spatial sound effects and environmental audio.

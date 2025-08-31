@@ -1,1 +1,1 @@
-The [**C4 Engine**](https://c4engine.com/) is a proprietary computer game engine developed by Terathon Software that is used to create 3D games and other types of interactive virtual simulations for PlayStation 5, PlayStation 4, PlayStation 3, Windows (XP and later), Mac OS X (versions 10.9 and later), Linux, and iOS.
+The [**C4 Engine**](https://c4engine.com/) is a proprietary computer game engine developed by Terathon Software that is used to create 3D games and other types of interactive virtual simulations for console and PC platforms.

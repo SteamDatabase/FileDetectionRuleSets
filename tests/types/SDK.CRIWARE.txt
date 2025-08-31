@@ -15,6 +15,11 @@
 /data000.cpk
 /data1.cpk
 /resource/gd_PC/e2egreen.sfd
+@.acb
+@.adx
+@.awb
+@.sfd
+@.usm
 EleBall_Data/Plugins/x86_64/cri_ware_unity.dll
 N1_Op_TitleLogo_ENG.usm
 cri_ware_unity.dll

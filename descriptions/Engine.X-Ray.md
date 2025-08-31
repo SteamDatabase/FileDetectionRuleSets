@@ -1,1 +1,1 @@
-[**X-Ray Engine**](https://www.igdb.com/game_engines/x-ray-engine) is an 3D game engine created by Kyiv-based computer game developer GSC Game World.
+[**X-Ray Engine**](https://www.igdb.com/game_engines/x-ray-engine) is a 3D game engine created by Kyiv-based computer game developer GSC Game World, primarily known for powering the S.T.A.L.K.E.R. series of games with advanced dynamic lighting, physics simulation, and atmospheric rendering capabilities.

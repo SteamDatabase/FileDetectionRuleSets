@@ -1,4 +1,5 @@
 .sga
+@.sga
 BackToBasics/Archives/Data.sga
 Blitzkrieg/Archives/BKData.sga
 WW2/Archives/OFSPData.sga

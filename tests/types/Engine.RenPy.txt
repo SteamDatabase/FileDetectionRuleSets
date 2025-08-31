@@ -1,6 +1,7 @@
 .rpyb
 /renpy
 /renpy/
+@.rpyb
 Lib/renpy
 Lib/renpy/angle
 Lib/renpy/gl/gl.pyd
