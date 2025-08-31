@@ -21,4 +21,9 @@ EtG_Data/Plugins/AkSoundEngine.dll
 Firewatch.app/Contents/Plugins/AkSoundEngine.bundle
 WwiseGDNative.dll
 YookaLaylee64_Data/Plugins/AkSoundEngine.dll
+sounds/soundbanksinfo.xml
+soundbanksinfo.xml
+sounds/mysoundbank.bnk
+anothersoundbank.bnk
+sounds/mysound.wem
 build/windows/WwiseGDNative.dll
