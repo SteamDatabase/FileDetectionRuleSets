@@ -759,6 +759,7 @@ Id1/fglquake/armor.ms2
 Id1/fglquake/backpack.ms2
 glhexenf
 data1/glhexenf
+whoopsgathered.schema
 data1/glhexenf/NFarrow.ms2
 data1/glhexenf/a_blast.ms2
 glquakef
@@ -806,6 +807,7 @@ data.podf
 sub/dir/data.podf
 something.rimf
 sub/dir/something.rimf
+sub/dir/gathered_schema
 something.tgaf
 sub/dir/something.tgaf
 fdata.pod

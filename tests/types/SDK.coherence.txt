@@ -2,11 +2,17 @@
 /StreamingAssets/replication-server
 /StreamingAssets/replication-server.exe
 /combined.schema
+/Combined.schema
+/gathered.schema
+/Gathered.schema
 /replication-server
 /replication-server.exe
 StreamingAssets/combined.schema
 StreamingAssets/replication-server
 StreamingAssets/replication-server.exe
 combined.schema
+Combined.schema
+gathered.schema
+Gathered.schema
 replication-server
 replication-server.exe
