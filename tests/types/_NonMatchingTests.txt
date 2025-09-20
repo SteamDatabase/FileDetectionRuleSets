@@ -854,6 +854,7 @@ something.mega2f
 something.fmega2f
 something.texdbff
 something_texdb
+toolkit.schemaboop
 textdb
 mega2
 something.pk4f
@@ -893,6 +894,7 @@ Leap.dlls
 Leapf.dll
 LeapC.mdll
 Leap.mdll
+/sub/dir/Toolkit_schema
 pbsvcpexe
 pbsvc.exee
 BEService_x64eexe

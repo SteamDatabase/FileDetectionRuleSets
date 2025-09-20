@@ -5,6 +5,8 @@
 /Combined.schema
 /gathered.schema
 /Gathered.schema
+/toolkit.schema
+/Toolkit.schema
 /replication-server
 /replication-server.exe
 StreamingAssets/combined.schema
@@ -14,5 +16,7 @@ combined.schema
 Combined.schema
 gathered.schema
 Gathered.schema
+toolkit.schema
+Toolkit.schema
 replication-server
 replication-server.exe
