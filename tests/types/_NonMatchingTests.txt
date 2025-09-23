@@ -1038,7 +1038,11 @@ vivo
 Unity.Services.Multiplay_dll
 Services.Multiplay.dll
 Unity.Services.Multiplay.dl
-Unity.Services.Multiplayer.dll
+notUnity.Services.Multiplay.dll
+Unity_Services_Multiplayer.dll
+notUnity.Services.Multiplayer.dll
+Unity.Services.Multiplayer.Multiplay.Random.dll
+Unity.Services.Multiplayer.dllblabla
 ortpxdll
 ortp.ll
 fmodxdll
