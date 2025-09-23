@@ -1,10 +1,6 @@
 Unity.Services.Multiplayer.dll
-Unity.Services.Multiplayer.Multiplay.dll
-Unity.Services.Multiplayer.Multiplay.Authoring.Core.dll
-Unity.Services.Multiplayer.Multiplay.Sqp.dll
-Unity.Services.Multiplayer.Multiplay.Wire.Internal.dll
 game_Data/Managed/Unity.Services.Multiplayer.dll
-folder/Unity.Services.Multiplayer.Multiplay.dll
-path/to/Unity.Services.Multiplayer.Multiplay.Authoring.Core.dll
-build/Unity.Services.Multiplayer.Multiplay.Sqp.dll
-libs/Unity.Services.Multiplayer.Multiplay.Wire.Internal.dll
+folder/Unity.Services.Multiplayer.dll
+build/output/Unity.Services.Multiplayer.dll
+path/to/Unity.Services.Multiplayer.dll
+libs/Unity.Services.Multiplayer.dll
