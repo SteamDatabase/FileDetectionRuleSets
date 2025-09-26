@@ -4,3 +4,9 @@ Unity.Services.Multiplay.dll
 folder/Multiplay/Unity.Services.Multiplay.dll
 games/Unity.Services.Multiplay.dll
 path/To/File/Unity.Services.Multiplay.dll
+Unity.Services.Multiplayer.dll
+game_Data/Managed/Unity.Services.Multiplayer.dll
+folder/Unity.Services.Multiplayer.dll
+build/output/Unity.Services.Multiplayer.dll
+libs/Unity.Services.Multiplayer.dll
+path/to/Unity.Services.Multiplayer.dll

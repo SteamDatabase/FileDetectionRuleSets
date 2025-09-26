@@ -1035,10 +1035,14 @@ tobbii_gameintegration_x64.dll
 Plugins/ToobiiEyetracking/ThirdParty/GameIntegration/lib/Win64/Toobii.GameIntegration.dll
 vivoix
 vivo
-Unity.Services.Multiplay_dll
-Services.Multiplay.dll
+Unity_Services_Multiplay.dll
+Unity_Services_Multiplayer.dll
+notUnity.Services.Multiplay.dll
+notUnity.Services.Multiplayer.dll
+Unity.Services.Multiplay.dllwhoops
+Unity.Services.Multiplayer.dllwhoops
 Unity.Services.Multiplay.dl
-Unity.Services.Multiplayer.dll
+Unity.Services.Multiplayer.dl
 ortpxdll
 ortp.ll
 fmodxdll
