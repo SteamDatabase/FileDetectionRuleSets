@@ -11,6 +11,8 @@
 /steamsdk-godot
 /steamsdk-godot-test
 /steamsdk-godot@
+/godot_boy.windows.x86_64.dll
+/libgodot_boy.linux.x86_64.so
 Sub/Folder/project.godot
 godotsteam
 godotsteam.dll
@@ -25,3 +27,5 @@ project.godot
 steamsdk-godot
 steamsdk-godot.dll
 steamsdk-godot@
+godot_boy.windows.x86_64.dll
+libgodot_boy.linux.x86_64.so
