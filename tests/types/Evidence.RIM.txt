@@ -1,4 +1,5 @@
 .rim
+@.rim
 Sub/Folder/something.rim
 blah.rim
 something.rim

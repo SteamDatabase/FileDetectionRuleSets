@@ -1,1 +1,1 @@
-[**nProtect GameGuard**](https://gameguard.nprotect.com/) is an anti-cheat technology developed by INCA Internet. It utilises rootkit-like behaviour in order to protect game clients, such as blocking certain system API calls and keylogging.
+[**nProtect GameGuard**](https://gameguard.nprotect.com/) is an anti-cheat technology developed by INCA Internet. It utilizes rootkit-like behavior to protect game clients, such as blocking certain system API calls and keylogging.

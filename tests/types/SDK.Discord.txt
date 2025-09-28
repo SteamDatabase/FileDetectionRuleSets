@@ -7,6 +7,9 @@
 /discord_game_sdk.dll
 /discord_game_sdk.dylib
 /discord_game_sdk.so
+/discord_partner_sdk.dll
+/discord_partner_sdk.dylib
+/discord_partner_sdk.so
 /libdiscord-rpc.dll
 /libdiscord-rpc.dylib
 /libdiscord-rpc.so
@@ -16,6 +19,10 @@
 /libdiscord_game_sdk.dll
 /libdiscord_game_sdk.dylib
 /libdiscord_game_sdk.so
+/libdiscord_partner_sdk.dll
+/libdiscord_partner_sdk.dylib
+/libdiscord_partner_sdk.so
+PaxDei/Plugins/DiscordPartnerSDK/Binaries/ThirdParty/DiscordPartnerSDKLibrary/Win64/discord_partner_sdk.dll
 discord-rpc.dll
 discord-rpc.dylib
 discord-rpc.so
@@ -25,6 +32,9 @@ discord.so
 discord_game_sdk.dll
 discord_game_sdk.dylib
 discord_game_sdk.so
+discord_partner_sdk.dll
+discord_partner_sdk.dylib
+discord_partner_sdk.so
 libdiscord-rpc.dll
 libdiscord-rpc.dylib
 libdiscord-rpc.so
@@ -34,3 +44,6 @@ libdiscord.so
 libdiscord_game_sdk.dll
 libdiscord_game_sdk.dylib
 libdiscord_game_sdk.so
+libdiscord_partner_sdk.dll
+libdiscord_partner_sdk.dylib
+libdiscord_partner_sdk.so

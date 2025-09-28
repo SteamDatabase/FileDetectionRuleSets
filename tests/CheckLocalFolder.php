@@ -11,6 +11,13 @@ if( $argc < 2 )
 }
 
 $RealPath = realpath( $argv[ 1 ] );
+
+if( $RealPath === false )
+{
+	echo 'Invalid path provided.' . PHP_EOL;
+	exit( 1 );
+}
+
 $RealPathLength = strlen( $RealPath ) + 1;
 $Files = [];
 $Iterator = new RecursiveIteratorIterator( new RecursiveDirectoryIterator( $RealPath ) );

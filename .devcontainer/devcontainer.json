@@ -1,4 +1,7 @@
 {
 	"name": "PHP",
-	"build": {"dockerfile":"Dockerfile"},
+	"image": "mcr.microsoft.com/devcontainers/php:1-8",
+	"features": {
+		"ghcr.io/devcontainers/features/php:1": {}
+	}
 }

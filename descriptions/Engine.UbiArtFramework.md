@@ -1,1 +1,1 @@
-[**UbiArt Framework**](https://en.wikipedia.org/wiki/UbiArt_Framework) is a 2.5D engine, developed by Ubisoft Montpellier and first used in Rayman Origins.
+[**UbiArt Framework**](https://en.wikipedia.org/wiki/UbiArt_Framework) is a 2.5D game engine developed by Ubisoft Montpellier that allows artists to create hand-drawn, high-resolution artwork that can be animated and integrated into game worlds, first used in Rayman Origins and known for its distinctive artistic style in games like Rayman Legends and Child of Light.

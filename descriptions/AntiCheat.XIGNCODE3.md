@@ -1,1 +1,1 @@
-[**XIGNCODE3**](https://wellbia.com/) is a game anti-cheat software developed by Korean company Wellbia. 
+[**XIGNCODE3**](https://wellbia.com/) is a comprehensive game anti-cheat software developed by the Korean company Wellbia that provides real-time protection against game hacks, cheats, and unauthorized modifications, commonly used in Korean and international online games. 

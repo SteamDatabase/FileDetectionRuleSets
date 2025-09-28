@@ -1,3 +1,4 @@
+@vorbis@
 libvorbis-0.dll
 libvorbis.dll
 libvorbis_64.dll

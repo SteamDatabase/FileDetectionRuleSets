@@ -1,2 +1,0 @@
-[**Coherent Gameface**](https://docs.coherent-labs.com/cpp-gameface/) and [**Coherent Prysm**](https://docs.coherent-labs.com/cpp-prysm ) are UI Middlewares provided by Coherent Labs.
-Unfortunately we can't differentiate them as they both use the same libraries to work.

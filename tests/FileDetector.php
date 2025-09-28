@@ -3,12 +3,14 @@ declare(strict_types=1);
 
 class FileDetector
 {
+	private const string NO_EXTENSION_KEY = '_%any%_';
+
 	public bool $FilterEvidenceMatches = true;
 
 	/** @var string[] */
 	public array $Map = [];
 
-	/** @var string[] */
+	/** @var array<string, string[]> */
 	public array $Regexes = [];
 
 	/**
@@ -34,11 +36,7 @@ class FileDetector
 
 		foreach( $Rulesets as $Type => $Rules )
 		{
-			$Regexes =
-			[
-				0 => [],
-				1 => [],
-			];
+			$Regexes = [];
 
 			foreach( $Rules as $Name => $RuleRegexes )
 			{
@@ -52,33 +50,72 @@ class FileDetector
 					$this->Map[ $MarkIndex ] = "{$Type}.{$Name}";
 
 					$Regex = strtolower( $Regex );
+					$HasSimpleExtension = preg_match( '/\\\.(?:(?<Extension>\w+)|\(\?:(?<MultiExtension>[\w\|]+)\))\$$/', $Regex, $SimpleExtension ) === 1;
+					$HasCommonPrefix = false;
 
+					// Regexes that match start of the file (root, or a folder) will be put into a separate regex
 					if( str_starts_with( $Regex, $CommonFolderPrefix ) )
 					{
-						$Regexes[ 0 ][] = substr( $Regex, strlen( $CommonFolderPrefix ) ) . '(*:' . $MarkIndex . ')';
+						$HasCommonPrefix = true;
+						$Regex = substr( $Regex, strlen( $CommonFolderPrefix ) ) . '(*:' . $MarkIndex . ')';
 					}
 					else
 					{
-						$Regexes[ 1 ][] = $Regex . '(*:' . $MarkIndex . ')';
+						$Regex .= '(*:' . $MarkIndex . ')';
+					}
+
+					// Regexes that end with a file extension will be put into an array based on the extension
+					// to reduce the amount of regexes needed to match for each file path
+					if( $HasSimpleExtension )
+					{
+						// If regex ends with "\.dll$" then it's a single extension,
+						// If regex ends with "\.(?:dylib|dll)$" then it's multi.
+						$Extensions = empty( $SimpleExtension[ 'MultiExtension' ] ) ? [ $SimpleExtension[ 'Extension' ] ] : explode( '|', $SimpleExtension[ 'MultiExtension' ] );
+
+						foreach( $Extensions as $Extension )
+						{
+							if( $HasCommonPrefix )
+							{
+								$Regexes[ $Extension ][ 0 ][] = $Regex;
+							}
+							else
+							{
+								$Regexes[ $Extension ][ 1 ][] = $Regex;
+							}
+						}
+					}
+					else if( $HasCommonPrefix )
+					{
+						$Regexes[ self::NO_EXTENSION_KEY ][ 0 ][] = $Regex;
+					}
+					else
+					{
+						$Regexes[ self::NO_EXTENSION_KEY ][ 1 ][] = $Regex;
 					}
 
 					$MarkIndex++;
 				}
 			}
 
-			if( !empty( $Regexes[ 0 ] ) )
+			foreach( $Regexes as $Extension => $RegexesForExtension )
 			{
-				sort( $Regexes[ 0 ] );
-				$this->Regexes[] = '~' . $CommonFolderPrefix . '(?:' . implode( '|', $Regexes[ 0 ] ) . ')~i';
-			}
+				if( !empty( $RegexesForExtension[ 0 ] ) )
+				{
+					sort( $RegexesForExtension[ 0 ] );
 
-			if( !empty( $Regexes[ 1 ] ) )
-			{
-				sort( $Regexes[ 1 ] );
+					$this->Regexes[ $Extension ][] = '~' . $CommonFolderPrefix . '(?:' . implode( '|', $RegexesForExtension[ 0 ] ) . ')~i';
+				}
 
-				$this->Regexes[] = '~' . implode( '|', $Regexes[ 1 ] ) . '~i';
+				if( !empty( $RegexesForExtension[ 1 ] ) )
+				{
+					sort( $RegexesForExtension[ 1 ] );
+
+					$this->Regexes[ $Extension ][] = '~' . implode( '|', $RegexesForExtension[ 1 ] ) . '~i';
+				}
 			}
 		}
+
+		ksort( $this->Regexes );
 	}
 
 	/**
@@ -92,17 +129,20 @@ class FileDetector
 
 		foreach( $Files as $Path )
 		{
-			foreach( $this->Regexes as $Regex )
+			foreach( $this->Regexes as $RegexesForExtension )
 			{
-				if( preg_match( $Regex, $Path, $RegexMatches ) === 1 )
+				foreach( $RegexesForExtension as $Regex )
 				{
-					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
+					if( preg_match( $Regex, $Path, $RegexMatches ) === 1 )
+					{
+						$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
 
-					$Matches[] =
-					[
-						'File' => $Path,
-						'Match' => $Match,
-					];
+						$Matches[] =
+						[
+							'File' => $Path,
+							'Match' => $Match,
+						];
+					}
 				}
 			}
 		}
@@ -121,7 +161,15 @@ class FileDetector
 
 		foreach( $Files as $Path )
 		{
-			foreach( $this->Regexes as $Regex )
+			$RegexesToTry = $this->Regexes[ self::NO_EXTENSION_KEY ] ?? [];
+			$Extension = strtolower( pathinfo( $Path, PATHINFO_EXTENSION ) );
+
+			if( isset( $this->Regexes[ $Extension ] ) )
+			{
+				$RegexesToTry = [ ...$this->Regexes[ $Extension ], ...$RegexesToTry ];
+			}
+
+			foreach( $RegexesToTry as $Regex )
 			{
 				if( preg_match( $Regex, $Path, $RegexMatches ) === 1 )
 				{

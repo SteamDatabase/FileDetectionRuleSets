@@ -8,6 +8,8 @@
 /cocos2d-jsb.c156d.jsc
 /cocos2d-jsb.jsc
 /libcocos2d.dll
+@cocos-js@
+@cocos2d@
 Cocos2d.lua
 cocos-js
 cocos-js/cc.a9323.js

@@ -1,1 +1,1 @@
-[**Telltale Tool**](https://en.wikipedia.org/wiki/Telltale_Games#Telltale_Tool) is a proprietary game engine developed by Telltale.
+[**Telltale Tool**](https://en.wikipedia.org/wiki/Telltale_Games#Telltale_Tool) is a proprietary game engine developed by Telltale Games, specifically designed for creating episodic narrative adventure games with cinematic storytelling, character interactions, and choice-driven gameplay mechanics that became the studio's signature style.

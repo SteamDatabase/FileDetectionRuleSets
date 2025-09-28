@@ -1,1 +1,1 @@
-[**LÖVE (or Love2D)**](https://love2d.org/) is a free open-source cross-platform engine for developing 2D video games in the Lua programming language.
+[**LÖVE (or Love2D)**](https://love2d.org/) is a free, open-source, cross-platform engine for developing 2D video games in the Lua programming language.

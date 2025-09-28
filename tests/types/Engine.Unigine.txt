@@ -1,9 +1,9 @@
-/core.ung
 /Unigine_x64.dll
 /Unigine_x86.dll
-core.ung
-data/core.ung
+/core.ung
 Unigine_x64.dll
 Unigine_x86.dll
 bin/Unigine_x64.dll
 bin/Unigine_x86.dll
+core.ung
+data/core.ung

@@ -1,4 +1,5 @@
 .pck
+@.pck
 SUB/BLAH.pck
 Sub/Folder/something.pck
 blah.pck

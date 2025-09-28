@@ -39,6 +39,7 @@
 /lua53.so
 /lua54.dll
 /lua54.so
+@.lua
 AutomationGame/Binaries/Win32/lua51.dll
 DevMode.lua
 Libs/x64/lua5.1.dll

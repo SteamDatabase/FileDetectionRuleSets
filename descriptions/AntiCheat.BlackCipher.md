@@ -1,1 +1,1 @@
-**Nexon Game Security** (also known as Black Cipher) is an anti-cheat technology developed by Nexon Korea Corporation.
+[**Nexon Game Security**](https://www.nexon.com/) (also known as Black Cipher) is an anti-cheat technology developed by Nexon Korea Corporation that provides real-time monitoring and protection against cheating, hacking, and unauthorized game modifications in online multiplayer games.
