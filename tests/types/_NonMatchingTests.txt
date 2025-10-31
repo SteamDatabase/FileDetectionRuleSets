@@ -1385,6 +1385,10 @@ alibsteamsdk-godot.so
 agodotsteam.dll
 agodotsteam.so
 /agodotsteam-test
+godot_boy.linux.x86_64.dll
+libgodot_boy.windows.x86_64.so
+godot_boy.windows.x86_64
+godot_boy.linux.x86_64.so
 Files/languagebank/english/textfiles/fpsc-050
 Files/languagebank/english/textfiles/notactuallyfpsc-050.ini
 Files/languagebank/english/textfiles/fpsc-050.iniwhoops
