@@ -1400,3 +1400,5 @@ odin_dll
 libodin_so
 notodin.dll
 notlibodin.so
+notsbox-standalone.dll
+sbox-standaloneadll
