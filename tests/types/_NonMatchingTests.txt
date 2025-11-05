@@ -634,6 +634,7 @@ fcry3dengine.dll
 fCry3DEngine.dll
 fCryRenderD3D11.dll
 fCryRenderD3D12.dll
+Noessis.dll
 fCryRenderVulkan.dll
 fCryD3DCompilerStub.dll
 fengine.pak
@@ -905,6 +906,7 @@ dx12Retail/AnselSDK44.dll
 AnselDK64.dlloopsidroppedthefile
 apexbutnotreallyapex
 apex.notwhatyourelookingfor
+Noesis_dll
 RPG_RTxini
 configxrpgsave
 dataxdcp
@@ -1064,6 +1066,7 @@ CoronaLabs_Corona_Native_dll
 Unigine_x64.pak
 UnigineEngine.dll
 Unigine_x86_dll
+NNoesis.dll
 /ffx_fsr2_api_x64@dll
 /ffx_fsr2_api_x86@dll
 ffx_fsr2_api_x64@dll
@@ -1229,6 +1232,7 @@ openvr_api_bundle
 tbb
 tbb_dll
 tbb12
+Noesis.dlll
 tbbmalloc
 tbbmalloc_dll
 libopenxr_loader
