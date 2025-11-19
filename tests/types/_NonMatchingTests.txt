@@ -487,6 +487,9 @@ igxess.dlls
 libxess.dl
 libxessdl
 ess.dll
+ggcloud.dll
+gcloudd.dll
+gcloud.dllexp
 OpenImageDenoisexdll
 OpenImageDenoise
 fbnEngine.dl
