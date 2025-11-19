@@ -506,6 +506,8 @@ sub/dir/PCTouchHelper.dl
 _CommonRedist/FXNA
 .esf
 startpos.esf
+nepnep2.dll
+nep2.dller
 data/campaigns/episodic_1/startpos_esf
 data/campaigns/episodic_1/startpos.esff
 XSDL.dll
