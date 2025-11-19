@@ -599,6 +599,8 @@ Data/C4_pak
 Xors3d.dl
 Xors3d_dll
 ors3d.dll
+neacsafer.sys
+notneacsafe.sys
 FChromeEngine2.dll
 FChromeEngine3.dll
 FChromEd.exe
