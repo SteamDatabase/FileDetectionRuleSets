@@ -596,6 +596,11 @@ iFCon.
 Randgrid.sy
 andgrid.sys
 Randgrid_sys
+fnGlide_config.exe
+nGlide_config/
+nGlide_configf
+nGlide_config.f
+.nGlide_config.exe
 Dat/C
 Data/C5
 Data/C4.pa
