@@ -1143,6 +1143,15 @@ CleanMem.dllf
 window_set_cursor.dllf
 joydll.dllf
 something.gmbckf
+liboptick_dll
+OptickCore_dll
+Optick_dll
+1liboptick.dll
+1OptickCore.dll
+1Optick.dll
+liboptick.dll1
+OptickCore.dll1
+Optick.dll1
 something.gmsprf
 Support/UplayInstaller_exe
 notData/Localization/language.lsx
