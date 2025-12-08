@@ -67,6 +67,7 @@ foreach( $Rulesets as $Type => $Rules )
 			$ExitWithError = true;
 			$NewContents = implode( '%0A', $Tests );
 			echo "::warning file={$File}::Updated {$Type}.{$Name} (please run GenerateTestStrings and commit it)%0ANew file contents:%0A{$NewContents}";
+			echo "\n\n";
 		}
 		else
 		{
