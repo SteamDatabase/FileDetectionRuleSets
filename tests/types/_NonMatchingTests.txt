@@ -950,6 +950,7 @@ sub/dir/notactuallyemotedriver.dll
 sub/dir/emotedriver.dllwhoops
 LICENSExelectronxtxt
 scummvmxexe
+flax.dll
 packs/sli_spk
 sli.spk
 packs/sli
