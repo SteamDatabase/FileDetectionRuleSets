@@ -68,6 +68,7 @@ Sub/Folder/argss102j.dll
 Sub/Folder/argss102e.dll
 data_xp3
 notreallydata.xp3
+whoopscombined.schema
 data.xp3aisjdosadjods
 fkrflash.dll
 krflash/
@@ -174,6 +175,7 @@ BugTrap.dl
 BugTrap_dll
 BugTrap-x6.dll
 BugTrapN.dll
+combined.schema2
 ugTrap.dll
 Unity.Entities.dlll
 TotallyAwesomium.dll
@@ -292,6 +294,7 @@ zstd.dl
 std.dll
 zstd_dll
 Sub/uv.hdllf
+thisreplication-server
 fnRuntimeSdk.dll
 GfnRuntimeSdk.dl
 data/behaviors.mbs
@@ -368,6 +371,7 @@ globalgamemanager.assets
 globalgamemanagersassets
 Gglobalgamemanagersassets
 bchmark.dl
+replication-servers.exe
 chmark.dll
 bchmark_dll
 oaremote_plugin.dl
@@ -444,6 +448,7 @@ FAdobe AIR/Versions
 FAdobe AIR/Versions/1.0
 FAdobe AIR/Versions/1.0/Adobe AIR.dll
 FFlatRedBall.
+replication-server.dll
 FlatRedBall_
 FlatReBall.
 love.dllfdfd
@@ -528,6 +533,7 @@ something.sbffdfdf
 something_cas
 something_toc
 something_sbf
+replication-serverbad
 something.scrf
 something.uf
 something.wadf
@@ -572,6 +578,7 @@ VisionaireConfigurationTool.exef
 VisionaireConfigurationTool.exe/
 AGIDATA.OVLTINE
 DFDFAGIDATA.OVL
+some/dir/combined.schemas
 HMIDET.386dfdf
 BUILD.EXEf
 buildlic.txtf
@@ -614,6 +621,7 @@ ision.dll
 vision.dl
 vision_dll
 ision71.dll
+some/dir/replication-server.dll
 vision71.dl
 vision71_dll
 ision90.dll
@@ -654,6 +662,7 @@ sub/dir/fCryRenderVulkan.dll
 sub/dir/fCryD3DCompilerStub.dll
 sub/dir/fengine.pak
 something.cryf
+combined_schema
 cry3dengine.dllf
 Cry3DEngine.dllf
 CryRenderD3D11.dllf
@@ -731,6 +740,7 @@ baseq2f/st
 fbaseq2
 fbaseq2/pak0.pk2
 fbaseq2/pak1.pk1
+replication-server_exe
 fbaseq2/models
 fbaseq2/pics
 fbaseq2/st
@@ -758,6 +768,7 @@ Id1/fglquake/armor.ms2
 Id1/fglquake/backpack.ms2
 glhexenf
 data1/glhexenf
+whoopsgathered.schema
 data1/glhexenf/NFarrow.ms2
 data1/glhexenf/a_blast.ms2
 glquakef
@@ -805,6 +816,7 @@ data.podf
 sub/dir/data.podf
 something.rimf
 sub/dir/something.rimf
+sub/dir/gathered_schema
 something.tgaf
 sub/dir/something.tgaf
 fdata.pod
@@ -851,6 +863,7 @@ something.mega2f
 something.fmega2f
 something.texdbff
 something_texdb
+toolkit.schemaboop
 textdb
 mega2
 something.pk4f
@@ -890,6 +903,7 @@ Leap.dlls
 Leapf.dll
 LeapC.mdll
 Leap.mdll
+/sub/dir/Toolkit_schema
 pbsvcpexe
 pbsvc.exee
 BEService_x64eexe
