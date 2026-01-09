@@ -1408,3 +1408,9 @@ odin_dll
 libodin_so
 notodin.dll
 notlibodin.so
+NeacSafe64
+NeacSafe64_sys
+notactuallyNeacSafe64.sys
+NeacSafe64.syswhoops
+sub/dir/notactuallyNeacSafe64.sys
+sub/dir/NeacSafe64.syswhoops
