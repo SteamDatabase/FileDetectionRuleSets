@@ -1,0 +1,1 @@
+[**HPL**](https://amnesia.fandom.com/wiki/HPL_Engine) is an [**Open source**](https://github.com/FrictionalGames/HPL1Engine) engine by [**Frictional Games**](https://frictionalgames.com), used in their games.
