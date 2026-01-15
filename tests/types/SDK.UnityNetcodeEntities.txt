@@ -1,0 +1,9 @@
+/Unity.NetCode.dll
+Unity.NetCode.dll
+game_Data/Managed/Unity.NetCode.dll
+build/output/Unity.NetCode.dll
+folder/NetCode/Unity.NetCode.dll
+libs/Unity.NetCode.dll
+path/To/File/Unity.NetCode.dll
+Battlecruisers_Data/Managed/Unity.NetCode.dll
+multiplayer/Unity.NetCode.dll

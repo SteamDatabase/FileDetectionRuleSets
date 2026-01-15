@@ -1,0 +1,1 @@
+[**The Netcode for Entities package**](https://docs.unity3d.com/Packages/com.unity.netcode@latest) provides a server-authoritative networking solution for Unity's Entity Component System (ECS), enabling high-performance multiplayer games with a data-oriented approach.

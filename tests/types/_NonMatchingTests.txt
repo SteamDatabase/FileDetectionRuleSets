@@ -302,6 +302,10 @@ lwjgl.ja
 lwjgl_dll
 lwjgl_jar
 lwjgl64_dll
+Unity_NetCode_dll
+Unity.NetCode.dl
+notUnity.NetCode.dll
+Unity.NetCode.dllwhoops
 wjgl.dll
 wjgl.jar
 lwjgl6.dll
