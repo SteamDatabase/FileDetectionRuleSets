@@ -45,6 +45,13 @@ foreach( $Rulesets as $Type => $Rules )
 			{
 				$FailingTests[] = "$Type.$Name: Regex \"$Regex\" contains a capturing group";
 			}
+
+			$RegexIssue = CheckRegexPerformance( $Regex );
+
+			if( $RegexIssue !== null )
+			{
+				$FailingTests[] = "$Type.$Name: Regex \"$Regex\" $RegexIssue";
+			}
 		}
 	}
 }
@@ -145,6 +152,35 @@ function RegexHasCapturingGroups( string $regex ) : bool
 		~x',
 		$regex
 	);
+}
+
+function CheckRegexPerformance( string $regex ) : ?string
+{
+	// Check for .+ or .*, skip if it's inside a character class like [.+]
+	if( preg_match( '/(?<!\[)\.[\+\*]/', $regex ) )
+	{
+		return 'uses .+ or .* which is inefficient';
+	}
+
+	// Patterns like (.+)+ or (a*)*
+	if( preg_match( '/\([^)]*[\+\*][^)]*\)[\+\*]/', $regex ) )
+	{
+		return 'has nested quantifiers';
+	}
+
+	// Quantifier applied to anchor
+	if( preg_match( '/[\^\$][\+\*\?]/', $regex ) )
+	{
+		return 'has quantifier on anchor';
+	}
+
+	// Empty alternation like (|foo) or (foo|)
+	if( preg_match( '/\(\||\|\)/', $regex ) )
+	{
+		return 'has empty alternation';
+	}
+
+	return null;
 }
 
 /**
