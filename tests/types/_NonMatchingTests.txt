@@ -782,6 +782,10 @@ sub/folder/snd_.ogg
 HShield/HSInst_dll
 HShield/HSInst
 HSInst.dll
+nakama-sdk_dll
+nakamasdk.dll
+Nakama_dll
+Nakamadll.dll
 /anvngx_dlss.dll
 /nvngx_dlss.dlla
 /nvngx_dlss_dll

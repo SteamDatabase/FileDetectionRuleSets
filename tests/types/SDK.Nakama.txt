@@ -1,0 +1,7 @@
+./Contents/Resources/Data/Managed/Nakama.dll
+./Data/Managed/Nakama.dll
+./nakama-sdk.dll
+/Nakama.dll
+/nakama-sdk.dll
+Nakama.dll
+nakama-sdk.dll
