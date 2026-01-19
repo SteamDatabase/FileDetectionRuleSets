@@ -1,3 +1,7 @@
+files/gamecore/projectiletypes//.dds
+files/gamecore/projectiletypes///.dds
+files/gamecore/projectiletypes////.dds
+files/gamecore/projectiletypes/////.dds
 files/gamecore/projectiletypes/33.dds
 files/gamecore/projectiletypes/333.dds
 files/gamecore/projectiletypes/3333.dds
