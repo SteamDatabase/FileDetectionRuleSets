@@ -3,5 +3,7 @@
 ./nakama-sdk.dll
 /Nakama.dll
 /nakama-sdk.dll
+/nakama.dll
 Nakama.dll
 nakama-sdk.dll
+nakama.dll
