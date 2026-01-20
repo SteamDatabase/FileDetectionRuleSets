@@ -97,8 +97,11 @@
 @curl.so.4.0.999
 @curl.so.4.9.0
 @curl.so.4.9.00
+@curl.so.4.9.000
 @curl.so.4.9.4
+@curl.so.4.9.44
 @curl.so.4.9.9
+@curl.so.4.9.99
 Bin/curllib.dll
 Binaries/Win32/libcurld.dll
 DevTools/libcurl64.dll
@@ -744,10 +747,12 @@ curl.so.4.87.2
 curl.so.4.87.825
 curl.so.4.9.0
 curl.so.4.9.00
+curl.so.4.9.000
 curl.so.4.9.2
 curl.so.4.9.30
 curl.so.4.9.33
 curl.so.4.9.4
+curl.so.4.9.44
 curl.so.4.9.482
 curl.so.4.9.51
 curl.so.4.9.6
@@ -755,6 +760,7 @@ curl.so.4.9.861
 curl.so.4.9.898
 curl.so.4.9.9
 curl.so.4.9.960
+curl.so.4.9.99
 curl.so.4.90.0
 curl.so.4.909.878
 curl.so.4.923.73

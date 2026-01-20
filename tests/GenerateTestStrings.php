@@ -159,9 +159,9 @@ function parseRegex( string $pattern ) : array
 
 			case '(':
 				// Parse group
-				if( $i + 2 < $len && substr( $pattern, $i, 3 ) === '(?:' )
+				if( $i + 2 < $len && ( substr( $pattern, $i, 3 ) === '(?:' || substr( $pattern, $i, 3 ) === '(?>' ) )
 				{
-					// Non-capturing group
+					// Non-capturing group or atomic group
 					$groupEnd = findMatchingParen( $pattern, $i );
 					if( $groupEnd !== null )
 					{
