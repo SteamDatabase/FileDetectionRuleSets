@@ -1,0 +1,9 @@
+/raylib.dll
+/raylib.so
+/libraylib.dll
+/libraylib.so
+Sub/Folder/raylib.dll
+raylib.dll
+raylib.so
+libraylib.dll
+libraylib.so
