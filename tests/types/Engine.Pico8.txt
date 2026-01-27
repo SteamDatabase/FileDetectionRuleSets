@@ -1,3 +1,4 @@
+.p8
 /data.pod
 data.pod
 sub/dir/data.pod
