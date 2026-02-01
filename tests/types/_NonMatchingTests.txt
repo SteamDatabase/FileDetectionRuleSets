@@ -186,6 +186,8 @@ awesomiumprocess.exe
 awesomium-process.exe
 awesomium-process_exe
 awesomium_processor.exe
+/Content.cave
+Contents.cave
 biter.dll
 Arbiter.dl
 Arbiter_dll
