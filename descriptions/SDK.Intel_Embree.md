@@ -1,0 +1,2 @@
+[**Intel® Embree**](https://www.embree.org/) is a high-performance ray tracing library developed at Intel which supports x86 CPUs under Linux, macOS, and Windows; ARM CPUs on macOS; as well as Intel® Arc™ GPUs under Linux and Windows. Embree targets graphics application developers to improve the performance of photo-realistic rendering applications and is optimized towards production rendering. Embree is released as open source under the [**Apache 2.0 License**](https://www.apache.org/licenses/LICENSE-2.0).
+
