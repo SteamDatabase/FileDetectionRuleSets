@@ -1,0 +1,1 @@
+[**OROCHI**](https://www.siliconstudio.co.jp/middleware/orochi/) is an all-in-one Japanese game engine with 13 libraries (graphics, physics, AI, etc.) and over 40 development tools. It features a flexible design that allows specification changes during development and customization for each project, as well as a generous support system by Japanese engineers.
