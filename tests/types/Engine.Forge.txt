@@ -1,0 +1,2 @@
+/startup.tex
+startup.tex
