@@ -1,0 +1,8 @@
+_data.wad
+_desktop.wad
+_main.wad
+content/blob_data_desktop.wad
+dr1_data.wad
+dr2_data.wad
+hlm2_data_desktop.wad
+shibuya_desktop_data_main.wad
