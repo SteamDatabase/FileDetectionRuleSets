@@ -1145,6 +1145,12 @@ ar_cfg
 rar.cfg
 ar.cfgg
 CleanMem.dllf
+Common/Tuning/dummy_dat
+KT_Game_dll
+Common/Tuning/dummy.datt
+KT_Game.dlll
+CCommon/Tuning/dummy.dat
+KKT_Game.dll
 window_set_cursor.dllf
 joydll.dllf
 something.gmbckf
