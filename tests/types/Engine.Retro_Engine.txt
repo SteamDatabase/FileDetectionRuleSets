@@ -1,0 +1,6 @@
+.rsdk
+image/x64/raw/retro/Sonic1u.rsdk
+image/x64/raw/retro/Sonic2u.rsdk
+image/x64/raw/retro/Sonic3ku.rsdk
+image/x64/raw/retro/SonicCDu.rsdk
+Data.rsdk
