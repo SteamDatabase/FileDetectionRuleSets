@@ -1,0 +1,6 @@
+/GFSDK_VXGI_x64.dll
+/GFSDK_VXGId_x64.dll
+Engine/Binaries/ThirdParty/GameWorks/VXGI/GFSDK_VXGI_x64.dll
+Engine/Binaries/ThirdParty/GameWorks/VXGI/GFSDK_VXGId_x64.dll
+GFSDK_VXGI_x64.dll
+GFSDK_VXGId_x64.dll
