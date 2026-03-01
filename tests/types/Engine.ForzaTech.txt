@@ -1,0 +1,4 @@
+/media/pcfamily/sfsdata
+/media/sfsdata
+media/pcfamily/sfsdata
+media/sfsdata
