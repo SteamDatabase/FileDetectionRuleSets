@@ -1,1 +1,1 @@
-[Anzu](https://www.anzu.io/) is an in-game ad sdk.
+[**Anzu**](https://www.anzu.io/) is an in-game advertising SDK that enables developers to integrate seamless, non-intrusive advertising into 3D games and virtual environments by placing branded content within the game world as natural elements like billboards, posters, and product placements.

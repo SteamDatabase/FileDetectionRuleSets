@@ -1,1 +1,1 @@
-**GameCenter** is a proprietary launcher for MY.GAMES.
+[**GameCenter**](https://www.my.games/) is a proprietary game launcher and digital distribution platform for MY.GAMES titles, providing users with access to download, update, and manage games from the MY.GAMES portfolio including free-to-play and premium titles.

@@ -101,16 +101,16 @@ class FileDetector
 			{
 				if( !empty( $RegexesForExtension[ 0 ] ) )
 				{
-					sort( $RegexesForExtension[ 0 ] );
+					usort( $RegexesForExtension[ 0 ], fn( string $a, string $b ) : int => strlen( $b ) <=> strlen( $a ) );
 
-					$this->Regexes[ $Extension ][] = '~' . $CommonFolderPrefix . '(?:' . implode( '|', $RegexesForExtension[ 0 ] ) . ')~i';
+					$this->Regexes[ $Extension ][] = '~' . $CommonFolderPrefix . '(?:' . implode( '|', $RegexesForExtension[ 0 ] ) . ')~';
 				}
 
 				if( !empty( $RegexesForExtension[ 1 ] ) )
 				{
-					sort( $RegexesForExtension[ 1 ] );
+					usort( $RegexesForExtension[ 1 ], fn( string $a, string $b ) : int => strlen( $b ) <=> strlen( $a ) );
 
-					$this->Regexes[ $Extension ][] = '~' . implode( '|', $RegexesForExtension[ 1 ] ) . '~i';
+					$this->Regexes[ $Extension ][] = '~' . implode( '|', $RegexesForExtension[ 1 ] ) . '~';
 				}
 			}
 		}
@@ -129,11 +129,13 @@ class FileDetector
 
 		foreach( $Files as $Path )
 		{
+			$LowercasePath = strtolower( $Path );
+
 			foreach( $this->Regexes as $RegexesForExtension )
 			{
 				foreach( $RegexesForExtension as $Regex )
 				{
-					if( preg_match( $Regex, $Path, $RegexMatches ) === 1 )
+					if( preg_match( $Regex, $LowercasePath, $RegexMatches ) === 1 )
 					{
 						$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
 
@@ -161,28 +163,24 @@ class FileDetector
 
 		foreach( $Files as $Path )
 		{
-			$RegexesToTry = $this->Regexes[ self::NO_EXTENSION_KEY ] ?? [];
-			$Extension = strtolower( pathinfo( $Path, PATHINFO_EXTENSION ) );
+			$Path = strtolower( $Path );
+			$Extension = pathinfo( $Path, PATHINFO_EXTENSION );
 
-			if( isset( $this->Regexes[ $Extension ] ) )
-			{
-				$RegexesToTry = [ ...$this->Regexes[ $Extension ], ...$RegexesToTry ];
-			}
-
-			foreach( $RegexesToTry as $Regex )
+			foreach( ( $this->Regexes[ $Extension ] ?? [] ) as $Regex )
 			{
 				if( preg_match( $Regex, $Path, $RegexMatches ) === 1 )
 				{
 					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
+					$Matches[ $Match ] = ( $Matches[ $Match ] ?? 0 ) + 1;
+				}
+			}
 
-					if( isset( $Matches[ $Match ] ) )
-					{
-						$Matches[ $Match ]++;
-					}
-					else
-					{
-						$Matches[ $Match ] = 1;
-					}
+			foreach( ( $this->Regexes[ self::NO_EXTENSION_KEY ] ?? [] ) as $Regex )
+			{
+				if( preg_match( $Regex, $Path, $RegexMatches ) === 1 )
+				{
+					$Match = $this->Map[ $RegexMatches[ 'MARK' ] ];
+					$Matches[ $Match ] = ( $Matches[ $Match ] ?? 0 ) + 1;
 				}
 			}
 		}
@@ -332,8 +330,8 @@ class FileDetector
 
 		foreach( $Files as $File )
 		{
+			$File = strtoupper( $File );
 			$Extension = pathinfo( $File, PATHINFO_EXTENSION );
-			$Extension = strtoupper( $Extension );
 
 			if( $Extension === 'PCK' )
 			{
@@ -344,20 +342,20 @@ class FileDetector
 			// Mac and Linux can have extension-less executables
 			if( empty( $Extension ) )
 			{
-				if( str_ends_with( dirname( $File ), '/MacOS' ) )
+				if( str_ends_with( dirname( $File ), '/MACOS' ) )
 				{
 					// Mac executable is not in the same folder, let's pretend they are in the same folder
-					$File = str_replace( '/MacOS/', '/Resources/', $File );
+					$File = str_replace( '/MACOS/', '/RESOURCES/', $File );
 				}
 
-				$Exes[ $File . '.pck' ] = true;
+				$Exes[ $File . '.PCK' ] = true;
 			}
 			else if( isset( $ExecutableExtensions[ $Extension ] ) )
 			{
 				// Strip extension from the file path
 				$File = substr( $File, 0, -strlen( $Extension ) );
 
-				$Exes[ $File . 'pck' ] = true;
+				$Exes[ $File . 'PCK' ] = true;
 			}
 		}
 
@@ -369,7 +367,7 @@ class FileDetector
 			//Otherwise we have to match up exe & pck pairs
 			foreach( $Pcks as $Pck )
 			{
-				if( basename( $Pck ) !== 'data.pck' )
+				if( basename( $Pck ) !== 'DATA.PCK' )
 				{
 					$OnlyDataPck = false;
 				}

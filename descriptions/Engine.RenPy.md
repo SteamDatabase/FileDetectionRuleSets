@@ -1,1 +1,1 @@
-[**Ren'Py**](https://renpy.org/) is a free visual novel engine running on Python.
+[**Ren'Py**](https://renpy.org/) is a free and open-source visual novel engine built on Python that provides comprehensive tools for creating interactive fiction, visual novels, and story-driven games with support for branching narratives, multimedia content, and cross-platform deployment.

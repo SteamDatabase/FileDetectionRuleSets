@@ -1,1 +1,1 @@
-[**BASS**](https://www.un4seen.com/) is an audio library for use in software on several platforms.
+[**BASS**](https://www.un4seen.com/) is a comprehensive audio library for multiple platforms that provides high-quality audio streaming, playback, recording, and effects processing capabilities for multimedia applications and games.

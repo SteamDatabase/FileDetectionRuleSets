@@ -1,1 +1,1 @@
-[**Cocos**](https://cocos.com) is a family of open-source software frameworks for building cross-platform games and apps.
+[**Cocos**](https://cocos.com) is a family of open-source software frameworks for building cross-platform games and applications, including Cocos2d-x for native development and CocosCreator for visual game development, supporting multiple programming languages and deployment to mobile, desktop, and web platforms.

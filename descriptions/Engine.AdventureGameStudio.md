@@ -1,1 +1,1 @@
-[**Adventure Game Studio**](https://www.adventuregamestudio.co.uk/) is an open source development tool first released in 1997 that is primarily used to create graphic adventure games.
+[**Adventure Game Studio**](https://www.adventuregamestudio.co.uk/) is an open-source development tool first released in 1997 that is primarily used to create graphic adventure games.

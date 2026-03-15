@@ -1,1 +1,1 @@
-[**RE Engine**](https://en.wikipedia.org/wiki/RE_Engine), also known as Reach for the Moon Engine, is a video game engine created by Capcom.
+[**RE Engine**](https://en.wikipedia.org/wiki/RE_Engine), also known as Reach for the Moon Engine, is a proprietary video game engine developed by Capcom that powers modern titles such as Resident Evil 7, Monster Hunter Rise, and Street Fighter 6, featuring advanced rendering capabilities, photorealistic graphics, and optimized performance across multiple platforms.

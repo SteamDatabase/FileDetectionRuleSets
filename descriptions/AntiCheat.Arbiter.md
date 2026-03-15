@@ -1,1 +1,0 @@
-[**Arbiter**](https://www.halowaypoint.com/news/closer-look-halo-infinites-anti-cheat-strategy) is the anti-cheat system used by Halo Infinite.

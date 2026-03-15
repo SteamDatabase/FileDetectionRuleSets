@@ -45,6 +45,13 @@ foreach( $Rulesets as $Type => $Rules )
 			{
 				$FailingTests[] = "$Type.$Name: Regex \"$Regex\" contains a capturing group";
 			}
+
+			$RegexIssue = CheckRegexPerformance( $Regex );
+
+			if( $RegexIssue !== null )
+			{
+				$FailingTests[] = "$Type.$Name: Regex \"$Regex\" $RegexIssue";
+			}
 		}
 	}
 }
@@ -145,6 +152,86 @@ function RegexHasCapturingGroups( string $regex ) : bool
 		~x',
 		$regex
 	);
+}
+
+function CheckRegexPerformance( string $regex ) : ?string
+{
+	// Check for .+ or .*, skip if it's inside a character class like [.+]
+	if( preg_match( '/(?<!\[)\.[\+\*]/', $regex ) )
+	{
+		return 'uses .+ or .* which is inefficient';
+	}
+
+	// Patterns like (.+)+ or (a*)*
+	if( preg_match( '/\([^)]*[\+\*][^)]*\)[\+\*]/', $regex ) )
+	{
+		return 'has nested quantifiers';
+	}
+
+	// Quantifier applied to anchor
+	if( preg_match( '/[\^\$][\+\*\?]/', $regex ) )
+	{
+		return 'has quantifier on anchor';
+	}
+
+	// Empty alternation like (|foo) or (foo|)
+	if( preg_match( '/\(\||\|\)/', $regex ) )
+	{
+		return 'has empty alternation';
+	}
+
+	// Check for quantifiers that should be possessive:
+	// \w+, \d+, [a-z]+, etc. followed by \. should use possessive quantifier
+	// Only flag variable quantifiers (+, *, {n,m}), not fixed like {16}
+	// Pattern: (\w or \d or \W or \D or [...]) followed by (+, *, {n,m}) NOT followed by + (possessive), then \.
+	if( preg_match( '/(?:\\\\[wdWD]|\\[[^\\]]+\\])(?:[+*]|\\{\\d+,\\d*\\})(?!\\+)\\\\\\./', $regex ) )
+	{
+		return 'has quantifier that should be possessive (add + after quantifier, e.g. \\w++ instead of \\w+)';
+	}
+
+	// Check for alternation ordering issues in non-atomic groups
+	// If a shorter alternative comes before a longer one that starts with it,
+	// the shorter one will match first and prevent the longer from matching (in atomic)
+	// or cause unnecessary backtracking (in non-atomic)
+	if( preg_match_all( '/\\(\\?(?!>)[:!<>=]?([^)]+)\\)|\\(([^?)][^)]*)\\)/', $regex, $groupMatches ) )
+	{
+		$groups = array_filter( array_merge( $groupMatches[1], $groupMatches[2] ) );
+
+		foreach( $groups as $group )
+		{
+			$alternatives = explode( '|', $group );
+			$count = count( $alternatives );
+
+			if( $count > 1 )
+			{
+				for( $i = 0; $i < $count; $i++ )
+				{
+					for( $j = $i + 1; $j < $count; $j++ )
+					{
+						// Skip empty alternatives (intentional for "optional" semantics)
+						if( $alternatives[$i] === '' )
+						{
+							continue;
+						}
+
+						// Skip if either contains regex metacharacters that complicate prefix checking
+						if( preg_match( '/[?*+\\[\\]\\\\]/', $alternatives[$i] ) )
+						{
+							continue;
+						}
+
+						// Check if alternative i is a literal prefix of alternative j
+						if( str_starts_with( $alternatives[$j], $alternatives[$i] ) && $alternatives[$i] !== $alternatives[$j] )
+						{
+							return "alternation order: '{$alternatives[$i]}' before '{$alternatives[$j]}' (put longer first or use atomic group)";
+						}
+					}
+				}
+			}
+		}
+	}
+
+	return null;
 }
 
 /**

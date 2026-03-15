@@ -1,1 +1,1 @@
-[**3D GameStudio**](http://www.3dgamestudio.com/) is a set of tools to create 3D games
+[**3D GameStudio**](http://www.3dgamestudio.com/) is a set of tools for creating 3D games.

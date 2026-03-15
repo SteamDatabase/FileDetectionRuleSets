@@ -1,1 +1,1 @@
-[**Godot engine**](https://godotengine.org/) is an open-source game framework. It provides a comprehensive set of common tools, so that you can focus on making games without having to reinvent the wheel.
+[**Godot Engine**](https://godotengine.org/) is an open-source game engine. It provides a comprehensive set of common tools, so that developers can focus on making games without having to reinvent the wheel.

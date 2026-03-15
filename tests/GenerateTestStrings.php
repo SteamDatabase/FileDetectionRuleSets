@@ -12,6 +12,8 @@ if( !is_array( $Rulesets ) )
 	exit( 1 );
 }
 
+$ExitWithError = false;
+
 foreach( $Rulesets as $Type => $Rules )
 {
 	foreach( $Rules as $Name => $RuleRegexes )
@@ -62,7 +64,10 @@ foreach( $Rulesets as $Type => $Rules )
 
 		if( getenv( 'CI' ) !== false )
 		{
-			echo "::notice file={$File}::Updated {$Type}.{$Name} (please run GenerateTestStrings and commit it)\n";
+			$ExitWithError = true;
+			$NewContents = implode( '%0A', $Tests );
+			echo "::warning file={$File}::Updated {$Type}.{$Name} (please run GenerateTestStrings and commit it)%0ANew file contents:%0A{$NewContents}";
+			echo "\n\n";
 		}
 		else
 		{
@@ -73,6 +78,11 @@ foreach( $Rulesets as $Type => $Rules )
 
 echo "Now running tests...\n";
 require __DIR__ . '/Test.php';
+
+if( $ExitWithError )
+{
+	exit( 1 );
+}
 
 /**
  * Native PHP regex pattern generator
@@ -149,9 +159,9 @@ function parseRegex( string $pattern ) : array
 
 			case '(':
 				// Parse group
-				if( $i + 2 < $len && substr( $pattern, $i, 3 ) === '(?:' )
+				if( $i + 2 < $len && ( substr( $pattern, $i, 3 ) === '(?:' || substr( $pattern, $i, 3 ) === '(?>' ) )
 				{
-					// Non-capturing group
+					// Non-capturing group or atomic group
 					$groupEnd = findMatchingParen( $pattern, $i );
 					if( $groupEnd !== null )
 					{

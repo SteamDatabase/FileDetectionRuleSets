@@ -1,1 +1,1 @@
-[**WOLF RPG Editor**](https://www.moddb.com/engines/wolf-rpg-editor) is a free to use game construction tool that can create complex role playing games.
+[**WOLF RPG Editor**](https://www.moddb.com/engines/wolf-rpg-editor) is a free-to-use game construction tool that can create complex role-playing games.

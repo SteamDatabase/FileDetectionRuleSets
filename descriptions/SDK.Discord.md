@@ -1,1 +1,1 @@
-[**Discord**](https://discord.com/rich-presence) is a VoIP, instant messaging and digital distribution platform designed for creating communities. Discord GameSDK is primarily used to provide rich presence (extra information in "Now Playing").
+[**Discord**](https://discord.com/rich-presence) is a VoIP, instant messaging, and digital distribution platform designed for creating communities. Discord GameSDK is primarily used to provide rich presence (extra information in "Now Playing").

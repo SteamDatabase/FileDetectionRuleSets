@@ -1,1 +1,1 @@
-[**AppGameKit**](https://www.appgamekit.com/) is a game engine developed by "The Game Creators" which aims to be easy for beginners to learn.
+[**AppGameKit**](https://www.appgamekit.com/) is a cross-platform game development engine created by The Game Creators that enables developers to create 2D and 3D games for multiple platforms using BASIC programming language, with features designed to be accessible for beginners while offering advanced capabilities for experienced developers.

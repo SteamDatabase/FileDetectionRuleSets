@@ -1,1 +1,1 @@
-**SakanaGL** is a proprietary visual novel engine from CyberStep/Rideon Works.
+[**SakanaGL**](https://cyberstep.com/) is a proprietary visual novel engine from CyberStep/Rideon Works designed for creating high-quality visual novels and interactive story-driven games with advanced rendering capabilities and comprehensive development tools.

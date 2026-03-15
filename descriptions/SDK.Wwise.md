@@ -1,1 +1,1 @@
-[**Wwise (Wave Works Interactive Sound Engine)**](https://www.audiokinetic.com/products/wwise/) is a cross-platform sound engine developped by Audiokinetic.
+[**Wwise (Wave Works Interactive Sound Engine)**](https://www.audiokinetic.com/products/wwise/) is a cross-platform sound engine developed by Audiokinetic.

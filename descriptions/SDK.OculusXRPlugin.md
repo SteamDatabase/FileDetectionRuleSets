@@ -1,1 +1,1 @@
-[**Oculus XR Plugin**](https://developer.oculus.com/documentation/native/pc/pcsdk-intro/) is a library to build applications for a variety of Oculus devices.
+[**Oculus XR Plugin**](https://developer.oculus.com/documentation/native/pc/pcsdk-intro/) is a software development kit that enables developers to build virtual reality and mixed reality applications for Oculus/Meta devices, providing APIs for head tracking, controller input, rendering, and platform-specific features.
