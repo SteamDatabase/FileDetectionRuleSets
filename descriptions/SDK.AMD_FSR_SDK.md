@@ -1,0 +1,1 @@
+[**AMD FSR SDK**](https://gpuopen.com/amd-fsr-sdk/) is AMD's easy-to-integrate solution for developers looking to include FSR “Redstone” features into their games without any of the hassle of complicated porting procedures. This revision to the SDK serves as the launch pad for the AMD FSR™ “Redstone” suite of technologies,
