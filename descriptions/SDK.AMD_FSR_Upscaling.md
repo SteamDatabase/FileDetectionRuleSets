@@ -1,0 +1,1 @@
+[**AMD FSR Upscaling**](https://gpuopen.com/amd-fsr-upscaling/) (formerly AMD FidelityFX™ Super Resolution 4) is a cutting-edge image upscaler that delivers significant image quality improvements over previous FSR generations.

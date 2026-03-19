@@ -1,0 +1,1 @@
+[**AMD FSR Ray Regeneration**](https://gpuopen.com/amd-fsr-rayregeneration/) is a standalone, machine learning-powered real-time denoiser that integrates seamlessly with any game engine, enabling high-quality visuals by denoising inputs from ray-traced workloads.

@@ -1,0 +1,1 @@
+[**AMD FSR Frame Generation**](https://gpuopen.com/amd-fsr-framegeneration/) is an advanced frame-generating solution that leverages machine learning (ML) algorithms to generate high-quality intermediate frames from two consecutive source images, interpolating the motion of pixels between the start and end images.
