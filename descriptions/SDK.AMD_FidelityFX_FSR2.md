@@ -1,1 +1,1 @@
-[**AMD FidelityFX FSR2**](https://gpuopen.com/fidelityfx-superresolution-2/) is AMDs pre FSR SDK integration of FSR 2. 
+[**AMD FidelityFX FSR2**](https://gpuopen.com/fidelityfx-superresolution-2/) is AMD's pre FSR SDK integration of FSR 2. 
