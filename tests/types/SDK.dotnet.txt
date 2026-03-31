@@ -1,6 +1,9 @@
-coreclr.dll
-libcoreclr.so
-libcoreclr.dylib
+/coreclr.dll
+/libcoreclr.dylib
+/libcoreclr.so
 Sub/Folder/coreclr.dll
-Sub/Folder/libcoreclr.so
 Sub/Folder/libcoreclr.dylib
+Sub/Folder/libcoreclr.so
+coreclr.dll
+libcoreclr.dylib
+libcoreclr.so
