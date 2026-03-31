@@ -48,6 +48,10 @@ CChromaEditorLibrary1.dll
 GFeSDK_dll
 FeSDK.dll
 GFeSDK.dl
+coreclr.so
+coreclr.dylib
+libcoreclr.dll
+monobdwgc-2.0.so
 rgssad
 rvproj2
 Microsoft_Xbox_Services_141_GDK_C_Thunks.ded
