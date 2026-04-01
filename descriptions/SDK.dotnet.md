@@ -1,0 +1,1 @@
+[**.NET**](https://dotnet.microsoft.com/) is an open-source developer platform commonly used as a C# scripting solution. This only detects usage of .NET Core or .NET 5 and above.
