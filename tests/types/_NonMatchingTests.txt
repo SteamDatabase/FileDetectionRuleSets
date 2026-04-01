@@ -290,6 +290,10 @@ Mirror.dl
 somethingFishnet.Runtime.dll
 Fishnet.Runtime_dll
 Fishnet.Runtime.dllWhoopsie
+PurrNet.Runtime_dll
+pPurrNet.Runtime.dll
+PurrNet.Runtime.dlll
+PurrNet.Runtime.dl
 libsodium.dl
 ibsodium.dll
 libsodium_dll
