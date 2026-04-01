@@ -10,6 +10,10 @@
 /mono-2.0-sgen.dll
 /mono-2.0.dll
 /mono.dll
+CIM2_Data/Mono/mono.dll
+KSP.app/Contents/Frameworks/libmonobdwgc-2.0.dylib
+MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll
+SEGAGameRoom_Data/Mono/x86_64/libmono.so
 Sub/Folder/libmono-2.0.dylib
 Sub/Folder/libmono-2.0.so
 Sub/Folder/libmono.dylib
@@ -22,6 +26,12 @@ Sub/Folder/mono-2.0-bdwgc.dll
 Sub/Folder/mono-2.0-sgen.dll
 Sub/Folder/mono-2.0.dll
 Sub/Folder/mono.dll
+The Swapper.app/Contents/Resources/osx/libmonosgen-2.0.dylib
+Universe Sandbox_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so
+bin/Win64_Shipping_Client/mono-2.0-sgen.dll
+bin/win_x64/mono-2.0.dll
+lib/libmono-2.0.so
+lib/libmonosgen-2.0.so
 libmono-2.0.dylib
 libmono-2.0.so
 libmono.dylib
@@ -34,3 +44,4 @@ mono-2.0-bdwgc.dll
 mono-2.0-sgen.dll
 mono-2.0.dll
 mono.dll
+osx/libmono-2.0.dylib

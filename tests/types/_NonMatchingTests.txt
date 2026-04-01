@@ -49,6 +49,15 @@ GFeSDK_dll
 FeSDK.dll
 GFeSDK.dl
 monobdwgc-2.0.so
+mono.dl
+mono_dll
+ono.dll
+ibmono.so
+libmono_so
+libmono.s
+coreclr.dl
+coreclr_dll
+oreclr.dll
 rgssad
 rvproj2
 Microsoft_Xbox_Services_141_GDK_C_Thunks.ded
