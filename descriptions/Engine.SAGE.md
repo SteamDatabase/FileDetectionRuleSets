@@ -1,0 +1,1 @@
+**SAGE (Strategy Action Game Engine)** is a game engine used primarily for real-time strategy games developed by [**Westwood Studios**](https://web.archive.org/web/20020930121716/http://www.westwood.ea.com/) and **Electronic Arts**.
