@@ -1,0 +1,1 @@
+**Mfuscator** is an obfuscator for .NET assemblies used in games to protect their code against reverse engineering and tampering, typically producing a paired set of `Game.dll` and `Engine.dll` files in the game's root folder.
