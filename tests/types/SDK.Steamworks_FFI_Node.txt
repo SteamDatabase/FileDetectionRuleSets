@@ -1,0 +1,10 @@
+/steamworks-ffi-node
+/steamworks-ffi-node/
+resources/app.asar.unpacked/node_modules/steamworks-ffi-node
+resources/app.asar.unpacked/node_modules/steamworks-ffi-node/prebuilds/darwin-arm64/steam-overlay.node
+resources/app.asar.unpacked/node_modules/steamworks-ffi-node/prebuilds/darwin-x64/steam-overlay.node
+resources/app.asar.unpacked/node_modules/steamworks-ffi-node/prebuilds/linux-x64/steam-overlay.node
+resources/app.asar.unpacked/node_modules/steamworks-ffi-node/prebuilds/win32-x64/steam-overlay.node
+resources/app/node_modules/steamworks-ffi-node
+steamworks-ffi-node
+steamworks-ffi-node/

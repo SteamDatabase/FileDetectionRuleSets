@@ -1405,6 +1405,9 @@ greenworks.nodespasdkj
 greenworks-win_node
 greenworks-win10.node
 greenworks-win32_node
+steamworks_ffi_node/prebuilds/win32-x64/steam-overlay.node
+notsteamworks-ffi-node/prebuilds/win32-x64/steam-overlay.node
+resources/app.asar.unpacked/node_modules/notsteamworks-ffi-node/prebuilds/win32-x64/steam-overlay.node
 ameCenterDistribs.xml
 GameCenterDistribs.xm
 GameCenterDistribs_xml
