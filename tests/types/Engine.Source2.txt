@@ -3,3 +3,7 @@ RobotRepair/core/gameinfo.gi
 core/gameinfo.gi
 game/core/gameinfo.gi
 gameinfo.gi
+game/bin/win64/vrad2.exe
+game/bin/win64/vrad3.exe
+bin/win64/vrad2.exe
+bin/win64/vrad3.exe
