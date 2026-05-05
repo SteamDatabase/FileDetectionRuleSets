@@ -1,0 +1,1 @@
+[**SARD**](https://www.sard.ac/) is a kernel-based, AI-powered anti-cheat solution with customizable and scalable settings that enables gaming companies to  control cheating attempts in their game environments and ensure fair multiplayer experiences or esports tournaments․
