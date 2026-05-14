@@ -1,0 +1,1 @@
+[**PlayStation PC SDK**](https://www.playstation.com/en-us/support/games/sign-in-pc) is a service that allows games to connect to PlayStation services and gives users a PlayStation overlay in their games.
