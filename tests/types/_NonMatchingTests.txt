@@ -1009,6 +1009,8 @@ gamexdmanifest
 game.dmanifestfdfd
 pfdfdfgame.gmanifest
 Sub/Folder/game.dmanifestfdfdfdf
+/libsolarus.dll
+solarus.dll
 dieselx_cfg
 dieselx.cf
 ieselx.cfg
