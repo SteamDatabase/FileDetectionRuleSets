@@ -1,0 +1,1 @@
+[**RA Engine**](https://www.fuyugames.com) is an in-house game engine developed by Fuyu Games AB in 2025. It uses a modular architecture with minimal dependencies to keep the engine compact, lightweight, and highly optimized. RA is written in C and is designed for maximum compatibility with legacy hardware while still supporting modern features and the latest technologies.

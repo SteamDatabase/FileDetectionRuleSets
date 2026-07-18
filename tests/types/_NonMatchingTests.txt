@@ -1561,3 +1561,7 @@ fiZotope.dll
 ortp_dll
 ortp.dlll
 fortp.dll
+RACORE.dlll
+RACORE_dll
+RA/RA.inii
+RA/RA_ini
