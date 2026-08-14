@@ -1,0 +1,6 @@
+BehaviorDesigner.dll
+Game_Data/Managed/BehaviorDesigner.dll
+BehaviorDesigner.Runtime.dll
+Game_Data/Managed/BehaviorDesigner.Runtime.dll
+Get To Work_Data/Managed/BehaviorDesigner.Runtime.dll
+sword-bistro-vr_Data/Managed/BehaviorDesigner.dll
