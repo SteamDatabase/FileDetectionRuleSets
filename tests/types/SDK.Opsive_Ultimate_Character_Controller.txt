@@ -1,0 +1,4 @@
+/Opsive.UltimateCharacterController.dll
+Dezzan_Data/Managed/Opsive.UltimateCharacterController.dll
+Game_Data/Managed/Opsive.UltimateCharacterController.dll
+Opsive.UltimateCharacterController.dll
