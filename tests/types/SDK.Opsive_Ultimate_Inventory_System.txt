@@ -1,3 +1,4 @@
-Opsive.UltimateInventorySystem.dll
+/Opsive.UltimateInventorySystem.dll
 Game_Data/Managed/Opsive.UltimateInventorySystem.dll
 Little Kitty, Big City_Data/Managed/Opsive.UltimateInventorySystem.dll
+Opsive.UltimateInventorySystem.dll
