@@ -2,3 +2,7 @@
 /folder/FishNet.Runtime.dll
 FishNet.Runtime.dll
 Fishnet.Runtime.dll
+/FishNet.SDK.Id
+/folder/FishNet.SDK.Id
+FishNet.SDK.Id
+Fishnet.SDK.Id
