@@ -253,6 +253,7 @@ _tyrano_data.savv
 _tyrano_data_sav
 _tyrano-data.av
 _tyrano-data.sa
+Game_Data/notil2cpp_data/Resources/System.Private.CoreLib.dll-resources.dat
 FreeImage.dl
 FreeImage.s
 folder/soundbankinfo.xml
@@ -278,6 +279,7 @@ phaser.dl
 haser.dll
 phaser_dll
 ui.hdllf
+Game_Data/Resources/System.Private.CoreLib.dll-resources.dat
 ffalcoengine.dll
 falcoengine_dll
 falcoengine.dl
@@ -364,6 +366,7 @@ xaudio2_9redist_dll
 ajs/rpg_core.js
 js/rpg_core.jssss
 js/rmmz_core.jssss
+System.Private.CoreLib.dll-resources.dat
 ajs/rmmz_core.js
 Sub/Folder/RPT_RT.exeeee
 Sub/Folder/js/rpg_core.jssss
@@ -416,6 +419,7 @@ iw_00_iwd
 code_post_gfx.f
 common.f
 common_zm.f
+Game_Data/Managed/Unity_Private_Scripting.dll
 iw_00.iw
 commonzm.ff
 common_m.ff
@@ -486,6 +490,7 @@ mss32.dl
 mss64.dl
 ss16.dll
 ss32.dll
+Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.Private.Scripting.dll
 ss64.dll
 mss16_dll
 mss32_dll
@@ -677,6 +682,7 @@ sub/dir/Cry3DEngine.dllf
 sub/dir/CryRenderD3D11.dllf
 sub/dir/CryRenderD3D12.dllf
 sub/dir/CryRenderVulkan.dllf
+Bee/artifacts/WinPlayerBuildProgram/il2cppOutput/data/Resources/System.Private.CoreLib.dll-resources.dat
 sub/dir/CryD3DCompilerStub.dllf
 sub/dir/engine.pakf
 TP3Helper.ex
@@ -786,6 +792,7 @@ sub/folder/asnd_a.ogg
 sndf_whatever.ogg
 sndf_a.ogg
 sub/folder/sndf_whatever.ogg
+Game_Data/il2cpp_data/Resources/System_Private_CoreLib_dll-resources_dat
 sub/folder/sndf_a.ogg
 snd_.ogg
 sub/folder/snd_.ogg
@@ -847,6 +854,7 @@ s3client.
 s3client_win32.
 rts3client.dll
 rts3client_win32.dll
+Game_Data/Managed/Unity.Private.Scripting.dlll
 Outsider_Strategist/data.dt
 Outsider_Strategist/data_dts
 Outsider_Strategist/ata.dts
@@ -948,6 +956,7 @@ notactuallyAntiCheatExpert
 AntiCheatExpert.whatever
 AceAntibotClient
 notactuallyAceAntibotClient
+Game_Data/il2cpp_data/Resources/System.Private.CoreLib.dll-resources.datt
 AceAntibotClient.whatever
 ffx_fsr2_api_x42.dll
 Binaries/ffx_fsr2_api_x64.dlll
@@ -1221,6 +1230,7 @@ coccos-js/cc_a9323_js
 sub/dir/coccos-js/cc_a9323.jsf
 PartyyWin7.dll
 PartyXboxxLive.dll
+Unity.Private.Scripting.dll
 chroome_elf.dll
 chrome_elf
 libbcef.so
@@ -1346,6 +1356,7 @@ abcth_dnh.def
 th_dnh_def
 Engine/Binarisdes/ThirdParty/PhysX3/Win64/VS2015/NvClothdaasdPROFILE_x64.dlsdaasl
 Engine/Binarieasds/ThirdParty/PhysX3/Win64/VS2015/NvCloth_asdx64.dasdll
+Game_BackUpThisFolder_ButDontShipItWithYourGame/Managed/Unity.Private.Scripting.dll
 Engisdane/Binaries/ThirdParty/PhysX3/Win32/VS2015/NvClotsshPROFILE_x86.dlsdasdl
 Engine/Binasdries/ThirdParty/PhysX3/Win32/VS2015/NvsClosth_x86.dasdasdll
 th_dnh.definitive

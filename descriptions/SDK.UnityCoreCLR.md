@@ -1,0 +1,1 @@
+[**CoreCLR**](https://docs.unity3d.com/Manual/scripting-backends.html) is one of Unity's scripting backends, running C# scripts on Microsoft's .NET runtime instead of Mono.

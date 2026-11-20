@@ -1,0 +1,5 @@
+/il2cpp_data/Resources/System.Private.CoreLib.dll-resources.dat
+Game.app/Contents/Resources/Data/il2cpp_data/Resources/System.Private.CoreLib.dll-resources.dat
+Game_Data/il2cpp_data/Resources/System.Private.CoreLib.dll-resources.dat
+Sub/Folder/Game_Data/il2cpp_data/Resources/System.Private.CoreLib.dll-resources.dat
+il2cpp_data/Resources/System.Private.CoreLib.dll-resources.dat
